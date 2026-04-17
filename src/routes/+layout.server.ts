@@ -1,3 +1,5 @@
+export const ssr = false;
+
 import { loadAllMarkdown } from "$lib/importer.server";
 
 export async function load() {
