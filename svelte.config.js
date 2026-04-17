@@ -6,13 +6,13 @@ const config = {
 
   kit: {
     adapter: adapter({
-      fallback: 'index.html'
+      fallback: '404.html'   // ← OBLIGATOIRE pour GitHub Pages
     }),
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/Chansonnier' : ''
     },
     prerender: {
-      entries: []
+      entries: []            // ← OK pour SPA
     }
   }
 };
