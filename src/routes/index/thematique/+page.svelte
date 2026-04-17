@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import { onMount } from "svelte";
   import { db } from "$lib/db";
 
@@ -15,7 +16,7 @@
   onMount(async () => {
     const pages = await db.pages.toArray();
 
-    // Regroupement par thème, mais avec expansion des sortKeys
+    // Regroupement par thème, avec expansion des sortKeys
     const grouped: Record<string, any[]> = {};
 
     for (const page of pages) {
@@ -63,7 +64,7 @@
       <ul>
         {#each entries as e}
           <li>
-            <a href={"/page/" + e.page.id}>{e.key}</a>
+            <a href={`${base}/page/${e.page.id}`}>{e.key}</a>
           </li>
         {/each}
       </ul>

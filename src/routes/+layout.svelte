@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import favicon from '$lib/assets/favicon.svg';
   import { db } from "$lib/db";
   import { onMount } from "svelte";
@@ -20,9 +21,9 @@
 <div class="layout">
   <nav class="sidebar">
     <h2>Chansonnier</h2>
-    <a href="/">Accueil</a>
-    <a href="/index/alphabetique">Index alphabétique</a>
-    <a href="/index/thematique">Index thématique</a>
+    <a href={`${base}/`}>Accueil</a>
+    <a href={`${base}/index/alphabetique`}>Index alphabétique</a>
+    <a href={`${base}/index/thematique`}>Index thématique</a>
   </nav>
 
   <main class="content">

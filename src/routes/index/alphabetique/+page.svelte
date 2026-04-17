@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import { db } from "$lib/db";
   import { onMount } from "svelte";
 
@@ -42,7 +43,7 @@
 <ul>
   {#each entries as e}
     <li>
-      <a href={"/page/" + e.page.id}>{e.key}</a>
+      <a href={`${base}/page/${e.page.id}`}>{e.key}</a>
     </li>
   {/each}
 </ul>
