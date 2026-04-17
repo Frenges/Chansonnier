@@ -6,13 +6,13 @@ const config = {
 
   kit: {
     adapter: adapter({
-      fallback: 'index.html'   // 👈 indispensable pour GitHub Pages
+      fallback: 'index.html'
     }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/songbook-kit' : ''
+      base: process.env.NODE_ENV === 'production' ? '/Chansonnier' : ''
     },
     prerender: {
-      entries: []              // 👈 désactive le prerender strict
+      entries: []
     }
   }
 };
