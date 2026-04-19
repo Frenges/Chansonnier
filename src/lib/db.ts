@@ -1,29 +1,34 @@
+// src/lib/db.ts
 import Dexie from "dexie";
+import { base } from "$app/paths";
 
-export const db = new Dexie("chansonnier");
+export const db = new Dexie("songbook");
 db.version(1).stores({
-  pages: "id,title,sortKeys,themes"
+  pages: "id,title,sortKeys,themes,body,html"
 });
 
+// Fonction pour charger les pages depuis pages.json
 export async function loadPages() {
-  // Charger pages.json
-  const res = await fetch("/data/pages.json");
-  const { version, pages } = await res.json();
+  const url = `${base}/data/pages.json`;
 
-  // Version locale
-  const localVersion = localStorage.getItem("pages_version");
+  // DEBUG : pour comprendre ce qui se passe sur GitHub
+  console.log("=== DEBUG FETCH URL ===", url);
 
-  // Si version différente → vider + recharger
-  if (localVersion !== String(version)) {
-    console.log("🔄 Mise à jour de Dexie (nouvelle version détectée)");
+  const res = await fetch(url);
 
-    await db.pages.clear();
-    await db.pages.bulkAdd(pages);
+  // DEBUG : on lit le texte brut AVANT JSON.parse
+  const text = await res.text();
+  console.log("=== DEBUG RAW RESPONSE (first 200 chars) ===");
+  console.log(text.slice(0, 200));
 
-    localStorage.setItem("pages_version", String(version));
-  } else {
-    console.log("✔ Dexie déjà à jour");
+  // Si ce n'est pas du JSON, on le saura immédiatement
+  let json;
+  try {
+    json = JSON.parse(text);
+  } catch (e) {
+    console.error("=== JSON PARSE ERROR ===", e);
+    throw e;
   }
 
-  return db.pages.toArray();
+  return json.pages;
 }
