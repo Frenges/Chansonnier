@@ -1,18 +1,12 @@
 import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-const config = {
-  preprocess: vitePreprocess(),
+const dev = process.env.NODE_ENV === "development";
 
+export default {
   kit: {
-    adapter: adapter({
-      fallback: '404.html'
-    }),
+    adapter: adapter(),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/Chansonnier' : ''
+      base: dev ? "" : "/Chansonnier"
     }
-    // IMPORTANT : aucune option "prerender", aucune option "browser"
   }
 };
-
-export default config;

@@ -27,7 +27,7 @@
   </nav>
 
   <main class="content">
-    {@render children()}
+    {@render children({ data })}
   </main>
 </div>
 

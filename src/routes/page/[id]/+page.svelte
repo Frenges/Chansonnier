@@ -1,24 +1,38 @@
 <script lang="ts">
-  import { db } from "$lib/db";
-  import { onMount } from "svelte";
+  // 1) Récupération des données du load()
+  let { data } = $props();
 
-  let { params } = $props();
+  // 2) Déstructuration
+  const { id, pages } = data;
 
-  let page = $state<any>(null);
+  // 3) Debug
+  console.log("DATA REÇUE DANS +page.svelte :", data);
+  console.log("ID REÇU :", id);
+  console.log("LISTE DES IDS DISPONIBLES :", pages?.map(p => p.id));
 
-  onMount(async () => {
-    page = await db.pages.get(params.id);
+  // 4) Trouver la page
+  const page = pages?.find((p) => p.id === id);
+
+  let htmlContainer;
+
+  $effect(() => {
+    if (page && page.html && htmlContainer) {
+      htmlContainer.innerHTML = page.html;
+    }
   });
 </script>
 
 {#if !page}
-  <p>Chargement…</p>
+  <p>Page introuvable…</p>
 {:else}
   <article class="song">
     <h1>{page.title}</h1>
 
-    <!-- Affichage du texte brut -->
-    <pre class="content">{page.body}</pre>
+    {#if page.html}
+      <div class="content" bind:this={htmlContainer}></div>
+    {:else}
+      <pre class="content">{page.body}</pre>
+    {/if}
   </article>
 {/if}
 
@@ -37,5 +51,9 @@
   .content {
     white-space: pre-wrap;
     line-height: 1.6;
+  }
+
+  .content img {
+    max-width: 100%;
   }
 </style>
