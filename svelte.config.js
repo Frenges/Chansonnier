@@ -9,6 +9,9 @@ export default {
     }),
     paths: {
       base: dev ? "" : "/Chansonnier"
+    },
+    serviceWorker: {
+      register: true
     }
   }
 };
