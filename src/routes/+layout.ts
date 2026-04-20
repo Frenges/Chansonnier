@@ -1,10 +1,10 @@
-import { loadPages } from "$lib/db";
+// src/routes/+layout.ts
+import type { LayoutLoad } from "./$types";
+import { allSongs } from "$lib/data/allSongs";
 
-export const ssr = false;
-
-export async function load() {
-  const pages = await loadPages();
-  console.log("PAGES CHARGÉES DANS +layout.ts :", pages);
-  return { pages };
-}
-
+export const load: LayoutLoad = async () => {
+  // Les chansons sont embarquées dans le bundle → aucune dépendance réseau
+  return {
+    pages: allSongs
+  };
+};
