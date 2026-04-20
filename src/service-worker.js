@@ -1,69 +1,63 @@
 // src/service-worker.js
 
-const CACHE_NAME = "songbook-fullshell-v3";
+const CACHE_NAME = "songbook-fullcache-v4";
 
-// Fichiers essentiels à précharger AVANT tout
+// Fichiers essentiels
 const CORE_FILES = [
   "/Chansonnier/",
-  "/Chansonnier/index.html",
-  "/Chansonnier/data/pages.json"
+  "/Chansonnier/index.html"
 ];
 
-// Fonction utilitaire : télécharge pages.json et génère les routes dynamiques
+// Récupère toutes les routes dynamiques
 async function getDynamicRoutes() {
   try {
     const res = await fetch("/Chansonnier/data/pages.json");
     const json = await res.json();
-
     return json.pages.map(
       (p) => `/Chansonnier/page/${p.id}/index.html`
     );
-  } catch (e) {
-    console.error("SW: impossible de charger pages.json", e);
+  } catch {
     return [];
   }
 }
 
-// Fonction utilitaire : détecte tous les assets SvelteKit
-async function getAppAssets() {
+// Récupère tous les fichiers _app/immutable/** automatiquement
+async function getAllImmutableAssets() {
   try {
     const res = await fetch("/Chansonnier/");
-    const text = await res.text();
+    const html = await res.text();
 
-    // On extrait tous les chemins /_app/... présents dans la page
-    const regex = /\/Chansonnier\/_app\/[^"']+/g;
-    const matches = text.match(regex) || [];
+    // On extrait tous les chemins /_app/immutable/... présents dans la page
+    const regex = /\/Chansonnier\/_app\/immutable\/[^"']+/g;
+    const matches = html.match(regex) || [];
 
     return matches;
-  } catch (e) {
-    console.error("SW: impossible de détecter les assets SvelteKit", e);
+  } catch {
     return [];
   }
 }
 
-// Installation : préchargement complet
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
 
-      // 1) Précharge les fichiers essentiels
+      // 1) Cache de base
       await cache.addAll(CORE_FILES);
 
-      // 2) Précharge les pages dynamiques
+      // 2) Pages dynamiques
       const dynamicRoutes = await getDynamicRoutes();
       await cache.addAll(dynamicRoutes);
 
-      // 3) Précharge automatiquement tous les assets SvelteKit
-      const assets = await getAppAssets();
-      await cache.addAll(assets);
+      // 3) Tous les assets SvelteKit
+      const immutableAssets = await getAllImmutableAssets();
+      await cache.addAll(immutableAssets);
     })()
   );
 
   self.skipWaiting();
 });
 
-// Activation : nettoyage des anciens caches
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
