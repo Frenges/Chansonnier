@@ -7,7 +7,7 @@ db.version(1).stores({
   pages: "id,title,sortKeys,themes,body,html"
 });
 
-// Charge pages.json depuis le cache ou le réseau
+// Charge pages.json (depuis le cache SW ou le réseau)
 async function fetchPagesJson() {
   const url = `${base}/data/pages.json`;
   const res = await fetch(url);
@@ -20,7 +20,7 @@ export async function ensureDexieIsPopulated() {
 
   // Si Dexie contient déjà des données → ne rien faire
   if (count > 0) {
-    console.log("Dexie: déjà rempli, aucune action nécessaire");
+    console.log("Dexie: déjà rempli");
     return;
   }
 

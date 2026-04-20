@@ -1,19 +1,20 @@
 // src/service-worker.js
 
-const CACHE_NAME = "songbook-dynamic-v1";
+// Version du cache (change-la pour forcer une mise à jour)
+const CACHE_NAME = "songbook-core-v2";
 
-// Fichiers statiques essentiels
-const STATIC_FILES = [
+// Fichiers essentiels à précharger AVANT tout
+// Ces fichiers doivent être disponibles même hors-ligne complet
+const CORE_FILES = [
   "/Chansonnier/",
   "/Chansonnier/index.html",
-  "/Chansonnier/index/alphabetique/index.html",
-  "/Chansonnier/index/thematique/index.html",
   "/Chansonnier/data/pages.json"
 ];
 
-// Fonction utilitaire : télécharge pages.json et génère les routes
+// Fonction utilitaire : télécharge pages.json et génère les routes dynamiques
 async function getDynamicRoutes() {
   try {
+    // IMPORTANT : on récupère pages.json AVEC le service worker
     const res = await fetch("/Chansonnier/data/pages.json");
     const json = await res.json();
 
@@ -27,16 +28,16 @@ async function getDynamicRoutes() {
   }
 }
 
-// Installation : préchargement dynamique
+// Installation : préchargement complet
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
 
-      // Précharge les fichiers statiques
-      await cache.addAll(STATIC_FILES);
+      // 1) Précharge les fichiers essentiels
+      await cache.addAll(CORE_FILES);
 
-      // Précharge les pages dynamiques
+      // 2) Précharge les pages dynamiques
       const dynamicRoutes = await getDynamicRoutes();
       await cache.addAll(dynamicRoutes);
     })()
