@@ -1,0 +1,48 @@
+===== FILE: static\data\pages.json =====
+{
+  "version": 1776705790766,
+  "pages": [
+    {
+      "id": "gaudeamus-igitur",
+      "title": "Gaudeamus Igitur",
+      "sortKeys": [
+        "Gaudeamus Igitur",
+        "Igitur",
+        "G"
+      ],
+      "themes": [
+        "Traditionnel"
+      ],
+      "body": "Gaudeamus igitur,\r\nJuvenes dum sumus."
+    },
+    {
+      "id": "hymne-setevien",
+      "title": "Hymne Sétévien",
+      "sortKeys": [
+        "Hymne Sétévien"
+      ],
+      "themes": [
+        "Chants estudiantins"
+      ],
+      "body": "\\[Retour thématique](/index/thematique)\r\n\r\n\\[Retour alphabétique](/index/alphabetique)\r\n\r\n\r\n\r\n<pre class=\"lyrics\">\r\n<span class=\"first-stanza\">\r\n\r\n\r\nPourquoi viens-tu dans ces bas lieux t'y enfermer le soir ?\r\n\r\nC'est pour y retrouver les vieux avec qui je sais boir'\r\n\r\n\r\n\r\nEt pourquoi rire et pourquoi boir' et pourquoi s'amuser ?\r\n\r\nC'est pour montrer aux assoiffés qu'on n'veut pas s'la miner, qu'on ne veut pas s'la miner.\r\n\r\n\r\n\r\nGrâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, grâce à SÉTÉVIA, grâce à SÉTÉVIA !\r\n\r\n\r\n\r\nGrâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, oui grâce à SÉTÉVIA — Ah — Ah !\r\n\r\n</pre>\r\n\r\n\r\n\r\n\\[Retour thématique](/index/thematique)\r\n\r\n\\[Retour alphabétique](/index/alphabetique)"
+    },
+    {
+      "id": "test",
+      "title": "Aest2",
+      "sortKeys": [
+        "Test"
+      ],
+      "themes": [
+        "Traditionnel"
+      ],
+      "body": "Gaudeamus igitur,\r\nJuvenes dum sumus."
+    }
+  ]
+}
+
+===== FILE: static\robots.txt =====
+# allow crawling everything by default
+User-agent: *
+Disallow:
+
+

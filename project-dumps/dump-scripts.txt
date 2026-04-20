@@ -1,0 +1,409 @@
+===== FILE: scripts\dump-clean.js =====
+// scripts/dump-clean.js
+import fs from "fs";
+import path from "path";
+
+const root = process.cwd();
+const outputFile = path.join(root, "project-clean.txt");
+
+// Dossiers à ignorer
+const IGNORE_DIRS = [
+  "node_modules",
+  "build",
+  ".git",
+  "project-chunks"
+];
+
+// Fichiers à ignorer
+const IGNORE_FILES = [
+  "project-full.txt",
+  "project-clean.txt"
+];
+
+function walk(dir, fileList = []) {
+  const files = fs.readdirSync(dir);
+
+  for (const file of files) {
+    const fullPath = path.join(dir, file);
+    const relPath = path.relative(root, fullPath);
+    const stat = fs.statSync(fullPath);
+
+    if (stat.isDirectory()) {
+      if (!IGNORE_DIRS.some((ignored) => relPath.startsWith(ignored))) {
+        walk(fullPath, fileList);
+      }
+    } else {
+      if (!IGNORE_FILES.includes(file)) {
+        fileList.push(relPath);
+      }
+    }
+  }
+
+  return fileList;
+}
+
+const allFiles = walk(root).sort();
+
+let output = "";
+
+for (const file of allFiles) {
+  const fullPath = path.join(root, file);
+  const content = fs.readFileSync(fullPath, "utf8");
+
+  output += `===== FILE: ${file} =====\n`;
+  output += content + "\n\n";
+}
+
+fs.writeFileSync(outputFile, output, "utf8");
+
+console.log("✔ project-clean.txt généré !");
+
+
+===== FILE: scripts\dump-full.js =====
+// scripts/dump-full.js
+import fs from "fs";
+import path from "path";
+
+const root = process.cwd();
+const outputFile = path.join(root, "project-full.txt");
+
+// Dossiers à ignorer
+const IGNORE = ["node_modules", ".git", "build"];
+
+// Fonction récursive pour parcourir les dossiers
+function walk(dir, fileList = []) {
+  const files = fs.readdirSync(dir);
+
+  for (const file of files) {
+    const fullPath = path.join(dir, file);
+    const relPath = path.relative(root, fullPath);
+    const stat = fs.statSync(fullPath);
+
+    if (stat.isDirectory()) {
+      if (!IGNORE.some((ignored) => relPath.startsWith(ignored))) {
+        walk(fullPath, fileList);
+      }
+    } else {
+      fileList.push(relPath);
+    }
+  }
+
+  return fileList;
+}
+
+// Récupération de tous les fichiers
+const allFiles = walk(root).sort();
+
+// Construction du contenu final
+let output = "";
+
+for (const file of allFiles) {
+  const fullPath = path.join(root, file);
+  const content = fs.readFileSync(fullPath, "utf8");
+
+  output += `===== FILE: ${file} =====\n`;
+  output += content + "\n\n";
+}
+
+// Écriture du fichier final
+fs.writeFileSync(outputFile, output, "utf8");
+
+console.log("✔ project-full.txt généré !");
+
+
+===== FILE: scripts\dump-structure.js =====
+// scripts/dump-structure.js
+import fs from "fs";
+import path from "path";
+
+const root = process.cwd();
+const outputFile = path.join(root, "project-structure.txt");
+
+// Dossiers à ignorer (modifiable)
+const IGNORE = ["node_modules", ".git"];
+
+// Fonction récursive
+function walk(dir, fileList = []) {
+  const files = fs.readdirSync(dir);
+
+  for (const file of files) {
+    const fullPath = path.join(dir, file);
+    const relPath = path.relative(root, fullPath);
+    const stat = fs.statSync(fullPath);
+
+    // Ignore certains dossiers
+    if (stat.isDirectory()) {
+      if (!IGNORE.some((ignored) => relPath.startsWith(ignored))) {
+        walk(fullPath, fileList);
+      }
+    } else {
+      fileList.push(relPath);
+    }
+  }
+
+  return fileList;
+}
+
+// Exécution
+const allFiles = walk(root).sort();
+
+// Écriture du fichier
+fs.writeFileSync(
+  outputFile,
+  allFiles.join("\n"),
+  "utf8"
+);
+
+console.log("✔ project-structure.txt généré !");
+
+
+===== FILE: scripts\dump-structured.js =====
+// scripts/dump-structured.js
+import fs from "fs";
+import path from "path";
+
+const root = process.cwd();
+const outDir = path.join(root, "project-dumps");
+
+if (!fs.existsSync(outDir)) {
+  fs.mkdirSync(outDir);
+}
+
+// Dossiers à dumper
+const TARGETS = {
+  "dump-root.txt": ["."],
+  "dump-src.txt": ["src"],
+  "dump-routes.txt": ["src/routes"],
+  "dump-lib.txt": ["src/lib"],
+  "dump-content.txt": ["src/content"],
+  "dump-static.txt": ["static"],
+  "dump-scripts.txt": ["scripts"],
+  "dump-build.txt": ["build"]
+};
+
+// Dossiers à ignorer globalement
+const IGNORE_DIRS = [
+  "node_modules",
+  ".git",
+  ".svelte-kit",
+  "project-dumps",
+  "project-chunks"
+];
+
+// Fichiers à ignorer
+const IGNORE_FILES = [
+  "project-full.txt",
+  "project-clean.txt",
+  "project-structure.txt"
+];
+
+function walk(dir, fileList = []) {
+  const files = fs.readdirSync(dir);
+
+  for (const file of files) {
+    const fullPath = path.join(dir, file);
+    const relPath = path.relative(root, fullPath);
+    const stat = fs.statSync(fullPath);
+
+    if (stat.isDirectory()) {
+      if (!IGNORE_DIRS.some((ignored) => relPath.startsWith(ignored))) {
+        walk(fullPath, fileList);
+      }
+    } else {
+      if (!IGNORE_FILES.includes(file)) {
+        fileList.push(relPath);
+      }
+    }
+  }
+
+  return fileList;
+}
+
+for (const [outputName, folders] of Object.entries(TARGETS)) {
+  let output = "";
+
+  for (const folder of folders) {
+    const abs = path.join(root, folder);
+    if (!fs.existsSync(abs)) continue;
+
+    const files = walk(abs).sort();
+
+    for (const file of files) {
+      const fullPath = path.join(root, file);
+      const content = fs.readFileSync(fullPath, "utf8");
+
+      output += `===== FILE: ${file} =====\n`;
+      output += content + "\n\n";
+    }
+  }
+
+  fs.writeFileSync(path.join(outDir, outputName), output, "utf8");
+  console.log(`✔ ${outputName} généré`);
+}
+
+console.log("✔ Tous les dumps structurés ont été générés !");
+
+
+===== FILE: scripts\generate-allSongs.js =====
+// scripts/generate-allSongs.js
+
+import fs from "fs";
+import path from "path";
+
+const root = process.cwd();
+
+// Emplacement du JSON source
+const jsonPath = path.join(root, "static", "data", "pages.json");
+
+// Emplacement du fichier généré
+const outDir = path.join(root, "src", "lib", "data");
+const outFile = path.join(outDir, "allSongs.ts");
+
+// Lecture du JSON
+const raw = fs.readFileSync(jsonPath, "utf8");
+const data = JSON.parse(raw);
+
+// Création du dossier si nécessaire
+if (!fs.existsSync(outDir)) {
+  fs.mkdirSync(outDir, { recursive: true });
+}
+
+// Génération du fichier TS
+const content =
+  `// AUTO-GENERATED FILE — DO NOT EDIT\n` +
+  `// Generated from static/data/pages.json\n\n` +
+  `export const allSongs = ${JSON.stringify(data.pages, null, 2)} as const;\n`;
+
+fs.writeFileSync(outFile, content, "utf8");
+
+console.log("✔ allSongs.ts généré avec succès !");
+
+
+===== FILE: scripts\generate-pages-json.js =====
+import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
+import path from "node:path";
+import matter from "gray-matter";
+
+const CONTENT_DIR = path.join(process.cwd(), "src", "content");
+const OUTPUT_DIR = path.join(process.cwd(), "static", "data");
+const OUTPUT_FILE = path.join(OUTPUT_DIR, "pages.json");
+
+async function generate() {
+  console.log("⏳ Génération de pages.json…");
+
+  // 1) S'assurer que static/data existe
+  await mkdir(OUTPUT_DIR, { recursive: true });
+
+  // 2) Lire les fichiers Markdown
+  const files = await readdir(CONTENT_DIR);
+  const mdFiles = files.filter((f) => f.endsWith(".md"));
+
+  const pages = [];
+
+  for (const file of mdFiles) {
+    const fullPath = path.join(CONTENT_DIR, file);
+    const raw = await readFile(fullPath, "utf8");
+
+    const parsed = matter(raw);
+
+    const id = parsed.data.id ?? file.replace(".md", "");
+    const title = parsed.data.title ?? id;
+    const sortKeys = parsed.data.sortKeys ?? [title];
+    const themes = parsed.data.themes ?? [];
+
+    pages.push({
+      id,
+      title,
+      sortKeys,
+      themes,
+      body: parsed.content.trim()
+    });
+  }
+
+  // 3) Version unique à chaque génération
+  const VERSION = Date.now();
+
+  // 4) Écrire le JSON final
+  await writeFile(
+    OUTPUT_FILE,
+    JSON.stringify({ version: VERSION, pages }, null, 2),
+    "utf8"
+  );
+
+  console.log(`✔ pages.json mis à jour (${pages.length} chansons)`);
+}
+
+generate().catch((err) => {
+  console.error("❌ Erreur lors de la génération de pages.json :", err);
+});
+
+
+===== FILE: scripts\split-file.js =====
+// scripts/split-file.js
+import fs from "fs";
+import path from "path";
+
+const root = process.cwd();
+const inputFile = path.join(root, "project-full.txt");
+const outDir = path.join(root, "project-chunks");
+
+// Taille max par chunk (200 Ko)
+const CHUNK_SIZE = 200 * 1024;
+
+// Crée le dossier si nécessaire
+if (!fs.existsSync(outDir)) {
+  fs.mkdirSync(outDir);
+}
+
+// Lit le fichier complet
+const data = fs.readFileSync(inputFile, "utf8");
+
+// Découpe en morceaux
+let index = 1;
+for (let i = 0; i < data.length; i += CHUNK_SIZE) {
+  const chunk = data.slice(i, i + CHUNK_SIZE);
+  const filename = path.join(
+    outDir,
+    `chunk-${String(index).padStart(3, "0")}.txt`
+  );
+  fs.writeFileSync(filename, chunk, "utf8");
+  index++;
+}
+
+console.log("✔ Découpage terminé !");
+console.log(`✔ ${index - 1} fichiers générés dans project-chunks/`);
+
+
+===== FILE: scripts\tree.js =====
+import fs from "node:fs";
+import path from "node:path";
+
+function tree(dir, prefix = "") {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+  // Trier : dossiers d'abord, fichiers ensuite
+  entries.sort((a, b) => {
+    if (a.isDirectory() && !b.isDirectory()) return -1;
+    if (!a.isDirectory() && b.isDirectory()) return 1;
+    return a.name.localeCompare(b.name);
+  });
+
+  for (const entry of entries) {
+    if (entry.name === "node_modules" || entry.name.startsWith(".")) continue;
+
+    const isLast = entry === entries[entries.length - 1];
+    const connector = isLast ? "└── " : "├── ";
+
+    console.log(prefix + connector + entry.name);
+
+    if (entry.isDirectory()) {
+      const newPrefix = prefix + (isLast ? "    " : "│   ");
+      tree(path.join(dir, entry.name), newPrefix);
+    }
+  }
+}
+
+console.log("Arborescence du projet :\n");
+tree(process.cwd());
+
+

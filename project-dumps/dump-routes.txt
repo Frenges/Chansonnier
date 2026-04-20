@@ -1,0 +1,352 @@
+===== FILE: src\routes\+layout.svelte =====
+<script lang="ts">
+  import { base } from "$app/paths";
+  import favicon from '$lib/assets/favicon.svg';
+  import { db } from "$lib/db";
+  import { onMount } from "svelte";
+
+  let { children, data } = $props();
+
+  // Remplissage Dexie
+  onMount(async () => {
+    for (const page of data.pages) {
+      await db.pages.put(page);
+    }
+  });
+</script>
+
+<svelte:head>
+  <link rel="icon" href={favicon} />
+</svelte:head>
+
+<div class="layout">
+  <nav class="sidebar">
+    <h2>Chansonnier</h2>
+    <a href={`${base}/`}>Accueil</a>
+    <a href={`${base}/index/alphabetique`}>Index alphabétique</a>
+    <a href={`${base}/index/thematique`}>Index thématique</a>
+  </nav>
+
+  <main class="content">
+    {@render children({ data })}
+  </main>
+</div>
+
+<style>
+  .layout {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    width: 220px;
+    background: #f0f0f0;
+    padding: 1.5rem;
+    border-right: 1px solid #ddd;
+  }
+
+  .sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .sidebar a {
+    display: block;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+  }
+
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+
+  .content {
+    flex: 1;
+    padding: 2rem;
+  }
+</style>
+
+
+===== FILE: src\routes\+layout.ts =====
+// src/routes/+layout.ts
+import type { LayoutLoad } from "./$types";
+import { allSongs } from "$lib/data/allSongs";
+
+export const load: LayoutLoad = async () => {
+  // Les chansons sont embarquées dans le bundle → aucune dépendance réseau
+  return {
+    pages: allSongs
+  };
+};
+
+
+===== FILE: src\routes\+page.svelte =====
+<script lang="ts">
+  import { base } from "$app/paths";
+</script>
+
+<h1>Chansonnier</h1>
+
+<nav class="menu">
+  <a href={`${base}/index/alphabetique`}>Index alphabétique</a>
+  <a href={`${base}/index/thematique`}>Index thématique</a>
+</nav>
+
+<style>
+  h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 300px;
+    margin: 3rem auto;
+  }
+
+  .menu a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    background: #eee;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    transition: background 0.2s;
+  }
+
+  .menu a:hover {
+    background: #ddd;
+  }
+</style>
+
+
+===== FILE: src\routes\+page.ts =====
+export const ssr = false;
+
+export function load({ data }) {
+  return data;
+}
+
+
+===== FILE: src\routes\index\+layout.ts =====
+export const ssr = false;
+
+export async function load({ parent }) {
+  return await parent();
+}
+
+
+===== FILE: src\routes\index\alphabetique\+page.svelte =====
+<script lang="ts">
+  import { base } from "$app/paths";
+
+  // Récupération des données du load()
+  let { data } = $props();
+  const { pages } = data;
+
+  function normalize(str: string) {
+    return str
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/^(le|la|les|l'|the)\s+/i, "");
+  }
+
+  const expanded = [];
+
+  for (const page of pages) {
+    const keys = page.sortKeys?.length ? page.sortKeys : [page.title];
+
+    for (const key of keys) {
+      expanded.push({
+        key,
+        normalized: normalize(key),
+        page
+      });
+    }
+  }
+
+  const entries = expanded.sort((a, b) =>
+    a.normalized.localeCompare(b.normalized)
+  );
+</script>
+
+<h1>Index alphabétique</h1>
+
+<ul>
+  {#each entries as e}
+    <li>
+      <a href={`${base}/page/${e.page.id}`}>{e.key}</a>
+    </li>
+  {/each}
+</ul>
+
+
+===== FILE: src\routes\index\alphabetique\+page.ts =====
+export const ssr = false;
+
+export async function load({ parent }) {
+  const { pages } = await parent();
+  return { pages };
+}
+
+
+===== FILE: src\routes\index\thematique\+page.svelte =====
+<script lang="ts">
+  import { base } from "$app/paths";
+
+  // Récupération des données du load()
+  let { data } = $props();
+  const { pages } = data;
+
+  function normalize(str: string) {
+    return str
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/^(le|la|les|l'|the)\s+/i, "");
+  }
+
+  const grouped = {};
+
+  for (const page of pages) {
+    if (!page.themes?.length) continue;
+
+    const keys = page.sortKeys?.length ? page.sortKeys : [page.title];
+
+    for (const theme of page.themes) {
+      if (!grouped[theme]) grouped[theme] = [];
+
+      for (const key of keys) {
+        grouped[theme].push({
+          key,
+          normalized: normalize(key),
+          page
+        });
+      }
+    }
+  }
+
+  const themes = Object.fromEntries(
+    Object.entries(grouped).sort(([a], [b]) => a.localeCompare(b))
+  );
+
+  for (const theme of Object.keys(themes)) {
+    themes[theme].sort((a, b) => a.normalized.localeCompare(b.normalized));
+  }
+</script>
+
+<h1>Index thématique</h1>
+
+{#each Object.entries(themes) as [theme, entries]}
+  <section class="theme">
+    <h2>{theme}</h2>
+    <ul>
+      {#each entries as e}
+        <li>
+          <a href={`${base}/page/${e.page.id}`}>{e.key}</a>
+        </li>
+      {/each}
+    </ul>
+  </section>
+{/each}
+
+
+===== FILE: src\routes\index\thematique\+page.ts =====
+export const ssr = false;
+
+export async function load({ parent }) {
+  const { pages } = await parent();
+  return { pages };
+}
+
+
+===== FILE: src\routes\page\+layout.ts =====
+export const ssr = false;
+
+export async function load({ parent }) {
+  return await parent();
+}
+
+
+===== FILE: src\routes\page\[id]\+page.svelte =====
+<script lang="ts">
+  // 1) Récupération des données du load()
+  let { data } = $props();
+
+  // 2) Déstructuration
+  const { id, pages } = data;
+
+  // 3) Debug
+  console.log("DATA REÇUE DANS +page.svelte :", data);
+  console.log("ID REÇU :", id);
+  console.log("LISTE DES IDS DISPONIBLES :", pages?.map(p => p.id));
+
+  // 4) Trouver la page
+  const page = pages?.find((p) => p.id === id);
+
+  let htmlContainer;
+
+  $effect(() => {
+    if (page && page.html && htmlContainer) {
+      htmlContainer.innerHTML = page.html;
+    }
+  });
+</script>
+
+{#if !page}
+  <p>Page introuvable…</p>
+{:else}
+  <article class="song">
+    <h1>{page.title}</h1>
+
+    {#if page.html}
+      <div class="content" bind:this={htmlContainer}></div>
+    {:else}
+      <pre class="content">{page.body}</pre>
+    {/if}
+  </article>
+{/if}
+
+<style>
+  .song {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .content {
+    white-space: pre-wrap;
+    line-height: 1.6;
+  }
+
+  .content img {
+    max-width: 100%;
+  }
+</style>
+
+
+===== FILE: src\routes\page\[id]\+page.ts =====
+export const ssr = false;
+
+export async function load({ params, parent }) {
+  const { pages } = await parent();
+  return {
+    id: params.id,
+    pages
+  };
+}
+
+
