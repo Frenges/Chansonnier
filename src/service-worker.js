@@ -1,23 +1,47 @@
 // src/service-worker.js
 
-// Nom du cache
-const CACHE_NAME = "songbook-cache-v1";
+const CACHE_NAME = "songbook-dynamic-v1";
 
-// Fichiers à mettre en cache immédiatement
-const OFFLINE_FILES = [
-  "/",
+// Fichiers statiques essentiels
+const STATIC_FILES = [
   "/Chansonnier/",
   "/Chansonnier/index.html",
+  "/Chansonnier/index/alphabetique/index.html",
+  "/Chansonnier/index/thematique/index.html",
   "/Chansonnier/data/pages.json"
 ];
 
-// Installation : on met en cache les fichiers essentiels
+// Fonction utilitaire : télécharge pages.json et génère les routes
+async function getDynamicRoutes() {
+  try {
+    const res = await fetch("/Chansonnier/data/pages.json");
+    const json = await res.json();
+
+    // Chaque chanson devient une route HTML à précharger
+    return json.pages.map(
+      (p) => `/Chansonnier/page/${p.id}/index.html`
+    );
+  } catch (e) {
+    console.error("Service Worker: impossible de charger pages.json", e);
+    return [];
+  }
+}
+
+// Installation : préchargement dynamique
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(OFFLINE_FILES);
-    })
+    (async () => {
+      const cache = await caches.open(CACHE_NAME);
+
+      // Précharge les fichiers statiques
+      await cache.addAll(STATIC_FILES);
+
+      // Précharge les pages dynamiques
+      const dynamicRoutes = await getDynamicRoutes();
+      await cache.addAll(dynamicRoutes);
+    })()
   );
+
   self.skipWaiting();
 });
 
@@ -35,7 +59,7 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
-// Stratégie : Network falling back to cache
+// Stratégie : réseau → fallback cache
 self.addEventListener("fetch", (event) => {
   event.respondWith(
     fetch(event.request).catch(() => caches.match(event.request))
