@@ -1,10 +1,8 @@
 // src/service-worker.js
 
-// Version du cache (change-la pour forcer une mise à jour)
-const CACHE_NAME = "songbook-core-v2";
+const CACHE_NAME = "songbook-fullshell-v3";
 
 // Fichiers essentiels à précharger AVANT tout
-// Ces fichiers doivent être disponibles même hors-ligne complet
 const CORE_FILES = [
   "/Chansonnier/",
   "/Chansonnier/index.html",
@@ -14,16 +12,31 @@ const CORE_FILES = [
 // Fonction utilitaire : télécharge pages.json et génère les routes dynamiques
 async function getDynamicRoutes() {
   try {
-    // IMPORTANT : on récupère pages.json AVEC le service worker
     const res = await fetch("/Chansonnier/data/pages.json");
     const json = await res.json();
 
-    // Chaque chanson devient une route HTML à précharger
     return json.pages.map(
       (p) => `/Chansonnier/page/${p.id}/index.html`
     );
   } catch (e) {
-    console.error("Service Worker: impossible de charger pages.json", e);
+    console.error("SW: impossible de charger pages.json", e);
+    return [];
+  }
+}
+
+// Fonction utilitaire : détecte tous les assets SvelteKit
+async function getAppAssets() {
+  try {
+    const res = await fetch("/Chansonnier/");
+    const text = await res.text();
+
+    // On extrait tous les chemins /_app/... présents dans la page
+    const regex = /\/Chansonnier\/_app\/[^"']+/g;
+    const matches = text.match(regex) || [];
+
+    return matches;
+  } catch (e) {
+    console.error("SW: impossible de détecter les assets SvelteKit", e);
     return [];
   }
 }
@@ -40,6 +53,10 @@ self.addEventListener("install", (event) => {
       // 2) Précharge les pages dynamiques
       const dynamicRoutes = await getDynamicRoutes();
       await cache.addAll(dynamicRoutes);
+
+      // 3) Précharge automatiquement tous les assets SvelteKit
+      const assets = await getAppAssets();
+      await cache.addAll(assets);
     })()
   );
 
