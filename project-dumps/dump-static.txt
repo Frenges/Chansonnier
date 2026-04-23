@@ -1,6 +1,6 @@
 ===== FILE: static\data\pages.json =====
 {
-  "version": 1776705790766,
+  "version": 1776965599745,
   "pages": [
     {
       "id": "gaudeamus-igitur",
@@ -28,6 +28,17 @@
     },
     {
       "id": "test",
+      "title": "Aest",
+      "sortKeys": [
+        "Test"
+      ],
+      "themes": [
+        "Traditionnel"
+      ],
+      "body": "# Gaudeamus Igitur\r\n\r\n**Gaudeamus igitur**,  \r\n*Juvenes dum sumus.*\r\n\r\n## Refrain\r\n\r\n1. Chantons tous ensemble  \r\n2. Levons nos verres  \r\n3. Et célébrons la vie\r\n\r\n> Ceci est un chant traditionnel étudiant.\r\n\r\n    (refrain à répéter)"
+    },
+    {
+      "id": "test",
       "title": "Aest2",
       "sortKeys": [
         "Test"
@@ -35,7 +46,7 @@
       "themes": [
         "Traditionnel"
       ],
-      "body": "Gaudeamus igitur,\r\nJuvenes dum sumus."
+      "body": "# Gaudeamus Igitur\r\n\r\n**Gaudeamus igitur**,  \r\n*Juvenes dum sumus.*\r\n\r\n## Refrain\r\n\r\n1. Chantons tous ensemble  \r\n2. Levons nos verres  \r\n3. Et célébrons la vie\r\n\r\n> Ceci est un chant traditionnel étudiant.\r\n\r\n    (refrain à répéter)"
     }
   ]
 }

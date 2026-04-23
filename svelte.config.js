@@ -8,7 +8,7 @@ export default {
       fallback: 'index.html'
     }),
     paths: {
-      base: dev ? "" : "/Chansonnier"
+      base: process.env.NODE_ENV === "production" ? "/Chansonnier" : ""
     },
     serviceWorker: {
       register: true

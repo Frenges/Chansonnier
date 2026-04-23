@@ -1,6 +1,7 @@
 import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { marked } from "marked";
 
 const CONTENT_DIR = path.join(process.cwd(), "src", "content");
 const OUTPUT_DIR = path.join(process.cwd(), "static", "data");
@@ -34,7 +35,8 @@ async function generate() {
       title,
       sortKeys,
       themes,
-      body: parsed.content.trim()
+      body: parsed.content.trim(),
+      html: marked(parsed.content)
     });
   }
 

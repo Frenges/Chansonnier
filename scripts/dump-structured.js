@@ -17,8 +17,7 @@ const TARGETS = {
   "dump-lib.txt": ["src/lib"],
   "dump-content.txt": ["src/content"],
   "dump-static.txt": ["static"],
-  "dump-scripts.txt": ["scripts"],
-  "dump-build.txt": ["build"]
+  "dump-scripts.txt": ["scripts"]
 };
 
 // Dossiers à ignorer globalement

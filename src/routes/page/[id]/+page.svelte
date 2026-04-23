@@ -1,12 +1,11 @@
 <script lang="ts">
-  // 1) Récupération des données du load()
+  // Récupération des données du load()
   let { data } = $props();
-
-  // 2) Déstructuration
-  const { id, pages } = data;
+  const d = data;
+  const { id, pages } = d;
 
   // 3) Debug
-  console.log("DATA REÇUE DANS +page.svelte :", data);
+  console.log("DATA REÇUE DANS +page.svelte :", d);
   console.log("ID REÇU :", id);
   console.log("LISTE DES IDS DISPONIBLES :", pages?.map(p => p.id));
 

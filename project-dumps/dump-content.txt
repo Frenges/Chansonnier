@@ -62,16 +62,46 @@ Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, oui grâce à SÉTÉVIA —
 
 
 
-===== FILE: src\content\test.md =====
+===== FILE: src\content\test - Copie.md =====
 ---
 id: test
-title: Aest2
+title: Aest
 sortKeys: ["Test"]
 themes: ["Traditionnel"]
 lang: fr
 ---
 
-Gaudeamus igitur,
-Juvenes dum sumus.
+# Gaudeamus Igitur
+
+**Gaudeamus igitur**,  
+*Juvenes dum sumus.*
+
+
+
+
+===== FILE: src\content\test.md =====
+---
+id: test
+title: Aest2
+sortKeys: ["Test2"]
+themes: ["Traditionnel"]
+lang: fr
+---
+
+# Gaudeamus Igitur
+
+**Gaudeamus igitur**,  
+*Juvenes dum sumus.*
+
+## Refrain
+
+1. Chantons tous ensemble  
+2. Levons nos verres  
+3. Et célébrons la vie
+
+> Ceci est un chant traditionnel étudiant.
+
+    (refrain à répéter)
+
 
 

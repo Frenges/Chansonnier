@@ -3,7 +3,8 @@
 
   // Récupération des données du load()
   let { data } = $props();
-  const { pages } = data;
+  const d = data;
+  const { id, pages } = d;
 
   function normalize(str: string) {
     return str
