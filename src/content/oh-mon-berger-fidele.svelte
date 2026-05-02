@@ -47,7 +47,6 @@
 <div class="refrain" data-title="Refrain final">
 <div>Fous-moi l’god'miché dans l’cul</div>
 <div>Faut que je me finisse,</div>
-</div>
 <div>Fous-moi l’god'miché dans l’cul, </div>
 <div>Et qu’on n’en parle plus !</div>
 </div>
