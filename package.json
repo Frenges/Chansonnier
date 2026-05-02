@@ -4,24 +4,23 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-                       "generate": "node scripts/generate-pages-json.js && node scripts/generate-allSongs.js",
-                        "dev": "npm run generate && vite dev",
-                        "build": "vite build",
-  			"preview": "vite preview",
-  			"prepare": "svelte-kit sync || echo ''",
-  			"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-  			"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-  			"lint": "prettier --check . && eslint .",
-  			"format": "prettier --write .",
-  			"generate:songs": "node scripts/generate-allSongs.js",
-  			"dump:structure": "node scripts/dump-structure.js",
-  			"dump:full": "node scripts/dump-full.js",
-  			"split": "node scripts/split-file.js",
-  			"dump:clean": "node scripts/dump-clean.js",
-  			"dump:structured": "node scripts/dump-structured.js",
-  			"postbuild": "node scripts/generate-asset-list.js"
-}
-,
+		"generate": "node scripts/generate-pages-json.js && node scripts/generate-allSongs.js",
+		"dev": "npm run generate && vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write .",
+		"generate:songs": "node scripts/generate-allSongs.js",
+		"dump:structure": "node scripts/dump-structure.js",
+		"dump:full": "node scripts/dump-full.js",
+		"split": "node scripts/split-file.js",
+		"dump:clean": "node scripts/dump-clean.js",
+		"dump:structured": "node scripts/dump-structured.js",
+		"postbuild": "node scripts/generate-asset-list.js"
+	},
 	"devDependencies": {
 		"@eslint/compat": "^2.0.3",
 		"@eslint/js": "^10.0.1",
@@ -46,6 +45,10 @@
 		"dexie": "^4.4.2",
 		"front-matter": "^4.0.2",
 		"gray-matter": "^4.0.3",
-		"marked": "^17.0.5"
+		"marked": "^17.0.5",
+		"remark": "^15.0.1",
+		"remark-directive": "^4.0.0",
+		"unist-util-visit": "^5.1.0",
+		"vite-plugin-markdown": "^2.2.0"
 	}
 }

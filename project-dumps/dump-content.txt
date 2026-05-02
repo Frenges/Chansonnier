@@ -1,107 +1,4551 @@
-===== FILE: src\content\gaudeamus-igitur.md =====
----
-id: gaudeamus-igitur
-title: Gaudeamus Igitur
-sortKeys: ["Gaudeamus Igitur", "Igitur", "G"]
-themes: ["Traditionnel"]
-lang: fr
----
+===== FILE: src\content\a-l-hopital-saint-louis.svelte =====
+<script>
+  export let metadata = {
+    id: "a-l-hopital-saint-louis",
+    title: "A l’hôpital Saint-Louis",
+    theme: "Chansons paillardes",
+    sortKeys: ["A l’hôpital Saint-Louis"]
+  };
+</script>
 
-Gaudeamus igitur,
-Juvenes dum sumus.
+<div class="song">
+<p><strong>
+</strong></p>
+<div class="refrain" data-title="Refrain">
+Moi j’m’en fous, j’bouff' de tout
+Si j’mang' bien, si j’chie peu
+C’est afin que rien n’se perde
+Si j’suis dégoûté d’la merde
+C’est qu’j’y ai trouvé un ch'veu<br/>
+</div>
+<div class="couplet">
+<div>À l’hôpital Saint-Louis</div>
+<div>Dans la fosse aux tumeurs
+C’est là que je me réjouis
+À m’fair' des tartin's de beurre</div>
+</div>
+<div class="couplet">
+<div>Mon frère est poitrinaire</div>
+<div>Et dégueul' tout' la nuit
+Si je couch' à côté d’lui,
+C’est afin d’bouffer ses glaires</div>
+</div>
+<div class="couplet">
+<div>Sur les bords de la Seine</div>
+<div>J’rencontre un chien crevé,
+Je lui tir' les vers du nez
+Et j’les bouffe à l’italienne</div>
+</div>
+<div class="couplet">
+<div>Dedans une pissotière,</div>
+<div>Quelqu’un a dégueulé,
+Je sors ma petit' cuillère
+Et je m’mets à déguster</div>
+</div>
+<div class="couplet">
+<div>Tous les mois, c’est l’usage,</div>
+<div>Ma femm' saigne du con,
+Si je suce ses tampons,
+Ça épargn' le blanchissage</div>
+</div>
+<div class="couplet">
+<div>Quand mon gosse a la chiasse</div>
+<div>Je lui lèch' le trou du cul
+Et puisque je suis barbu,
+Je m’en fous plein les moustaches</div>
+</div>
+<div class="couplet">
+<div>Quand je vois mon vieil oncle,</div>
+<div>J’l’embrass' la bouche en cœur
+Pour mieux sucer les humeurs,
+Qui coulent de ses furoncles</div>
+</div>
+<div class="couplet">
+<div>Quand un vieil invalide</div>
+<div>A fait cinq ou six lieues
+Je lui lèch' le tour des yeux
+Et j’suc' ses chancres putrides</div>
+</div>
+<div class="couplet">
+<div>Quand l’facteur du village</div>
+<div>A fini sa tournée,
+Je lui lèch' la plant' des pieds,</div>
+<div>Ça remplace le fromage.</div>
+</div>
+<div class="couplet">
+<div>Ce que les femm's enceintes</div>
+<div>Rejett'nt en accouchant
+Est un mets fort croustillant
+Que je gard' pour la s’main' sainte</div>
+</div>
+<div class="couplet">
+<div>Quand un vésicatoire</div>
+<div>Suppure et rend du jus
+Moi, je pos' ma langu' dessus
+J’pense ainsi manger et boire</div>
+</div>
+<div class="couplet">
+<div>Le jus d’syphilitiques</div>
+<div>L’urin' des chaud'-pisseux
+Sont des breuvag's délicieux
+Et des nectars angéliques.</div>
+</div>
+<div class="couplet">
+<div>Messieurs, si ma ballade</div>
+<div>Vous donne le hoquet,
+Dégueulez dans un baquet,
+J’aime aussi la dégueulade.</div>
+<div><strong>
+</strong></div>
+</div>
+</div>
 
+===== FILE: src\content\activitas-1917-fribourg.svelte =====
+<script>
+  export let metadata = {
+    id: "activitas-1917-fribourg",
+    title: "Activitas (1917, Fribourg)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Activitas (1917, Fribourg)"]
+  };
+</script>
 
-===== FILE: src\content\hymne_setevien.md =====
----
-id: hymne-setevien
-title: "Hymne Sétévien"
-sortKeys:
-  - "Hymne Sétévien"
-themes:
-  - "Chants estudiantins"
-lang: "fr"
-lastModified: "2026-04-01"
----
+<div class="song">
+<p>Célébrons avec des mots de flamme notre Activitas à nous. </p>
+<p>Que chacun joyeusement l’acclame, son nom clair qui sonne doux. </p>
+<p>A la gaieté point rebelle, nous cherchons en tout le bien. </p>
+<p>Sa devise est la plus belle, |: sans travail on n’obtient rien. :| 
+</p>
+</div>
 
+===== FILE: src\content\agaunia-1859-st-maurice.svelte =====
+<script>
+  export let metadata = {
+    id: "agaunia-1859-st-maurice",
+    title: "Agaunia (1859, St-Maurice)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Agaunia (1859, St-Maurice)"]
+  };
+</script>
 
-\[Retour thématique](/index/thematique)
+<div class="song">
+<p>Chère Agaunia, fière et forte, rend mon bras, mon cœur vaillant. </p>
+<p>Des soldats martyrs tu portes dans ton sein le sang bouillant. </p>
+<p>Ton drapeau et tes couleurs symbolisent nos ardeurs. Blanc de nos cœurs l’innocence, |: rouge d’amour, vert d’espérance. :|</p>
+</div>
 
-\[Retour alphabétique](/index/alphabetique)
+===== FILE: src\content\ah-que-nos-peres-etaient-heureux.svelte =====
+<script>
+  export let metadata = {
+    id: "ah-que-nos-peres-etaient-heureux",
+    title: "Ah ! que nos pères étaient heureux",
+    theme: "Chansons populaires",
+    sortKeys: ["Ah ! que nos pères étaient heureux"]
+  };
+</script>
 
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Et ils buvaient à leur tonneau <br/>
+Comme des trous,<br/>
+Comme des trous, morbleu,<br/>
+Bien autrement que nous, morbleu,<br/>
+Bien autrement que nous.<br/>
+</div>
+<div class="couplet">
+<div>Ah ! que nos pères étaient heureux (bis) </div>
+<div>Quand ils étaient à table,</div>
+<div>Le vin coulait à côté d’eux (bis)</div>
+<div>Ça leur était fort agréable.</div>
+</div>
+<div class="couplet">
+<div>Ils n’avaient ni riches buffets (bis) </div>
+<div>Ni verres de Venise,</div>
+<div>Mais ils avaient des gobelets (bis)</div>
+<div>Aussi grands que leur barbe grise.</div>
+</div>
+<div class="couplet">
+<div>Ils ne savaient pas le latin (bis)</div>
+<div>Ni la théologie, </div>
+<div>Mais ils avaient l’amour du vin (bis) </div>
+<div>C’était là leur philosophie.</div>
+</div>
+<div class="couplet">
+<div>Quand ils avaient quelque chagrin (bis) </div>
+<div>Ou quelque maladie,</div>
+<div>Ils plantaient là le médecin (bis)</div>
+<div>Et sa thérapeutie.</div>
+</div>
+<div class="couplet">
+<div>Et quand le petit dieu d’amour (bis)</div>
+<div>Leur envoyait une donzelle,</div>
+<div>Sans peur, sans crainte et sans détour (bis) </div>
+<div>Ils plantaient là la demoiselle.</div>
+</div>
+<div class="couplet">
+<div>Celui qui planta le bon vin (bis)</div>
+<div>Au doux pays de France (d’enfance), </div>
+<div>Avec le doux rubis du vin (bis) </div>
+<div>A fait jaillir notre espérance.</div>
+</div>
+<div class="refrain" data-title="Refrain final">
+Amis buvons à nos tonneaux,<br/>
+Comme des trous,<br/>
+Comme des trous, morbleu <br/>
+L’avenir est à nous, morbleu, <br/>
+L’avenir est à nous.<br/>
+</div>
+</div>
 
+===== FILE: src\content\ah-vous-dirai-je-maman.svelte =====
+<script>
+  export let metadata = {
+    id: "ah-vous-dirai-je-maman",
+    title: "Ah vous dirai-je maman…",
+    theme: "Chansons paillardes",
+    sortKeys: ["Ah vous dirai-je maman…"]
+  };
+</script>
 
-<pre class="lyrics">
-<span class="first-stanza">
+<div class="song">
+<p>(Lettre d’une jeune fille en vacances à sa mère)</p>
+<div class="couplet">
+<div>Ah ! vous dirai-je maman</div>
+<div>A quoi nous passons le temps </div>
+<div>Avec mon cousin Eugène.</div>
+<div>Sachez que ce phénomène</div>
+<div>Nous a inventé un jeu</div>
+<div>Auquel nous jouons tous les deux.</div>
+</div>
+<div class="couplet">
+<div>Il m’emmène dans le bois</div>
+<div>Et me dit : "Déshabille-toi". </div>
+<div>Quand je suis nue tout entière, </div>
+<div>Il me fait coucher par terre, </div>
+<div>Et de peur que je n’aie froid </div>
+<div>Il vient se coucher sur moi.</div>
+</div>
+<div class="couplet">
+<div>Puis il me dit d’un ton doux </div>
+<div>"Ecarte bien les genoux."</div>
+<div>Et — la chose va vous faire rire —</div>
+<div>Il embrasse ma tirelire.</div>
+<div>Oh ! vous conviendrez maman </div>
+<div>Qu’il a des idées, vraiment !</div>
+</div>
+<div class="couplet">
+<div>Puis il sort je ne sais d’où</div>
+<div>Un p’tit animal très doux,</div>
+<div>Une espèce de rat sans pattes, </div>
+<div>Qu’il me donne et que je flatte. </div>
+<div>Oh ! le joli petit rat ! </div>
+<div>D’ailleurs il vous le montrera.</div>
+</div>
+<div class="couplet">
+<div>Et c’est juste à ce moment </div>
+<div>Que le jeu commence vraiment ; </div>
+<div>Eugène prend sa petite bête </div>
+<div>Et la fourre dans une cachette </div>
+<div>Qu’il a trouvé, le farceur, </div>
+<div>Où vous situez mon honneur.</div>
+</div>
+<div class="couplet">
+<div>Mais ce petit rat curieux</div>
+<div>Très souvent devient furieux. </div>
+<div>Voilà qu’il sort et qu’il rentre </div>
+<div>Et qu’il me court dans le ventre. </div>
+<div>Mon cousin a bien du mal</div>
+<div>A calmer son animal.</div>
+</div>
+<div class="couplet">
+<div>Complètement essoufflé, </div>
+<div>Il essaie de l’rattraper. </div>
+<div>Moi je ris à perdre haleine </div>
+<div>Devant les efforts d’Eugène. </div>
+<div>Si vous étiez là, maman, </div>
+<div>Vous ririez pareillement.</div>
+</div>
+<div class="couplet">
+<div>Au bout de quelques instants</div>
+<div>Le p’tit rat sort en pleurant. </div>
+<div>Alors Eugène, qui tremblote, </div>
+<div>Le r’met dans sa culotte,</div>
+<div>Et puis tous deux nous rentrons </div>
+<div>Sagement à la maison.</div>
+</div>
+<div class="couplet">
+<div>Mon cousin est merveilleux.</div>
+<div>Il connaît des tas de jeux. </div>
+<div>Demain soir sur la carpette,</div>
+<div>Il doit m’apprendre "la levrette". </div>
+<div>Si vraiment c’est amusant, </div>
+<div>J’vous l’apprendrai en rentrant.</div>
+</div>
+<div class="couplet">
+<div>Voici, ma chère maman, </div>
+<div>Comment je passe mon temps. </div>
+<div>Vous voyez, je suis très sage,</div>
+<div>Je fuis tous les bavardages </div>
+<div>Et j’écoute vos leçons,</div>
+<div>Je n’parle pas aux garçons.</div>
+</div>
+</div>
 
+===== FILE: src\content\air-d-entree-2024.svelte =====
+<script>
+  export let metadata = {
+    id: "air-d-entree-2024",
+    title: "Air d’entrée (2024)",
+    theme: "Chansons prologues",
+    sortKeys: ["Air d’entrée (2024)"]
+  };
+</script>
 
-Pourquoi viens-tu dans ces bas lieux t'y enfermer le soir ?
+<div class="song">
+<p><em>Sur l’air de Dance the night (de Barbie - Dua Lipa)</em></p>
+<p>Bienvenue au prologue 2024</p>
+<p>Sauf qu'en fait on est 5</p>
+<p>Installez-vous, et préparez vous </p>
+<p>pour un-e soirée de dingue								</p>
+<p>Le frigo panossé,</p>
+<p>le sol est rempli de bières</p>
+<p>On a déjà mal/  au foie, alors que/  ca n’a pas commencé</p>
+<p>Cette année sur scène deux sociétés</p>
+<p>Sont rassemblées </p>
+<p>Pour vous offrir, beaucoup de rire</p>
+<p>Plus que Shakespeare</p>
+<p>Le prologue Valdésio-Sétévien</p>
+<p>C’est trop chouette, on est tous ami.e.s</p>
+<p>Des très beaux prologuistes et un très giga beau pianiste</p>
+<p>C’est la fête, déroule le tapis</p>
+<p>Nos jeux de mots sont les meilleurs, nous sommes de grands artistes</p>
+<p>Ce soir, on a plein de couleurs sur scène</p>
+<p>Absalon est notr’ reine</p>
+<p>En noir rouge et mauve, douce comme une guimauve</p>
+<p>Noémie la poulaine</p>
+<p>Tout comme AskEby, en rouge or noir </p>
+<p>Voici ipsy</p>
+<p>Sortie de douche, Est-l’As en peignoir </p>
+<p>Obistro aussi</p>
+<p>Pour finir quelques actualités</p>
+<p>Prise d’otage, d’un train d’Yverdon</p>
+<p>La grève des scénaristes, a mis le cinéma en pause</p>
+<p>Un pigeon était en prison</p>
+<p>Ta copine en deepfake, alors qu’elle n’aime pas le lactose</p>
+<p>Pour finir cette fois-ci pour de vrai</p>
+<p>C’est parti pour la rigolade </p>
+<p>Ce prologue est une ouvre d’art qui surpasse même l’Iliade </p>
+<p>Confettis j’en veux dans ma vie</p>
+<p>Avec nous vous êtes servis, pizza et spaghetti</p>
+</div>
 
-C'est pour y retrouver les vieux avec qui je sais boir'
+===== FILE: src\content\allons-a-messine.svelte =====
+<script>
+  export let metadata = {
+    id: "allons-a-messine",
+    title: "Allons à Messine",
+    theme: "Chansons paillardes",
+    sortKeys: ["Allons à Messine"]
+  };
+</script>
 
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Allons à Messine <br/>
+Pêcher la sardine, <br/>
+Allons à Lorient<br/>
+Pêcher le hareng.<br/>
+</div>
+<div class="couplet">
+<div>Ils étaient deux amants </div>
+<div>Qui s’aimaient tendrement, </div>
+<div>Qui voulaient voyager, </div>
+<div>Mais ne savaient comment. Ha ha ha ha !</div>
+</div>
+<div class="couplet">
+<div>Qui voulaient voyager, </div>
+<div>Mais ne savaient comment.</div>
+<div>Le vit dit au con :</div>
+<div>"Tu seras bâtiment !"…</div>
+</div>
+<div class="couplet">
+<div>Le vit dit au con :</div>
+<div>"Tu seras bâtiment, </div>
+<div>Je serai le mât </div>
+<div>Que l’on plante dedans…    </div>
+</div>
+<div class="couplet">
+<div>Je serai le mât</div>
+<div>Que l’on plante dedans </div>
+<div>Ma couille de droite </div>
+<div>Sera commandant…</div>
+</div>
+<div class="couplet">
+<div>Ma couille de droite </div>
+<div>Sera commandant. </div>
+<div>Ma couille de gauche </div>
+<div>Sera lieutenant…</div>
+</div>
+<div class="couplet">
+<div>
+Ma couille de gauche</div>
+<div>Sera lieutenant.</div>
+<div>Les poils de mon cul</div>
+<div>Seront les haubans…</div>
+</div>
+<div class="couplet">
+<div>Les poils de mon cul </div>
+<div>Seront les haubans</div>
+<div>Et les morpions</div>
+<div>Grimperont dedans…</div>
+</div>
+<div class="couplet">
+<div>Et les morpions </div>
+<div>Grimperont dedans. </div>
+<div>La peau de mes couilles </div>
+<div>Fera voile au vent…</div>
+</div>
+<div class="couplet">
+<div>La peau de mes couilles </div>
+<div>Fera voile au vent.</div>
+<div>Le trou de mon cul </div>
+<div>Soufflera dedans…</div>
+</div>
+<div class="couplet">
+<div>Le trou de mon cul </div>
+<div>Soufflera dedans. </div>
+<div>Sacré nom de Bleu,</div>
+<div>Ça puera bougrement !"…</div>
+</div>
+</div>
 
+===== FILE: src\content\alouette.svelte =====
+<script>
+  export let metadata = {
+    id: "alouette",
+    title: "Alouette",
+    theme: "Chansons populaires",
+    sortKeys: ["Alouette"]
+  };
+</script>
 
-Et pourquoi rire et pourquoi boir' et pourquoi s'amuser ?
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Alouette, gentille alouette
+Alouette, je te plumerai<br/>
+</div>
+<div class="couplet">
+<div>Je te plumerai la tête</div>
+<div>Je te plumerai la tête</div>
+<div>Et la tête</div>
+<div>Et la tête</div>
+<div>Alouette</div>
+<div>Alouette</div>
+</div>
+<div class="couplet">
+<div>Je te plumerai le bec</div>
+<div>Je te plumerai le bec</div>
+</div>
+<div class="couplet">
+<div>Je te plumerai la tête</div>
+<div>Je te plumerai la tête</div>
+</div>
+<div class="couplet">
+<div>Je te plumerai les yeux</div>
+<div>Je te plumerai les yeux</div>
+</div>
+<div class="couplet">
+<div>Je te plumerai le cou</div>
+<div>Je te plumerai le cou</div>
+</div>
+<div class="couplet">
+<div>Je te plumerai les ailes</div>
+<div>Je te plumerai les ailes</div>
+</div>
+<div class="couplet">
+<div>Je te plumerai le dos</div>
+<div>Je te plumerai le dos</div>
+</div>
+<div class="couplet">
+<div>Je te plumerai les pattes</div>
+<div>Je te plumerai les pattes</div>
+</div>
+<div class="couplet">
+<div>Je te plumerai la queue</div>
+<div>Je te plumerai la queue</div>
+</div>
+</div>
 
-C'est pour montrer aux assoiffés qu'on n'veut pas s'la miner, qu'on ne veut pas s'la miner.
+===== FILE: src\content\au-31-du-mois-d-aout.svelte =====
+<script>
+  export let metadata = {
+    id: "au-31-du-mois-d-aout",
+    title: "Au 31 du mois d’août",
+    theme: "Chansons populaires",
+    sortKeys: ["Au 31 du mois d’août"]
+  };
+</script>
 
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Buvons un coup, buvons-en deux, <br/>
+A la santé des amoureux, <br/>
+A la santé du roi de France,<br/>
+Et zut pour le roi d’Angleterre <br/>
+Qui nous a déclaré la guerre.<br/>
+</div>
+<div class="couplet">
+<div>Au 31 du mois d’août (bis)</div>
+<div>On vit venir sous l’vent à nous (bis) </div>
+<div>Une frégate d’Angleterre</div>
+<div>Qui fendait la mer et les flots. </div>
+<div>C’était pour attaquer Bordeaux.</div>
+</div>
+<div class="couplet">
+<div>Le capitaine du bâtiment (bis)</div>
+<div>Fit appeler son lieutenant (bis) </div>
+<div>"Lieutenant, te sens-tu l’courage, </div>
+<div>Dis-moi, te sens-tu's assez fort </div>
+<div>Pour aller attaquer son bord ? "</div>
+</div>
+<div class="couplet">
+<div>Le lieutenant, fier's et hardi (bis) </div>
+<div>Lui répondit : "Capitain's oui (bis) </div>
+<div>Faites monter tout l’équipage, </div>
+<div>Braves soldats et matelots ! </div>
+<div>Faites-les monter tous en haut !"</div>
+</div>
+<div class="couplet">
+<div>Le maître donne un coup d’sifflet (bis) </div>
+<div>Pour faire monter les deux bordées (bis) </div>
+<div>Tout est paré pour l’abordage.</div>
+<div>Hardis gabias, fiers matelots,</div>
+<div>Brav’s canonniers, mousses, petiots.</div>
+</div>
+<div class="couplet">
+<div>Lof pour lof, en y arrivant (bis) </div>
+<div>Nous l’avons pris par son avant (bis) </div>
+<div>A coups de haches d’abordage,</div>
+<div>A coups de sabres et de canons, </div>
+<div>Nous l’avons mis à la raison.</div>
+</div>
+<div class="couplet">
+<div>Que dira-t-on du grand rafiot (bis) </div>
+<div>En Angleterre et à Bordeaux (bis) </div>
+<div>Qu’a laissé prendre son équipage </div>
+<div>Par un corsaire de six canons,</div>
+<div>Lui qu’en avait trente et six bons.</div>
+</div>
+</div>
 
+===== FILE: src\content\aupres-de-ma-blonde.svelte =====
+<script>
+  export let metadata = {
+    id: "aupres-de-ma-blonde",
+    title: "Auprès de ma blonde",
+    theme: "Chansons populaires",
+    sortKeys: ["Auprès de ma blonde"]
+  };
+</script>
 
-Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, grâce à SÉTÉVIA, grâce à SÉTÉVIA !
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Auprès de ma blonde,<br/>
+Qu’il fait bon, fait bon, fait bon,<br/>
+Auprès de ma blonde,<br/>
+Qu’il fait bon dormir.<br/>
+</div>
+<div class="couplet">
+<div>Au jardin de mon père,</div>
+<div>|: Les lilas sont fleuris. :|</div>
+<div>Tous les oiseaux du monde</div>
+<div>Y viennent faire leur nid.</div>
+</div>
+<div class="couplet">
+<div>La caille, la tourterelle</div>
+<div>|: Et la jolie perdrix. :|</div>
+<div>Et ma jolie colombe</div>
+<div>Qui chante jour et nuit.</div>
+</div>
+<div class="couplet">
+<div>Qui chante pour les filles</div>
+<div>|: Qui n’ont point de mari. :|</div>
+<div>Pour moi ne chante guère,</div>
+</div>
+<div class="couplet">
+<div>
+Car j’en ai un joli. Dites-nous donc, la Belle,</div>
+<div>|: Où est votre mari ? :|</div>
+<div>Il est en Hollande,</div>
+<div>Les Hollandais l’ont pris.</div>
+</div>
+<div class="couplet">
+<div>Que donneriez-vous, Belle</div>
+<div>|: Pour ravoir votre mari ? :|</div>
+<div>Je donnerais Versailles,</div>
+<div>Paris et Saint-Denis.</div>
+</div>
+<div class="couplet">
+<div>Les tours de Notre-Dame</div>
+<div>|: Et le clocher de mon pays. :|</div>
+<div>Et ma jolie colombe</div>
+<div>Qui chante jour et nuit.</div>
+</div>
+</div>
 
+===== FILE: src\content\bella-ciao.svelte =====
+<script>
+  export let metadata = {
+    id: "bella-ciao",
+    title: "Bella Ciao",
+    theme: "Chansons populaires",
+    sortKeys: ["Bella Ciao"]
+  };
+</script>
 
+<div class="song">
+<div class="couplet">
+<div>Una mattina mi sono alzato</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao
+Una mattina mi sono alzato </div>
+<div>E ho trovato l'invasor</div>
+</div>
+<div class="couplet">
+<div>O partigiano portami via</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao
+O partigiano portami via
+Ché mi sento di morir</div>
+</div>
+<div class="couplet">
+<div>E se io muoio da partigiano</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao
+E se io muoio da partigiano
+Tu mi devi seppellir</div>
+</div>
+<div class="couplet">
+<div>E seppellire lassù in montagna</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao
+E seppellire lassù in montagna
+Sotto l’ombra di un bel fior
+</div>
+</div>
+<div class="couplet">
+<div>Tutte le genti che passeranno</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao
+Tutte le genti che passeranno
+Mi diranno che bel fior
+</div>
+</div>
+<div class="couplet">
+<div>E quest'è il fiore del partigiano</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao
+Quest'è il fiore del partigiano
+Morto per la libertà.</div>
+</div>
+<div class="couplet">
+<div>Je me suis réveillé un matin,</div>
+<div>O ma belle au revoir, au revoir, au revoir
+Je me suis réveillé un matin,
+Et j’ai trouvé l’envahisseur.
+</div>
+</div>
+<div class="couplet">
+<div>Hé ! partisan emmène-moi</div>
+<div>O ma belle au revoir, au revoir, au revoir
+Hé ! partisan emmène-moi,
+Car je me sens mourir
+</div>
+</div>
+<div class="couplet">
+<div>Et si je meurs en partisan</div>
+<div>O ma belle au revoir, au revoir, au revoir
+Et si je meurs en partisan,
+Il faudra que tu m’enterres.
+</div>
+</div>
+<div class="couplet">
+<div>Que tu m’enterres sur la montagne</div>
+<div>O ma belle au revoir, au revoir, au revoir
+Que tu m’enterres sur la montagne,
+À l’ombre d’une belle fleur
+</div>
+</div>
+<div class="couplet">
+<div>Et les gens qui passeront</div>
+<div>O ma belle au revoir, au revoir, au revoir
+Et les gens qui passeront
+Me diront « Quelle belle fleur »
+</div>
+</div>
+<div class="couplet">
+<div>C’est la fleur du partisan</div>
+<div>O ma belle au revoir, au revoir, au revoir
+C’est la fleur du partisan
+Mort pour la liberté
+</div>
+</div>
+</div>
 
-Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, oui grâce à SÉTÉVIA — Ah — Ah !
+===== FILE: src\content\belles-lettres-1806.svelte =====
+<script>
+  export let metadata = {
+    id: "belles-lettres-1806",
+    title: "Belles-Lettres (1806)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Belles-Lettres (1806)"]
+  };
+</script>
 
-</pre>
+<div class="song">
+<p><em>Le Sapin vert</em></p>
+<p>Belletriens, plus de deux cents années </p>
+<p>Ont vu fleurir l’arbre que nous aimons </p>
+<p>Sous ses rameaux, que d’heures fortunées </p>
+<p>Que de beaux soirs, que de folles chansons ! </p>
+<p>Il a nargué maintes tourmentes, il a bravé plus d’un hiver </p>
+<p>|: Célébrez l’arbre que je chante, le Sapin vert, le Sapin vert ! :|</p>
+</div>
 
+===== FILE: src\content\bicetre.svelte =====
+<script>
+  export let metadata = {
+    id: "bicetre",
+    title: "Bicêtre",
+    theme: "Chansons paillardes",
+    sortKeys: ["Bicêtre"]
+  };
+</script>
 
+<div class="song">
+<div class="refrain" data-title="Refrain">
+On n’peut pas bander toujours, <br/>
+Il faut jouir de ses roupettes ;<br/>
+On n’peut pas bander toujours, <br/>
+Il faut jouir de ses amours.<br/>
+</div>
+<div class="couplet">
+<div>Dans ce Bicêtre où l’on s’embête,</div>
+<div>Loin de Paris que je regrette,</div>
+<div>J’ai bien souvent et longtemps médité</div>
+<div>Sur la vieillesse et la caducité.</div>
+<div>Amis, amis, apprenez à connaître,</div>
+<div>Ce vieux refrain, ce refrain de Bicêtre …</div>
+</div>
+<div class="couplet">
+<div>D’un vieux, un jour, j’tenais la quéquette,</div>
+<div>La sonde en main, de l’autre la cuvette,</div>
+<div>Pendant ce temps mon esprit méditait</div>
+<div>Ce que tout bas le vieillard me disait :</div>
+<div>"Prenez bien soin de ces pauvres gogottes,</div>
+<div>Un jour viendra, vous pisserez sur vos bottes, … "</div>
+</div>
+<div class="couplet">
+<div>Idiots, fous, épileptiques,</div>
+<div>Sont des arguments sans réplique ;</div>
+<div>Tout dépérit, le pauvre genre humain</div>
+<div>N’a plus d’espoir que dans le carabin,</div>
+<div>Or, pour créer une race nouvelle</div>
+<div>Jamais, enfants, ne mouchez la chandelle …</div>
+</div>
+<div class="couplet">
+<div>A l’œuvre donc, jeunes athlètes,</div>
+<div>Gaillardement, engrossez les fillettes,</div>
+<div>Baisez, foutez, ne craignez nul écueil ;</div>
+<div>Quand on est jeune, il faut baiser à l’œil,</div>
+<div>Avec le temps, Vénus devient avare,</div>
+<div>Aux pauvres vieux, le coup est cher et rare …</div>
+</div>
+<div class="couplet">
+<div>Quand la vieillesse triste et caduque</div>
+<div>Vous foutra son pied sur la nuque,</div>
+<div>Quand votre vit à jamais désossé,</div>
+<div>Sur vos roustons pendra flasque et glacé, </div>
+<div>Allez crier, à la face du prêtre,</div>
+<div>Ce vieux refrain, ce refrain de Bicêtre …</div>
+</div>
+</div>
 
-\[Retour thématique](/index/thematique)
+===== FILE: src\content\boire-un-petit-coup-c-est-agreable.svelte =====
+<script>
+  export let metadata = {
+    id: "boire-un-petit-coup-c-est-agreable",
+    title: "Boire un petit coup c’est agréable",
+    theme: "Chansons populaires",
+    sortKeys: ["Boire un petit coup c’est agréable"]
+  };
+</script>
 
-\[Retour alphabétique](/index/alphabetique)
+<div class="song">
+<p>Boire un petit coup c’est doux
+Mais il ne faut pas rouler dessous la table
+Boire un petit coup c’est agréable
+Boire un petit coup c’est doux.
+Un petit coup la la la, la un petit coup,
+La la la, la, un petit coup, c’est doux.
+Allons dans les bois ma mignonnette
+Allons dans les bois du Roi
+Nous y cueillerons la fraîche violette
+Allons dans les bois ma mignonnette
+Allons dans les bois du Roi
+… lons dans les bois, la la la,
+La,… lons dans les bois, la la la,
+La oui dans les bois du Roi
+J’aime le jambon et la saucisse
+Et le bon vin de chez nous
+Mais j’aime encor’ mieux le lait de ma nourrice
+J’aime le jambon et la saucisse
+Et le bon vin de chez nous.
+J’aime le vin, la la la, la j’aime le vin, la la la,
+La, le bon vin de chez nous.
+Non Lucien tu n’auras pas ma rose
+Non Lucien tu n’auras rien
+Monsieur le curé a défendu la chose
+Non Lucien tu n’auras pas ma rose
+Non Lucien tu n’auras rien.
+Non non Lucien, la la la,
+La, non non Lucien, la la la,
+La, tu n’auras rien, rien, rien.  </p>
+</div>
 
+===== FILE: src\content\branle-charlotte.svelte =====
+<script>
+  export let metadata = {
+    id: "branle-charlotte",
+    title: "Branle Charlotte",
+    theme: "Chansons paillardes",
+    sortKeys: ["Branle Charlotte"]
+  };
+</script>
 
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Branle, branle, branle Charlotte <br/>
+Branle, branle ça fait du bien <br/>
+Branle, branle, branle ma chère<br/>
+Branle, branle jusqu’à demain.<br/>
+</div>
+<div class="couplet">
+<div>Dans son boudoir, la petite Charlotte, </div>
+<div>Chaude du con, faut' d’avoir un vit,</div>
+<div>Se masturbait avec une carotte,</div>
+<div>Et jouissait, étendue sur le lit.</div>
+</div>
+<div class="couplet">
+<div>Ah ! disait-elle, dans le siècle où nous sommes, </div>
+<div>Il faut savoir se passer des garçons.</div>
+<div>Moi, pour ma part, je me fous bien des hommes, </div>
+<div>Avec ardeur je me branle le con.</div>
+</div>
+<div class="couplet">
+<div>Alors sa main n’étant plus paresseuse, </div>
+<div>Allait, venait comme un petit ressort </div>
+<div>Et faisait jouir la petite vicieuse,</div>
+<div>Aussi ce jeu lui plaisait-il bien fort.</div>
+</div>
+<div class="couplet">
+<div>Mais ô malheur, ô fatale disgrâce,</div>
+<div>La jouissance lui fit faire un brusque saut. </div>
+<div>Du contrecoup, la carotte se casse,</div>
+<div>Et dans le con il en reste un morceau.</div>
+</div>
+<div class="couplet">
+<div>Un médecin, praticien fort habile, </div>
+<div>Fut appelé, qui lui fit bien du mal, </div>
+<div>Mais par malheur, la carotte indocile,</div>
+<div>Ne put sortir du conduit vaginal.</div>
+</div>
+<div class="couplet">
+<div>Mesdemoiselles, que le sort de Charlotte </div>
+<div>Puisse longtemps vous servir de leçon ! </div>
+<div>Ah ! croyez-moi, laissez là la carotte, </div>
+<div>Préférez-lui le vit d’un beau garçon.</div>
+</div>
+</div>
 
-===== FILE: src\content\test - Copie.md =====
----
-id: test
-title: Aest
-sortKeys: ["Test"]
-themes: ["Traditionnel"]
-lang: fr
----
+===== FILE: src\content\c-est-a-boire.svelte =====
+<script>
+  export let metadata = {
+    id: "c-est-a-boire",
+    title: "C’est à boire",
+    theme: "Chansons populaires",
+    sortKeys: ["C’est à boire"]
+  };
+</script>
 
-# Gaudeamus Igitur
+<div class="song">
+<div class="refrain" data-title="Refrain">
+C’est à boire, boire, boire,
+C’est à boire qu’il nous faut, Oh ! Oh ! Oh ! Oh !
+<br/>
+</div>
+<div class="couplet">
+<div> |: C’était cinq à six bons bougres qui venaient de Longjumeau :|</div>
+<div>Ils entrèrent dans une auberge pour y boire du vin nouveau</div>
+</div>
+<div class="couplet">
+<div>|: Ils entrèrent dans une auberge pour y boire du vin nouveau :|</div>
+<div>Chacun fouilla dans sa poche quand il fallut payer l’pot, Oh !</div>
+</div>
+<div class="couplet">
+<div>|: Chacun fouilla dans sa poche quand il fallut payer l’pot :|</div>
+<div>Le plus riche retourne la sienne et n’y trouve qu’un écu faux, Oh !</div>
+</div>
+<div class="couplet">
+<div>|: Le plus riche retourne la sienne et n’y trouve qu’un écu faux, :|</div>
+<div>Oh ! Nom de nom, dit la patronne qu’on leur prenne leurs chapeaux, Oh !</div>
+</div>
+<div class="couplet">
+<div>|: Oh ! Nom de nom, dit la patronne qu’on leur prenne leurs chapeaux :|</div>
+<div>Sacrebleu, fait la servante leurs culottes, leurs godillots, Oh !</div>
+</div>
+<div class="couplet">
+<div>|: Sacrebleu, fait la servante leurs culottes, leurs godillots :|</div>
+<div>Et quand ils furent en chemise, ils montèrent sur des tonneaux, Oh !</div>
+</div>
+<div class="couplet">
+<div>|: Et quand ils furent en chemise, ils montèrent sur des tonneaux :|</div>
+<div>Nom de nom dit la patronne, qu’ils sont noirs, mais qu’ils sont beaux, Oh !</div>
+</div>
+<div class="couplet">
+<div>|: Nom de nom dit la patronne, qu’ils sont noirs, mais qu’ils sont beaux :|</div>
+<div>Sacrebleu, fait la servante tous les six il me les faut, Oh !</div>
+</div>
+<div class="couplet">
+<div>|: Sacrebleu, fait la servante tous les six il me les faut :|</div>
+<div>Et tous les six y passèrent du plus p’tit jusqu’au plus gros, Oh !</div>
+</div>
+<div class="couplet">
+<div> |: Et tous les six y passèrent du plus p’tit jusqu’au plus gros :|</div>
+<div>Nom de nom dit la patronne, qu’on leur rende leurs chapeaux, Oh !</div>
+</div>
+<div class="couplet">
+<div> |: Nom de nom dit la patronne, qu’on leur rende leurs chapeaux :|</div>
+<div>Sacrebleu, fait la servante leurs culottes, leurs godillots, Oh !</div>
+</div>
+<div class="couplet">
+<div> |: Sacrebleu, fait la servante leurs culottes, leurs godillots :|</div>
+<div>Car ici les beaux gars boivent et ne paient pas leur écot, Oh ! </div>
+</div>
+</div>
 
-**Gaudeamus igitur**,  
-*Juvenes dum sumus.*
+===== FILE: src\content\cantique-suisse-1981.svelte =====
+<script>
+  export let metadata = {
+    id: "cantique-suisse-1981",
+    title: "Cantique suisse (1981)",
+    theme: "Hymnes",
+    sortKeys: ["Cantique suisse (1981)"]
+  };
+</script>
 
+<div class="song">
+<div class="couplet">
+<div>Sur nos monts, quand le soleil</div>
+<div>Annonce un brillant réveil,
+Et prédit d’un plus beau jour le retour,
+Les beautés de la patrie
+Parlent à l’âme attendrie ;
+Au ciel montent plus joyeux
+Au ciel montent plus joyeux
+Les accents d’un cœur pieux,
+Les accents émus d’un cœur pieux.</div>
+</div>
+<div class="couplet">
+<div>Lorsqu’un doux rayon du soir</div>
+<div>Joue encore dans le bois noir,
+Le cœur se sent plus heureux près de Dieu.
+Loin des vains bruits de la plaine,
+L’âme en paix est plus sereine,
+Au ciel montent plus joyeux
+Au ciel montent plus joyeux
+Les accents d’un cœur pieux,
+Les accents émus d’un cœur pieux.</div>
+</div>
+<div class="couplet">
+<div>Lorsque dans la sombre nuit</div>
+<div>La foudre éclate avec bruit,
+Notre cœur pressent encore le Dieu fort ;
+Dans l’orage et la détresse
+Il est notre forteresse ;
+Offrons-lui des cœurs pieux :
+Offrons-lui des cœurs pieux :
+Dieu nous bénira des cieux,
+Dieu nous bénira du haut des cieux.</div>
+</div>
+<div class="couplet">
+<div>Des grands monts vient le secours ;</div>
+<div>Suisse, espère en Dieu toujours !
+Garde la foi des aïeux, Vis comme eux !
+Sur l’autel de la patrie
+Mets tes biens, ton cœur, ta vie !
+C’est le trésor précieux
+C’est le trésor précieux
+Que Dieu bénira des cieux,
+Que Dieu bénira du haut des cieux.</div>
+</div>
+</div>
 
+===== FILE: src\content\ce-n-est-qu-un-au-revoir-mes-freres.svelte =====
+<script>
+  export let metadata = {
+    id: "ce-n-est-qu-un-au-revoir-mes-freres",
+    title: "Ce n’est qu’un au revoir, mes frères",
+    theme: "Chansons populaires",
+    sortKeys: ["Ce n’est qu’un au revoir, mes frères"]
+  };
+</script>
 
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Faut-il nous quitter sans espoir,<br/>
+Sans espoir de retour ?<br/>
+Faut-il nous quitter sans espoir<br/>
+De nous revoir un jour ?<br/>
+</div>
+<div class="couplet">
+<div>Ce n’est qu’un au revoir, mes frères,</div>
+<div>Ce n’est qu’un au revoir.</div>
+<div>Oui, nous nous reverrons, mes frères,</div>
+<div>Ce n’est qu’un au revoir.</div>
+</div>
+<div class="couplet">
+<div>Formons de nos mains qui s’enlacent</div>
+<div>Au déclin de ce jour,</div>
+<div>Formons de nos mains qui s’enlacent</div>
+<div>Une chaîne d’amour.</div>
+</div>
+<div class="couplet">
+<div>Unis par cette douce chaîne</div>
+<div>Tous, en ce même lieu,</div>
+<div>Unis par cette douce chaîne</div>
+<div>Ne faisons point d’adieu.</div>
+</div>
+<div class="couplet">
+<div>Car Dieu qui nous voit tous ensemble</div>
+<div>Et qui va nous bénir,</div>
+<div>Car Dieu qui nous voit tous ensemble</div>
+<div>Saura nous réunir. </div>
+</div>
+</div>
 
-===== FILE: src\content\test.md =====
----
-id: test
-title: Aest2
-sortKeys: ["Test2"]
-themes: ["Traditionnel"]
-lang: fr
----
+===== FILE: src\content\ce-qu-e-laino-geneve.svelte =====
+<script>
+  export let metadata = {
+    id: "ce-qu-e-laino-geneve",
+    title: "Cé qu’è lainô (Genève)",
+    theme: "Hymnes",
+    sortKeys: ["Cé qu’è lainô (Genève)"]
+  };
+</script>
 
-# Gaudeamus Igitur
+<div class="song">
+<div class="couplet">
+<div>Cé qu’è lainô, le Maitre dé bataille, </div>
+<div>Que se moqué et se ri dé canaille, </div>
+<div>À bin fai vi, pè on desande nai, </div>
+<div>Qu’il étivé patron dé Genevouai. </div>
+</div>
+<div class="couplet">
+<div>I son vegnu le doze de dessanbro, </div>
+<div>Pè onna nai asse naire que d’ancro ;</div>
+<div>Y étivé l’an mil si san et dou, </div>
+<div>Qu’i veniron parla on pou trè tou. </div>
+</div>
+<div class="couplet">
+<div>Pè onna nai qu’étive la pe naire, </div>
+<div>I veniron ; y n’étai pas pè bairè !</div>
+<div>Y étivé pè pilli nou maison, </div>
+<div>Et no tüa sans aucuna raison. </div>
+</div>
+<div class="couplet">
+<div>Petis et grans, ossis an sevegnance !</div>
+<div>Pè on matin d’onna bella demanze, </div>
+<div>Et pè on zeur qu’y fassive bin frai, </div>
+<div>Sans le bon Di, nos étivon to prai ! </div>
+</div>
+<div class="couplet">
+<div>Dedian sa man il y tin la victoire, </div>
+<div>À lui solet en démure la gloire.</div>
+<div>À to zamai son Sain Non sai begni !</div>
+<div>Amen, amen, ainsi, ainsi soit-y !</div>
+</div>
+</div>
 
-**Gaudeamus igitur**,  
-*Juvenes dum sumus.*
+===== FILE: src\content\ch-ur-des-jeunes-seteviens.svelte =====
+<script>
+  export let metadata = {
+    id: "ch-ur-des-jeunes-seteviens",
+    title: "Chœur des jeunes Sétéviens",
+    theme: "Chants estudiantins",
+    sortKeys: ["Chœur des jeunes Sétéviens"]
+  };
+</script>
 
-## Refrain
+<div class="song">
 
-1. Chantons tous ensemble  
-2. Levons nos verres  
-3. Et célébrons la vie
+</div>
 
-> Ceci est un chant traditionnel étudiant.
+===== FILE: src\content\chevaliers-de-la-table-ronde.svelte =====
+<script>
+  export let metadata = {
+    id: "chevaliers-de-la-table-ronde",
+    title: "Chevaliers de la table ronde",
+    theme: "Chansons populaires",
+    sortKeys: ["Chevaliers de la table ronde"]
+  };
+</script>
 
-    (refrain à répéter)
+<div class="song">
+<div class="couplet">
+<div>Chevaliers de la table ronde</div>
+<div>Goûtons voir si le vin et bon
+Goûtons voir, oui, oui, oui
+Goûtons voir, non, non, non
+Goûtons voir si le vin et bon 
+</div>
+</div>
+<div class="couplet">
+<div>S’il est bon s’il est agréable</div>
+<div>J’en boirai jusqu’à mon plaisir… </div>
+</div>
+<div class="couplet">
+<div>Si je meurs, je veux qu’on m’enterre</div>
+<div>Dans la cave où il y a du bon vin… </div>
+</div>
+<div class="couplet">
+<div>Les deux pieds contre la muraille</div>
+<div>Et la tête sous le robinet… </div>
+</div>
+<div class="couplet">
+<div>Et les quatre plus grands ivrognes</div>
+<div>Porteront les quatre coins du drap… </div>
+</div>
+<div class="couplet">
+<div>Pour donner le discours d’usage</div>
+<div>On prendra le bistrot du coin… </div>
+</div>
+<div class="couplet">
+<div>Et si le tonneau se débouche</div>
+<div>J’en boirai jusqu’à mon loisir… </div>
+</div>
+<div class="couplet">
+<div>Et s’il en reste quelques gouttes</div>
+<div>Ce sera pour nous rafraîchir… </div>
+</div>
+<div class="couplet">
+<div>Sur ma tombe je veux qu’on inscrive</div>
+<div>Ici gît le roi des buveurs… </div>
+</div>
+</div>
 
+===== FILE: src\content\dans-une-tour-de-londres.svelte =====
+<script>
+  export let metadata = {
+    id: "dans-une-tour-de-londres",
+    title: "Dans une tour de Londres",
+    theme: "Chansons paillardes",
+    sortKeys: ["Dans une tour de Londres"]
+  };
+</script>
 
+<div class="song">
+<div class="couplet">
+<div>Dans une tour de Londres </div>
+<div>Là-haut, là-haut,</div>
+<div>Dans une tour de Londres </div>
+<div>Y avait un prisonnier (bis)</div>
+</div>
+<div class="couplet">
+<div>Il n’y voyait personne … </div>
+<div>Que la fill' ! du geôlier (bis)</div>
+</div>
+<div class="couplet">
+<div>Un jour il lui demande …</div>
+<div>La clef du cabinet (bis)</div>
+</div>
+<div class="couplet">
+<div>Quand il fut sur le trône … </div>
+<div>Il n’avait pas de papier (bis)</div>
+</div>
+<div class="couplet">
+<div>En attendant qu’ça sèche …</div>
+<div>Il se mit à chanter (bis)</div>
+</div>
+<div class="couplet">
+<div>J’emmerde la police …</div>
+<div>Et la maréchaussée (bis)</div>
+</div>
+<div class="couplet">
+<div>Les gendarmes l’entendirent …</div>
+<div>Et vinrent le trucider (bis)</div>
+</div>
+<div class="couplet">
+<div>La moral' de l’histoire …</div>
+<div>Est qu’il n’faut pas chier </div>
+<div>Sans avoir du papier.</div>
+</div>
+</div>
+
+===== FILE: src\content\de-profundis-morpionibus.svelte =====
+<script>
+  export let metadata = {
+    id: "de-profundis-morpionibus",
+    title: "De profundis morpionibus",
+    theme: "Chansons paillardes",
+    sortKeys: ["De profundis morpionibus"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+De profundis morpionibus <br/>
+Et secatis roupettibus<br/>
+Et escita verolabus.<br/>
+</div>
+<div class="couplet">
+<div>O ma muse prête-moi ta lyre</div>
+<div>Afin qu’en vers je puisse dire</div>
+<div>L’un des combats les plus fameux</div>
+<div>Qui l’y eut jamais sous les cieux.</div>
+</div>
+<div class="couplet">
+<div>Dans un vagin de forte taille</div>
+<div>Six cent mille poux livraient bataille</div>
+<div>A nombre égal de morpions </div>
+<div>Qui défendaient l’entrée du con.</div>
+</div>
+<div class="couplet">
+<div>Le choc fut épouvantable</div>
+<div>On croyait que c’était le diable</div>
+<div>Les femm's enceintes en accouchant </div>
+<div>Chiaient d’la merde au lieu d’enfants.</div>
+</div>
+<div class="couplet">
+<div>La bataille fut gigantesque</div>
+<div>Tous les morpions périr'nt ou presque </div>
+<div>A l’exception des plus trapus</div>
+<div>Qui s’accrochaient aux poils du cul.</div>
+</div>
+<div class="couplet">
+<div>Ils ont bouché presque la fente</div>
+<div>Que les morpions morts ensanglantent </div>
+<div>Et la vallée du cul au con</div>
+<div>Etait jonchée de morpions.</div>
+</div>
+<div class="couplet">
+<div>Le commandant d’une escouade </div>
+<div>Voyant périr ses camarades</div>
+<div>Cria : "Morpions ! nous sommes foutus </div>
+<div>Piquons un' charge au trou du cul."
+</div>
+</div>
+<div class="couplet">
+<div>Un morpion de noble origine</div>
+<div>Qui revenait de Palestine </div>
+<div>Leva sa lance et s’écria :</div>
+<div>"Les morpions meurent et n’se rendent pas."</div>
+</div>
+<div class="couplet">
+<div>Pour reprendre l’avantage</div>
+<div>Les morpions luttaient avec rage </div>
+<div>Mais leurs efforts furent superflus, </div>
+<div>Les poux gardèrent le dessus.</div>
+</div>
+<div class="couplet">
+<div>Leur général nouvel Enée </div>
+<div>Sortant des rangs de son armée </div>
+<div>A son rival, beau chevalier, </div>
+<div>Propose un combat singulier.</div>
+</div>
+<div class="couplet">
+<div>A ch'val sur un poil de roupette </div>
+<div>Armé d’une longue lorgnette </div>
+<div>Le capitaine des morpions </div>
+<div>Examinait les positions.</div>
+</div>
+<div class="couplet">
+<div>Bardé d’un triple rang de crasse, </div>
+<div>Transpercé malgré sa cuirasse, </div>
+<div>Le capitaine des morpions </div>
+<div>Tomba sans vie au fond du con.</div>
+</div>
+<div class="couplet">
+<div>Puis au plus fort de la bataille </div>
+<div>Soudain frappé par la mitraille </div>
+<div>Le maréchal des morpions </div>
+<div>Tomba mort à l’entrée du con.</div>
+</div>
+<div class="couplet">
+<div>Tout à coup un obus arrive </div>
+<div>Qui lui fait perdre l’équilibre </div>
+<div>Le capitaine est bien foutu</div>
+<div>Il tombe au fond du trou du cul</div>
+</div>
+<div class="couplet">
+<div>Un morpion motocycliste </div>
+<div>Prenant la raie du cul pour piste</div>
+<div>Vint avertir l’état-major</div>
+<div>Que le capitaine était mort.</div>
+</div>
+<div class="couplet">
+<div>Pour retirer leur capitaine</div>
+<div>Tous les morpions firent la chaîne. </div>
+<div>Mais hélas vains furent leurs efforts </div>
+<div>L’abîme ne rend pas ses morts.</div>
+</div>
+<div class="couplet">
+<div>Un soir au bord de la ravine </div>
+<div>Tout couvert de foutre et d’urine,</div>
+<div>On vit un fantôme tout nu</div>
+<div>A cheval sur un poil du cul.</div>
+</div>
+<div class="couplet">
+<div>C’était l’ombre du capitaine </div>
+<div>De chancres et d’asticots pleine</div>
+<div>Qui faute d’inhumation</div>
+<div>Puait la maroilles et l’arpion.</div>
+</div>
+<div class="couplet">
+<div>Devant ce spectre qui murmure, </div>
+<div>D’être privé de sépulture</div>
+<div>Tous les morpions firent serment </div>
+<div>De lui él'ver un monument.</div>
+</div>
+<div class="couplet">
+<div>En vain l’on chercha sa dépouille</div>
+<div>Sur la pine et sur les deux couilles </div>
+<div>On ne trouva qu’un bout de queue</div>
+<div>Qu’un sabre avait coupé en deux.</div>
+</div>
+<div class="couplet">
+<div>La troupe aussitôt prend les armes </div>
+<div>L’enterre en versant force larmes </div>
+<div>Comme au convoi d’un cardinal</div>
+<div>Ou bien d’un garde national.</div>
+</div>
+<div class="couplet">
+<div>Puis les plus jolies morpionnes </div>
+<div>Portaient en pleurant des couronnes </div>
+<div>De fleurs blanch's et de poils du cul </div>
+<div>Qu’avait tant aimés le vaincu.</div>
+</div>
+<div class="couplet">
+<div>Son cheval même l’accompagne</div>
+<div>Et quatre morpions d’Espagne</div>
+<div>Un' larme à l’œil, le crêpe au bras</div>
+<div>Tenaient les quatre coins du drap.</div>
+</div>
+<div class="couplet">
+<div>Au bord du profond précipice</div>
+<div>On rangea les morpions novices</div>
+<div>Ils déferlèr'nt par escadrons</div>
+<div>Tout en sonnant de leurs clairons.</div>
+</div>
+<div class="couplet">
+<div>Ils le suivirent au cimetière </div>
+<div>S’assirent en rond sur leur derrière </div>
+<div>La crotte au cul, la larme à l’œil </div>
+<div>Tous les morpions étaient en deuil.</div>
+</div>
+<div class="couplet">
+<div>On lui él'va un cénotaphe</div>
+<div>Où l’on grava cette épitaphe</div>
+<div>"Ci-gît un morpion de valeur</div>
+<div>Tombé sans vie au champ d’honneur".</div>
+</div>
+<div class="couplet">
+<div>Et l’on en fit une relique</div>
+<div>Que l’on mit dans un' basilique</div>
+<div>Pour que les futurs bataillons</div>
+<div>Sachent comment meurt un morpion.</div>
+</div>
+<div class="couplet">
+<div>Sur une couill' grosse et velue</div>
+<div>L’on érigea une statue </div>
+<div>A ce capitain' de morpions </div>
+<div>Mort si bravement au fond d’un con.</div>
+</div>
+<div class="couplet">
+<div>Depuis ce temps dans la vallée</div>
+<div>On entend des bruits de mêlée.</div>
+<div>Les morpions, pour venger l’vaincu </div>
+<div>S’cramponnent à tous les poils du cul.</div>
+</div>
+<div class="couplet">
+<div>Et parfois les soirs de brume,</div>
+<div>Quand sur la terr' se lèv' la lune,</div>
+<div>On voit les âmes des morpions </div>
+<div>Voltiger sur les poils du con.</div>
+</div>
+</div>
+
+===== FILE: src\content\fanchon.svelte =====
+<script>
+  export let metadata = {
+    id: "fanchon",
+    title: "Fanchon",
+    theme: "Chansons paillardes",
+    sortKeys: ["Fanchon"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Et ah ! c’que son entretien est doux, <br/>
+Qu’elle a de mérite et de gloire.<br/>
+Elle aime à rire, elle aime à boire (elle aime à boire !) <br/>
+Elle aime à chanter comme nous.<br/>
+|: Elle aime à rire, elle aime à boire<br/>
+Elle aime à chanter comme nous. :|<br/>
+(Gourgandine !)<br/>
+Oui comme nous (ter)<br/>
+</div>
+<div class="couplet">
+<div>Amis, il faut faire une pause, </div>
+<div>J’aperçois l’ombre d’un bouchon. </div>
+<div>Buvons à l’aimable Fanchon, </div>
+<div>Chantons pour elle quelque chose.</div>
+</div>
+<div class="couplet">
+<div>
+Fanchon, quoique bonne chrétienne, </div>
+<div>Fut baptisée avec du vin,</div>
+<div>Un Bourguignon fut son parrain, </div>
+<div>Une Bretonne sa marraine.</div>
+</div>
+<div class="couplet">
+<div>Fanchon préfère la grillade</div>
+<div>A tous les mets les plus délicats, </div>
+<div>Son teint prend un nouvel éclat </div>
+<div>Quand on lui verse une rasade.</div>
+</div>
+<div class="couplet">
+<div>Un jour le copain la Grenade </div>
+<div>Lui mit la main dans son corset, </div>
+<div>Elle répondit par un soufflet </div>
+<div>Sur le museau du camarade.</div>
+</div>
+<div class="couplet">
+<div>
+Si quelque fois elle est cruelle, </div>
+<div>C’est quand on lui parle d’amour. </div>
+<div>Mais moi, je ne lui fais la cour </div>
+<div>Que pour m’enivrer avec elle.</div>
+</div>
+</div>
+
+===== FILE: src\content\frere-guillaumette.svelte =====
+<script>
+  export let metadata = {
+    id: "frere-guillaumette",
+    title: "Frère Guillaumette",
+    theme: "Chansons paillardes",
+    sortKeys: ["Frère Guillaumette"]
+  };
+</script>
+
+<div class="song">
+<p>(Parlé) - Frère Guillaumette,</p>
+<p>Quand tu rencontres une nonette, que fais-tu ? </p>
+<p>(Le chœur) - Amen.</p>
+<p>Je l’emmène dans ma chambrette, </p>
+<p>Domino mino Domino minette,</p>
+<p>Je l’emmène dans ma chambrette, </p>
+<p>Domino mino. Eh ! Oh !</p>
+<p>(Parlé)</p>
+<p>- Frère Guillaumette,</p>
+<p>Quand tu rencontres une nonette, </p>
+<p>Que tu l’amènes dans ta chambrette, que fais-tu ?</p>
+<p>(Le chœur) - Amen.</p>
+<p>Je l’étends sur ma couchette, </p>
+<p>Domino mino Domino minette, </p>
+<p>Je l’étends sur ma couchette, </p>
+<p>Domino mino. Eh ! Oh !</p>
+<p>Je soulève sa chemisette</p>
+<p>Je déboutonne ma braguette</p>
+<p>Je sors ma grosse bistrouquette</p>
+<p>Je m’fais faire une p’tite branlette </p>
+<p>Je m’fais faire une p’tite sucette</p>
+<p>Je lui écarte les gambettes</p>
+<p>Je lui mets dans sa craquette</p>
+<p>J’fais juter ma bistrouquette</p>
+<p>Je décharge dans sa craquette</p>
+<p>Je tire une première crampette</p>
+<p>Je tire une deuxième crampette </p>
+<p>J’sens l’Bon Dieu dans mes roupettes.</p>
+</div>
+
+===== FILE: src\content\gaudeamus-igitur.svelte =====
+<script>
+  export let metadata = {
+    id: "gaudeamus-igitur",
+    title: "Gaudeamus igitur",
+    theme: "Chants estudiantins",
+    sortKeys: ["Gaudeamus igitur"]
+  };
+</script>
+
+<div class="song">
+<p>Les strophes 2 et 3 remontent à 1287. L’air est attesté dès 1738 et le texte complet date de 1781 par Christian Wilhelm Kindleben.</p>
+<div class="couplet">
+<div><strong>|: Gaudeamus igitur,</strong></div>
+<div><strong>juvenes dum sumus. :|</strong></div>
+<div><strong>post jucundam juventutem,</strong></div>
+<div><strong>post molestam senectutem,</strong></div>
+<div><strong>|: nos habebit humus ! :|</strong></div>
+</div>
+<div class="couplet">
+<div>|: Ubi sunt qui ante nos</div>
+<div>in mundo fuere ? :|</div>
+<div>vadite ad superos</div>
+<div>transite ad inferos</div>
+<div>|: ubi jam fuere. :|</div>
+</div>
+<div class="couplet">
+<div>|: Vita nostra brevis est,</div>
+<div>brevi finietur, :|</div>
+<div>venit mors velociter,</div>
+<div>rapit nos atrociter</div>
+<div>|: nemini parcetur ! :|</div>
+</div>
+<div class="couplet">
+<div>|: Vivat academia !</div>
+<div>vivant professores ! :|</div>
+<div>vivat membrum quodlibet !</div>
+<div>vivant membra quælibet !</div>
+<div>|: semper sint in flore ! :|</div>
+<div>|: Réjouissons-nous donc</div>
+<div>Tant que nous sommes jeunes :|</div>
+<div>Après une jeunesse agréable</div>
+<div>Après une vieillesse pénible</div>
+<div>|: La terre nous aura. :|</div>
+<div>|: Où sont ceux qui furent</div>
+<div>Sur terre avant nous ? :|</div>
+<div>Allez vers les cieux</div>
+<div>Passez par les enfers</div>
+<div>|: Là où ils ont déjà été. :|</div>
+<div>|: Notre vie est brève,</div>
+<div>Elle finira bientôt :|</div>
+<div>La mort vient rapidement</div>
+<div>Nous arrache atrocement</div>
+<div>|: En n’épargnant personne. :|</div>
+<div>|: Que vive l’Université,</div>
+<div>Que vivent les professeurs, :|</div>
+<div>Que chaque étudiant vive </div>
+<div>Que tous ses membres vivent </div>
+<div>|: Qu’ils soient toujours florissants ! :|</div>
+</div>
+<div class="couplet">
+<div>|: Vivant omnes virgines</div>
+<div>faciles, formosæ ! :|</div>
+<div>vivant et mulieres,</div>
+<div>teneræ, amabiles,</div>
+<div>|: bonæ, laboriosæ ! :|</div>
+</div>
+<div class="couplet">
+<div>|: Vivat et respublica,</div>
+<div>et qui illam regit ! :|</div>
+<div>vivat nostra civitas,</div>
+<div>mæcenatum caritas,</div>
+<div>|: quæ nos hic protegit ! :|</div>
+</div>
+<div class="couplet">
+<div><strong>|: Pereat tristitia !</strong></div>
+<div><strong>pereant osores ! :|</strong></div>
+<div><strong>pereat diabolus</strong></div>
+<div><strong>quivis antiburschius</strong></div>
+<div><strong>|: atque irrisores ! :|</strong></div>
+<div>|: Que vivent toutes les jeunes filles,</div>
+<div>Affables, belles, :|</div>
+<div>Que vivent aussi les femmes</div>
+<div>Tendres, aimables,</div>
+<div>Bonnes, travailleuses !</div>
+<div>|: Que vive aussi la République,</div>
+<div>Et celui qui la dirige ! :|</div>
+<div>Que vive notre cité,</div>
+<div>Le bon cœur des mécènes</div>
+<div>|: Qui nous protège ici. :|</div>
+<div>|: Que périsse la tristesse,</div>
+<div>Que périssent ceux qui nous haïssent :|</div>
+<div>Que périsse le diable</div>
+<div>Tous les ennemis de notre confrérie</div>
+<div>|: Ainsi que les railleurs. :|</div>
+</div>
+</div>
+
+===== FILE: src\content\gaudeamus-un-hommage-2024.svelte =====
+<script>
+  export let metadata = {
+    id: "gaudeamus-un-hommage-2024",
+    title: "Gaudeamus, un hommage (2024)",
+    theme: "Chansons prologues",
+    sortKeys: ["Gaudeamus, un hommage (2024)"]
+  };
+</script>
+
+<div class="song">
+<p><em>Sur l’air de Gaudeamus Igitur</em></p>
+<div class="couplet">
+<div>J'ai un testicule tout bleu</div>
+<div>Est-ce que tu crois que c'est normal aïe aïe aïe *bis*</div>
+<div>Je crois que tu ferais mieux</div>
+<div>D'aller consulter un peu</div>
+<div>Un urologue</div>
+<div>Pas ta grand-mère</div>
+</div>
+<div class="couplet">
+<div>Ma grand-mère est acupunctrice</div>
+<div>C'est carrément un peu pareil hey hey hey *bis*</div>
+<div>Elle en enfonce une dans le bleu</div>
+<div>Après elle trifouille un peu</div>
+<div>Si tu veux faire ça en famille</div>
+<div>C'est pas la peine d'en parler ici</div>
+</div>
+<div class="couplet">
+<div>J'ai le nez qui saigne très fort</div>
+<div>Et je fais un AVC eh eh eh *bis*</div>
+<div>Tu aurais pu te dispenser</div>
+<div>De boire ces litres de rosé</div>
+<div>Oui mais c'est pour pouvoir supporter</div>
+<div>Ces chansons écrites avec les pieds</div>
+</div>
+<div class="couplet">
+<div>A propos j'ai mal aux pieds</div>
+<div>Et les chevilles toute enflées eh eh eh *bis*</div>
+<div>Je crois qu'tu me les as cassés</div>
+<div>En écrivant ces couplets</div>
+<div>Personne te force à participer</div>
+<div>Si t'es pas contente retourne te cacher</div>
+</div>
+<div class="couplet">
+<div>Mais comment avons-nous osé</div>
+<div>Ruiner ce chant vénéré eh eh eh *bis*</div>
+<div>On ne nous y reprendra jamais</div>
+<div>Ou pas avant l'année prochaine</div>
+<div>Mais vous nous aurez boycottés</div>
+<div>Sales méchants en-vi-eux que vous êtes</div>
+<div>Est-l’As</div>
+</div>
+</div>
+
+===== FILE: src\content\helvetia-1832-1971-geneve.svelte =====
+<script>
+  export let metadata = {
+    id: "helvetia-1832-1971-geneve",
+    title: "Helvétia (1832 ; 1971, Genève)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Helvétia (1832 ; 1971, Genève)"]
+  };
+</script>
+
+<div class="song">
+<p><em>Aux Helvétiens (VI)</em></p>
+<div class="couplet">
+<div>Helvétiens, brave ami soit fidèle </div>
+</div>
+<div class="couplet">
+<div>Au grand drapeau qui flotte devant toi ; </div>
+</div>
+<div class="couplet">
+<div>Marche toujours, plein d’une ardeur nouvelle, </div>
+</div>
+<div class="couplet">
+<div>|: Lis sa devise et qu’elle soit ta loi. :| </div>
+</div>
+<div class="couplet">
+<div>Vers le progrès suis tes amis, tes frères, </div>
+</div>
+<div class="couplet">
+<div>Toujours plus loin toujours plus en avant, </div>
+</div>
+<div class="couplet">
+<div>|: L’Helvétia verra des jours prospères, </div>
+</div>
+<div class="couplet">
+<div>Sur le Léman, sur le Léman. :|</div>
+</div>
+<div class="couplet">
+<div>Que l’amitié te console et repose </div>
+</div>
+<div class="couplet">
+<div>Ton cœur meurtri par les coups du destin, </div>
+</div>
+<div class="couplet">
+<div>Et que parfois elle laisse une rose </div>
+</div>
+<div class="couplet">
+<div>|: Fleurir encore aux ronces du chemin. :| </div>
+</div>
+<div class="couplet">
+<div>Notre Patrie a besoin d’âmes fières, </div>
+</div>
+<div class="couplet">
+<div>Dans le danger, montre-toi noble et grand. </div>
+</div>
+<div class="couplet">
+<div>|: L’Helvétia verra des jours prospères, </div>
+</div>
+<div class="couplet">
+<div>Sur le Léman, sur le Léman. :|</div>
+</div>
+</div>
+
+===== FILE: src\content\hymne-neuchatelois.svelte =====
+<script>
+  export let metadata = {
+    id: "hymne-neuchatelois",
+    title: "Hymne neuchâtelois",
+    theme: "Hymnes",
+    sortKeys: ["Hymne neuchâtelois"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Nous sommes les enfants heureux</div>
+<div>de la meilleure des patries ;</div>
+<div>nous aimons ses coteaux ombreux,</div>
+<div>son doux lac, ses combes fleuries,</div>
+<div>et la paisible majesté</div>
+<div>de ses grandes joux séculaires,</div>
+<div>et le Soleil qui les éclaire,</div>
+<div>le Soleil de la liberté !</div>
+</div>
+<div class="couplet">
+<div>Là-haut, sur l’Alpe aux blancs sommets,</div>
+<div>aux jours anciens de notre histoire,</div>
+<div>nos aïeux déjà l’acclamaient</div>
+<div>quand il s’est levé dans sa gloire,</div>
+<div>vers d’autres destins emportés,</div>
+<div>poursuivant ce rêve d’aurore,</div>
+<div>leurs yeux au loin cherchaient encore</div>
+<div>le Soleil de la liberté !</div>
+</div>
+<div class="couplet">
+<div>Mais voici qu’au son des tambours</div>
+<div>descend la jeune République ;</div>
+<div>Neuchâtel sur ses vieilles tours</div>
+<div>fait flotter la croix helvétique.</div>
+<div>Béni soit Dieu dans sa bonté,</div>
+<div>et les hommes au fier courage</div>
+<div>qui préparèrent sous l’outrage</div>
+<div>le Soleil de la liberté !</div>
+</div>
+<div class="couplet">
+<div>Ils furent les bons travailleurs</div>
+<div>qui pour les autres ensemencent ;</div>
+<div>nous aussi, dans des jours meilleurs,</div>
+<div>répandons le grain d’espérance,</div>
+<div>afin qu’au souffle des étés,</div>
+<div>la moisson du peuple grandisse</div>
+<div>moisson d’amour et de justice</div>
+<div>au Soleil de la liberté !</div>
+</div>
+</div>
+
+===== FILE: src\content\hymne-setevien.svelte =====
+<script>
+  export let metadata = {
+    id: "hymne-setevien",
+    title: "Hymne Sétévien",
+    theme: "Chants estudiantins",
+    sortKeys: ["Hymne Sétévien"]
+  };
+</script>
+
+<div class="song">
+<p>Pourquoi viens-tu dans ces bas lieux t’y enfermer le soir ?</p>
+<p>C’est pour y retrouver les vieux avec qui je sais boir’</p>
+<p>Et pourquoi rire et pourquoi boir’ et pourquoi s’amuser ?</p>
+<p>C’est pour montrer aux assoiffés qu’on n’veut pas s’la miner, qu’on ne veut pas s’la miner.</p>
+<p>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, grâce à SÉTÉVIA, grâce à SÉTÉVIA !</p>
+<p>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, oui grâce à SÉTÉVIA — Ah — Ah !</p>
+</div>
+
+===== FILE: src\content\hymne-valaisan.svelte =====
+<script>
+  export let metadata = {
+    id: "hymne-valaisan",
+    title: "Hymne valaisan",
+    theme: "Hymnes",
+    sortKeys: ["Hymne valaisan"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Quel est ce pays merveilleux,</div>
+<div>Que je chéris, où je suis né ?</div>
+<div>Où l’Alpe blanche jusqu’aux cieux</div>
+<div>Élève son front couronné !</div>
+</div>
+<div class="refrain" data-title="Refrain">
+Vallée où le Rhône a son cours,<br/>
+Noble pays de mes amours,<br/>
+C’est toi, c’est toi, mon beau Valais !<br/>
+Reste à jamais, Reste à jamais, Reste mes amours !<br/>
+</div>
+<div class="couplet">
+<div>Pays si souvent arrosé</div>
+<div>Par le sang des preux, des héros,</div>
+<div>Qui pour leurs neveux ont posé</div>
+<div>Le fondement des jours nouveaux,</div>
+</div>
+<div class="couplet">
+<div>Pays où sur les monts altiers</div>
+<div>Le chamois librement bondit,</div>
+<div>Quant aux coteaux ensoleillés,</div>
+<div>Mûrit le doux fruit du Midi.</div>
+</div>
+<div class="couplet">
+<div>Pays charmant et radieux</div>
+<div>Où la rose alpine fleurit,</div>
+<div>Où le glacier, de nouveaux feux,</div>
+<div>Le soir s’empourpre et resplendit.</div>
+</div>
+<div class="couplet">
+<div>Pays qu’habite un peuple heureux,</div>
+<div>Ami de la simplicité,</div>
+<div>Intrépide et laborieux,</div>
+<div>Gardant sa foi, sa liberté.</div>
+</div>
+<p>3</p>
+<p><strong>3</strong>1 du mois d’août36	</p>
+<p>A</p>
+<p><strong>A</strong> l’hôpital Saint-Louis116	</p>
+<p>Ah ! que nos pères étaient heureux44	</p>
+<p>Ah vous dirai-je maman…70	</p>
+<p>Ah ! que nos pères étaient heureux44	</p>
+<p>Air d’entrée143	</p>
+<p>Allons à Messine65	</p>
+<p>Alouette50	</p>
+<p>Au 31 du mois d’août36	</p>
+<p>Auprès de ma blonde51	</p>
+<p>B</p>
+<p><strong>B</strong>ella Ciao46	</p>
+<p>Belle Hortense120	</p>
+<p>Berger fidèle94	</p>
+<p>Bicêtre123	</p>
+<p>Boire un petit coup c'est agréable54	</p>
+<p>Bordel a fermé ses volets129	</p>
+<p>Branle Charlotte110	</p>
+<p>C</p>
+<p><strong>C</strong>antique suisse156	</p>
+<p>Ce n’est qu’un au revoir, mes frères55	</p>
+<p>Cé qu’è lainô158	</p>
+<p>C'est à boire52	</p>
+<p>Charlotte110	</p>
+<p>Chevaliers de la table ronde42	</p>
+<p>Chœur des jeunes Sétéviens19	</p>
+<p>D</p>
+<p><strong>D</strong>ans une tour de Londres102	</p>
+<p>De brevitate vitae20	</p>
+<p>De profundis morpionibus85	</p>
+<p>Digue du cul62	</p>
+<p>Du dieu Vulcain104	</p>
+<p>Duc de Bordeaux131	</p>
+<p>Dupanloup136	</p>
+<p>F</p>
+<p><strong>F</strong>anchon78	</p>
+<p>Femme du roulier139	</p>
+<p>Filles de Camaret92	</p>
+<p>Filles de la Rochelle121	</p>
+<p>Frère Guillaumette106	</p>
+<p>G</p>
+<p><strong>G</strong>audeamus igitur20	</p>
+<p>Gaudeamus, un hommage145	</p>
+<p>H</p>
+<p><strong>H</strong>ôpital Saint-Louis116	</p>
+<p>Huguette127	</p>
+<p>Hymne d’Helvétia25	</p>
+<p>Hymne de Belles-Lettres24	</p>
+<p>Hymne de l’Activitas26	</p>
+<p>Hymne de l’Agaunia27	</p>
+<p>Hymne de la Lémania25	</p>
+<p>Hymne de la Nuithonia27	</p>
+<p>Hymne de la Sarinia27	</p>
+<p>Hymne de la Self29	</p>
+<p>Hymne de la SES28	</p>
+<p>Hymne de la Waldstättia28	</p>
+<p>Hymne de Stella26	</p>
+<p>Hymne de Valdésia26	</p>
+<p>Hymne de Zofingue24	</p>
+<p><strong>H</strong>ymne fribourgeois157	</p>
+<p>Hymne genevois158	</p>
+<p>Hymne jurassien159	</p>
+<p>Hymne neuchâtelois160	</p>
+<p>Hymne Sétévien16, 17, 23	</p>
+<p>Hymne suisse156	</p>
+<p>Hymne valaisan161	</p>
+<p>Hymne Vaudois154	</p>
+<p>I</p>
+<p><strong>I</strong>nternationale80	</p>
+<p>J</p>
+<p><strong>J</strong>e veux juste ken146	</p>
+<p>Jeanneton49	</p>
+<p>Joueur de luth74	</p>
+<p>Joyeux enfants de la Bourgogne41	</p>
+<p>K</p>
+<p><strong>K</strong>yrie60	</p>
+<p>L</p>
+<p><strong>L</strong>’internationale80	</p>
+<p>La belle Hortense120	</p>
+<p>La digue du cul62	</p>
+<p>La femme du roulier139	</p>
+<p>La mère Michel90	</p>
+<p>La messe de minuit22	</p>
+<p>La nouvelle Rauracienne159	</p>
+<p>La nuit à l’asile148	</p>
+<p>La petite Charlotte110	</p>
+<p>La petite Huguette127	</p>
+<p>La pompe à merde125	</p>
+<p>Le bordel a fermé ses volets128	</p>
+<p>Le Cantonnier82	</p>
+<p>Le Duc de Bordeaux131	</p>
+<p>Le joueur de luth74	</p>
+<p><strong>L</strong>e métropolitain34	</p>
+<p>Le plaisir des dieux104	</p>
+<p>Le pou et l’araignée97	</p>
+<p>Le ranz des vaches157	</p>
+<p>Le Vieux Chalet56	</p>
+<p>Les bretelles100	</p>
+<p>Les chevaliers de la table ronde42	</p>
+<p>Les filles de Camaret92	</p>
+<p>Les filles de la Rochelle121	</p>
+<p>Les moines de St. Bernardin77	</p>
+<p>Les quatre-vingts chasseurs108	</p>
+<p>Les trois orfèvres68	</p>
+<p>Lyobâ157	</p>
+<p>M</p>
+<p><strong>M</strong>arche américaine115	</p>
+<p>Mère Michel90	</p>
+<p>Messine65	</p>
+<p>Métropolitain34	</p>
+<p>Missa Solemnis22	</p>
+<p>Moines de St. Bernardin77	</p>
+<p>Mon frère est poitrinaire116	</p>
+<p>Mon père me donne cent sous100	</p>
+<p>N</p>
+<p><strong>N</strong>ini peau de chien38	</p>
+<p>Non, non, non, non Sétévia n'est pas morte19	</p>
+<p>Nuit à l’asile148	</p>
+<p>O</p>
+<p><strong>O</strong>h mon berger fidèle94	</p>
+<p>P</p>
+<p><strong>P</strong>ère Dupanloup136	</p>
+<p>Pompe à merde125	</p>
+<p>Pot-pourri Lémanien30	</p>
+<p>Pou et l’araignée97	</p>
+<p>Q</p>
+<p><strong>Q</strong>u’on apporte133	</p>
+<p>Quatre-vingts chasseurs108	</p>
+<p>R</p>
+<p><strong>R</strong>oulier139	</p>
+<p>S</p>
+<p><strong>S</strong>ur la route de Louviers82	</p>
+<p>T</p>
+<p><strong>T</strong>rois orfèvres68	</p>
+<p>V</p>
+<p><strong>V</strong>ieux Chalet56	</p>
+<p>Z</p>
+<p><strong>Z</strong>ita113	</p>
+<p>Gaudeamus igitur, réjouissons-nous !</p>
+<p>Les chansons permettent de faciliter le contact et de maintenir la liaison avec les générations précédentes et les sociétés amies.</p>
+<p>Le cantus de Sétévia en 1964 est le « Berlingot d’Amour », remplacé par la suite par le « Lutrin d’Amour » qui a accompagné les Dignes Sétéviens jusqu’à aujourd’hui. Certaines illustrations, du présent ouvrage, proviennent du « Lutrin d’Amour », merci à Stella d’avoir permis leur reproduction.</p>
+<p>Le temps passant, il était opportun d’effectuer une révision s’adaptant aux besoins actuels — que ce soient des chants connus des Actifs ou de sociétés amies, sans oublier ceux connus des Anciens !</p>
+<p>Ce cantus est destiné à Sétévia en priorité et, dans un second temps, aux portants couleurs.</p>
+<p>En raison du caractère particulier des textes et dessins, il ne saurait être exposé ou reproduit, particulièrement en dehors des Sociétés d’Etudiants.</p>
+<p>Le présent recueil est le fruit d’une équipe :</p>
+<p><em>Poreau, Ricin, Gulliver, Phallus, Etale, LaTeX</em></p>
+<p><strong>Sétévia, 31 décembre 2023</strong></p>
+</div>
+
+===== FILE: src\content\hymne-vaudois.svelte =====
+<script>
+  export let metadata = {
+    id: "hymne-vaudois",
+    title: "Hymne Vaudois",
+    theme: "Hymnes",
+    sortKeys: ["Hymne Vaudois"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Vaudois ! un nouveau jour se lève,</div>
+<div>Il porte la joie en nos cœurs</div>
+<div>La liberté n’est plus un rêve,</div>
+<div>Les droits de l’homme sont vainqueurs.</div>
+<div>De notre antique dépendance</div>
+<div>Chassons l’importun souvenir,</div>
+<div>Et du plus riant avenir</div>
+<div>Osons concevoir l’espérance !</div>
+</div>
+<div class="refrain" data-title="Refrain">
+|: Que dans ces lieux règnent à jamais<br/>
+L’amour des lois, la liberté, la paix ! :|<br/>
+</div>
+<div class="couplet">
+<div>Que dans nos riantes campagnes</div>
+<div>Cet heureux refrain soit chanté,</div>
+<div>Que par l’écho de nos montagnes</div>
+<div>Il soit mille fois répété.</div>
+<div>Dans les bras d’une mère tendre,</div>
+<div>Qu’il soit bégayé par l’enfant</div>
+<div>Que la voix d’un sexe charmant</div>
+<div>À nos guerriers le fasse entendre.</div>
+</div>
+<div class="couplet">
+<div>Voyez cette eau brillante et pure,</div>
+<div>Ces coteaux, ce site enchanteur.</div>
+<div>Enfants chéris de la nature,</div>
+<div>Jouissons de notre bonheur !</div>
+<div>De l’acte qui nous régénère</div>
+<div>Révérons les feuillets sacrés</div>
+<div>Qu’aux noms par la haine inspirée</div>
+<div>Succède le doux nom de frère ! </div>
+</div>
+<div class="couplet">
+<div>Que la fermeté, la prudence,</div>
+<div>Guident toujours le magistrat</div>
+<div>Dans ses mains avec confiance</div>
+<div>Laissons les rênes de l’État,</div>
+<div>Libres, égaux, mais sans licence,</div>
+<div>N’ayons pas les tristes regrets</div>
+<div>D’avoir creusé par nos ex</div>
+<div>Le tombeau de l’indépendance ! </div>
+</div>
+<div class="couplet">
+<div>Dieu puissant ! sur nos destinées</div>
+<div>Répands de nouveau les bienfaits</div>
+<div>Que nos passions enchaînées</div>
+<div>Se taisent devant tes décrets.</div>
+<div>Que, soumis à ta Providence,</div>
+<div>Le Vaudois, plein de ton amour,</div>
+<div>Puisse t’adresser chaque jour</div>
+<div>L’hymne de sa reconnaissance !</div>
+</div>
+</div>
+
+===== FILE: src\content\je-veux-juste-ken-2024.svelte =====
+<script>
+  export let metadata = {
+    id: "je-veux-juste-ken-2024",
+    title: "Je veux juste ken (2024)",
+    theme: "Chansons prologues",
+    sortKeys: ["Je veux juste ken (2024)"]
+  };
+</script>
+
+<div class="song">
+<p><em>Sur l’air de I'm just Ken (de Barbie - Ryan Gosling)</em></p>
+<p>Tout autour de moi</p>
+<p>Les glaciers fondent</p>
+<p>Les rivières inondent</p>
+<p>Et le corail se désagrège</p>
+<p>Encore</p>
+<p>Un degré de plus</p>
+<p>Au thermomètre</p>
+<p>Pourvu que ça s'arrête</p>
+<p>Mais si j'y réfléchis vraiment</p>
+<p>Tout ça n'est pas si important</p>
+<p>Je veux juste ken</p>
+<p>J'en ai rien à foutre des baleines</p>
+<p>Je veux baiser à 100 à l'heure de moyenne</p>
+<p>Même si ça génère des gaz à effet de serre</p>
+<p>Je veux juste ken</p>
+<p>Draguer au Barberousse en semaine</p>
+<p>Fumer des clopes à me goudronner les ailes</p>
+<p>Comme les mouettes qu'on croise au Finistère</p>
+<p>J'ai un compost</p>
+<p>Je trie mes déchets</p>
+<p>Un écolo nazi</p>
+<p>J'ai des abdos</p>
+<p>Je fais du vélo</p>
+<p>Mais ça c'est fini</p>
+<p>C'est mon grand moment</p>
+<p>Dès maintenant</p>
+<p>Je fonde un harem</p>
+<p>J'aime les caleçons</p>
+<p>Au revoir l'écologie</p>
+<p>Plus besoin de thérapie</p>
+<p>J'achète des préservatifs</p>
+<p>J'emmerde les micro plastiques</p>
+<p>Je veux juste ken</p>
+<p>Je dois trouver de jeunes éphèbes</p>
+<p>Pour assurer ma descendance obscène</p>
+<p>Obèse et pleine d'anomalies géniques</p>
+<p>Je veux juste ken</p>
+<p>Mes enfants auront des problèmes</p>
+<p>Encore plus graves que ceux qu'on imagine</p>
+<p>Mais c'est dans longtemps, rien qui me concerne</p>
+<p>Je veux juste ken (et vous aussi)</p>
+<p>C'est pour ça qu'on est ici</p>
+<p>Enfin pas vraiment juste ici, mais vous m'avez compris</p>
+<p>On veut juste ken (et pourquoi pas)</p>
+<p>Passez nous voir après le spectacle</p>
+<p>On est sympa, on a des standards très bas</p>
+<p>Et je veux juste ken !</p>
+<p>Est-l’As</p>
+</div>
+
+===== FILE: src\content\jeanneton.svelte =====
+<script>
+  export let metadata = {
+    id: "jeanneton",
+    title: "Jeanneton",
+    theme: "Chansons populaires",
+    sortKeys: ["Jeanneton"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Jeanneton prend sa faucille </div>
+<div>Lahirette, Lahirette, </div>
+<div>Jeanneton prend sa faucille </div>
+<div>Pour aller couper les joncs (bis)</div>
+</div>
+<div class="couplet">
+<div>En chemin elle rencontre …</div>
+<div>Quatre jeun' s et beaux garçons (bis)</div>
+</div>
+<div class="couplet">
+<div>Le premier, un peu timide, …</div>
+<div>Lui caressa le menton (bis)</div>
+</div>
+<div class="couplet">
+<div>Le second un peu moins sage …</div>
+<div>La coucha sur le gazon (bis)</div>
+</div>
+<div class="couplet">
+<div>Le troisième, un intrépide, …</div>
+<div>Lui souleva le jupon (bis)</div>
+</div>
+<div class="couplet">
+<div>Ce que fit le quatrième …</div>
+<div>N’est pas dit dans la chanson (bis)</div>
+</div>
+<div class="couplet">
+<div>Si vous le saviez, Mesdames, …</div>
+<div>Vous iriez couper des joncs (bis)</div>
+</div>
+<div class="couplet">
+<div>La moral' de cette histoire, …</div>
+<div>C’est qu’les homm's sont des cochons (bis)</div>
+</div>
+<div class="couplet">
+<div>La moral' de cett' morale, …</div>
+<div>C’est qu’les femm's aiment les cochons (bis)</div>
+</div>
+<div class="couplet">
+<div>La moral' de ces morales, …</div>
+<div>Sur quatre hommes, y a trois couillons (bis)</div>
+</div>
+</div>
+
+===== FILE: src\content\joyeux-enfants-de-la-bourgogne.svelte =====
+<script>
+  export let metadata = {
+    id: "joyeux-enfants-de-la-bourgogne",
+    title: "Joyeux enfants de la Bourgogne",
+    theme: "Chansons populaires",
+    sortKeys: ["Joyeux enfants de la Bourgogne"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Joyeux enfants de la Bourgogne <br/>
+Je n’ai jamais eu de guignon, <br/>
+Quand je vois rougir ma trogne, <br/>
+Je suis fier d’être bourguignon <br/>
+|: Et je suis fier, et je suis fier,<br/>
+Et je suis fier d’être bourguignon. :|<br/>
+</div>
+<div class="couplet">
+<div>Au sein d’une vigne, </div>
+<div>J’ai reçu le jour.</div>
+<div>Ma mère était digne </div>
+<div>De tout mon amour. </div>
+<div>Depuis ma naissance </div>
+<div>Elle m’a nourri.</div>
+<div>En reconnaissance </div>
+<div>Mon cœur la chérit.</div>
+</div>
+<div class="couplet">
+<div>Toujours la bouteille</div>
+<div>A côté de moi,</div>
+<div>Buvant sous la treille</div>
+<div>Plus heureux qu’un roi. </div>
+<div>Jamais je n’m’embrouille, </div>
+<div>Car chaque matin,</div>
+<div>Je me débarbouille</div>
+<div>Dans un verre de vin.</div>
+</div>
+<div class="couplet">
+<div>Madère et Champagne, </div>
+<div>Approchez un peu.</div>
+<div>Et vous, vins d’Espagne, </div>
+<div>Malgré tous vos feux, </div>
+<div>Amis de l’ivrogne, </div>
+<div>Réclamez vos droits, </div>
+<div>Devant la Bourgogne </div>
+<div>Saluez trois fois.</div>
+</div>
+<div class="couplet">
+<div>Ma femme est aimable </div>
+<div>Et sur ses appâts, </div>
+<div>Quand je sors de table, </div>
+<div>Je ne m’endors pas.</div>
+<div>Je lui dis : "Mignonne, </div>
+<div>Je plains ton destin". </div>
+<div>Mais ma Bourguignonne </div>
+<div>Jamais ne s’en plaint.</div>
+</div>
+<div class="couplet">
+<div>Je veux qu’on enterre, </div>
+<div>Quand je serai mort, </div>
+<div>Près de moi un verre </div>
+<div>Empli jusqu’au bord. </div>
+<div>J’veux êtr' dans ma cave </div>
+<div>Tout près de mon vin </div>
+<div>Dans une pose grave </div>
+<div>Le nez sous l’robin.</div>
+</div>
+</div>
+
+===== FILE: src\content\kyrie.svelte =====
+<script>
+  export let metadata = {
+    id: "kyrie",
+    title: "Kyrie",
+    theme: "Chansons paillardes",
+    sortKeys: ["Kyrie"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Kyrie, Christum dominum nostrum
+Kyrie eleison <br/>
+</div>
+<div class="couplet">
+<div>Kyrie, Kyrie,</div>
+<div>Dans les chambres de nos abbés</div>
+<div>On y mange (bis)</div>
+<div>Que des mets bien préparés</div>
+<div>Mais nous autres,</div>
+<div>Pauvres apôtres,</div>
+<div>Pauvres moines, tripaillons de moines,</div>
+<div>Sacré nom de bleu de religieux, de religieux</div>
+<div>Nous ne bouffons que des mets avariés</div>
+<div>Eleison.</div>
+</div>
+<div class="couplet">
+<div>Kyrie, Kyrie,</div>
+<div>Dans les chambres de nos abbés</div>
+<div>On n’y pinte (bis)</div>
+<div>Que des vins bien cachetés </div>
+<div>Mais nous autres,</div>
+<div>Pauvres apôtres,</div>
+<div>Pauvres moines, tripaillons de moines </div>
+<div>Sacré nom de bleu de religieux, de religieux</div>
+<div>Nous ne buvons que des vins frelatés</div>
+<div>Eleison.</div>
+</div>
+<div class="couplet">
+<div>Kyrie, Kyrie,</div>
+<div>Dans les chambres de nos abbés</div>
+<div>On se couche (bis)</div>
+<div>Sur des matelas bien douillets</div>
+<div>Mais nous autres,</div>
+<div>Pauvres apôtres,</div>
+<div>Pauvres moines, tripaillons de moines,</div>
+<div>Sacré nom de bleu de religieux, de religieux</div>
+<div>Nous couchons sur la paille de blé</div>
+<div>Eleison.</div>
+</div>
+<div class="couplet">
+<div>Kyrie, Kyrie,</div>
+<div>Dans les chambres de nos abbés</div>
+<div>On n’y baise (bis)</div>
+<div>Que des femmes de qualité</div>
+<div>Mais nous autres,</div>
+<div>Pauvres apôtres,</div>
+<div>Pauvres moines, tripaillons de moines,</div>
+<div>Sacré nom de bleu de religieux, de religieux</div>
+<div>Nous ne baisons que des cons vérolés</div>
+<div>Eleison.</div>
+</div>
+<div class="couplet">
+<div>Kyrie, Kyrie,</div>
+<div>Dans les chambres de nos abbés</div>
+<div>On n’y encule (bis)</div>
+<div>Que des jeunes gens bien tournés</div>
+<div>Mais nous autres,</div>
+<div>Pauvres apôtres,</div>
+<div>Pauvres moines, tripaillons de moines,</div>
+<div>Sacré nom de bleu de religieux, de religieux</div>
+<div>Nous ne pouvons que nous entre-culer</div>
+<div>Eleison.</div>
+</div>
+</div>
+
+===== FILE: src\content\l-internationale.svelte =====
+<script>
+  export let metadata = {
+    id: "l-internationale",
+    title: "L’internationale",
+    theme: "Chansons paillardes",
+    sortKeys: ["L’internationale"]
+  };
+</script>
+
+<div class="song">
+<p>ESPAGNOL</p>
+<p>Orlando s’lav' la pine à grand' eau.</p>
+<p>ITALlEN</p>
+<p>Raviouli l’a comme oune spaghetti.</p>
+<p>POLONAIS</p>
+<p>Wiczinski s’lav' les couilles au whisky.</p>
+<p>RUSSE</p>
+<p>Souvaroff suc' la pine au sous-off.</p>
+<p>FRANÇAIS</p>
+<p>C’est Thérès' qui rit quand on la baise.</p>
+<p>CHINOIS</p>
+<p>Qui salit sa pine en chiant d’ssus. </p>
+<p>Qui qu’c’est qui, qui t’l’a foutu au cul.</p>
+<p>JAPONAIS</p>
+<p>L’amiral chia du haut du mât.</p>
+<p>ALLEMAND</p>
+<p>Baisse ta gain', Gretchen, que j’baise ta croupe.</p>
+<p>SUISSE</p>
+<p>Tu te bernes, t’auras pas mon trou d’balle.</p>
+<p>BELGE</p>
+<p>Mon Anvers voulut que mon Ostende.</p>
+<p>TURC</p>
+<p>Mustapha qu’a mal à la biroute.</p>
+<p>SUD-AMERICAIN (cha-cha)</p>
+<p>Si tu perds ton gland, tu le perds où ? </p>
+<p>C’est Pedro Sanchez qui bande à l’aise.</p>
+<p>ISRAELIEN</p>
+<p>Sors ton zob, que j’aie ton Tel-Aviv.</p>
+<p>TCHEQUE</p>
+<p>Quand, j’érect', j’érect' du sperme sec.</p>
+<p>ANGLAIS</p>
+<p>Mr. Smith, tout doux, se frott' la bite.</p>
+<p>MALGACHE</p>
+<p>Band' bien fort car ta nana arrive.</p>
+<p>SÉTÉVIEN</p>
+<p>C’est Ricin qui nous chante le refrain.</p>
+<p>LATIN</p>
+<p>Romulus vouluss' qu’on lui la suce.</p>
+</div>
+
+===== FILE: src\content\la-belle-hortense.svelte =====
+<script>
+  export let metadata = {
+    id: "la-belle-hortense",
+    title: "La belle Hortense",
+    theme: "Chansons paillardes",
+    sortKeys: ["La belle Hortense"]
+  };
+</script>
+
+<div class="song">
+<p>LE CHORYPHÉE (parlé, mimé)</p>
+<p>La Belle Hortense a des pieds de cochon.</p>
+<div class="refrain" data-title="Refrain">
+LE CHŒUR (chanté) <br/>
+|: Des pieds d’cochon, la faridondaine  <br/>
+Des pieds d’cochon, la faridondon :|      <br/>
+</div>
+<p>LE CHORYPHÉE</p>
+<p>La Belle Hortense a des mollets de poulet</p>
+<p>LE CHŒUR</p>
+<p>Des mollets d’poulet,</p>
+<p>Des pieds d’cochon, lafaridondaine </p>
+<p>Des pieds d’cochon, la faridondon.</p>
+<p>LE CHORYPHÉE</p>
+<p>La Belle Hortense a les genoux cagneux</p>
+<p>LE CHŒUR</p>
+<p>Les g'noux cagneux, etc.</p>
+<p>LE CHORYPHÉE</p>
+<p>La Belle Hortense a 	les cuisses graisseuses </p>
+<p>un petit tchu-tchu</p>
+<p>un gros cu-cul</p>
+<p>un ventre obèse</p>
+<p>les seins pendants</p>
+<p>le cou goîtreux</p>
+<p>la bouche baveuse</p>
+<p>le nez morveux</p>
+<p>les yeux chassieux</p>
+<p>les oreilles cireuses </p>
+<p>le chef teigneux</p>
+</div>
+
+===== FILE: src\content\la-digue-du-cul.svelte =====
+<script>
+  export let metadata = {
+    id: "la-digue-du-cul",
+    title: "La Digue du cul",
+    theme: "Chansons paillardes",
+    sortKeys: ["La Digue du cul"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>La digue du cul, en revenant de Nantes (bis) </div>
+<div>De Nantes à Montaigu,</div>
+<div>La digue, la digue,</div>
+<div>De Nantes à Montaigu,</div>
+<div>La digue du cul.</div>
+</div>
+<div class="couplet">
+<div>La digue du cul, je rencontr' une belle (bis) </div>
+<div>Qui dormait le cul nu,</div>
+<div>La digue, la digue,</div>
+<div>Qui dormait le cul nu,</div>
+<div>La digue du cul.</div>
+</div>
+<div class="couplet">
+<div>La digue du cul, je bande mon arbalète (bis)</div>
+<div>Et j’la lui fous dans l’cul,</div>
+<div>La digue, la digue,</div>
+<div>Et j’la lui fous dans l’cul,</div>
+<div>La digue du cul.</div>
+</div>
+<div class="couplet">
+<div>La digue du cul, la belle se réveille (bis) </div>
+<div>Et dit : "J’ai l’diable au cul !" </div>
+<div>La digue, la digue,</div>
+<div>Et dit : "J’ai l’diable au cul !"</div>
+<div>La digue du cul.</div>
+</div>
+<div class="couplet">
+<div>La digue du cul, non ce n’est pas le diable (bis) </div>
+<div>Mais un beau dard poilu,</div>
+<div>La digue, la digue,</div>
+<div>Mais un beau dard poilu,</div>
+<div>La digue du cul.</div>
+</div>
+<div class="couplet">
+<div>La digue du cul, qui band' et qui décharge (bis)</div>
+<div>Et qui t’en fout plein l’cul,</div>
+<div>La digue, la digue,</div>
+<div>Et qui t’en fout plein l’cul,</div>
+<div>La digue du cul.</div>
+</div>
+<div class="couplet">
+<div>La digue du cul, puisqu’il y est qu’il y reste (bis)</div>
+<div>Et qu’il n’en sorte plus, </div>
+<div>La digue, la digue,</div>
+<div>Et qu’il n’en sorte plus, </div>
+<div>La digue du cul.</div>
+</div>
+<div class="couplet">
+<div>La digue du cul, il y resta 6 semaines (bis)</div>
+<div>Et il n’en sortit plus, </div>
+<div>La digue, la digue,</div>
+<div>Et il n’en sortit plus, </div>
+<div>La digue du cul. </div>
+</div>
+</div>
+
+===== FILE: src\content\la-femme-du-roulier.svelte =====
+<script>
+  export let metadata = {
+    id: "la-femme-du-roulier",
+    title: "La femme du roulier",
+    theme: "Chansons paillardes",
+    sortKeys: ["La femme du roulier"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Il est minuit, la femme du roulier </div>
+<div>S'en va de porte en porte,</div>
+<div>De taverne en taverne,</div>
+<div>Elle cherch' son mari</div>
+<div>Tireli,</div>
+<div>Avec une lanterne.</div>
+</div>
+<div class="couplet">
+<div>Madam' l'hôtesse, où donc est mon mari ? </div>
+<div>Ton mari est ici,</div>
+<div>Il est dans la soupente,</div>
+<div>Il y prend ses ébats,</div>
+<div>Tirela,</div>
+<div>Avec notre servante.</div>
+</div>
+<div class="couplet">
+<div>Salaud d 'ivrogn', pilier de cabaret</div>
+<div>Pendant que tu te saoules, </div>
+<div>Et que tu fais ripaille, </div>
+<div>Cependant tes enfants,</div>
+<div>Tirelan,</div>
+<div>Sont couchés sur la paille.</div>
+</div>
+<div class="couplet">
+<div>Et toi, la belle aux yeux de merlan frit</div>
+<div>Qui m'as pris mon mari,</div>
+<div>Je vais te prendr' mesure </div>
+<div>D'un' bonn' culott’ de peau</div>
+<div>Tirelo,</div>
+<div>Qui ne craint pas l'usure.</div>
+</div>
+<div class="couplet">
+<div>Tais-toi ma femm', tais-toi, tu m 'fais chier,</div>
+<div>Dans la bonn' société</div>
+<div>Est-ce ainsi qu'on s'comporte ? </div>
+<div>J'te fous mon pied dans l'cul</div>
+<div>Tirelu,</div>
+<div>Si tu n'prends pas la porte.</div>
+</div>
+<div class="couplet">
+<div>Pauvres enfants ! Mes chers petits enfants !</div>
+<div>Plaignez votre destin,</div>
+<div>D'avoir un pareil père.</div>
+<div>Je l'ai trouvé couché</div>
+<div>Tirelé,</div>
+<div>Avec une autre mère.</div>
+</div>
+<div class="couplet">
+<div>Papa a bien fait, dirent les enfants,</div>
+<div>De s'en aller coucher</div>
+<div>Avec la cell' qu'il aime.</div>
+<div>Et quand nous serons grands </div>
+<div>Tirelan,</div>
+<div>Nous ferons tous de même.</div>
+</div>
+<div class="couplet">
+<div>Méchants enfants ! Sacrés cochons d'enfants !</div>
+<div>S'écrie la mère furieuse, </div>
+<div>Et pleine de colère.</div>
+<div>Vous serez tous cocus </div>
+<div>Tirelu,</div>
+<div>Comm' le fut votre père.</div>
+</div>
+</div>
+
+===== FILE: src\content\la-mere-michel.svelte =====
+<script>
+  export let metadata = {
+    id: "la-mere-michel",
+    title: "La mère Michel",
+    theme: "Chansons paillardes",
+    sortKeys: ["La mère Michel"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>C’est la Mère Michel qui a montré son chat </div>
+<div>En criant par la f'nêtre : "Qui donc me le prendra ? "</div>
+<div>Et c’est l’Père Lustucru qui lui a répondu :</div>
+<div>"J’arrive la Mère Michel, j’aim' les chats bien poilus. "</div>
+<div>Sur l’air du trululu (bis)</div>
+<div>Sur l’air du truderideru, trululu.</div>
+</div>
+<div class="couplet">
+<div>Alors la Mère Michel lui a donné son chat</div>
+<div>En disant : "Ce minet a mangé beaucoup d’rats." </div>
+<div>Mais la chaude luronne s’écria tout à coup :</div>
+<div>"Sortez Père Lustucru, mon chat n’aime pas le mou. " Sur l’air du trouloulou (bis)</div>
+<div>Sur l’air du trouderiderou, trouloulou.</div>
+</div>
+<div class="couplet">
+<div>Le Père Lustucru se retira furieux</div>
+<div>En disant : "J’ai une verge pour les chats coléreux."  </div>
+<div>La Mère Michel lui dit : "Avec ta verge, papa,</div>
+<div>Il n’y a vraiment pas de quoi fouetter mon chat." </div>
+<div>Sur l’air du tralala (bis)</div>
+<div>Sur l’air du traderidera, tralala</div>
+</div>
+</div>
+
+===== FILE: src\content\la-messe-a-setevia.svelte =====
+<script>
+  export let metadata = {
+    id: "la-messe-a-setevia",
+    title: "La Messe à Sétévia",
+    theme: "Chants estudiantins",
+    sortKeys: ["La Messe à Sétévia"]
+  };
+</script>
+
+<div class="song">
+<p><strong>Praeses</strong> : Hoch Mousse-Mayor, kann die Missa Solemnis steigen?</p>
+<p><strong>Mousse-Mayor</strong> : Ja !</p>
+<p>Preaeses chante une fois, l’assemblée répète.</p>
+<p><strong>Praeses</strong> : Hoch Mousse-Mayor, Missa Solemnis est. </p>
+<p><strong>Mousse-Mayor</strong> : Ex est, Fiat Lux !</p>
+<p>Allumer la lumière et entonner l’Hymne Sétévien</p>
+</div>
+
+===== FILE: src\content\la-nouvelle-rauracienne-jura.svelte =====
+<script>
+  export let metadata = {
+    id: "la-nouvelle-rauracienne-jura",
+    title: "La nouvelle Rauracienne (Jura)",
+    theme: "Hymnes",
+    sortKeys: ["La nouvelle Rauracienne (Jura)"]
+  };
+</script>
+
+<div class="song">
+<p>Du lac de Bienne aux portes de la France</p>
+<p>L’espoir mûrit dans l’ombre des cités ;</p>
+<p>De nos cœurs monte un chant de délivrance,</p>
+<p>Notre drapeau sur les monts a flotté !</p>
+<p>Vous qui veillez au sort de la patrie,</p>
+<p>Brisez les fers d’un injuste destin !</p>
+<p>Unissez-vous, fils de la Rauracie </p>
+<p>Et donnez-vous la main, et donnez-vous la main !</p>
+<p>Si l’ennemi de notre indépendance</p>
+<p>Dans nos vallons veut imposer sa loi,</p>
+<p>Que pour lutter chacun de nous s’élance</p>
+<p>Et dans ses rangs jette le désarroi !</p>
+<p>D’un peuple libre au sein de l’Helvétie</p>
+<p>Notre passé nous montre le chemin.</p>
+<p>Unissez-vous, fils de la Rauracie. </p>
+<p>Et donnez-vous la main, et donnez-vous la main !</p>
+<p>Le Ciel fera germer notre semence,</p>
+<p>Marchons joyeux, c’est l’heure du Jura !</p>
+<p>Demain nos cris, nos chansons et nos danses</p>
+<p>Célébreront la fin de nos combats,</p>
+<p>Et dans la gloire au matin refleurie</p>
+<p>Nous chanterons un hymne souverain. </p>
+<p>Unissez-vous, fils de la Rauracie. </p>
+<p>Et donnez-vous la main, et donnez-vous la main ! (Bis)</p>
+</div>
+
+===== FILE: src\content\la-nuit-a-l-asile-2024.svelte =====
+<script>
+  export let metadata = {
+    id: "la-nuit-a-l-asile-2024",
+    title: "La nuit à l’asile (2024)",
+    theme: "Chansons prologues",
+    sortKeys: ["La nuit à l’asile (2024)"]
+  };
+</script>
+
+<div class="song">
+<p><em>Quand on arrive en ville (de Starmania - Daniel Balavoine)</em></p>
+<p>Quand je suis dans mon lit</p>
+<p>Je ressasse mes pensées</p>
+<p>Je me demande ce que</p>
+<p>Je fais encore ici</p>
+<p>Je dis la vérité</p>
+<p>Sur les forums en ligne</p>
+<p>C'est pas ma faute à moi</p>
+<p>S'ils ne voient pas les signes</p>
+<p>Que Lausanne est communiste</p>
+<p>C'est la nuit à l'asile !</p>
+<p>Malgré les psychotropes</p>
+<p>On a les idées claires</p>
+<p>On voit sous stroboscope</p>
+<p>Les dragons et les chimères</p>
+<p>La terre est toujours plate</p>
+<p>Depuis 1610</p>
+<p>Seulement les géographes</p>
+<p>N'ont pas prouvé qu'elle existe</p>
+<p>Ils sont sous le joug des lobbyistes</p>
+<p>Prenez garde aux bisextiles !</p>
+<p>Nous tout ce qu'on veut c'est internet</p>
+<p>Partager ce qu'on a dans nos têtes</p>
+<p>Le monde doit savoir ce qu'il en est vraiment</p>
+<p>Nous tout ce qu'on veut c'est du réseau</p>
+<p>Parce qu'on sait qu'on a raison</p>
+<p>C'est pour ça qu'ils nous ont mis dans cette prison</p>
+<p>À l'aise dans mon bunker</p>
+<p>J'étudiais le magnétisme</p>
+<p>Et tous les bienfaits</p>
+<p>De la lithothérapie</p>
+<p>Ça fait maintenant 12 ans</p>
+<p>Qu'ils me détiennent ici</p>
+<p>Avec pour seul motif</p>
+<p>Le calendrier aztèque</p>
+<p>Et les alertes à l'anthrax que j'ai faites</p>
+<p>C'était seulement préventif !</p>
+<p>Il y a quelques années</p>
+<p>J'ai bu mes vaccins</p>
+<p>Et maintenant je sais</p>
+<p>Qu'ils ne servent à rien</p>
+<p>Lausanne est socialiste</p>
+<p>Et promeut le changement</p>
+<p>D'ici 2026</p>
+<p>On aura le tram à Renens</p>
+<p>Et à Prilly un casino rutilant</p>
+<p>Et c'est moi qu'on met à l'asile !</p>
+<p>Nous tout ce qu'on veut c'est la 4G</p>
+<p>Mais surtout pas la 5G</p>
+<p>Parce que les ondes ça fait tomber les dents</p>
+<p>Nous ce qu'on veut c'est la fibre optique</p>
+<p>Que la box Swisscom aille plus vite</p>
+<p>Communiquer avec les petits martiens</p>
+<p>Les électrochocs, c'est moins bien en vrai</p>
+<p>Mais les bains d'eau glacée, c'est encore moins bien en vrai</p>
+<p>On m'a dit que si je perds 70% de matière grise</p>
+<p>On m'enverra direct à la blanche pour que j'y suive</p>
+<p>Un stage de réinsertion punitive</p>
+<p>Que je devienne une arme de destruction massive</p>
+<p>Et j'exploserai à Tel Aviv !!</p>
+<p>Vaut mieux que je reste à l'asile...</p>
+<p>Est-l’As</p>
+</div>
+
+===== FILE: src\content\la-petite-huguette.svelte =====
+<script>
+  export let metadata = {
+    id: "la-petite-huguette",
+    title: "La petite Huguette",
+    theme: "Chansons paillardes",
+    sortKeys: ["La petite Huguette"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Un jour la p’tite Huguette</div>
+<div>Tripot' pas ton nez avec tes doigts </div>
+<div>Un jour la p’tite Huguette</div>
+<div>|: S’en allait seule au bois :|</div>
+</div>
+<div class="couplet">
+<div>En chemin ell' rencontre</div>
+<div>Tripot' pas ton nez avec tes doigts </div>
+<div>En chemin ell' rencontre</div>
+<div>|: Le fils d’un avocat :|</div>
+</div>
+<div class="couplet">
+<div>Il la prend, il la </div>
+<div>couche …</div>
+<div>|: Sur du foin qui était là :|</div>
+</div>
+<div class="couplet">
+<div>La paille était si sèche …</div>
+<div>|: Qu’elle faisait cra-cra :|</div>
+</div>
+<div class="couplet">
+<div>La mère d’la p’tite Huguette …</div>
+<div>|: Vint à passer par là :|</div>
+</div>
+<div class="couplet">
+<div>Elle dit : "Vas-y ma </div>
+<div>fille, …</div>
+<div>|: On ne meurt pas de ça :|</div>
+</div>
+<div class="couplet">
+<div>Si l’on mourrait d’la sorte …</div>
+<div>|: Tu ne serais pas là :|</div>
+</div>
+<div class="couplet">
+<div>Ni toi, ni ton p’tit frère …</div>
+<div>|: Qui ressemble au bougnat :|</div>
+</div>
+<div class="couplet">
+<div>Ni celui que je porte …</div>
+<div>|: Que ton père ne sait pas :|</div>
+</div>
+<div class="couplet">
+<div>Si tu mourrais d’la sorte …</div>
+<div>|: Sur ta tombe on mettrait :  :|</div>
+</div>
+<div class="couplet">
+<div>Ci-gît la p’tite </div>
+<div>Huguette …</div>
+<div>|: Qu’est morte en faisant ça :|</div>
+</div>
+<div class="couplet">
+<div>En faisant sa prière …</div>
+<div>|: Au grand Saint-Nicolas." :|</div>
+</div>
+</div>
+
+===== FILE: src\content\la-pompe-a-merde.svelte =====
+<script>
+  export let metadata = {
+    id: "la-pompe-a-merde",
+    title: "La pompe à merde",
+    theme: "Chansons paillardes",
+    sortKeys: ["La pompe à merde"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Et puisqu’il faut que rien ne se perde <br/>
+Dans la nature où tout est bon<br/>
+Amis pompons la pompe à merde,<br/>
+Le jour paraît à l’horizon,<br/>
+Pompons la merde, et pompons-la gaiement <br/>
+En envoyant s’faire foutre ceux qui ne sont pas contents.<br/>
+</div>
+<div class="couplet">
+<div>Soupe à l’oignon, bouillon démocratique </div>
+<div>Perdreaux truffés du faubourg St-Germain,</div>
+<div>Vous serez tous, c’est une loi physique, </div>
+<div>Bouffés la veille, chiés le lendemain.</div>
+</div>
+<div class="couplet">
+<div>Fille de roi, de ta beauté si fière,</div>
+<div>Tu dois chier, ainsi Dieu l’a voulu.</div>
+<div>Ton cul royal, comme un cul prolétaire,</div>
+<div> A la nature doit payer son tribut.</div>
+</div>
+<div class="couplet">
+<div>Humble ouvrier, ta modeste cuisine</div>
+<div>Te fait du riche envier les festins. </div>
+<div>Console-toi, les produits qu’il rumine</div>
+<div>Ne se vendront pas plus chers que les tiens.</div>
+</div>
+<div class="couplet">
+<div>Puissants du jour qui bouchez vos narines </div>
+<div>Quand nous pompons le fruit de vos excès, </div>
+<div>Si nous cessions de vider vos latrines, </div>
+<div>Que sentiraient vos splendides palais ?</div>
+</div>
+<div class="couplet">
+<div>Oh ! vanité des parfums de ce monde. </div>
+<div>Roses, jasmins, qu’êtes-vous devenus ?</div>
+<div>Vous embaumiez à cent lieues à la ronde, </div>
+<div>La merde passe, et vous ne sentez plus !</div>
+</div>
+<div class="couplet">
+<div>Nous voudrions que le canon tonne.</div>
+<div>Et, proclamant la patrie en danger,</div>
+<div>Nous saurions tous, en vrais fils de Bellonne,</div>
+<div>Mieux que Cambronne, emmerder l’étranger.</div>
+</div>
+<div class="couplet">
+<div>Dieu, pour nos sens, créa les fraîches roses, </div>
+<div>Le papillon aux brillantes couleurs,</div>
+<div>Les gais refrains pour les esprits moroses, </div>
+<div>Et pour nos culs, il fit les vidangeurs !</div>
+</div>
+</div>
+
+===== FILE: src\content\le-bordel-a-ferme-ses-volets.svelte =====
+<script>
+  export let metadata = {
+    id: "le-bordel-a-ferme-ses-volets",
+    title: "Le bordel a fermé ses volets",
+    theme: "Chansons paillardes",
+    sortKeys: ["Le bordel a fermé ses volets"]
+  };
+</script>
+
+<div class="song">
+<p><strong>Air : La guinguette a fermé ses volets</strong></p>
+<div class="couplet">
+<div>Le bordel a fermé ses volets,</div>
+<div>Elles sont toutes vérolées,</div>
+<div>Y a plus moyen qu’on baise.</div>
+<div>Le dernier qui y est allé</div>
+<div>Pour se faire faire un pompier</div>
+<div>Est r'venu avec la pine enflée, ohé !</div>
+</div>
+<div class="couplet">
+<div>Le toubib qui les a visitées</div>
+<div>A tout de suite déclaré</div>
+<div>Y faut plus qu’on les baise,</div>
+<div>La maréchaussée les a toutes bouclées,</div>
+<div>Et le bordel a fermé ses volets !</div>
+</div>
+<div class="couplet">
+<div>Totor, qu’est un habitué</div>
+<div>A voulu y aller</div>
+<div>Disant : "C’est de la foutaise !"</div>
+<div>Mais trois jours après, y n’pouvait plus marcher</div>
+<div>Tant sa pine était délabrée, ohé !</div>
+</div>
+<div class="couplet">
+<div>A l’hosto, on l’a transporté</div>
+<div>Lui laissant supposer</div>
+<div>Que ce léger malaise</div>
+<div>Ne l’empêcherait pas d’revenir baiser </div>
+<div>Quand l’bordel rouvrirait ses volets.</div>
+</div>
+<div class="couplet">
+<div>Le toubib lui ayant conseillé</div>
+<div>De ne plus coïter,</div>
+<div>Sans une capote anglaise,</div>
+<div>Aussitôt r’mis sur pied, il en a commandé</div>
+<div>Douze douzaines avec bout renforcé, ohé !</div>
+</div>
+<div class="couplet">
+<div>Au premier coup qu’il a tiré</div>
+<div>C’est ses couilles qu’on lâché,</div>
+<div>Pas la capote anglaise ;</div>
+<div>On les a r'trouvées aux quat' coins du quartier </div>
+<div>Et l’bordel a fermé ses volets.</div>
+<div><strong>Air : Marche funèbre</strong></div>
+</div>
+<div class="couplet">
+<div>Totor n’est plus,</div>
+<div>Les putains l’ont descendu ! </div>
+<div>Un Français de plus </div>
+<div>Que les Anglais auront foutu ! </div>
+<div>Et sa pine</div>
+<div>Qu’avait belle mine</div>
+<div>Ne bandera plus !</div>
+<div>Ainsi triomphe la vertu.</div>
+<div><strong>Air : La guinguette a fermé ses volets</strong></div>
+</div>
+<div class="couplet">
+<div>Le bordel a rouvert ses volets</div>
+<div>Par un beau matin de mai</div>
+<div>Au temps des premières fraises, </div>
+<div>L’personnel était entièrement renouvelé </div>
+<div>Et la tôlière était toute en beauté, ohé !</div>
+</div>
+<div class="couplet">
+<div>La foule se pressait et riait</div>
+<div>Elle avait oublié qu’l’danger</div>
+<div>Quand on baise,</div>
+<div>Etait d’se confier aux machins anglais, </div>
+<div>Et l’bordel s’est payé des bidets.</div>
+</div>
+</div>
+
+===== FILE: src\content\le-duc-de-bordeaux.svelte =====
+<script>
+  export let metadata = {
+    id: "le-duc-de-bordeaux",
+    title: "Le Duc de Bordeaux",
+    theme: "Chansons paillardes",
+    sortKeys: ["Le Duc de Bordeaux"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Taïaut ! Taïaut ! Taïaut !<br/>
+Des prunes, des prunes, des prunes.<br/>
+</div>
+<div class="couplet">
+<div>Le duc de Bordeaux ressemble à son frère</div>
+<div>Son frère à son père et son père à mon cul ; </div>
+<div>De là je conclus qu’l’duc de Bordeaux </div>
+<div>Ressemble à mon cul comme deux gouttes d’eau.</div>
+</div>
+<div class="couplet">
+<div>"Nom de bleu, disait la princesse,</div>
+<div>En voyant la pine du baron,</div>
+<div>J’aimerais mieux l’avoir dans les fesses </div>
+<div>Que de la voir dans son pantalon."</div>
+</div>
+<div class="couplet">
+<div>Le duc de Chevreuse ayant déclaré </div>
+<div>Que tous les cocus devaient être noyés, </div>
+<div>Madame de Chevreuse lui a demandé </div>
+<div>S’il était bien sûr de savoir nager.</div>
+</div>
+<div class="couplet">
+<div>La duchesse de la Trémouille</div>
+<div>Malgré sa très grande piété,</div>
+<div>A patiné plus de paires de couilles</div>
+<div>Que la Grande Armée n’a usé de souliers.</div>
+</div>
+<div class="couplet">
+<div>Le roi Dagobert a une pine en fer ;</div>
+<div>Le bon Saint-Eloi lui dit : "O mon roi,</div>
+<div>Si vous m’enculez vous m’écorcherez."</div>
+<div>"C’est vrai, dit le roi, j’en ferai faire une de bois."</div>
+</div>
+<div class="couplet">
+<div>Si les femmes pissaient du vinaigre </div>
+<div>Et chiaient du poivre moulu, </div>
+<div>La salade serait bientôt faite, </div>
+<div>Avec le cresson qui leur pousse au cul. </div>
+</div>
+</div>
+
+===== FILE: src\content\le-joueur-de-luth.svelte =====
+<script>
+  export let metadata = {
+    id: "le-joueur-de-luth",
+    title: "Le joueur de luth",
+    theme: "Chansons paillardes",
+    sortKeys: ["Le joueur de luth"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Troulala, troulala, troula, troula, troulalaire<br/>
+Troulala, troulala, troula, troula, troulala.<br/>
+</div>
+<div class="couplet">
+<div>En notre ville est venu (bis)</div>
+<div>Un fameux joueur de luth (bis). </div>
+<div>Pour attirer la pratique,</div>
+<div>Il a mis sur sa boutique :</div>
+<div>C’est ici qu’pour un écu,</div>
+<div>On apprend à jouer de l’épinette, </div>
+<div>C’est ici qu’pour un écu,</div>
+<div>On apprend à jouer du…</div>
+</div>
+<div class="couplet">
+<div>Toutes les filles de Paris (bis)</div>
+<div>De Versaill's, à Saint-Denis (bis)</div>
+<div>Ont vendu leur chemisette,</div>
+<div>Leurs jarr'tièr's, leurs collerettes, </div>
+<div>Afin d’avoir un écu</div>
+<div>Pour apprendre à jouer de l’épinette,</div>
+<div>Afin d’avoir un écu</div>
+<div>Pour apprendre à jouer du…</div>
+</div>
+<div class="couplet">
+<div>Une jeun' fill' s’présenta (bis)</div>
+<div>Qui des leçons demanda (bis)</div>
+<div>« Ah ! que tes leçons sont bonnes,</div>
+<div>Il faudra que tu m’en r'donnes.</div>
+<div>Tiens, voilà mon jeune écu,</div>
+<div>Pour apprendre à jouer de l’épinette</div>
+<div>Tiens, voilà mon jeune écu,</div>
+<div>Pour apprendre à jouer du »…</div>
+</div>
+<div class="couplet">
+<div>Un' vieill' femme aux cheveux gris (bis) </div>
+<div>Voulut en tâter aussi. (bis)</div>
+<div>« Fais-moi passer la première,</div>
+<div>Par la porte de derrière.</div>
+<div>Tiens, voilà mon vieil écu</div>
+<div>Pour apprendre à jouer de l’épinette</div>
+<div>Tiens, voilà mon vieil écu</div>
+<div>Pour apprendre à jouer du »…</div>
+</div>
+<div class="couplet">
+<div>« Vieille femme, allez-vous-en (bis)</div>
+<div> Et reprenez votre argent (bis)</div>
+<div>Car ce n’est plus à votre âge</div>
+<div>Qu’on entre en apprentissage.</div>
+<div>Vous avez trop attendu</div>
+<div>Pour apprendre à jouer de l’épinette </div>
+<div>Vous avez trop attendu</div>
+<div>Pour apprendre à jouer du »…</div>
+</div>
+<div class="couplet">
+<div>La vieill' femme, en s’en allant, (bis) </div>
+<div>Marmonnait entre ses dents (bis)</div>
+<div>« Ah ! vous me la baillez belle,</div>
+<div>De me croire encor' pucelle.</div>
+<div>Voilà cinquante ans et plus</div>
+<div>Que je sais jouer de l’épinette, </div>
+<div>Voilà cinquante ans et plus</div>
+<div>Que je sais jouer du »…</div>
+</div>
+<div class="couplet">
+<div>La morale de ceci (bis)</div>
+<div>Je vais vous la dire ici (bis)</div>
+<div>C’est qu’quand on est jeune et belle,</div>
+<div>Il n’faut pas rester pucelle.</div>
+<div>Faut donner son p’tit écu</div>
+<div>Pour apprendre à jouer de l’épinette</div>
+<div>Faut donner son p’tit écu</div>
+<div>Pour apprendre à jouer du…</div>
+</div>
+</div>
+
+===== FILE: src\content\le-metropolitain.svelte =====
+<script>
+  export let metadata = {
+    id: "le-metropolitain",
+    title: "Le Métropolitain",
+    theme: "Chansons populaires",
+    sortKeys: ["Le Métropolitain"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Samedi dernier, c’était jour de paie,</div>
+<div>Et le soleil brillait à l’horizon.</div>
+<div>|: J’avais déjà bu cinq à six bouteilles </div>
+<div>J’crois bien j’n’avais jamais été aussi rond. :|</div>
+</div>
+<div class="couplet">
+<div>V’là ma bourgeoise qui s’ramène sur le zinc,</div>
+<div>"Cochon, qu’ell’ dit, t’as quitté ton turbin."</div>
+<div>|: "Oui, qu’j’y réponds, je m’en vais au Métinge,</div>
+<div>Au grand Métinge du Métropolitain." :|</div>
+</div>
+<div class="couplet">
+<div>Les prolétaires, d’un élan unanime,</div>
+<div>y sont venus, guidés par la raison,</div>
+<div>|: En apportant chacun cinquante centimes</div>
+<div>Pour soutenir les grévistes du Vierzon. :|</div>
+</div>
+<div class="couplet">
+<div>Y’avait Basile, le mineur indomptable, </div>
+<div>Karmelino, qu’est l’honneur du parti,</div>
+<div>|: Y sont montés tous deux sur une table</div>
+<div>Pour exposer la question sur le tapis. :|</div>
+</div>
+<div class="couplet">
+<div>Quand tout à coup, on entend du bastringue, </div>
+<div>C’est un quidam qui veut faire le malin.</div>
+<div>|: Il est venu pour saboter l’Métinge,</div>
+<div>Le grand Métinge du Métropolitain. :|</div>
+</div>
+<div class="couplet">
+<div>J’y bondis d’ssus et avant qu’il rouspète</div>
+<div>J’y enfonçais jusqu’aux yeux son chapeau.</div>
+<div>|: Il est parti sans demander son reste</div>
+<div>En faisant signe aux gardes municipaux. :|</div>
+</div>
+<div class="couplet">
+<div>Qui, profitant de c’que j’étais brindezingue, </div>
+<div>M’ont emmené au poste le plus voisin.</div>
+<div>|: Et c’est ainsi qu’s’est terminé le Métinge,</div>
+<div>Le grand Métinge du Métropolitain. :|</div>
+<div><strong>Couplet patriotique</strong></div>
+</div>
+<div class="couplet">
+<div>Peuple français, la Bastille est détruite,</div>
+<div>Mais y a encore des prisons pour tes fils, </div>
+<div>|: Souviens-toi bien des géants d’quarante-huit</div>
+<div>Qu’étaient plus forts que les ceusses d’aujourd’hui. :|</div>
+<div><strong>Couplet social</strong></div>
+</div>
+<div class="couplet">
+<div>Car c’est toujours l’pauvre ouvrier qui trinque,</div>
+<div>C’est lui qu’on met en prison pour des riens.</div>
+<div>|: C’était quand même un bien joli Métinge,</div>
+<div>Le grand Métinge du Métropolitain. :|</div>
+</div>
+</div>
+
+===== FILE: src\content\le-plaisir-des-dieux.svelte =====
+<script>
+  export let metadata = {
+    id: "le-plaisir-des-dieux",
+    title: "Le plaisir des dieux",
+    theme: "Chansons paillardes",
+    sortKeys: ["Le plaisir des dieux"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Du dieu Vulcain quand l’épouse mignonne </div>
+<div>Va boxonner loin de son vieux sournois,</div>
+<div>Le noir jaloux que l’amour aiguillonne </div>
+<div>Tranquillement se polit le chinois.</div>
+<div>Va-t’en, dit-il à sa fichue femelle, </div>
+<div>Je me fous bien de ton con chassieux.</div>
+<div>|: De mes cinq doigts, je fais une pucelle, </div>
+<div>Masturbons-nous, c’est le plaisir des Dieux ! :|</div>
+</div>
+<div class="couplet">
+<div>Baste ! Laissons-lui ce plaisir ridicule. </div>
+<div>Chacun d’ailleurs s’amuse à sa façon.</div>
+<div>Moi, je préfère la manière d’Hercule,</div>
+<div>Jamais sa main ne lui servit de con.</div>
+<div>Le plus sal' con, la plus vieille fendasse </div>
+<div>Rien ne résiste à son vit glorieux.</div>
+<div>|: Nous serons fiers de marcher sur sa trace. </div>
+<div>Baisons, baisons, c’est le plaisir des dieux ! :|</div>
+</div>
+<div class="couplet">
+<div>Du dieu Bacchus quand accablé d’ivresse </div>
+<div>Le vit mollit et sur le con s’endort, </div>
+<div>Soixante-neuf, et le vit se redresse, </div>
+<div>Soixante-neuf ferait bander un mort.</div>
+<div>O Clitoris ton parfum de fromage</div>
+<div>Fait regimber nos engins glorieux !</div>
+<div>|: A ta vertu nous rendons tous hommage.</div>
+<div>Gamahuchons, c’est le plaisir des dieux ! :|</div>
+</div>
+<div class="couplet">
+<div>Quant à Pluton avec sa large panse </div>
+<div>Le moindre effort lui semble fatigant.</div>
+<div>Aussi veut-il éviter la dépense</div>
+<div>Et fait sucer son pénis arrogant</div>
+<div>Tout en rêvant aux extases passées.</div>
+<div>Tout alanguis, nous réjouissons nos yeux</div>
+<div>|: Et laissant faire une amante empressée,</div>
+<div>Faisons pomper, c’est le plaisir des dieux ! :|</div>
+</div>
+<div class="couplet">
+<div>De Jupiter, façon vraiment divine</div>
+<div>Le con lui pue, il aime le goudron.</div>
+<div>D’un nid à merde il fait un moule à pine</div>
+<div>Et bat le beurre au milieu de l’étron. </div>
+<div>Cette façon est cruellement bonne</div>
+<div>Pour terminer un gueuleton joyeux</div>
+<div>|: Après l’dessert on s’encule en couronne, </div>
+<div>Enculons-nous, c’est le plaisir des dieux ! :|</div>
+</div>
+<div class="couplet">
+<div>Au reste ami, qu’on en fasse à sa tête.</div>
+<div>Main, con, cul, bouche, au plaisir tout est bon. </div>
+<div>Sur quelque autel qu’on célèbre la fête, </div>
+<div>Toujours là-haut on est sûr du pardon. </div>
+<div>Foutre et jouir, voilà l’unique affaire.</div>
+<div>Foutre et jouir, voilà quels sont nos vœux. </div>
+<div>|: Foutons, amis, qu’importe la manière, </div>
+<div>Foutons, foutons, c’est le plaisir des dieux ! :|</div>
+</div>
+</div>
+
+===== FILE: src\content\le-pou-et-l-araignee.svelte =====
+<script>
+  export let metadata = {
+    id: "le-pou-et-l-araignee",
+    title: "Le pou et l’araignée",
+    theme: "Chansons paillardes",
+    sortKeys: ["Le pou et l’araignée"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Là tu, là tu m’emmerdes,<br/>
+Là tu, là tu m’fais chier,<br/>
+Tu nous emmerdes,<br/>
+Tu nous fais chier,<br/>
+Tu nous fais chier,<br/>
+Tu nous emmerdes !<br/>
+Et l’on entend, dans les champs,<br/>
+S’masturber les éléphants,<br/>
+Et l’on entend, dans les prés,<br/>
+Gazouiller les chimpanzés,<br/>
+Et l’on entend sous les ormeaux<br/>
+Battre la merde à coups d’marteaux,<br/>
+Et l’on entend, sous les plumards,<br/>
+Battre le foutre à coups d’braqu'marts.<br/>
+Non, non, non, non, Saint-Eloi n’est pas mort ! (bis)<br/>
+Car il bande encore ! (bis)<br/>
+</div>
+<div class="couplet">
+<div>Un jour, un vieux pou dans la rue,</div>
+<div>Rencontra, chemin faisant, </div>
+<div>Chemin faisant,</div>
+<div>Une araignée bonne enfant.</div>
+<div>Elle était toute velue</div>
+<div>Elle vendait du verr' pilé</div>
+<div>Pour s’ach'ter des p’tits souliers.</div>
+</div>
+<div class="couplet">
+<div>Le pou, qui voulait la séduire, </div>
+<div>L’emm'na chez l’mastroquet du coin, </div>
+<div>Troquet du coin.</div>
+<div>Lui fit boir' cinq, six coups d’vin. </div>
+<div>L’araignée ne fit qu’en rire.</div>
+<div>La pauvrette ne s’doutait pas</div>
+<div>Qu’elle courait à son trépas.</div>
+</div>
+<div class="couplet">
+<div>Le pou lui offrit une prise </div>
+<div>En lui disant d’un air joyeux, </div>
+<div>D’un air joyeux :</div>
+<div>"Coll'-toi ça dans-l’trou des yeux,</div>
+<div>Et mouch'-toi avec ta chemise !" </div>
+<div>L’araignée, qu’en avait pas, </div>
+<div>Lui fit voir tous ses appâts.</div>
+</div>
+<div class="couplet">
+<div>Le pou, qui n’était qu’un' canaille,</div>
+<div>Lui offrit trois francs et six sous, </div>
+<div>Trois francs, six sous…</div>
+<div>"Trois francs, six sous, c’est pas l’Pérou ; </div>
+<div>Va ! Tu n’es qu’un rien qui vaille !</div>
+<div>Si tu m’donn's quatre sous d’plus,</div>
+<div>Je t’ferai voir l’trou de mon cul !"</div>
+</div>
+<div class="couplet">
+<div>Alors commencèrent les horreurs, </div>
+<div>Le pou monta sur l’araignée,</div>
+<div>Sur l’araignée,</div>
+<div>Il éprouvait tant d’bonheur</div>
+<div>Qu’il n’pouvait plus se r’tirer,</div>
+<div>Si bien qu’la pauvre araignée </div>
+<div>Ecop' la maternité.</div>
+</div>
+<div class="couplet">
+<div>Le pèr' d’l’araignée, en colère, </div>
+<div>Lui dit. : ''Tu m’as déshonoré,</div>
+<div>Déshonoré,</div>
+<div>Tu t’es laissé enceintrer,</div>
+<div>T’es aussi putain qu’ta mère !" </div>
+<div>L’araignée, de désespoir</div>
+<div>S’a foutu treiz' coups d’rasoir !</div>
+</div>
+<div class="couplet">
+<div>Le pou, ayant perdu sa femme, </div>
+<div>S’arrach' des touffes de cheveux, </div>
+<div>Fes de cheveux.</div>
+<div>Et il s’écrie : "Nom de Bleu !" </div>
+<div>Mont' sur les tours d’Notre-Dame </div>
+<div>Et c’est là qu’il s’a foutu</div>
+<div>Les cinq doigts et l’pouce dans l’cul !</div>
+</div>
+<div class="couplet">
+<div>Alors les poux du voisinage</div>
+<div>Se réunir'nt pour l’enterrer, </div>
+<div>Pour l’enterrer,</div>
+<div>Au cim'tière de Champerret, </div>
+<div>Tout comme un grand personnage, </div>
+<div>Et c’était bien triste à voir</div>
+<div>Tous ces poux en habit noir. </div>
+</div>
+</div>
+
+===== FILE: src\content\le-ranz-des-vaches-lyoba-fribourg.svelte =====
+<script>
+  export let metadata = {
+    id: "le-ranz-des-vaches-lyoba-fribourg",
+    title: "Le ranz des vaches (Lyobâ, Fribourg)",
+    theme: "Hymnes",
+    sortKeys: ["Le ranz des vaches (Lyobâ, Fribourg)"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Lè j’armayi di Kolonbètè</div>
+<div>Dè bon matin chè chon lèvâ.</div>
+</div>
+<div class="couplet">
+<div>Kan chon vinyê i Bachè j’Ivouè</div>
+<div>Tsankro lo mè! n’an pu pachâ.</div>
+</div>
+<div class="couplet">
+<div>Tyè fan no ché mon pouro Piéro ?</div>
+<div>No no chin pâ mô l’inrinbyâ.</div>
+</div>
+<div class="couplet">
+<div>Tè fô alâ fiêr a la pouârta,</div>
+<div>A la pouârta dè l’inkourâ.</div>
+</div>
+<div class="couplet">
+<div>Tyè voli vo ke li dyécho ?</div>
+<div>A nouthron brâvo l’inkourâ.</div>
+</div>
+<div class="couplet">
+<div>I fô ke dyéchè ouna mècha</div>
+<div>Po ke no l’y pouéchan pachâ</div>
+<div><strong>Refrain</strong></div>
+<div><strong>1-3-5-7-9-11-13-15-17-19</strong></div>
+<div>Lyôba, lyôba, por aryâ (bis).</div>
+<div>Vinyidè totè, byantsè, nêre,</div>
+<div>Rodzè, mothêlè, dzouvenè ôtrè,</div>
+<div>Dèjo chti tsâno, yô vo j’âryo,</div>
+<div>Dèjo chti trinbyo, yô i trintso,</div>
+<div>Lyôba, lyôba, por aryâ (bis).</div>
+<div><strong>Refrain</strong></div>
+<div><strong>2-4-6-8-10-12-14-16-18</strong></div>
+<div>Lyôba, lyôba, por aryâ (bis).</div>
+<div>Lè chenayirè van lè premirè,</div>
+<div>Lè totè nêrè van lè dêrêrè</div>
+<div>Lyôba, lyôba, por aryâ (bis).
+</div>
+</div>
+</div>
+
+===== FILE: src\content\le-vieux-chalet.svelte =====
+<script>
+  export let metadata = {
+    id: "le-vieux-chalet",
+    title: "Le Vieux Chalet",
+    theme: "Chansons populaires",
+    sortKeys: ["Le Vieux Chalet"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Là-haut sur la montagne, l’était un vieux chalet.</div>
+<div>Murs blancs, toit de bardeaux,
+Devant la porte un vieux bouleau.
+Là-haut sur la montagne, l’était un vieux chalet.</div>
+</div>
+<div class="couplet">
+<div>Là-haut sur la montagne, croula le vieux chalet.</div>
+<div>La neige et les rochers
+S’étaient unis pour l’arracher
+Là-haut sur la montagne, croula le vieux chalet.</div>
+</div>
+<div class="couplet">
+<div>Là-haut sur la montagne, quand Jean vint au chalet,</div>
+<div>Pleura de tout son cœur
+Sur les débris de son bonheur.
+Là-haut sur la montagne, quand Jean vint au chalet.</div>
+</div>
+<div class="couplet">
+<div>Là-haut sur la montagne, l’est un nouveau chalet,</div>
+<div>Car Jean d’un cœur vaillant
+L’a rebâti plus beau qu’avant.
+Là-haut sur la montagne, l’est un nouveau chalet. 
+</div>
+</div>
+</div>
+
+===== FILE: src\content\lemania-1891-lausanne.svelte =====
+<script>
+  export let metadata = {
+    id: "lemania-1891-lausanne",
+    title: "Lémania (1891, Lausanne)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Lémania (1891, Lausanne)"]
+  };
+</script>
+
+<div class="song">
+<p>Dans notre Lausanne si coquette, sur les bords du bleu Léman. </p>
+<p>Nous portons fièrement la casquette, l’orange et le vert, le blanc. </p>
+<p>Orange couleur joyeuse, tu conquis plus d’un laurier. </p>
+<p>Tu fis plus d’une amoureuse |: et plus d’un cœur prisonnier. :|</p>
+</div>
+
+===== FILE: src\content\les-bretelles.svelte =====
+<script>
+  export let metadata = {
+    id: "les-bretelles",
+    title: "Les bretelles",
+    theme: "Chansons paillardes",
+    sortKeys: ["Les bretelles"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Mon père me donne cent sous </div>
+<div>Pour m’acheter des bretelles</div>
+<div>Mon père me donne cent sous </div>
+<div>Pour m’acheter des bretelles </div>
+<div>J’ai gardé les cent sous </div>
+<div>Pour aller-z-au bordel</div>
+<div>Tra - la - la - la, la - la - la - la, la - la.</div>
+</div>
+<div class="couplet">
+<div>Tout en chemin faisant, </div>
+<div>J’ai rencontré grand-mère</div>
+<div>Tout en chemin faisant, </div>
+<div>J’ai rencontré grand-mère</div>
+<div>Qui m’a dit : « Où vas-tu ? » </div>
+<div>« Moi je vais au bordel »</div>
+<div>Tra - la - la - la, la - la - la - la, la - la.</div>
+</div>
+<div class="couplet">
+<div>« Donne-moi tes cent sous, </div>
+<div>Je ferai bien l’affaire »</div>
+<div>« Donne-moi tes cent sous, </div>
+<div>Je ferai bien l’affaire »</div>
+<div>J’ai donné mes cent sous </div>
+<div>Et j’ai baisé grand-mère</div>
+<div>Tra - la - la - la, la - la - la - la, la - la.</div>
+</div>
+<div class="couplet">
+<div>En revenant de là, </div>
+<div>J’ai rencontré mon père</div>
+<div>En revenant de là, </div>
+<div>J’ai rencontré mon père</div>
+<div>Il me dit : « D’où viens-tu ? », </div>
+<div>« Je viens d’baiser grand-mère »</div>
+<div>Tra - la - la - la, la - la - la - la, la - la.</div>
+</div>
+<div class="couplet">
+<div>« Espèce de p’tit salaud, </div>
+<div>Tu as baisé ma mère ! »</div>
+<div>« Espèce de p’tit salaud, </div>
+<div>Tu as baisé ma mère ! »</div>
+<div>« Et merde, que j’lui répond. </div>
+<div>Tu baisais bien la mienne »</div>
+<div>Tra - la - la - la, la - la - la - la, la - la.</div>
+<div>Tra - la - la - la, la - la - la - la, la - la.</div>
+</div>
+</div>
+
+===== FILE: src\content\les-filles-de-camaret.svelte =====
+<script>
+  export let metadata = {
+    id: "les-filles-de-camaret",
+    title: "Les filles de Camaret",
+    theme: "Chansons paillardes",
+    sortKeys: ["Les filles de Camaret"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Les filles de Camaret se disent toutes vierges (bis)</div>
+<div>Mais quand elles sont dans mon lit, </div>
+<div>Elles préfèrent tenir mon vit </div>
+<div>Qu’un cierge, qu’un cierge, qu’un </div>
+<div>cierge.</div>
+</div>
+<div class="couplet">
+<div>Fillette de Camaret, où est ton pucelage (bis)</div>
+<div>Il s’en est allé sur l’eau,</div>
+<div>Avec un beau matelot,</div>
+<div>Il nage, il nage, il nage.</div>
+</div>
+<div class="couplet">
+<div>Les rideaux de notre lit sont faits de serge rouge (bis)</div>
+<div>Mais quand nous sommes dedans,</div>
+<div>La rage du cul nous prend,</div>
+<div>Tout bouge, tout bouge, tout bouge.</div>
+</div>
+<div class="couplet">
+<div>Mon mari, que fais-tu là, tu me perces la cuisse (bis)</div>
+<div>Faut-il donc que tu sois saoul</div>
+<div>Pour ne pas trouver le trou</div>
+<div>Qui pisse, qui pisse, qui pisse.</div>
+</div>
+<div class="couplet">
+<div>Une supposition que tu serais ma tante (bis) </div>
+<div>Je te ferais le présent.</div>
+<div>De l’andouille qui me pend</div>
+<div>Z'au ventre, z'au ventre, z'au ventre</div>
+</div>
+<div class="couplet">
+<div>Le curé de Camaret vient d’acheter un âne (bis)</div>
+<div>Un âne républicain </div>
+<div>Pour baiser toutes les putains</div>
+<div>D’Bretagne, d’Bretagne, d’Bretagne.</div>
+</div>
+<div class="couplet">
+<div>Mon mari s’en est allé à la pêche en Espagne (bis)</div>
+<div>Il m’a laissée sans un sou,</div>
+<div>Mais avec mon petit trou,</div>
+<div>J’en gagne, j’en gagne, j’en gagne.</div>
+</div>
+<div class="couplet">
+<div>Le curé de Camaret a les couilles qui pendent (bis)</div>
+<div>Et quand il s’assoit dessus,</div>
+<div>Ça lui bouche le trou du cul,</div>
+<div>Il bande, il bande, il bande.</div>
+</div>
+<div class="couplet">
+<div>Si les filles de Camaret s’en vont à la prière (bis)</div>
+<div>C’n’est pas pour prier l’Seigneur,</div>
+<div>Mais pour branler le prieur</div>
+<div>Qui bande, qui bande, qui bande.</div>
+</div>
+<div class="couplet">
+<div>Célina, si tu m’aimais, tu me ferais des nouilles (bis) </div>
+<div>Et tandis que j’les mangerais</div>
+<div>Doucement tu-m’chatouillerais</div>
+<div>Les couilles, les couilles, les couilles.</div>
+</div>
+<div class="couplet">
+<div>La servante à M’sieur l’curé a le ventre qui </div>
+<div>gargouille (bis) </div>
+<div>C’est qu’elle en a trop mangé</div>
+<div>De l’andouille à M’sieur l’curé</div>
+<div>D’l’andouille, d’l’andouille, d’l’andouille.</div>
+<div><strong>
+</strong></div>
+</div>
+</div>
+
+===== FILE: src\content\les-filles-de-la-rochelle.svelte =====
+<script>
+  export let metadata = {
+    id: "les-filles-de-la-rochelle",
+    title: "Les filles de la Rochelle",
+    theme: "Chansons paillardes",
+    sortKeys: ["Les filles de la Rochelle"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Entends-tu le coucou, ma Lisette <br/>
+Entends-tu le coucou, ma Lison ?<br/>
+</div>
+<div class="couplet">
+<div>Les jeunes filles de la Rochelle</div>
+<div>Ne sont pas mal du tout, mal du tout, </div>
+<div>Elles ont des chemisettes </div>
+<div>Qui leur vont jusqu’aux genoux.</div>
+</div>
+<div class="couplet">
+<div>Elles ont des chemisettes </div>
+<div>Qui leur vont jusqu’aux genoux.</div>
+<div>Le tailleur qui les a faites</div>
+<div>A regardé par dessous.</div>
+</div>
+<div class="couplet">
+<div>Le tailleur qui les a faites</div>
+<div>A regardé par dessous.</div>
+<div>Il a vu une chapelle</div>
+<div>Qui n’est pas celle de Saint-Cloud.</div>
+</div>
+<div class="couplet">
+<div>Il a vu une chapelle</div>
+<div>Qui n’est pas celle de Saint-Cloud.</div>
+<div>Pour entrer dans cette chapelle </div>
+<div>Il faut se mettre à genoux.</div>
+</div>
+<div class="couplet">
+<div>Pour entrer dans cette chapelle </div>
+<div>Il faut se mettre à genoux.</div>
+<div>Il faut présenter un cierge</div>
+<div>Qui n’ait pas de mèche au bout.</div>
+</div>
+<div class="couplet">
+<div>Il faut présenter un cierge </div>
+<div>Qui n’ait pas de mèche au bout.</div>
+<div>Car s’il y en avait une</div>
+<div>Ça foutrait le feu partout.</div>
+</div>
+<div class="couplet">
+<div>Car s’il y en avait une</div>
+<div>Ça foutrait le feu partout.</div>
+<div>Les pompiers de la Rochelle </div>
+<div>N’en viendraient jamais à bout.</div>
+</div>
+<div class="couplet">
+<div>Les pompiers de la Rochelle</div>
+<div>N’en viendraient jamais à bout.</div>
+<div>Et les gars de la Rochelle </div>
+<div>Ne pourraient plus tirer d’coup.</div>
+</div>
+<div class="couplet">
+<div>Et les gars de la Rochelle</div>
+<div>Ne pourraient plus tirer d’coup.</div>
+<div>Ils iraient tous au bordel,</div>
+<div>Au bordel à quatre sous.</div>
+</div>
+<div class="couplet">
+<div>Ils iraient tous au bordel,</div>
+<div>Au bordel à quatre sous,</div>
+<div>Et les filles de la Rochelle</div>
+<div>Ne pourraient plus gagner d’sous.</div>
+</div>
+</div>
+
+===== FILE: src\content\les-moines-de-st-bernardin.svelte =====
+<script>
+  export let metadata = {
+    id: "les-moines-de-st-bernardin",
+    title: "Les moines de St Bernardin",
+    theme: "Chansons paillardes",
+    sortKeys: ["Les moines de St Bernardin"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+|: Et voilà la vie, la vie, la vie, la vie chérie, <br/>
+Ah ! Ah ! <br/>
+Et voilà la vie que tous les moines font. :|<br/>
+</div>
+<div class="couplet">
+<div>Nous sommes les moines de St Bernardin (bis) </div>
+<div>Qui nous couchons tard et nous levons tôt l’matin (bis) </div>
+<div>Pour aller à matines vider quelques flacons </div>
+<div>Voilà c’qu’est bon, est bon, est bon.</div>
+</div>
+<div class="couplet">
+<div>Pour notre dîner de bons petits oiseaux (bis) </div>
+<div>Que l’on nomme caille, bécasse ou perdreau (bis) </div>
+<div>Et la fine andouillette et la tranche de jambon. </div>
+<div>Voilà c’qu’est bon, est bon, est bon.</div>
+</div>
+<div class="couplet">
+<div>Pour notre coucher dans un lit aux draps blancs (bis)</div>
+<div>Une jeune nonne de quinze à seize ans (bis)</div>
+<div>A la taille bien faite et aux nichons bien ronds </div>
+<div>Voilà c’qu’est bon, est bon, est bon.</div>
+</div>
+<div class="couplet">
+<div>La nuit tous ensemble nous nous enculons (bis) </div>
+<div>Jusqu’au jour ensemble, buvons, buvons (bis)</div>
+<div>Puis après sous la table, nous roulons et dormons, </div>
+<div>Voilà c’qu’est bon, est bon, est bon.</div>
+</div>
+<div class="couplet">
+<div>Si c’est ça la vie que tous les moines font (bis) </div>
+<div>Je me ferai moine avec ma Jeanneton (bis)</div>
+<div>Et couché sur l’herbette, je lui chatouillerai l’bouton,</div>
+<div>Voilà c’qu’est bon, est bon, est bon.</div>
+</div>
+</div>
+
+===== FILE: src\content\les-quatre-vingts-chasseurs.svelte =====
+<script>
+  export let metadata = {
+    id: "les-quatre-vingts-chasseurs",
+    title: "Les quatre-vingts chasseurs",
+    theme: "Chansons paillardes",
+    sortKeys: ["Les quatre-vingts chasseurs"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+|: 80, 80, 80, 80, 80 chasseurs :|<br/>
+Et qui n’avions pas peur ! <br/>
+</div>
+<div class="couplet">
+<div>A l’ouverture de la chasse, </div>
+<div>Dans un pays riche en gibier,</div>
+<div>Riche en gibier,</div>
+<div>Une marquise aux fins limiers, </div>
+<div>Dont l’esprit égalait la grâce,</div>
+<div>Invita ses amis chasseurs.</div>
+<div>Mais grande fut notre surprise,</div>
+<div>|: Car au rendez-vous de la marquise, </div>
+<div>Nous étions 80 chasseurs ! :| </div>
+</div>
+<div class="couplet">
+<div>Allons, Messieurs, vite en campagne, </div>
+<div>Dit la marquise, il faut partir,</div>
+<div>Il faut partir.</div>
+<div>Que chacun songe à son plaisir,</div>
+<div>Le son du cor vous accompagne. </div>
+<div>Aussitôt des cris, des clameurs, </div>
+<div>Plus d’une biche fut surprise,</div>
+<div>|: Car dans les bois de la marquise </div>
+<div>Nous étions 80 chasseurs ! :| </div>
+</div>
+<div class="couplet">
+<div>A l’issue de cette journée,</div>
+<div>La marquise en ses plus beaux jours,</div>
+<div>Ses plus beaux jours, </div>
+<div>Parée de merveilleux atours,</div>
+<div>Par chacun d’eux fut convoitée.</div>
+<div>Et chacun obtint ses faveurs,</div>
+<div>Mais grande fut notre surprise,</div>
+<div>|: Car dans le lit de la marquise </div>
+<div>Nous étions 80 chasseurs ! :| </div>
+</div>
+<div class="couplet">
+<div>Après cett' journée mémorable,</div>
+<div>La marquise, neuf mois plus tard,</div>
+<div>Neuf mois plus tard,</div>
+<div>Nous mit au monde un beau poupard, </div>
+<div>Aujourd’hui tireur redoutable. </div>
+<div>De ses jours ignorant l’auteur, </div>
+<div>Il demanda qu’on l’en instruise.</div>
+<div>|: "Vous êtes le fils de la marquise, </div>
+<div>L’enfant de 80 chasseurs !" :|</div>
+</div>
+</div>
+
+===== FILE: src\content\marche-americaine.svelte =====
+<script>
+  export let metadata = {
+    id: "marche-americaine",
+    title: "Marche américaine",
+    theme: "Chansons paillardes",
+    sortKeys: ["Marche américaine"]
+  };
+</script>
+
+<div class="song">
+<p>Ah oui ! je sens bien qu’tu m’l’as mise</p>
+<p>Ce n’est plus ton p’tit doigt qui m’chatouille, </p>
+<p>Je sens ton nombril contre le mien,</p>
+<p>Et la chaleur de tes deux couilles.</p>
+<p>Ton doigt n’était pas si mouillé,</p>
+<p>Il allait et revenait sans cadence. </p>
+<p>Maintenant c’est bien plus régulier,</p>
+<p>Ah ! nom de bleu, Ah ! nom de bleu, </p>
+<p>Quelle jouissance !</p>
+</div>
+
+===== FILE: src\content\missa-solemnis.svelte =====
+<script>
+  export let metadata = {
+    id: "missa-solemnis",
+    title: "Missa Solemnis",
+    theme: "Chants estudiantins",
+    sortKeys: ["Missa Solemnis"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>|: Pour la fête qui s’apprête</div>
+<div>Cueillons des fleurs dans ces bosquets ! :|</div>
+<div>|: Invitons à notre fête</div>
+<div>Bacchus et le dieu de paix :| (bis)</div>
+</div>
+<div class="couplet">
+<div>|: Que chacun de nous s’enivre</div>
+<div>Des plus exquis et doux transports :|</div>
+<div>|: Et n’attendons pas pour vivre</div>
+<div>Que nous soyons chez les morts :| (bis)</div>
+</div>
+<div class="couplet">
+<div>|: Car dans ces royaumes sombres</div>
+<div>Où nous goûterons le repos :|</div>
+<div>|: L’on n’embrasse que des ombres</div>
+<div>Et l’on n’y boit que de l’eau :| (bis)</div>
+</div>
+<div class="couplet">
+<div>|: Voici l’heure fatidique</div>
+<div>Pour le départ des Philistins :|</div>
+<div>|: Et dans nos exploits bachiques</div>
+<div>Nous restons jusqu’au matin :| (bis)</div>
+<div>[<strong>Selon les sociétés</strong> : </div>
+</div>
+<div class="couplet">
+<div><em>|: Nous sommes la confrérie</em></div>
+<div><em>Des joyeux membres Sétéviens ! :|</em></div>
+<div><em>|: Et nous savons que la vie</em></div>
+<div><em>Sans le vin ne vaudrait rien :| (bis)]</em>
+</div>
+</div>
+</div>
+
+===== FILE: src\content\nini-peau-de-chien.svelte =====
+<script>
+  export let metadata = {
+    id: "nini-peau-de-chien",
+    title: "Nini peau de chien",
+    theme: "Chansons populaires",
+    sortKeys: ["Nini peau de chien"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+A la Bastille<br/>
+On l’aime bien<br/>
+Nini peau de chien,<br/>
+Ale est si belle et si jolie <br/>
+On l’aime bien, qui ça ? <br/>
+Nini peau de chien, où ça ? <br/>
+A la Bastille.<br/>
+</div>
+<div class="couplet">
+<div>Quand ale était petite</div>
+<div>Le soir ale allait</div>
+<div>A Ste Marguerite</div>
+<div>Ouss qu’a se dessalait, </div>
+<div>Maintenant qu’ale est grande, </div>
+<div>Al' marche le soir</div>
+<div>Avec ceux de la bande</div>
+<div>Du Richard Lenoir.</div>
+</div>
+<div class="couplet">
+<div>Ale a la peau douce, </div>
+<div>Aux taches de son, </div>
+<div>Une odeur de rousse </div>
+<div>Qui donne le frisson </div>
+<div>Et dans ses prunelles </div>
+<div>Aux tons verts de gris,</div>
+<div>L’amour étincelle</div>
+<div>Dans ses yeux d’souris.</div>
+</div>
+<div class="couplet">
+<div>
+Quand le soleil brille </div>
+<div>Dans ses cheveux roux, </div>
+<div>L’génie d’la Bastille</div>
+<div>Lui fait des yeux doux. </div>
+<div>Et quand ale s’promène </div>
+<div>Sul' bord du canal,</div>
+<div>Tout l’quartier s’ramène </div>
+<div>Du bout d’l’arsenal.</div>
+</div>
+<div class="couplet">
+<div>Et le gars qu’ale aime, </div>
+<div>Qu’ale a dans la peau </div>
+<div>C’est Bibi la Crème, </div>
+<div>pasqu'il est costaud, </div>
+<div>Pasque c’est un homme, </div>
+<div>Qu’a pas le foie blanc ; </div>
+<div>Aussi faut voir comme </div>
+<div>Nini l’a dans l’sang</div>
+</div>
+</div>
+
+===== FILE: src\content\nuithonia-1845-fribourg.svelte =====
+<script>
+  export let metadata = {
+    id: "nuithonia-1845-fribourg",
+    title: "Nuithonia (1845, Fribourg)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Nuithonia (1845, Fribourg)"]
+  };
+</script>
+
+<div class="song">
+<p>Nuithoniens dans Fribourg la jolie, marchons sous notre drapeau et chantons à la Patrie, tous nos hymnes les plus beaux. </p>
+<p>Nous serons au jour de gloire, quand vibrera notre cœur, marche ferme à la victoire, |: faire triompher nos couleurs. :|</p>
+</div>
+
+===== FILE: src\content\oh-mon-berger-fidele.svelte =====
+<script>
+  export let metadata = {
+    id: "oh-mon-berger-fidele",
+    title: "Oh mon berger fidèle",
+    theme: "Chansons paillardes",
+    sortKeys: ["Oh mon berger fidèle"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Oh mon berger fidèle,</div>
+<div>Viens donc goûter au vrai bonheur, </div>
+<div>A ma voix qui t’appelle,</div>
+<div>Viens t’en reposer sur mon cœur !</div>
+</div>
+<div class="refrain" data-title="Chœur des Vierges">
+Ah ! Fous-moi donc ta pine dans le cul<br/>
+Et qu’on en finisse,<br/>
+Ah ! Fous-moi donc ta pine dans le cul<br/>
+Et qu’on n’en parle plus<br/>
+</div>
+<div class="couplet">
+<div>Ta langue me trifouille</div>
+<div>Du con au sommet de mes seins.</div>
+<div>Et ta main me chatouille </div>
+<div>Jusqu’au plus profond du vagin.</div>
+</div>
+<div class="couplet">
+<div>Je sens tes testicules</div>
+<div>Qui viennent battre mon pétard. </div>
+<div>Je veux que tu m’encules</div>
+<div>A t’en écorcher le braqu'mart.</div>
+</div>
+<div class="couplet">
+<div>Ta pine pousse et tasse</div>
+<div>Ma merde en coquets berlingots </div>
+<div>Puis de ton gland les brasse </div>
+<div>Quand du foutre y jaillit le flot.</div>
+</div>
+<div class="couplet">
+<div>Mais ta queue devient molle, </div>
+<div>Cesse tout à coup de bander. </div>
+<div>De désir tu m’affoles :</div>
+<div>Passe-moi le godemiché.</div>
+</div>
+<div class="refrain" data-title="Refrain final">
+Fous-moi l’god'miché dans l’cul<br/>
+Faut que je me finisse,<br/>
+</div>
+<p>Fous-moi l’god'miché dans l’cul, </p>
+<p>Et qu’on n’en parle plus !</p>
+</div>
+
+===== FILE: src\content\pere-dupanloup.svelte =====
+<script>
+  export let metadata = {
+    id: "pere-dupanloup",
+    title: "Père Dupanloup",
+    theme: "Chansons paillardes",
+    sortKeys: ["Père Dupanloup"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Zut, merde, pine et boxon<br/>
+L’père Dupanloup est un cochon.<br/>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup encor' moutard </div>
+<div>Montrait ce qu’il ferait plus tard. </div>
+<div>Encor' dans l’ventre de sa mère</div>
+<div>Il suçait la pin' de son père.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup dans son berceau </div>
+<div>Bandait déjà comme un taureau. </div>
+<div>Pour satisfair' tous ses caprices, </div>
+<div>Il enculait sa vieill' nourrice.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup dans son berceau</div>
+<div>S’tordait la pin' dans les barreaux.</div>
+<div>Crénom de bleu lui dit sa mère, </div>
+<div>Tu band's déjà comm' feu ton père. </div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup à la cuisine</div>
+<div>Battait les œufs avec sa pine.</div>
+<div>Nom de bleu, dit la cuisinière,</div>
+<div>Fous-la moi donc dans le derrière.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup à l’institut</div>
+<div>Ne voulait voir que des culs nus. </div>
+<div>Ne respectant aucune barrière </div>
+<div>Il enculait tous ses confrères.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup l’quatorz' juillet</div>
+<div>Alla s’prom'ner à dos d’mulet. </div>
+<div>Pour que la fête soit complète,</div>
+<div>Il encula la pauvre bête.</div>
+</div>
+<div class="couplet">
+<div>A la société des Nations</div>
+<div>L’père Dupanloup fit sensation.</div>
+<div>Il proposa contre les guerres</div>
+<div>De mettr' son vit comme frontière.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup à bicyclette </div>
+<div>Faisait pas beaucoup d’kilomètres,</div>
+<div>Car sa longue pine qui traîne</div>
+<div>Se prenait toujours dans la chaîne.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup monte en ballon</div>
+<div>Mais il avait l’systèm' trop long.</div>
+<div>Il était d’jà au d’sus d’St Pierre.</div>
+<div>Qu’ses couilles pendaient encore à terre.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup monte en bateau </div>
+<div>Mais il avait l’système si beau</div>
+<div>Qu’il avait bien cent mille grenouilles</div>
+<div>A lui sucer la peau des couilles.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup en chemin d’fer </div>
+<div>Avait un b'soin à satisfaire.</div>
+<div>Foutant sa bite à la portière</div>
+<div>Il éborgna un gard'-barrière.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup à l’Opéra </div>
+<div>Avait grande envie d’faire caca. </div>
+<div>Sans s’départir d’un' certain' morgue, </div>
+<div>Il pétait pendant les points d’orgue.</div>
+</div>
+<div class="couplet">
+<div>L’père Dupanloup à l’Odéon</div>
+<div>Se conduisit comme un cochon.</div>
+<div>Avec la peau de ses roupettes</div>
+<div>Il bouchait l’trou des clarinettes.</div>
+</div>
+</div>
+
+===== FILE: src\content\pot-pourri-lemanien.svelte =====
+<script>
+  export let metadata = {
+    id: "pot-pourri-lemanien",
+    title: "Pot-pourri Lémanien",
+    theme: "Chants estudiantins",
+    sortKeys: ["Pot-pourri Lémanien"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Und wir leben nicht mehr so lang (bis)<br/>
+Am neunzehnten Mai is der Weltuntergang<br/>
+</div>
+<div class="couplet">
+<div>Nous l’avions bâtie la blanche maison (maison)</div>
+<div>Mais elle était pourrie jusqu’à la foutraison (la foutraison)</div>
+<div>Mais elle était pourrie jusqu’à la foutraison</div>
+</div>
+<div class="couplet">
+<div>Pour qu’il prospère faut pisser contre le sapin vert, </div>
+<div>le sapin vert (bis)</div>
+</div>
+<div class="couplet">
+<div>L’Helvetia qui plantera des pommes de terre sur Saint-François, sur Saint-François (bis)</div>
+</div>
+<div class="couplet">
+<div>Valdésia qui ne boit que de l’eau (bis)</div>
+<div>Valdésia qui ne boit que de l’eau (bis) </div>
+<div>Pffoui ! pffoui !	</div>
+</div>
+<div class="couplet">
+<div>Stella, Stella fous-toi en l’air. Stella, Stella fous-toi en bas. (bis) Hi hou ! </div>
+</div>
+<div class="couplet">
+<div>Dans le désert, on dit que les chameaux n’ont jamais soif.</div>
+<div>Ça, c’est des racontars (des racontars) !</div>
+<div>S’ils ne boivent pas, c’est qu’ils n’ont que de l’eau</div>
+<div>Ils boiraient bien s’ils avaient du pinard !</div>
+<div>Une, deux !</div>
+<div>Le pinard, c’est de la vinasse</div>
+<div>Ça réchauffe par où ça passe</div>
+<div>Vas-y Oscar (bis)</div>
+<div>Remplis mon quart (bis) </div>
+<div>Vive le pipi, vive le pinard !</div>
+</div>
+<div class="couplet">
+<div>|: Pour faire un chahut très chrétien (bis)</div>
+<div>Il faut des Lémaniens (bis) :|</div>
+</div>
+<div class="refrain" data-title="Refrain 2">
+|: Bagatelle ! vive la bouteille !<br/>
+Amours, amours, allez vous balader ! :|<br/>
+</div>
+<div class="couplet">
+<div>|: Sans le bouc à l’oncle Henri tout le village, tout le village :| serait sans cabri.</div>
+</div>
+<div class="couplet">
+<div>|: Sans la femme du boulanger tout le village, tout le village :| serait sans bébé.</div>
+</div>
+<div class="couplet">
+<div>|: Sans la femme du Président tout le village, tout le village :| serait sans enfant.</div>
+</div>
+</div>
+
+===== FILE: src\content\qu-on-apporte.svelte =====
+<script>
+  export let metadata = {
+    id: "qu-on-apporte",
+    title: "Qu’on apporte",
+    theme: "Chansons paillardes",
+    sortKeys: ["Qu’on apporte"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Qu’on apporte, qu’on apporte,<br/>
+Du vin, du vin, et qu’on nous serve à boire<br/>
+Qu’on apporte, qu’on apporte,<br/>
+Du vin, du vin, et qu’on nous serve bien<br/>
+</div>
+<div class="couplet">
+<div>Le père Adam, huit jours avant la faute, </div>
+<div>Dans l’Paradis bandait comme un cochon. </div>
+<div>C’est pourquoi Dieu lui arracha une côte </div>
+<div>Avec laquelle il fit le premier con…</div>
+</div>
+<div class="couplet">
+<div>Comment Noé repeupla-t-il la terre</div>
+<div>Avec sa femme dans leur unique maison ? </div>
+<div>Yen a qui disent que c’est par la prière, </div>
+<div>Moi, je prétends que c’est à coup de con…</div>
+</div>
+<div class="couplet">
+<div>Pourquoi David prit-il une pucelle</div>
+<div>Dans ses vieux jours et froid comme un glaçon ? </div>
+<div>C’est pour avoir, en dormant avec elle,</div>
+<div>Le doux plaisir de lui tâter le con…</div>
+</div>
+<div class="couplet">
+<div>Pourquoi Priam, du haut de ses murailles, </div>
+<div>Découillait-il comme un vulgaire cochon ? </div>
+<div>C’est qu’il voyait, là-bas dans les broussailles, </div>
+<div>Trois jeunes pucelles qui s’astiquaient le con…</div>
+</div>
+<div class="couplet">
+<div>Quand Ménélas eut retrouvé Hélène, </div>
+<div>Dans un boxon de l’antique Ilion,</div>
+<div>Pour s’assurer qu’elle lui serait fidèle, </div>
+<div>D’un cadenas, il lui boucla le con…</div>
+</div>
+<div class="couplet">
+<div>Pourquoi Pâris, en jugeant les Déesses, </div>
+<div>Dédaigna-t-il et Pallas et Junon ?</div>
+<div>C’est que des deux, il ne vit que les fesses </div>
+<div>Et que Vénus lui présenta le con…</div>
+</div>
+<div class="couplet">
+<div>Sémiramis, la reine des pays Mèdes, </div>
+<div>Sémiramis, la reine aux blancs nichons, </div>
+<div>Dans son palais fit venir Archimède </div>
+<div>Pour mesurer l’apothème de son con…</div>
+</div>
+<div class="couplet">
+<div>Le Père Enée, avant d’quitter Carthage </div>
+<div>Fit ses paquets sans prévenir Didon,</div>
+<div>C’est qu’il savait par un secret message </div>
+<div>Que Lavinie avait un plus beau con…</div>
+</div>
+<div class="couplet">
+<div>Pourquoi Platon n’avait-il qu’une couille ?</div>
+<div>Pourquoi Platon n’avait-il qu’un roustion ?</div>
+<div>C’est que la mère de cet' illustre andouille </div>
+<div>Avait oublié l’autre dans son con…</div>
+</div>
+<div class="couplet">
+<div>Pourquoi César a-t-il quitté la Grèce, </div>
+<div>Pourquoi César franchit le Rubicon ?</div>
+<div>C’est qu’si les Grècques avaient de belles fesses,</div>
+<div>Les Italiennes ont de plus jolis cons…</div>
+</div>
+<div class="couplet">
+<div>Neuf mois avant que la Vierge n’accouche, </div>
+<div>Le Saint-Esprit la visita, dit-on,</div>
+<div>Les uns prétendent qu’il entra par la bouche, </div>
+<div>Moi, je soutiens que ce fut par le con…</div>
+</div>
+<div class="couplet">
+<div>Napoléon, homme de renommée, </div>
+<div>Conquit l’Europe à grands coups de canon,</div>
+<div>On lui offrit couronnes et trophées, </div>
+<div>Marie-Louise n’lui offrit que son con…</div>
+</div>
+<div class="couplet">
+<div>Les imbéciles, ainsi que les vicaires, </div>
+<div>Auraient voulu défendre ma chanson.</div>
+<div>Ils n’seraient pas aujourd’hui sur la terre </div>
+<div>Si leur maman n’avait prêté son con…
+</div>
+</div>
+</div>
+
+===== FILE: src\content\sarinia-1895-fribourg.svelte =====
+<script>
+  export let metadata = {
+    id: "sarinia-1895-fribourg",
+    title: "Sarinia (1895, Fribourg)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Sarinia (1895, Fribourg)"]
+  };
+</script>
+
+<div class="song">
+<p>Ton nom doux comme les yeux d’amie, porte partout le bonheur, toi qui comme une amante jolie Sarinia fait vibrer nos cœurs. </p>
+<p>A toi nos chansons légères que nous semons dans Fribourg. </p>
+<p>A toi nous levons nos verres, |: à toi nos vœux, nos amours. :|</p>
+</div>
+
+===== FILE: src\content\self-1905-bienne.svelte =====
+<script>
+  export let metadata = {
+    id: "self-1905-bienne",
+    title: "Self (1905, Bienne)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Self (1905, Bienne)"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Selfiens, que chacun fraternise. C’est notre volonté. Chantons en cœur notre devise. Et répétons avec fierté : travail et amitié ! Travail et amitié !</div>
+</div>
+<div class="couplet">
+<div>Selfiens, respectez la casquette. Aimez le bleu, le blanc. Cela n’doit pas être amourette. Mais cela doit durer longtemps. Travail et amitié ! Travail et amitié !</div>
+</div>
+<div class="couplet">
+<div>Selfiens, les beaux jours des études seront vite passés. Quand la vie deviendra rude, ne nous lassons pas de répéter : travail et amitié ! Travail et amitié !</div>
+</div>
+<div class="couplet">
+<div>Quand nous aurons la barbe blanche et plus qu’un souvenir, rappelons-nous les beaux dimanches et répétons dans un soupir : travail et amitié ! Travail et amitié !</div>
+</div>
+</div>
+
+===== FILE: src\content\ses-1841.svelte =====
+<script>
+  export let metadata = {
+    id: "ses-1841",
+    title: "SES (1841)",
+    theme: "Chants estudiantins",
+    sortKeys: ["SES (1841)"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Den Riesenkampf mit dieser Zeit zu wagen, da frisch noch blüht der Jugend Kraftgefühl, des Lebens Bürde mutig stark zu tragen zu ringen nach der Tugen hohem Ziel. Auf Edles stets den kühnen Blick zu wenden und gut zu kämpfen, besser zu vollenden !</div>
+</div>
+<div class="refrain" data-title="Refrain">
+Dafür, dafür, o Freunde, haben wir geschworen und keiner, keiner gehe je von uns verloren.<br/>
+</div>
+<div class="couplet">
+<div>Und stets der edlen Herzen zu gedenken, die treu erschließen uns des Wissens Hort und liebend unser Lebensschifflein lenken zum heißersehnten gold’nen Glückesport. Zum Meeressterne gläubig aufzuschauen, zum reinen Strahlenglanz der Himmelsauen ! </div>
+</div>
+<div class="couplet">
+<div>Und auf der Weisheit lichtem Pfade wandelnd, wo rastlos forscht der Geist und prüft und denkt, nach steter Pflicht und reinem Rechte handelnd bis unser Auge sich zum Grabe senkt. Mit gutem Sinn die Wissenschaft zu pflegen, nicht weichend von des Glaubens Sonnenwegen !</div>
+</div>
+</div>
+
+===== FILE: src\content\stella-1857-vaud-1863-geneve.svelte =====
+<script>
+  export let metadata = {
+    id: "stella-1857-vaud-1863-geneve",
+    title: "Stella (1857, Vaud ; 1863, Genève)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Stella (1857, Vaud ; 1863, Genève)"]
+  };
+</script>
+
+<div class="song">
+<p>Vivat Stella ! Bibamus, amici Stellae, nobis carissimae laeti </p>
+<p>Claro simul dicamus pectore </p>
+<p>0Uno corde nos semper vivere ; </p>
+<p>In aeternum iuncti simus, </p>
+<p>Ante hostem et canamus, </p>
+<p>|: Nos dicturos perpetue : Vivat Stella ! Vivat Stella ! :| </p>
+</div>
+
+===== FILE: src\content\sur-la-route-de-louviers.svelte =====
+<script>
+  export let metadata = {
+    id: "sur-la-route-de-louviers",
+    title: "Sur la route de Louviers",
+    theme: "Chansons paillardes",
+    sortKeys: ["Sur la route de Louviers"]
+  };
+</script>
+
+<div class="song">
+<div class="couplet">
+<div>Sur la route de Louviers (bis) </div>
+<div>Il y avait un cantonnier (bis) </div>
+<div>Et qui baisait (bis)</div>
+<div>Et qui baisait comme un voyou </div>
+<div>Au lieu d’casser les cailloux.</div>
+</div>
+<div class="couplet">
+<div>Une belle dame vint à passer (bis)</div>
+<div>Dans un beau carrosse doré (bis)</div>
+<div>Elle y baisait (bis)</div>
+<div>Elle y baisait comme un voyou</div>
+<div>A en faire craquer les roues.</div>
+</div>
+<div class="couplet">
+<div>Elle aperçut l’cantonnier (bis) </div>
+<div>Dans le fond d’un grand fossé (bis)</div>
+<div>Et qui baisait (bis)</div>
+<div>Et qui baisait comme un voyou</div>
+<div>Une fillette aux cheveux roux.</div>
+</div>
+<div class="couplet">
+<div>Elle lui dit : "Brave cantonnier (bis)</div>
+<div>Avec moi veux-tu monter (bis) </div>
+<div>Pour me baiser (bis)</div>
+<div>Pour me baiser comme un voyou,</div>
+<div>Le Préfet est mon époux."</div>
+</div>
+<div class="couplet">
+<div>A ces mots le cantonnier (bis)</div>
+<div>Laisse la rousse dans le fossé (bis)</div>
+<div>Et va baiser (bis)</div>
+<div>Et va baiser comme un voyou</div>
+<div>La belle dame pleine de bijoux.</div>
+</div>
+<div class="couplet">
+<div>Le lendemain, par arrêté (bis) </div>
+<div>Fut nommé chef cantonnier (bis) </div>
+<div>Parce qu’il baisait (bis)</div>
+<div>Parce qu’il baisait comme un voyou</div>
+<div>Au lieu d’casser les cailloux.</div>
+</div>
+<div class="couplet">
+<div>Voici la moralité (bis)</div>
+<div>Dans la vie pour arriver (bis)</div>
+<div>Il faut baiser (bis)</div>
+<div>Il faut baiser comme des voyous</div>
+<div>Les belles dames qui ont des sous.</div>
+</div>
+</div>
+
+===== FILE: src\content\trois-orfevres.svelte =====
+<script>
+  export let metadata = {
+    id: "trois-orfevres",
+    title: "Trois orfèvres",
+    theme: "Chansons paillardes",
+    sortKeys: ["Trois orfèvres"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Relevez la belle votre blanc jupon, <br/>
+Qu’on vous voie le cul, <br/>
+qu’on vous voie les fesses ;<br/>
+Relevez la belle votre blanc jupon, <br/>
+Qu’on vous voie le cul, qu’on vous voie le con !<br/>
+</div>
+<div class="couplet">
+<div>Trois orfèvres, à la Saint-Eloi,</div>
+<div>S’en allèrent dîner chez un autre orfèvre ;</div>
+<div>Trois orfèvres, à la Saint-Eloi,</div>
+<div>S’en allèrent dîner chez un bon bourgeois.</div>
+<div>Ils ont baisé toute la famille,</div>
+<div>La mère aux tétons,</div>
+<div>Le père au cul, la fille au con.</div>
+</div>
+<div class="couplet">
+<div>La servante, qui avait tout vu,</div>
+<div>Leur dit : "Foutez-moi votre pine aux fesses". </div>
+<div>La servante, qui avait tout vu,</div>
+<div>Leur dit : "Foutez-moi votre pine dans l’cul". </div>
+<div>Ils l’ont baisée là sur une chaise,</div>
+<div>La chaise a cassé</div>
+<div>Ils sont tombés sans débander.</div>
+</div>
+<div class="couplet">
+<div>Les orfèvres, non contents de ça, </div>
+<div>Montèr'nt sur le toit pour baiser Minette ; </div>
+<div>Les orfèvres, non contents de ça, </div>
+<div>Montèr'nt sur le toit pour baiser le chat.</div>
+<div>'Chat, petit chat, chat, tu m’égratignes, </div>
+<div>Petit polisson, Tu m’égratignes les roustons !"</div>
+</div>
+<div class="couplet">
+<div>Les orfèvres chez un pâtissier</div>
+<div>Entrèr'nt pour s’offrir quelques friandises ; </div>
+<div>Les orfèvres chez un pâtissier</div>
+<div>Par les p’tits mitrons se fir'nt enculer. </div>
+<div>Puis voyant leurs vits pleins de merde, </div>
+<div>Ils ont bouffé ça</div>
+<div>En guis' d’éclairs au chocolat !</div>
+</div>
+<div class="couplet">
+<div>Les orfèvres, au son du canon,</div>
+<div>Se retrouveront tous à la frontière ; </div>
+<div>Les orfèvres, au son du canon,</div>
+<div>En guis' de boulets lanc'ront des étrons, </div>
+<div>Bandant tous ainsi que des carmes,</div>
+<div>A grands coups de vits,</div>
+<div>Repousseront les ennemis.</div>
+</div>
+</div>
+
+===== FILE: src\content\valdesia-1915-lausanne.svelte =====
+<script>
+  export let metadata = {
+    id: "valdesia-1915-lausanne",
+    title: "Valdésia (1915, Lausanne)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Valdésia (1915, Lausanne)"]
+  };
+</script>
+
+<div class="song">
+<p>Les connais-tu les trois couleurs, les couleurs valdésiennes, celles qui font rêver les cœurs, les charment, les retiennent ? </p>
+<p>Rouge de feu, vie et passion ; |: or des moissons couleur d’union :| ; noir, fidélité même. </p>
+</div>
+
+===== FILE: src\content\waldstattia-1891-lucerne.svelte =====
+<script>
+  export let metadata = {
+    id: "waldstattia-1891-lucerne",
+    title: "Waldstättia (1891, Lucerne)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Waldstättia (1891, Lucerne)"]
+  };
+</script>
+
+<div class="song">
+<p>Wo die Reuss mit grünen Wogen dem Luzerner See entspringt, rauscht Waldstättia stolzes Banner, wenn’s für Gott zu kämpfen gilt. Tugend, Weisheit, Freudshaft stehen gleich drei gold’nen Sternen auf, die uns leiten, die uns führen, |: zu des Höchsten Ziel hinauf. :| </p>
+</div>
+
+===== FILE: src\content\zita.svelte =====
+<script>
+  export let metadata = {
+    id: "zita",
+    title: "Zita",
+    theme: "Chansons paillardes",
+    sortKeys: ["Zita"]
+  };
+</script>
+
+<div class="song">
+<div class="refrain" data-title="Refrain">
+Ah ! vivre sans souci	<br/>
+Boire du purin, bouffer d’la merde <br/>
+C’est le meilleur moyen<br/>
+De ne jamais crever de faim.<br/>
+</div>
+<div class="couplet">
+<div>C'est un hussard de la garde </div>
+<div>Qui revenait de garnison</div>
+<div>De Briançon,</div>
+<div>Portant sa pine en hallebarde, </div>
+<div>Agrémentée de deux roustions</div>
+<div>Pleins de morpions.</div>
+</div>
+<div class="couplet">
+<div>En descendant la rue Troussecouilles, </div>
+<div>Il rencontre la garce Zita</div>
+<div>Qui pue du chat.</div>
+<div>Il lui dit: "Chaste fripouille,</div>
+<div>Le régiment s'en va demain,</div>
+<div>Pine à la main."</div>
+</div>
+<div class="couplet">
+<div>En vain, Zita se désespère</div>
+<div>De voir partir tous ses amis</div>
+<div>Avec leurs vits.</div>
+<div>Elle va trouver madame sa mère </div>
+<div>Lui dit: "Je veux partir aussi, </div>
+<div>Sacrée chipie."</div>
+</div>
+<div class="couplet">
+<div>"Ma fille, ma sacrée garce de fille, </div>
+<div>N'pars pas avec ce hussard-là,</div>
+<div>Il te perdra !</div>
+<div>Ils t'ont fendue jusqu'au nombril, </div>
+<div>Ils te fendront jusqu'au menton, </div>
+<div>La peau du con !"</div>
+</div>
+<div class="couplet">
+<div>Ma fille, ma sacrée garce de fille, </div>
+<div>Quand s'ra parti ce hussard-là, </div>
+<div>Tu t'masturb'ras !</div>
+<div>Je t'achèt'rai une cheville</div>
+<div>Avec laquelle tu te branleras</div>
+<div>A tour de bras !"</div>
+</div>
+<div class="couplet">
+<div>"Ma mère, mon vieux chameau de mère,</div>
+<div>Quand tu me parles de me branler,</div>
+<div>Tu m'fais chier !</div>
+<div>Un vit ça sort de l'ordinaire,</div>
+<div>Ça vous laisse un doux souvenir</div>
+<div>Qui fait jouir !"</div>
+</div>
+<div class="couplet">
+<div>La garce s'est tout d'même laissée faire </div>
+<div>Par le hussard qui la pressait</div>
+<div>Et la branlait.</div>
+<div>Il lui mit une si longue affaire</div>
+<div>Que ça lui r'sortait par le nez;</div>
+<div>Ça l'a tuée.</div>
+</div>
+<div class="couplet">
+<div>Zita, la reine des putes est morte,</div>
+<div>Est morte comme elle a vécu,</div>
+<div>La pine au cul !</div>
+<div>Le corbillard est à sa porte,</div>
+<div>Tiré par trois cent mille putains,</div>
+<div>Pine à la main.</div>
+<div>(O merde, merde divine, les roses ont des épines. </div>
+<div>Oui mais toi, mais toi, tu n’en as pas, tsoin, tsoin !</div>
+<div>Coup de canon !)</div>
+</div>
+</div>
+
+===== FILE: src\content\zofingue-1819.svelte =====
+<script>
+  export let metadata = {
+    id: "zofingue-1819",
+    title: "Zofingue (1819)",
+    theme: "Chants estudiantins",
+    sortKeys: ["Zofingue (1819)"]
+  };
+</script>
+
+<div class="song">
+<p><em>La blanche</em></p>
+<div class="couplet">
+<div>Nous l’avions bâtie, la blanche maison |: où coula notre vie dans sa belle saison :|</div>
+</div>
+<div class="couplet">
+<div>Nous vivions intimes, unis et joyeux |: mais nous fûmes victimes des méchants envieux :| </div>
+</div>
+<div class="couplet">
+<div>Ils vinrent ensemble faner sans pudeur |: l’amitié qui rassemble notre jeunesse en fleur :|</div>
+</div>
+<div class="couplet">
+<div>Malheur à qui brise ce nœud fraternel |: au monde qui méprise ce qui nous vient du ciel :|</div>
+</div>
+<div class="couplet">
+<div>Sous le flot qui roule, qui roule ici-bas |: si la maison s’écroule, nous ne chancellerons pas ! :|</div>
+</div>
+<div class="couplet">
+<div>Amis, bon courage, bravons leur courroux ! |: Dieu bénit notre ouvrage et triomphe avec nous :|</div>
+</div>
+</div>
 

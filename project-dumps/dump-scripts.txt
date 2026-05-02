@@ -10,7 +10,7 @@ if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir);
 }
 
-// Dossiers à dumper
+// Dossiers à dumper (NON RÉCURSIF)
 const TARGETS = {
   "dump-root.txt": ["."],
   "dump-src.txt": ["src"],
@@ -37,7 +37,9 @@ const IGNORE_FILES = [
   "project-structure.txt"
 ];
 
-function walk(dir, fileList = []) {
+// 🔥 Nouvelle version : walk NON RÉCURSIF
+function walk(dir) {
+  const fileList = [];
   const files = fs.readdirSync(dir);
 
   for (const file of files) {
@@ -45,14 +47,11 @@ function walk(dir, fileList = []) {
     const relPath = path.relative(root, fullPath);
     const stat = fs.statSync(fullPath);
 
-    if (stat.isDirectory()) {
-      if (!IGNORE_DIRS.some((ignored) => relPath.startsWith(ignored))) {
-        walk(fullPath, fileList);
-      }
-    } else {
-      if (!IGNORE_FILES.includes(file)) {
-        fileList.push(relPath);
-      }
+    // On ignore les sous-dossiers
+    if (stat.isDirectory()) continue;
+
+    if (!IGNORE_FILES.includes(file)) {
+      fileList.push(relPath);
     }
   }
 
@@ -82,6 +81,41 @@ for (const [outputName, folders] of Object.entries(TARGETS)) {
 }
 
 console.log("✔ Tous les dumps structurés ont été générés !");
+
+
+===== FILE: scripts\generate-allSongs.js =====
+// scripts/generate-allSongs.js
+
+import fs from "fs";
+import path from "path";
+
+const root = process.cwd();
+
+// Emplacement du JSON source
+const jsonPath = path.join(root, "static", "data", "pages.json");
+
+// Emplacement du fichier généré
+const outDir = path.join(root, "src", "lib", "data");
+const outFile = path.join(outDir, "allSongs.ts");
+
+// Lecture du JSON
+const raw = fs.readFileSync(jsonPath, "utf8");
+const data = JSON.parse(raw);
+
+// Création du dossier si nécessaire
+if (!fs.existsSync(outDir)) {
+  fs.mkdirSync(outDir, { recursive: true });
+}
+
+// Génération du fichier TS
+const content =
+  `// AUTO-GENERATED FILE — DO NOT EDIT\n` +
+  `// Generated from static/data/pages.json\n\n` +
+  `export const allSongs = ${JSON.stringify(data.pages, null, 2)} as const;\n`;
+
+fs.writeFileSync(outFile, content, "utf8");
+
+console.log("✔ allSongs.ts généré avec succès !");
 
 
 ===== FILE: scripts\generate-asset-list.js =====
@@ -125,6 +159,79 @@ const assets = walk(immutableDir);
 fs.writeFileSync(outputFile, JSON.stringify({ assets }, null, 2));
 
 console.log("✔ asset-list.json généré !");
+
+
+===== FILE: scripts\generate-pages-json.js =====
+import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
+import path from "node:path";
+
+const CONTENT_DIR = path.join(process.cwd(), "src", "content");
+const OUTPUT_DIR = path.join(process.cwd(), "static", "data");
+const OUTPUT_FILE = path.join(OUTPUT_DIR, "pages.json");
+
+async function generate() {
+  console.log("⏳ Génération de pages.json…");
+
+  await mkdir(OUTPUT_DIR, { recursive: true });
+
+  const files = await readdir(CONTENT_DIR);
+  const svelteFiles = files.filter((f) => f.endsWith(".svelte"));
+
+  const pages = [];
+
+  for (const file of svelteFiles) {
+    const fullPath = path.join(CONTENT_DIR, file);
+    const raw = await readFile(fullPath, "utf8");
+
+    //
+    // --- Extraction du <script> metadata ---
+    //
+    const scriptMatch = raw.match(/<script>([\s\S]*?)<\/script>/);
+    if (!scriptMatch) continue;
+
+    const scriptContent = scriptMatch[1];
+
+    // On récupère metadata = { ... }
+    const metadataMatch = scriptContent.match(/metadata\s*=\s*({[\s\S]*?})/);
+    if (!metadataMatch) continue;
+
+    // On évalue l'objet metadata en JS
+    const metadata = eval("(" + metadataMatch[1] + ")");
+
+    const { id, title, theme, sortKeys } = metadata;
+
+    //
+    // --- Extraction du contenu HTML complet ---
+    //
+    // ⚠️ Nouvelle regex : capture TOUT jusqu'au dernier </div>
+    //
+    const bodyMatch = raw.match(/<div class="song">([\s\S]*)<\/div>\s*$/);
+    const body = bodyMatch ? bodyMatch[1].trim() : "";
+
+    pages.push({
+      id,
+      title,
+      sortKeys,
+      themes: [theme],
+      body,
+      html: `<div class="song">${body}</div>`
+    });
+  }
+
+  const VERSION = Date.now();
+
+  await writeFile(
+    OUTPUT_FILE,
+    JSON.stringify({ version: VERSION, pages }, null, 2),
+    "utf8"
+  );
+
+  console.log(`✔ pages.json mis à jour (${pages.length} chansons)`);
+}
+
+generate().catch((err) => {
+  console.error("❌ Erreur lors de la génération de pages.json :", err);
+});
 
 
 ===== FILE: scripts\tree.js =====

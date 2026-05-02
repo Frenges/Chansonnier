@@ -10,10 +10,12 @@ export default defineConfig({
       name: "generate-pages-json",
       buildStart() {
         exec("node ./scripts/generate-pages-json.js");
+        exec("node ./scripts/generate-allSongs.js");
       },
       handleHotUpdate({ file }) {
         if (file.endsWith(".md")) {
           exec("node ./scripts/generate-pages-json.js");
+          exec("node ./scripts/generate-allSongs.js");
         }
       }
     }

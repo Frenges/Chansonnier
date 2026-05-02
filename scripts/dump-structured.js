@@ -9,7 +9,7 @@ if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir);
 }
 
-// Dossiers à dumper
+// Dossiers à dumper (NON RÉCURSIF)
 const TARGETS = {
   "dump-root.txt": ["."],
   "dump-src.txt": ["src"],
@@ -36,7 +36,9 @@ const IGNORE_FILES = [
   "project-structure.txt"
 ];
 
-function walk(dir, fileList = []) {
+// 🔥 Nouvelle version : walk NON RÉCURSIF
+function walk(dir) {
+  const fileList = [];
   const files = fs.readdirSync(dir);
 
   for (const file of files) {
@@ -44,14 +46,11 @@ function walk(dir, fileList = []) {
     const relPath = path.relative(root, fullPath);
     const stat = fs.statSync(fullPath);
 
-    if (stat.isDirectory()) {
-      if (!IGNORE_DIRS.some((ignored) => relPath.startsWith(ignored))) {
-        walk(fullPath, fileList);
-      }
-    } else {
-      if (!IGNORE_FILES.includes(file)) {
-        fileList.push(relPath);
-      }
+    // On ignore les sous-dossiers
+    if (stat.isDirectory()) continue;
+
+    if (!IGNORE_FILES.includes(file)) {
+      fileList.push(relPath);
     }
   }
 

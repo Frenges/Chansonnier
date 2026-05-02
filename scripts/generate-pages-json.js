@@ -1,7 +1,5 @@
 import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
-import matter from "gray-matter";
-import { marked } from "marked";
 
 const CONTENT_DIR = path.join(process.cwd(), "src", "content");
 const OUTPUT_DIR = path.join(process.cwd(), "static", "data");
@@ -10,40 +8,54 @@ const OUTPUT_FILE = path.join(OUTPUT_DIR, "pages.json");
 async function generate() {
   console.log("⏳ Génération de pages.json…");
 
-  // 1) S'assurer que static/data existe
   await mkdir(OUTPUT_DIR, { recursive: true });
 
-  // 2) Lire les fichiers Markdown
   const files = await readdir(CONTENT_DIR);
-  const mdFiles = files.filter((f) => f.endsWith(".md"));
+  const svelteFiles = files.filter((f) => f.endsWith(".svelte"));
 
   const pages = [];
 
-  for (const file of mdFiles) {
+  for (const file of svelteFiles) {
     const fullPath = path.join(CONTENT_DIR, file);
     const raw = await readFile(fullPath, "utf8");
 
-    const parsed = matter(raw);
+    //
+    // --- Extraction du <script> metadata ---
+    //
+    const scriptMatch = raw.match(/<script>([\s\S]*?)<\/script>/);
+    if (!scriptMatch) continue;
 
-    const id = parsed.data.id ?? file.replace(".md", "");
-    const title = parsed.data.title ?? id;
-    const sortKeys = parsed.data.sortKeys ?? [title];
-    const themes = parsed.data.themes ?? [];
+    const scriptContent = scriptMatch[1];
+
+    // On récupère metadata = { ... }
+    const metadataMatch = scriptContent.match(/metadata\s*=\s*({[\s\S]*?})/);
+    if (!metadataMatch) continue;
+
+    // On évalue l'objet metadata en JS
+    const metadata = eval("(" + metadataMatch[1] + ")");
+
+    const { id, title, theme, sortKeys } = metadata;
+
+    //
+    // --- Extraction du contenu HTML complet ---
+    //
+    // ⚠️ Nouvelle regex : capture TOUT jusqu'au dernier </div>
+    //
+    const bodyMatch = raw.match(/<div class="song">([\s\S]*)<\/div>\s*$/);
+    const body = bodyMatch ? bodyMatch[1].trim() : "";
 
     pages.push({
       id,
       title,
       sortKeys,
-      themes,
-      body: parsed.content.trim(),
-      html: marked(parsed.content)
+      themes: [theme],
+      body,
+      html: `<div class="song">${body}</div>`
     });
   }
 
-  // 3) Version unique à chaque génération
   const VERSION = Date.now();
 
-  // 4) Écrire le JSON final
   await writeFile(
     OUTPUT_FILE,
     JSON.stringify({ version: VERSION, pages }, null, 2),

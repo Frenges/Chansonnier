@@ -1,4 +1,5 @@
 <script lang="ts">
+  import '../app.css';        /* 🔥 AJOUT CRITIQUE */
   import { base } from "$app/paths";
   import favicon from '$lib/assets/favicon.svg';
   import { db } from "$lib/db";
@@ -6,7 +7,6 @@
 
   let { children, data } = $props();
 
-  // Remplissage Dexie
   onMount(async () => {
     for (const page of data.pages) {
       await db.pages.put(page);
@@ -31,7 +31,7 @@
   </main>
 </div>
 
-<style>
+<style global>
   .layout {
     display: flex;
     min-height: 100vh;
