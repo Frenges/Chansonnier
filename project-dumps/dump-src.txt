@@ -1,41 +1,72 @@
 ===== FILE: src\app.css =====
-.song {
-  padding: 1rem;
-  max-width: 650px;
-  margin: auto;
+/* ===========================
+   COUPLETS
+   =========================== */
+.couplet {
+  border: 2px solid #1e90ff;
+  background: rgba(30, 144, 255, 0.08);
+  padding: 0.5rem 0.8rem;
+  margin: 0.3rem 0;
+  border-radius: 6px;
+  counter-increment: couplet;
+  position: relative;
 }
 
-.song p {
-  margin: 0.35rem 0;
-  line-height: 1.45;
-  font-size: 1rem;
+/* Numéro du couplet */
+.couplet::before {
+  content: counter(couplet) ".";
+  position: absolute;
+  left: 0.5rem;
+  top: 1rem;
+  font-weight: bold;
+  color: #1e90ff;
 }
 
+/* Lignes du couplet */
+.couplet > div {
+  margin: 0;
+  padding: 0;
+  line-height: 1.25; /* compact mais lisible */
+}
+
+/* Décalage pour laisser la place au numéro */
+.couplet > div:first-child {
+  padding-left: 1.2rem;
+}
+
+/* ===========================
+   REFRAINS
+   =========================== */
 .refrain {
-  background: #f7f2d8;
-  border-left: 4px solid #c9a227;
-  padding: 0.75rem 1rem;
-  margin: 1rem 0;
-  border-radius: 6px;
-  line-height: 1.5;
-  font-style: italic !important;
-  font-size: 1.05rem;
-  white-space: pre-wrap;
+  background: #fff8d6;
+  border-left: 4px solid #f1c40f;
+  padding: 0.5rem 0.8rem;
+  margin: 0.3rem 0;
+  border-radius: 4px;  
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
-.list-item {
-  margin: 0.6rem 0 0.3rem;
-  font-weight: 600;
-  font-size: 1.05rem;
+.refrain > div {
+  margin: 0;
+  padding: 0;
+  line-height: 1.25;
 }
 
-.song-image {
+.refrain::before {
+  content: attr(data-title);
+  font-weight: bold;
   display: block;
-  max-width: min(80%, 300px);
-  height: auto;
-  margin: 1rem auto;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  margin-bottom: 0.2rem;
+}
+
+/* ===========================
+   GLOBAL
+   =========================== */
+.song > * {
+  margin: 0rem 0;
+  line-height: 0.15;
 }
 
 

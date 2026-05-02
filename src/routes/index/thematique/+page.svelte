@@ -7,11 +7,7 @@
   const { id, pages } = d;
 
   function normalize(str: string) {
-    return str
-      .toLowerCase()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/^(le|la|les|l'|the)\s+/i, "");
+    return str.toLowerCase();
   }
 
   const grouped = {};

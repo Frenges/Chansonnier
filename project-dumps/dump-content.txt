@@ -9,14 +9,14 @@
 </script>
 
 <div class="song">
-<p><strong>
-</strong></p>
+<div><strong>
+</strong></div>
 <div class="refrain" data-title="Refrain">
-Moi j’m’en fous, j’bouff' de tout
+<div>Moi j’m’en fous, j’bouff' de tout
 Si j’mang' bien, si j’chie peu
 C’est afin que rien n’se perde
 Si j’suis dégoûté d’la merde
-C’est qu’j’y ai trouvé un ch'veu<br/>
+C’est qu’j’y ai trouvé un ch'veu</div>
 </div>
 <div class="couplet">
 <div>À l’hôpital Saint-Louis</div>
@@ -111,11 +111,11 @@ J’aime aussi la dégueulade.</div>
 </script>
 
 <div class="song">
-<p>Célébrons avec des mots de flamme notre Activitas à nous. </p>
-<p>Que chacun joyeusement l’acclame, son nom clair qui sonne doux. </p>
-<p>A la gaieté point rebelle, nous cherchons en tout le bien. </p>
-<p>Sa devise est la plus belle, |: sans travail on n’obtient rien. :| 
-</p>
+<div>Célébrons avec des mots de flamme notre Activitas à nous. </div>
+<div>Que chacun joyeusement l’acclame, son nom clair qui sonne doux. </div>
+<div>A la gaieté point rebelle, nous cherchons en tout le bien. </div>
+<div>Sa devise est la plus belle, |: sans travail on n’obtient rien. :| 
+</div>
 </div>
 
 ===== FILE: src\content\agaunia-1859-st-maurice.svelte =====
@@ -129,9 +129,9 @@ J’aime aussi la dégueulade.</div>
 </script>
 
 <div class="song">
-<p>Chère Agaunia, fière et forte, rend mon bras, mon cœur vaillant. </p>
-<p>Des soldats martyrs tu portes dans ton sein le sang bouillant. </p>
-<p>Ton drapeau et tes couleurs symbolisent nos ardeurs. Blanc de nos cœurs l’innocence, |: rouge d’amour, vert d’espérance. :|</p>
+<div>Chère Agaunia, fière et forte, rend mon bras, mon cœur vaillant. </div>
+<div>Des soldats martyrs tu portes dans ton sein le sang bouillant. </div>
+<div>Ton drapeau et tes couleurs symbolisent nos ardeurs. Blanc de nos cœurs l’innocence, |: rouge d’amour, vert d’espérance. :|</div>
 </div>
 
 ===== FILE: src\content\ah-que-nos-peres-etaient-heureux.svelte =====
@@ -146,11 +146,11 @@ J’aime aussi la dégueulade.</div>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Et ils buvaient à leur tonneau <br/>
-Comme des trous,<br/>
-Comme des trous, morbleu,<br/>
-Bien autrement que nous, morbleu,<br/>
-Bien autrement que nous.<br/>
+<div>Et ils buvaient à leur tonneau </div>
+<div>Comme des trous,</div>
+<div>Comme des trous, morbleu,</div>
+<div>Bien autrement que nous, morbleu,</div>
+<div>Bien autrement que nous.</div>
 </div>
 <div class="couplet">
 <div>Ah ! que nos pères étaient heureux (bis) </div>
@@ -189,11 +189,11 @@ Bien autrement que nous.<br/>
 <div>A fait jaillir notre espérance.</div>
 </div>
 <div class="refrain" data-title="Refrain final">
-Amis buvons à nos tonneaux,<br/>
-Comme des trous,<br/>
-Comme des trous, morbleu <br/>
-L’avenir est à nous, morbleu, <br/>
-L’avenir est à nous.<br/>
+<div>Amis buvons à nos tonneaux,</div>
+<div>Comme des trous,</div>
+<div>Comme des trous, morbleu </div>
+<div>L’avenir est à nous, morbleu, </div>
+<div>L’avenir est à nous.</div>
 </div>
 </div>
 
@@ -208,7 +208,7 @@ L’avenir est à nous.<br/>
 </script>
 
 <div class="song">
-<p>(Lettre d’une jeune fille en vacances à sa mère)</p>
+<div>(Lettre d’une jeune fille en vacances à sa mère)</div>
 <div class="couplet">
 <div>Ah ! vous dirai-je maman</div>
 <div>A quoi nous passons le temps </div>
@@ -302,41 +302,41 @@ L’avenir est à nous.<br/>
 </script>
 
 <div class="song">
-<p><em>Sur l’air de Dance the night (de Barbie - Dua Lipa)</em></p>
-<p>Bienvenue au prologue 2024</p>
-<p>Sauf qu'en fait on est 5</p>
-<p>Installez-vous, et préparez vous </p>
-<p>pour un-e soirée de dingue								</p>
-<p>Le frigo panossé,</p>
-<p>le sol est rempli de bières</p>
-<p>On a déjà mal/  au foie, alors que/  ca n’a pas commencé</p>
-<p>Cette année sur scène deux sociétés</p>
-<p>Sont rassemblées </p>
-<p>Pour vous offrir, beaucoup de rire</p>
-<p>Plus que Shakespeare</p>
-<p>Le prologue Valdésio-Sétévien</p>
-<p>C’est trop chouette, on est tous ami.e.s</p>
-<p>Des très beaux prologuistes et un très giga beau pianiste</p>
-<p>C’est la fête, déroule le tapis</p>
-<p>Nos jeux de mots sont les meilleurs, nous sommes de grands artistes</p>
-<p>Ce soir, on a plein de couleurs sur scène</p>
-<p>Absalon est notr’ reine</p>
-<p>En noir rouge et mauve, douce comme une guimauve</p>
-<p>Noémie la poulaine</p>
-<p>Tout comme AskEby, en rouge or noir </p>
-<p>Voici ipsy</p>
-<p>Sortie de douche, Est-l’As en peignoir </p>
-<p>Obistro aussi</p>
-<p>Pour finir quelques actualités</p>
-<p>Prise d’otage, d’un train d’Yverdon</p>
-<p>La grève des scénaristes, a mis le cinéma en pause</p>
-<p>Un pigeon était en prison</p>
-<p>Ta copine en deepfake, alors qu’elle n’aime pas le lactose</p>
-<p>Pour finir cette fois-ci pour de vrai</p>
-<p>C’est parti pour la rigolade </p>
-<p>Ce prologue est une ouvre d’art qui surpasse même l’Iliade </p>
-<p>Confettis j’en veux dans ma vie</p>
-<p>Avec nous vous êtes servis, pizza et spaghetti</p>
+<div><em>Sur l’air de Dance the night (de Barbie - Dua Lipa)</em></div>
+<div>Bienvenue au prologue 2024</div>
+<div>Sauf qu'en fait on est 5</div>
+<div>Installez-vous, et préparez vous </div>
+<div>pour un-e soirée de dingue								</div>
+<div>Le frigo panossé,</div>
+<div>le sol est rempli de bières</div>
+<div>On a déjà mal/  au foie, alors que/  ca n’a pas commencé</div>
+<div>Cette année sur scène deux sociétés</div>
+<div>Sont rassemblées </div>
+<div>Pour vous offrir, beaucoup de rire</div>
+<div>Plus que Shakespeare</div>
+<div>Le prologue Valdésio-Sétévien</div>
+<div>C’est trop chouette, on est tous ami.e.s</div>
+<div>Des très beaux prologuistes et un très giga beau pianiste</div>
+<div>C’est la fête, déroule le tapis</div>
+<div>Nos jeux de mots sont les meilleurs, nous sommes de grands artistes</div>
+<div>Ce soir, on a plein de couleurs sur scène</div>
+<div>Absalon est notr’ reine</div>
+<div>En noir rouge et mauve, douce comme une guimauve</div>
+<div>Noémie la poulaine</div>
+<div>Tout comme AskEby, en rouge or noir </div>
+<div>Voici ipsy</div>
+<div>Sortie de douche, Est-l’As en peignoir </div>
+<div>Obistro aussi</div>
+<div>Pour finir quelques actualités</div>
+<div>Prise d’otage, d’un train d’Yverdon</div>
+<div>La grève des scénaristes, a mis le cinéma en pause</div>
+<div>Un pigeon était en prison</div>
+<div>Ta copine en deepfake, alors qu’elle n’aime pas le lactose</div>
+<div>Pour finir cette fois-ci pour de vrai</div>
+<div>C’est parti pour la rigolade </div>
+<div>Ce prologue est une ouvre d’art qui surpasse même l’Iliade </div>
+<div>Confettis j’en veux dans ma vie</div>
+<div>Avec nous vous êtes servis, pizza et spaghetti</div>
 </div>
 
 ===== FILE: src\content\allons-a-messine.svelte =====
@@ -351,10 +351,10 @@ L’avenir est à nous.<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Allons à Messine <br/>
-Pêcher la sardine, <br/>
-Allons à Lorient<br/>
-Pêcher le hareng.<br/>
+<div>Allons à Messine </div>
+<div>Pêcher la sardine, </div>
+<div>Allons à Lorient</div>
+<div>Pêcher le hareng.</div>
 </div>
 <div class="couplet">
 <div>Ils étaient deux amants </div>
@@ -431,8 +431,8 @@ Ma couille de gauche</div>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Alouette, gentille alouette
-Alouette, je te plumerai<br/>
+<div>Alouette, gentille alouette
+Alouette, je te plumerai</div>
 </div>
 <div class="couplet">
 <div>Je te plumerai la tête</div>
@@ -488,11 +488,11 @@ Alouette, je te plumerai<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Buvons un coup, buvons-en deux, <br/>
-A la santé des amoureux, <br/>
-A la santé du roi de France,<br/>
-Et zut pour le roi d’Angleterre <br/>
-Qui nous a déclaré la guerre.<br/>
+<div>Buvons un coup, buvons-en deux, </div>
+<div>A la santé des amoureux, </div>
+<div>A la santé du roi de France,</div>
+<div>Et zut pour le roi d’Angleterre </div>
+<div>Qui nous a déclaré la guerre.</div>
 </div>
 <div class="couplet">
 <div>Au 31 du mois d’août (bis)</div>
@@ -550,10 +550,10 @@ Qui nous a déclaré la guerre.<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Auprès de ma blonde,<br/>
-Qu’il fait bon, fait bon, fait bon,<br/>
-Auprès de ma blonde,<br/>
-Qu’il fait bon dormir.<br/>
+<div>Auprès de ma blonde,</div>
+<div>Qu’il fait bon, fait bon, fait bon,</div>
+<div>Auprès de ma blonde,</div>
+<div>Qu’il fait bon dormir.</div>
 </div>
 <div class="couplet">
 <div>Au jardin de mon père,</div>
@@ -697,13 +697,13 @@ Mort pour la liberté
 </script>
 
 <div class="song">
-<p><em>Le Sapin vert</em></p>
-<p>Belletriens, plus de deux cents années </p>
-<p>Ont vu fleurir l’arbre que nous aimons </p>
-<p>Sous ses rameaux, que d’heures fortunées </p>
-<p>Que de beaux soirs, que de folles chansons ! </p>
-<p>Il a nargué maintes tourmentes, il a bravé plus d’un hiver </p>
-<p>|: Célébrez l’arbre que je chante, le Sapin vert, le Sapin vert ! :|</p>
+<div><em>Le Sapin vert</em></div>
+<div>Belletriens, plus de deux cents années </div>
+<div>Ont vu fleurir l’arbre que nous aimons </div>
+<div>Sous ses rameaux, que d’heures fortunées </div>
+<div>Que de beaux soirs, que de folles chansons ! </div>
+<div>Il a nargué maintes tourmentes, il a bravé plus d’un hiver </div>
+<div>|: Célébrez l’arbre que je chante, le Sapin vert, le Sapin vert ! :|</div>
 </div>
 
 ===== FILE: src\content\bicetre.svelte =====
@@ -718,10 +718,10 @@ Mort pour la liberté
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-On n’peut pas bander toujours, <br/>
-Il faut jouir de ses roupettes ;<br/>
-On n’peut pas bander toujours, <br/>
-Il faut jouir de ses amours.<br/>
+<div>On n’peut pas bander toujours, </div>
+<div>Il faut jouir de ses roupettes ;</div>
+<div>On n’peut pas bander toujours, </div>
+<div>Il faut jouir de ses amours.</div>
 </div>
 <div class="couplet">
 <div>Dans ce Bicêtre où l’on s’embête,</div>
@@ -776,7 +776,7 @@ Il faut jouir de ses amours.<br/>
 </script>
 
 <div class="song">
-<p>Boire un petit coup c’est doux
+<div>Boire un petit coup c’est doux
 Mais il ne faut pas rouler dessous la table
 Boire un petit coup c’est agréable
 Boire un petit coup c’est doux.
@@ -804,7 +804,7 @@ Non Lucien tu n’auras pas ma rose
 Non Lucien tu n’auras rien.
 Non non Lucien, la la la,
 La, non non Lucien, la la la,
-La, tu n’auras rien, rien, rien.  </p>
+La, tu n’auras rien, rien, rien.  </div>
 </div>
 
 ===== FILE: src\content\branle-charlotte.svelte =====
@@ -819,10 +819,10 @@ La, tu n’auras rien, rien, rien.  </p>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Branle, branle, branle Charlotte <br/>
-Branle, branle ça fait du bien <br/>
-Branle, branle, branle ma chère<br/>
-Branle, branle jusqu’à demain.<br/>
+<div>Branle, branle, branle Charlotte </div>
+<div>Branle, branle ça fait du bien </div>
+<div>Branle, branle, branle ma chère</div>
+<div>Branle, branle jusqu’à demain.</div>
 </div>
 <div class="couplet">
 <div>Dans son boudoir, la petite Charlotte, </div>
@@ -874,9 +874,9 @@ Branle, branle jusqu’à demain.<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-C’est à boire, boire, boire,
+<div>C’est à boire, boire, boire,
 C’est à boire qu’il nous faut, Oh ! Oh ! Oh ! Oh !
-<br/>
+</div>
 </div>
 <div class="couplet">
 <div> |: C’était cinq à six bons bougres qui venaient de Longjumeau :|</div>
@@ -997,10 +997,10 @@ Que Dieu bénira du haut des cieux.</div>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Faut-il nous quitter sans espoir,<br/>
-Sans espoir de retour ?<br/>
-Faut-il nous quitter sans espoir<br/>
-De nous revoir un jour ?<br/>
+<div>Faut-il nous quitter sans espoir,</div>
+<div>Sans espoir de retour ?</div>
+<div>Faut-il nous quitter sans espoir</div>
+<div>De nous revoir un jour ?</div>
 </div>
 <div class="couplet">
 <div>Ce n’est qu’un au revoir, mes frères,</div>
@@ -1198,9 +1198,9 @@ Goûtons voir si le vin et bon
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-De profundis morpionibus <br/>
-Et secatis roupettibus<br/>
-Et escita verolabus.<br/>
+<div>De profundis morpionibus </div>
+<div>Et secatis roupettibus</div>
+<div>Et escita verolabus.</div>
 </div>
 <div class="couplet">
 <div>O ma muse prête-moi ta lyre</div>
@@ -1391,14 +1391,14 @@ Et escita verolabus.<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Et ah ! c’que son entretien est doux, <br/>
-Qu’elle a de mérite et de gloire.<br/>
-Elle aime à rire, elle aime à boire (elle aime à boire !) <br/>
-Elle aime à chanter comme nous.<br/>
-|: Elle aime à rire, elle aime à boire<br/>
-Elle aime à chanter comme nous. :|<br/>
-(Gourgandine !)<br/>
-Oui comme nous (ter)<br/>
+<div>Et ah ! c’que son entretien est doux, </div>
+<div>Qu’elle a de mérite et de gloire.</div>
+<div>Elle aime à rire, elle aime à boire (elle aime à boire !) </div>
+<div>Elle aime à chanter comme nous.</div>
+<div>|: Elle aime à rire, elle aime à boire</div>
+<div>Elle aime à chanter comme nous. :|</div>
+<div>(Gourgandine !)</div>
+<div>Oui comme nous (ter)</div>
 </div>
 <div class="couplet">
 <div>Amis, il faut faire une pause, </div>
@@ -1445,34 +1445,34 @@ Si quelque fois elle est cruelle, </div>
 </script>
 
 <div class="song">
-<p>(Parlé) - Frère Guillaumette,</p>
-<p>Quand tu rencontres une nonette, que fais-tu ? </p>
-<p>(Le chœur) - Amen.</p>
-<p>Je l’emmène dans ma chambrette, </p>
-<p>Domino mino Domino minette,</p>
-<p>Je l’emmène dans ma chambrette, </p>
-<p>Domino mino. Eh ! Oh !</p>
-<p>(Parlé)</p>
-<p>- Frère Guillaumette,</p>
-<p>Quand tu rencontres une nonette, </p>
-<p>Que tu l’amènes dans ta chambrette, que fais-tu ?</p>
-<p>(Le chœur) - Amen.</p>
-<p>Je l’étends sur ma couchette, </p>
-<p>Domino mino Domino minette, </p>
-<p>Je l’étends sur ma couchette, </p>
-<p>Domino mino. Eh ! Oh !</p>
-<p>Je soulève sa chemisette</p>
-<p>Je déboutonne ma braguette</p>
-<p>Je sors ma grosse bistrouquette</p>
-<p>Je m’fais faire une p’tite branlette </p>
-<p>Je m’fais faire une p’tite sucette</p>
-<p>Je lui écarte les gambettes</p>
-<p>Je lui mets dans sa craquette</p>
-<p>J’fais juter ma bistrouquette</p>
-<p>Je décharge dans sa craquette</p>
-<p>Je tire une première crampette</p>
-<p>Je tire une deuxième crampette </p>
-<p>J’sens l’Bon Dieu dans mes roupettes.</p>
+<div>(Parlé) - Frère Guillaumette,</div>
+<div>Quand tu rencontres une nonette, que fais-tu ? </div>
+<div>(Le chœur) - Amen.</div>
+<div>Je l’emmène dans ma chambrette, </div>
+<div>Domino mino Domino minette,</div>
+<div>Je l’emmène dans ma chambrette, </div>
+<div>Domino mino. Eh ! Oh !</div>
+<div>(Parlé)</div>
+<div>- Frère Guillaumette,</div>
+<div>Quand tu rencontres une nonette, </div>
+<div>Que tu l’amènes dans ta chambrette, que fais-tu ?</div>
+<div>(Le chœur) - Amen.</div>
+<div>Je l’étends sur ma couchette, </div>
+<div>Domino mino Domino minette, </div>
+<div>Je l’étends sur ma couchette, </div>
+<div>Domino mino. Eh ! Oh !</div>
+<div>Je soulève sa chemisette</div>
+<div>Je déboutonne ma braguette</div>
+<div>Je sors ma grosse bistrouquette</div>
+<div>Je m’fais faire une p’tite branlette </div>
+<div>Je m’fais faire une p’tite sucette</div>
+<div>Je lui écarte les gambettes</div>
+<div>Je lui mets dans sa craquette</div>
+<div>J’fais juter ma bistrouquette</div>
+<div>Je décharge dans sa craquette</div>
+<div>Je tire une première crampette</div>
+<div>Je tire une deuxième crampette </div>
+<div>J’sens l’Bon Dieu dans mes roupettes.</div>
 </div>
 
 ===== FILE: src\content\gaudeamus-igitur.svelte =====
@@ -1486,7 +1486,7 @@ Si quelque fois elle est cruelle, </div>
 </script>
 
 <div class="song">
-<p>Les strophes 2 et 3 remontent à 1287. L’air est attesté dès 1738 et le texte complet date de 1781 par Christian Wilhelm Kindleben.</p>
+<div>Les strophes 2 et 3 remontent à 1287. L’air est attesté dès 1738 et le texte complet date de 1781 par Christian Wilhelm Kindleben.</div>
 <div class="couplet">
 <div><strong>|: Gaudeamus igitur,</strong></div>
 <div><strong>juvenes dum sumus. :|</strong></div>
@@ -1584,7 +1584,7 @@ Si quelque fois elle est cruelle, </div>
 </script>
 
 <div class="song">
-<p><em>Sur l’air de Gaudeamus Igitur</em></p>
+<div><em>Sur l’air de Gaudeamus Igitur</em></div>
 <div class="couplet">
 <div>J'ai un testicule tout bleu</div>
 <div>Est-ce que tu crois que c'est normal aïe aïe aïe *bis*</div>
@@ -1639,7 +1639,7 @@ Si quelque fois elle est cruelle, </div>
 </script>
 
 <div class="song">
-<p><em>Aux Helvétiens (VI)</em></p>
+<div><em>Aux Helvétiens (VI)</em></div>
 <div class="couplet">
 <div>Helvétiens, brave ami soit fidèle </div>
 </div>
@@ -1754,12 +1754,12 @@ Si quelque fois elle est cruelle, </div>
 </script>
 
 <div class="song">
-<p>Pourquoi viens-tu dans ces bas lieux t’y enfermer le soir ?</p>
-<p>C’est pour y retrouver les vieux avec qui je sais boir’</p>
-<p>Et pourquoi rire et pourquoi boir’ et pourquoi s’amuser ?</p>
-<p>C’est pour montrer aux assoiffés qu’on n’veut pas s’la miner, qu’on ne veut pas s’la miner.</p>
-<p>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, grâce à SÉTÉVIA, grâce à SÉTÉVIA !</p>
-<p>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, oui grâce à SÉTÉVIA — Ah — Ah !</p>
+<div>Pourquoi viens-tu dans ces bas lieux t’y enfermer le soir ?</div>
+<div>C’est pour y retrouver les vieux avec qui je sais boir’</div>
+<div>Et pourquoi rire et pourquoi boir’ et pourquoi s’amuser ?</div>
+<div>C’est pour montrer aux assoiffés qu’on n’veut pas s’la miner, qu’on ne veut pas s’la miner.</div>
+<div>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, grâce à SÉTÉVIA, grâce à SÉTÉVIA !</div>
+<div>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, oui grâce à SÉTÉVIA — Ah — Ah !</div>
 </div>
 
 ===== FILE: src\content\hymne-valaisan.svelte =====
@@ -1780,10 +1780,10 @@ Si quelque fois elle est cruelle, </div>
 <div>Élève son front couronné !</div>
 </div>
 <div class="refrain" data-title="Refrain">
-Vallée où le Rhône a son cours,<br/>
-Noble pays de mes amours,<br/>
-C’est toi, c’est toi, mon beau Valais !<br/>
-Reste à jamais, Reste à jamais, Reste mes amours !<br/>
+<div>Vallée où le Rhône a son cours,</div>
+<div>Noble pays de mes amours,</div>
+<div>C’est toi, c’est toi, mon beau Valais !</div>
+<div>Reste à jamais, Reste à jamais, Reste mes amours !</div>
 </div>
 <div class="couplet">
 <div>Pays si souvent arrosé</div>
@@ -1809,155 +1809,155 @@ Reste à jamais, Reste à jamais, Reste mes amours !<br/>
 <div>Intrépide et laborieux,</div>
 <div>Gardant sa foi, sa liberté.</div>
 </div>
-<p>3</p>
-<p><strong>3</strong>1 du mois d’août36	</p>
-<p>A</p>
-<p><strong>A</strong> l’hôpital Saint-Louis116	</p>
-<p>Ah ! que nos pères étaient heureux44	</p>
-<p>Ah vous dirai-je maman…70	</p>
-<p>Ah ! que nos pères étaient heureux44	</p>
-<p>Air d’entrée143	</p>
-<p>Allons à Messine65	</p>
-<p>Alouette50	</p>
-<p>Au 31 du mois d’août36	</p>
-<p>Auprès de ma blonde51	</p>
-<p>B</p>
-<p><strong>B</strong>ella Ciao46	</p>
-<p>Belle Hortense120	</p>
-<p>Berger fidèle94	</p>
-<p>Bicêtre123	</p>
-<p>Boire un petit coup c'est agréable54	</p>
-<p>Bordel a fermé ses volets129	</p>
-<p>Branle Charlotte110	</p>
-<p>C</p>
-<p><strong>C</strong>antique suisse156	</p>
-<p>Ce n’est qu’un au revoir, mes frères55	</p>
-<p>Cé qu’è lainô158	</p>
-<p>C'est à boire52	</p>
-<p>Charlotte110	</p>
-<p>Chevaliers de la table ronde42	</p>
-<p>Chœur des jeunes Sétéviens19	</p>
-<p>D</p>
-<p><strong>D</strong>ans une tour de Londres102	</p>
-<p>De brevitate vitae20	</p>
-<p>De profundis morpionibus85	</p>
-<p>Digue du cul62	</p>
-<p>Du dieu Vulcain104	</p>
-<p>Duc de Bordeaux131	</p>
-<p>Dupanloup136	</p>
-<p>F</p>
-<p><strong>F</strong>anchon78	</p>
-<p>Femme du roulier139	</p>
-<p>Filles de Camaret92	</p>
-<p>Filles de la Rochelle121	</p>
-<p>Frère Guillaumette106	</p>
-<p>G</p>
-<p><strong>G</strong>audeamus igitur20	</p>
-<p>Gaudeamus, un hommage145	</p>
-<p>H</p>
-<p><strong>H</strong>ôpital Saint-Louis116	</p>
-<p>Huguette127	</p>
-<p>Hymne d’Helvétia25	</p>
-<p>Hymne de Belles-Lettres24	</p>
-<p>Hymne de l’Activitas26	</p>
-<p>Hymne de l’Agaunia27	</p>
-<p>Hymne de la Lémania25	</p>
-<p>Hymne de la Nuithonia27	</p>
-<p>Hymne de la Sarinia27	</p>
-<p>Hymne de la Self29	</p>
-<p>Hymne de la SES28	</p>
-<p>Hymne de la Waldstättia28	</p>
-<p>Hymne de Stella26	</p>
-<p>Hymne de Valdésia26	</p>
-<p>Hymne de Zofingue24	</p>
-<p><strong>H</strong>ymne fribourgeois157	</p>
-<p>Hymne genevois158	</p>
-<p>Hymne jurassien159	</p>
-<p>Hymne neuchâtelois160	</p>
-<p>Hymne Sétévien16, 17, 23	</p>
-<p>Hymne suisse156	</p>
-<p>Hymne valaisan161	</p>
-<p>Hymne Vaudois154	</p>
-<p>I</p>
-<p><strong>I</strong>nternationale80	</p>
-<p>J</p>
-<p><strong>J</strong>e veux juste ken146	</p>
-<p>Jeanneton49	</p>
-<p>Joueur de luth74	</p>
-<p>Joyeux enfants de la Bourgogne41	</p>
-<p>K</p>
-<p><strong>K</strong>yrie60	</p>
-<p>L</p>
-<p><strong>L</strong>’internationale80	</p>
-<p>La belle Hortense120	</p>
-<p>La digue du cul62	</p>
-<p>La femme du roulier139	</p>
-<p>La mère Michel90	</p>
-<p>La messe de minuit22	</p>
-<p>La nouvelle Rauracienne159	</p>
-<p>La nuit à l’asile148	</p>
-<p>La petite Charlotte110	</p>
-<p>La petite Huguette127	</p>
-<p>La pompe à merde125	</p>
-<p>Le bordel a fermé ses volets128	</p>
-<p>Le Cantonnier82	</p>
-<p>Le Duc de Bordeaux131	</p>
-<p>Le joueur de luth74	</p>
-<p><strong>L</strong>e métropolitain34	</p>
-<p>Le plaisir des dieux104	</p>
-<p>Le pou et l’araignée97	</p>
-<p>Le ranz des vaches157	</p>
-<p>Le Vieux Chalet56	</p>
-<p>Les bretelles100	</p>
-<p>Les chevaliers de la table ronde42	</p>
-<p>Les filles de Camaret92	</p>
-<p>Les filles de la Rochelle121	</p>
-<p>Les moines de St. Bernardin77	</p>
-<p>Les quatre-vingts chasseurs108	</p>
-<p>Les trois orfèvres68	</p>
-<p>Lyobâ157	</p>
-<p>M</p>
-<p><strong>M</strong>arche américaine115	</p>
-<p>Mère Michel90	</p>
-<p>Messine65	</p>
-<p>Métropolitain34	</p>
-<p>Missa Solemnis22	</p>
-<p>Moines de St. Bernardin77	</p>
-<p>Mon frère est poitrinaire116	</p>
-<p>Mon père me donne cent sous100	</p>
-<p>N</p>
-<p><strong>N</strong>ini peau de chien38	</p>
-<p>Non, non, non, non Sétévia n'est pas morte19	</p>
-<p>Nuit à l’asile148	</p>
-<p>O</p>
-<p><strong>O</strong>h mon berger fidèle94	</p>
-<p>P</p>
-<p><strong>P</strong>ère Dupanloup136	</p>
-<p>Pompe à merde125	</p>
-<p>Pot-pourri Lémanien30	</p>
-<p>Pou et l’araignée97	</p>
-<p>Q</p>
-<p><strong>Q</strong>u’on apporte133	</p>
-<p>Quatre-vingts chasseurs108	</p>
-<p>R</p>
-<p><strong>R</strong>oulier139	</p>
-<p>S</p>
-<p><strong>S</strong>ur la route de Louviers82	</p>
-<p>T</p>
-<p><strong>T</strong>rois orfèvres68	</p>
-<p>V</p>
-<p><strong>V</strong>ieux Chalet56	</p>
-<p>Z</p>
-<p><strong>Z</strong>ita113	</p>
-<p>Gaudeamus igitur, réjouissons-nous !</p>
-<p>Les chansons permettent de faciliter le contact et de maintenir la liaison avec les générations précédentes et les sociétés amies.</p>
-<p>Le cantus de Sétévia en 1964 est le « Berlingot d’Amour », remplacé par la suite par le « Lutrin d’Amour » qui a accompagné les Dignes Sétéviens jusqu’à aujourd’hui. Certaines illustrations, du présent ouvrage, proviennent du « Lutrin d’Amour », merci à Stella d’avoir permis leur reproduction.</p>
-<p>Le temps passant, il était opportun d’effectuer une révision s’adaptant aux besoins actuels — que ce soient des chants connus des Actifs ou de sociétés amies, sans oublier ceux connus des Anciens !</p>
-<p>Ce cantus est destiné à Sétévia en priorité et, dans un second temps, aux portants couleurs.</p>
-<p>En raison du caractère particulier des textes et dessins, il ne saurait être exposé ou reproduit, particulièrement en dehors des Sociétés d’Etudiants.</p>
-<p>Le présent recueil est le fruit d’une équipe :</p>
-<p><em>Poreau, Ricin, Gulliver, Phallus, Etale, LaTeX</em></p>
-<p><strong>Sétévia, 31 décembre 2023</strong></p>
+<div>3</div>
+<div><strong>3</strong>1 du mois d’août36	</div>
+<div>A</div>
+<div><strong>A</strong> l’hôpital Saint-Louis116	</div>
+<div>Ah ! que nos pères étaient heureux44	</div>
+<div>Ah vous dirai-je maman…70	</div>
+<div>Ah ! que nos pères étaient heureux44	</div>
+<div>Air d’entrée143	</div>
+<div>Allons à Messine65	</div>
+<div>Alouette50	</div>
+<div>Au 31 du mois d’août36	</div>
+<div>Auprès de ma blonde51	</div>
+<div>B</div>
+<div><strong>B</strong>ella Ciao46	</div>
+<div>Belle Hortense120	</div>
+<div>Berger fidèle94	</div>
+<div>Bicêtre123	</div>
+<div>Boire un petit coup c'est agréable54	</div>
+<div>Bordel a fermé ses volets129	</div>
+<div>Branle Charlotte110	</div>
+<div>C</div>
+<div><strong>C</strong>antique suisse156	</div>
+<div>Ce n’est qu’un au revoir, mes frères55	</div>
+<div>Cé qu’è lainô158	</div>
+<div>C'est à boire52	</div>
+<div>Charlotte110	</div>
+<div>Chevaliers de la table ronde42	</div>
+<div>Chœur des jeunes Sétéviens19	</div>
+<div>D</div>
+<div><strong>D</strong>ans une tour de Londres102	</div>
+<div>De brevitate vitae20	</div>
+<div>De profundis morpionibus85	</div>
+<div>Digue du cul62	</div>
+<div>Du dieu Vulcain104	</div>
+<div>Duc de Bordeaux131	</div>
+<div>Dupanloup136	</div>
+<div>F</div>
+<div><strong>F</strong>anchon78	</div>
+<div>Femme du roulier139	</div>
+<div>Filles de Camaret92	</div>
+<div>Filles de la Rochelle121	</div>
+<div>Frère Guillaumette106	</div>
+<div>G</div>
+<div><strong>G</strong>audeamus igitur20	</div>
+<div>Gaudeamus, un hommage145	</div>
+<div>H</div>
+<div><strong>H</strong>ôpital Saint-Louis116	</div>
+<div>Huguette127	</div>
+<div>Hymne d’Helvétia25	</div>
+<div>Hymne de Belles-Lettres24	</div>
+<div>Hymne de l’Activitas26	</div>
+<div>Hymne de l’Agaunia27	</div>
+<div>Hymne de la Lémania25	</div>
+<div>Hymne de la Nuithonia27	</div>
+<div>Hymne de la Sarinia27	</div>
+<div>Hymne de la Self29	</div>
+<div>Hymne de la SES28	</div>
+<div>Hymne de la Waldstättia28	</div>
+<div>Hymne de Stella26	</div>
+<div>Hymne de Valdésia26	</div>
+<div>Hymne de Zofingue24	</div>
+<div><strong>H</strong>ymne fribourgeois157	</div>
+<div>Hymne genevois158	</div>
+<div>Hymne jurassien159	</div>
+<div>Hymne neuchâtelois160	</div>
+<div>Hymne Sétévien16, 17, 23	</div>
+<div>Hymne suisse156	</div>
+<div>Hymne valaisan161	</div>
+<div>Hymne Vaudois154	</div>
+<div>I</div>
+<div><strong>I</strong>nternationale80	</div>
+<div>J</div>
+<div><strong>J</strong>e veux juste ken146	</div>
+<div>Jeanneton49	</div>
+<div>Joueur de luth74	</div>
+<div>Joyeux enfants de la Bourgogne41	</div>
+<div>K</div>
+<div><strong>K</strong>yrie60	</div>
+<div>L</div>
+<div><strong>L</strong>’internationale80	</div>
+<div>La belle Hortense120	</div>
+<div>La digue du cul62	</div>
+<div>La femme du roulier139	</div>
+<div>La mère Michel90	</div>
+<div>La messe de minuit22	</div>
+<div>La nouvelle Rauracienne159	</div>
+<div>La nuit à l’asile148	</div>
+<div>La petite Charlotte110	</div>
+<div>La petite Huguette127	</div>
+<div>La pompe à merde125	</div>
+<div>Le bordel a fermé ses volets128	</div>
+<div>Le Cantonnier82	</div>
+<div>Le Duc de Bordeaux131	</div>
+<div>Le joueur de luth74	</div>
+<div><strong>L</strong>e métropolitain34	</div>
+<div>Le plaisir des dieux104	</div>
+<div>Le pou et l’araignée97	</div>
+<div>Le ranz des vaches157	</div>
+<div>Le Vieux Chalet56	</div>
+<div>Les bretelles100	</div>
+<div>Les chevaliers de la table ronde42	</div>
+<div>Les filles de Camaret92	</div>
+<div>Les filles de la Rochelle121	</div>
+<div>Les moines de St. Bernardin77	</div>
+<div>Les quatre-vingts chasseurs108	</div>
+<div>Les trois orfèvres68	</div>
+<div>Lyobâ157	</div>
+<div>M</div>
+<div><strong>M</strong>arche américaine115	</div>
+<div>Mère Michel90	</div>
+<div>Messine65	</div>
+<div>Métropolitain34	</div>
+<div>Missa Solemnis22	</div>
+<div>Moines de St. Bernardin77	</div>
+<div>Mon frère est poitrinaire116	</div>
+<div>Mon père me donne cent sous100	</div>
+<div>N</div>
+<div><strong>N</strong>ini peau de chien38	</div>
+<div>Non, non, non, non Sétévia n'est pas morte19	</div>
+<div>Nuit à l’asile148	</div>
+<div>O</div>
+<div><strong>O</strong>h mon berger fidèle94	</div>
+<div>P</div>
+<div><strong>P</strong>ère Dupanloup136	</div>
+<div>Pompe à merde125	</div>
+<div>Pot-pourri Lémanien30	</div>
+<div>Pou et l’araignée97	</div>
+<div>Q</div>
+<div><strong>Q</strong>u’on apporte133	</div>
+<div>Quatre-vingts chasseurs108	</div>
+<div>R</div>
+<div><strong>R</strong>oulier139	</div>
+<div>S</div>
+<div><strong>S</strong>ur la route de Louviers82	</div>
+<div>T</div>
+<div><strong>T</strong>rois orfèvres68	</div>
+<div>V</div>
+<div><strong>V</strong>ieux Chalet56	</div>
+<div>Z</div>
+<div><strong>Z</strong>ita113	</div>
+<div>Gaudeamus igitur, réjouissons-nous !</div>
+<div>Les chansons permettent de faciliter le contact et de maintenir la liaison avec les générations précédentes et les sociétés amies.</div>
+<div>Le cantus de Sétévia en 1964 est le « Berlingot d’Amour », remplacé par la suite par le « Lutrin d’Amour » qui a accompagné les Dignes Sétéviens jusqu’à aujourd’hui. Certaines illustrations, du présent ouvrage, proviennent du « Lutrin d’Amour », merci à Stella d’avoir permis leur reproduction.</div>
+<div>Le temps passant, il était opportun d’effectuer une révision s’adaptant aux besoins actuels — que ce soient des chants connus des Actifs ou de sociétés amies, sans oublier ceux connus des Anciens !</div>
+<div>Ce cantus est destiné à Sétévia en priorité et, dans un second temps, aux portants couleurs.</div>
+<div>En raison du caractère particulier des textes et dessins, il ne saurait être exposé ou reproduit, particulièrement en dehors des Sociétés d’Etudiants.</div>
+<div>Le présent recueil est le fruit d’une équipe :</div>
+<div><em>Poreau, Ricin, Gulliver, Phallus, Etale, LaTeX</em></div>
+<div><strong>Sétévia, 31 décembre 2023</strong></div>
 </div>
 
 ===== FILE: src\content\hymne-vaudois.svelte =====
@@ -1982,8 +1982,8 @@ Reste à jamais, Reste à jamais, Reste mes amours !<br/>
 <div>Osons concevoir l’espérance !</div>
 </div>
 <div class="refrain" data-title="Refrain">
-|: Que dans ces lieux règnent à jamais<br/>
-L’amour des lois, la liberté, la paix ! :|<br/>
+<div>|: Que dans ces lieux règnent à jamais</div>
+<div>L’amour des lois, la liberté, la paix ! :|</div>
 </div>
 <div class="couplet">
 <div>Que dans nos riantes campagnes</div>
@@ -2038,55 +2038,55 @@ L’amour des lois, la liberté, la paix ! :|<br/>
 </script>
 
 <div class="song">
-<p><em>Sur l’air de I'm just Ken (de Barbie - Ryan Gosling)</em></p>
-<p>Tout autour de moi</p>
-<p>Les glaciers fondent</p>
-<p>Les rivières inondent</p>
-<p>Et le corail se désagrège</p>
-<p>Encore</p>
-<p>Un degré de plus</p>
-<p>Au thermomètre</p>
-<p>Pourvu que ça s'arrête</p>
-<p>Mais si j'y réfléchis vraiment</p>
-<p>Tout ça n'est pas si important</p>
-<p>Je veux juste ken</p>
-<p>J'en ai rien à foutre des baleines</p>
-<p>Je veux baiser à 100 à l'heure de moyenne</p>
-<p>Même si ça génère des gaz à effet de serre</p>
-<p>Je veux juste ken</p>
-<p>Draguer au Barberousse en semaine</p>
-<p>Fumer des clopes à me goudronner les ailes</p>
-<p>Comme les mouettes qu'on croise au Finistère</p>
-<p>J'ai un compost</p>
-<p>Je trie mes déchets</p>
-<p>Un écolo nazi</p>
-<p>J'ai des abdos</p>
-<p>Je fais du vélo</p>
-<p>Mais ça c'est fini</p>
-<p>C'est mon grand moment</p>
-<p>Dès maintenant</p>
-<p>Je fonde un harem</p>
-<p>J'aime les caleçons</p>
-<p>Au revoir l'écologie</p>
-<p>Plus besoin de thérapie</p>
-<p>J'achète des préservatifs</p>
-<p>J'emmerde les micro plastiques</p>
-<p>Je veux juste ken</p>
-<p>Je dois trouver de jeunes éphèbes</p>
-<p>Pour assurer ma descendance obscène</p>
-<p>Obèse et pleine d'anomalies géniques</p>
-<p>Je veux juste ken</p>
-<p>Mes enfants auront des problèmes</p>
-<p>Encore plus graves que ceux qu'on imagine</p>
-<p>Mais c'est dans longtemps, rien qui me concerne</p>
-<p>Je veux juste ken (et vous aussi)</p>
-<p>C'est pour ça qu'on est ici</p>
-<p>Enfin pas vraiment juste ici, mais vous m'avez compris</p>
-<p>On veut juste ken (et pourquoi pas)</p>
-<p>Passez nous voir après le spectacle</p>
-<p>On est sympa, on a des standards très bas</p>
-<p>Et je veux juste ken !</p>
-<p>Est-l’As</p>
+<div><em>Sur l’air de I'm just Ken (de Barbie - Ryan Gosling)</em></div>
+<div>Tout autour de moi</div>
+<div>Les glaciers fondent</div>
+<div>Les rivières inondent</div>
+<div>Et le corail se désagrège</div>
+<div>Encore</div>
+<div>Un degré de plus</div>
+<div>Au thermomètre</div>
+<div>Pourvu que ça s'arrête</div>
+<div>Mais si j'y réfléchis vraiment</div>
+<div>Tout ça n'est pas si important</div>
+<div>Je veux juste ken</div>
+<div>J'en ai rien à foutre des baleines</div>
+<div>Je veux baiser à 100 à l'heure de moyenne</div>
+<div>Même si ça génère des gaz à effet de serre</div>
+<div>Je veux juste ken</div>
+<div>Draguer au Barberousse en semaine</div>
+<div>Fumer des clopes à me goudronner les ailes</div>
+<div>Comme les mouettes qu'on croise au Finistère</div>
+<div>J'ai un compost</div>
+<div>Je trie mes déchets</div>
+<div>Un écolo nazi</div>
+<div>J'ai des abdos</div>
+<div>Je fais du vélo</div>
+<div>Mais ça c'est fini</div>
+<div>C'est mon grand moment</div>
+<div>Dès maintenant</div>
+<div>Je fonde un harem</div>
+<div>J'aime les caleçons</div>
+<div>Au revoir l'écologie</div>
+<div>Plus besoin de thérapie</div>
+<div>J'achète des préservatifs</div>
+<div>J'emmerde les micro plastiques</div>
+<div>Je veux juste ken</div>
+<div>Je dois trouver de jeunes éphèbes</div>
+<div>Pour assurer ma descendance obscène</div>
+<div>Obèse et pleine d'anomalies géniques</div>
+<div>Je veux juste ken</div>
+<div>Mes enfants auront des problèmes</div>
+<div>Encore plus graves que ceux qu'on imagine</div>
+<div>Mais c'est dans longtemps, rien qui me concerne</div>
+<div>Je veux juste ken (et vous aussi)</div>
+<div>C'est pour ça qu'on est ici</div>
+<div>Enfin pas vraiment juste ici, mais vous m'avez compris</div>
+<div>On veut juste ken (et pourquoi pas)</div>
+<div>Passez nous voir après le spectacle</div>
+<div>On est sympa, on a des standards très bas</div>
+<div>Et je veux juste ken !</div>
+<div>Est-l’As</div>
 </div>
 
 ===== FILE: src\content\jeanneton.svelte =====
@@ -2156,12 +2156,12 @@ L’amour des lois, la liberté, la paix ! :|<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Joyeux enfants de la Bourgogne <br/>
-Je n’ai jamais eu de guignon, <br/>
-Quand je vois rougir ma trogne, <br/>
-Je suis fier d’être bourguignon <br/>
-|: Et je suis fier, et je suis fier,<br/>
-Et je suis fier d’être bourguignon. :|<br/>
+<div>Joyeux enfants de la Bourgogne </div>
+<div>Je n’ai jamais eu de guignon, </div>
+<div>Quand je vois rougir ma trogne, </div>
+<div>Je suis fier d’être bourguignon </div>
+<div>|: Et je suis fier, et je suis fier,</div>
+<div>Et je suis fier d’être bourguignon. :|</div>
 </div>
 <div class="couplet">
 <div>Au sein d’une vigne, </div>
@@ -2227,8 +2227,8 @@ Et je suis fier d’être bourguignon. :|<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Kyrie, Christum dominum nostrum
-Kyrie eleison <br/>
+<div>Kyrie, Christum dominum nostrum
+Kyrie eleison </div>
 </div>
 <div class="couplet">
 <div>Kyrie, Kyrie,</div>
@@ -2303,44 +2303,44 @@ Kyrie eleison <br/>
 </script>
 
 <div class="song">
-<p>ESPAGNOL</p>
-<p>Orlando s’lav' la pine à grand' eau.</p>
-<p>ITALlEN</p>
-<p>Raviouli l’a comme oune spaghetti.</p>
-<p>POLONAIS</p>
-<p>Wiczinski s’lav' les couilles au whisky.</p>
-<p>RUSSE</p>
-<p>Souvaroff suc' la pine au sous-off.</p>
-<p>FRANÇAIS</p>
-<p>C’est Thérès' qui rit quand on la baise.</p>
-<p>CHINOIS</p>
-<p>Qui salit sa pine en chiant d’ssus. </p>
-<p>Qui qu’c’est qui, qui t’l’a foutu au cul.</p>
-<p>JAPONAIS</p>
-<p>L’amiral chia du haut du mât.</p>
-<p>ALLEMAND</p>
-<p>Baisse ta gain', Gretchen, que j’baise ta croupe.</p>
-<p>SUISSE</p>
-<p>Tu te bernes, t’auras pas mon trou d’balle.</p>
-<p>BELGE</p>
-<p>Mon Anvers voulut que mon Ostende.</p>
-<p>TURC</p>
-<p>Mustapha qu’a mal à la biroute.</p>
-<p>SUD-AMERICAIN (cha-cha)</p>
-<p>Si tu perds ton gland, tu le perds où ? </p>
-<p>C’est Pedro Sanchez qui bande à l’aise.</p>
-<p>ISRAELIEN</p>
-<p>Sors ton zob, que j’aie ton Tel-Aviv.</p>
-<p>TCHEQUE</p>
-<p>Quand, j’érect', j’érect' du sperme sec.</p>
-<p>ANGLAIS</p>
-<p>Mr. Smith, tout doux, se frott' la bite.</p>
-<p>MALGACHE</p>
-<p>Band' bien fort car ta nana arrive.</p>
-<p>SÉTÉVIEN</p>
-<p>C’est Ricin qui nous chante le refrain.</p>
-<p>LATIN</p>
-<p>Romulus vouluss' qu’on lui la suce.</p>
+<div>ESPAGNOL</div>
+<div>Orlando s’lav' la pine à grand' eau.</div>
+<div>ITALlEN</div>
+<div>Raviouli l’a comme oune spaghetti.</div>
+<div>POLONAIS</div>
+<div>Wiczinski s’lav' les couilles au whisky.</div>
+<div>RUSSE</div>
+<div>Souvaroff suc' la pine au sous-off.</div>
+<div>FRANÇAIS</div>
+<div>C’est Thérès' qui rit quand on la baise.</div>
+<div>CHINOIS</div>
+<div>Qui salit sa pine en chiant d’ssus. </div>
+<div>Qui qu’c’est qui, qui t’l’a foutu au cul.</div>
+<div>JAPONAIS</div>
+<div>L’amiral chia du haut du mât.</div>
+<div>ALLEMAND</div>
+<div>Baisse ta gain', Gretchen, que j’baise ta croupe.</div>
+<div>SUISSE</div>
+<div>Tu te bernes, t’auras pas mon trou d’balle.</div>
+<div>BELGE</div>
+<div>Mon Anvers voulut que mon Ostende.</div>
+<div>TURC</div>
+<div>Mustapha qu’a mal à la biroute.</div>
+<div>SUD-AMERICAIN (cha-cha)</div>
+<div>Si tu perds ton gland, tu le perds où ? </div>
+<div>C’est Pedro Sanchez qui bande à l’aise.</div>
+<div>ISRAELIEN</div>
+<div>Sors ton zob, que j’aie ton Tel-Aviv.</div>
+<div>TCHEQUE</div>
+<div>Quand, j’érect', j’érect' du sperme sec.</div>
+<div>ANGLAIS</div>
+<div>Mr. Smith, tout doux, se frott' la bite.</div>
+<div>MALGACHE</div>
+<div>Band' bien fort car ta nana arrive.</div>
+<div>SÉTÉVIEN</div>
+<div>C’est Ricin qui nous chante le refrain.</div>
+<div>LATIN</div>
+<div>Romulus vouluss' qu’on lui la suce.</div>
 </div>
 
 ===== FILE: src\content\la-belle-hortense.svelte =====
@@ -2354,35 +2354,35 @@ Kyrie eleison <br/>
 </script>
 
 <div class="song">
-<p>LE CHORYPHÉE (parlé, mimé)</p>
-<p>La Belle Hortense a des pieds de cochon.</p>
+<div>LE CHORYPHÉE (parlé, mimé)</div>
+<div>La Belle Hortense a des pieds de cochon.</div>
 <div class="refrain" data-title="Refrain">
-LE CHŒUR (chanté) <br/>
-|: Des pieds d’cochon, la faridondaine  <br/>
-Des pieds d’cochon, la faridondon :|      <br/>
+<div>LE CHŒUR (chanté) </div>
+<div>|: Des pieds d’cochon, la faridondaine  </div>
+<div>Des pieds d’cochon, la faridondon :|      </div>
 </div>
-<p>LE CHORYPHÉE</p>
-<p>La Belle Hortense a des mollets de poulet</p>
-<p>LE CHŒUR</p>
-<p>Des mollets d’poulet,</p>
-<p>Des pieds d’cochon, lafaridondaine </p>
-<p>Des pieds d’cochon, la faridondon.</p>
-<p>LE CHORYPHÉE</p>
-<p>La Belle Hortense a les genoux cagneux</p>
-<p>LE CHŒUR</p>
-<p>Les g'noux cagneux, etc.</p>
-<p>LE CHORYPHÉE</p>
-<p>La Belle Hortense a 	les cuisses graisseuses </p>
-<p>un petit tchu-tchu</p>
-<p>un gros cu-cul</p>
-<p>un ventre obèse</p>
-<p>les seins pendants</p>
-<p>le cou goîtreux</p>
-<p>la bouche baveuse</p>
-<p>le nez morveux</p>
-<p>les yeux chassieux</p>
-<p>les oreilles cireuses </p>
-<p>le chef teigneux</p>
+<div>LE CHORYPHÉE</div>
+<div>La Belle Hortense a des mollets de poulet</div>
+<div>LE CHŒUR</div>
+<div>Des mollets d’poulet,</div>
+<div>Des pieds d’cochon, lafaridondaine </div>
+<div>Des pieds d’cochon, la faridondon.</div>
+<div>LE CHORYPHÉE</div>
+<div>La Belle Hortense a les genoux cagneux</div>
+<div>LE CHŒUR</div>
+<div>Les g'noux cagneux, etc.</div>
+<div>LE CHORYPHÉE</div>
+<div>La Belle Hortense a 	les cuisses graisseuses </div>
+<div>un petit tchu-tchu</div>
+<div>un gros cu-cul</div>
+<div>un ventre obèse</div>
+<div>les seins pendants</div>
+<div>le cou goîtreux</div>
+<div>la bouche baveuse</div>
+<div>le nez morveux</div>
+<div>les yeux chassieux</div>
+<div>les oreilles cireuses </div>
+<div>le chef teigneux</div>
 </div>
 
 ===== FILE: src\content\la-digue-du-cul.svelte =====
@@ -2578,12 +2578,12 @@ Des pieds d’cochon, la faridondon :|      <br/>
 </script>
 
 <div class="song">
-<p><strong>Praeses</strong> : Hoch Mousse-Mayor, kann die Missa Solemnis steigen?</p>
-<p><strong>Mousse-Mayor</strong> : Ja !</p>
-<p>Preaeses chante une fois, l’assemblée répète.</p>
-<p><strong>Praeses</strong> : Hoch Mousse-Mayor, Missa Solemnis est. </p>
-<p><strong>Mousse-Mayor</strong> : Ex est, Fiat Lux !</p>
-<p>Allumer la lumière et entonner l’Hymne Sétévien</p>
+<div><strong>Praeses</strong> : Hoch Mousse-Mayor, kann die Missa Solemnis steigen?</div>
+<div><strong>Mousse-Mayor</strong> : Ja !</div>
+<div>Preaeses chante une fois, l’assemblée répète.</div>
+<div><strong>Praeses</strong> : Hoch Mousse-Mayor, Missa Solemnis est. </div>
+<div><strong>Mousse-Mayor</strong> : Ex est, Fiat Lux !</div>
+<div>Allumer la lumière et entonner l’Hymne Sétévien</div>
 </div>
 
 ===== FILE: src\content\la-nouvelle-rauracienne-jura.svelte =====
@@ -2597,30 +2597,30 @@ Des pieds d’cochon, la faridondon :|      <br/>
 </script>
 
 <div class="song">
-<p>Du lac de Bienne aux portes de la France</p>
-<p>L’espoir mûrit dans l’ombre des cités ;</p>
-<p>De nos cœurs monte un chant de délivrance,</p>
-<p>Notre drapeau sur les monts a flotté !</p>
-<p>Vous qui veillez au sort de la patrie,</p>
-<p>Brisez les fers d’un injuste destin !</p>
-<p>Unissez-vous, fils de la Rauracie </p>
-<p>Et donnez-vous la main, et donnez-vous la main !</p>
-<p>Si l’ennemi de notre indépendance</p>
-<p>Dans nos vallons veut imposer sa loi,</p>
-<p>Que pour lutter chacun de nous s’élance</p>
-<p>Et dans ses rangs jette le désarroi !</p>
-<p>D’un peuple libre au sein de l’Helvétie</p>
-<p>Notre passé nous montre le chemin.</p>
-<p>Unissez-vous, fils de la Rauracie. </p>
-<p>Et donnez-vous la main, et donnez-vous la main !</p>
-<p>Le Ciel fera germer notre semence,</p>
-<p>Marchons joyeux, c’est l’heure du Jura !</p>
-<p>Demain nos cris, nos chansons et nos danses</p>
-<p>Célébreront la fin de nos combats,</p>
-<p>Et dans la gloire au matin refleurie</p>
-<p>Nous chanterons un hymne souverain. </p>
-<p>Unissez-vous, fils de la Rauracie. </p>
-<p>Et donnez-vous la main, et donnez-vous la main ! (Bis)</p>
+<div>Du lac de Bienne aux portes de la France</div>
+<div>L’espoir mûrit dans l’ombre des cités ;</div>
+<div>De nos cœurs monte un chant de délivrance,</div>
+<div>Notre drapeau sur les monts a flotté !</div>
+<div>Vous qui veillez au sort de la patrie,</div>
+<div>Brisez les fers d’un injuste destin !</div>
+<div>Unissez-vous, fils de la Rauracie </div>
+<div>Et donnez-vous la main, et donnez-vous la main !</div>
+<div>Si l’ennemi de notre indépendance</div>
+<div>Dans nos vallons veut imposer sa loi,</div>
+<div>Que pour lutter chacun de nous s’élance</div>
+<div>Et dans ses rangs jette le désarroi !</div>
+<div>D’un peuple libre au sein de l’Helvétie</div>
+<div>Notre passé nous montre le chemin.</div>
+<div>Unissez-vous, fils de la Rauracie. </div>
+<div>Et donnez-vous la main, et donnez-vous la main !</div>
+<div>Le Ciel fera germer notre semence,</div>
+<div>Marchons joyeux, c’est l’heure du Jura !</div>
+<div>Demain nos cris, nos chansons et nos danses</div>
+<div>Célébreront la fin de nos combats,</div>
+<div>Et dans la gloire au matin refleurie</div>
+<div>Nous chanterons un hymne souverain. </div>
+<div>Unissez-vous, fils de la Rauracie. </div>
+<div>Et donnez-vous la main, et donnez-vous la main ! (Bis)</div>
 </div>
 
 ===== FILE: src\content\la-nuit-a-l-asile-2024.svelte =====
@@ -2634,68 +2634,68 @@ Des pieds d’cochon, la faridondon :|      <br/>
 </script>
 
 <div class="song">
-<p><em>Quand on arrive en ville (de Starmania - Daniel Balavoine)</em></p>
-<p>Quand je suis dans mon lit</p>
-<p>Je ressasse mes pensées</p>
-<p>Je me demande ce que</p>
-<p>Je fais encore ici</p>
-<p>Je dis la vérité</p>
-<p>Sur les forums en ligne</p>
-<p>C'est pas ma faute à moi</p>
-<p>S'ils ne voient pas les signes</p>
-<p>Que Lausanne est communiste</p>
-<p>C'est la nuit à l'asile !</p>
-<p>Malgré les psychotropes</p>
-<p>On a les idées claires</p>
-<p>On voit sous stroboscope</p>
-<p>Les dragons et les chimères</p>
-<p>La terre est toujours plate</p>
-<p>Depuis 1610</p>
-<p>Seulement les géographes</p>
-<p>N'ont pas prouvé qu'elle existe</p>
-<p>Ils sont sous le joug des lobbyistes</p>
-<p>Prenez garde aux bisextiles !</p>
-<p>Nous tout ce qu'on veut c'est internet</p>
-<p>Partager ce qu'on a dans nos têtes</p>
-<p>Le monde doit savoir ce qu'il en est vraiment</p>
-<p>Nous tout ce qu'on veut c'est du réseau</p>
-<p>Parce qu'on sait qu'on a raison</p>
-<p>C'est pour ça qu'ils nous ont mis dans cette prison</p>
-<p>À l'aise dans mon bunker</p>
-<p>J'étudiais le magnétisme</p>
-<p>Et tous les bienfaits</p>
-<p>De la lithothérapie</p>
-<p>Ça fait maintenant 12 ans</p>
-<p>Qu'ils me détiennent ici</p>
-<p>Avec pour seul motif</p>
-<p>Le calendrier aztèque</p>
-<p>Et les alertes à l'anthrax que j'ai faites</p>
-<p>C'était seulement préventif !</p>
-<p>Il y a quelques années</p>
-<p>J'ai bu mes vaccins</p>
-<p>Et maintenant je sais</p>
-<p>Qu'ils ne servent à rien</p>
-<p>Lausanne est socialiste</p>
-<p>Et promeut le changement</p>
-<p>D'ici 2026</p>
-<p>On aura le tram à Renens</p>
-<p>Et à Prilly un casino rutilant</p>
-<p>Et c'est moi qu'on met à l'asile !</p>
-<p>Nous tout ce qu'on veut c'est la 4G</p>
-<p>Mais surtout pas la 5G</p>
-<p>Parce que les ondes ça fait tomber les dents</p>
-<p>Nous ce qu'on veut c'est la fibre optique</p>
-<p>Que la box Swisscom aille plus vite</p>
-<p>Communiquer avec les petits martiens</p>
-<p>Les électrochocs, c'est moins bien en vrai</p>
-<p>Mais les bains d'eau glacée, c'est encore moins bien en vrai</p>
-<p>On m'a dit que si je perds 70% de matière grise</p>
-<p>On m'enverra direct à la blanche pour que j'y suive</p>
-<p>Un stage de réinsertion punitive</p>
-<p>Que je devienne une arme de destruction massive</p>
-<p>Et j'exploserai à Tel Aviv !!</p>
-<p>Vaut mieux que je reste à l'asile...</p>
-<p>Est-l’As</p>
+<div><em>Quand on arrive en ville (de Starmania - Daniel Balavoine)</em></div>
+<div>Quand je suis dans mon lit</div>
+<div>Je ressasse mes pensées</div>
+<div>Je me demande ce que</div>
+<div>Je fais encore ici</div>
+<div>Je dis la vérité</div>
+<div>Sur les forums en ligne</div>
+<div>C'est pas ma faute à moi</div>
+<div>S'ils ne voient pas les signes</div>
+<div>Que Lausanne est communiste</div>
+<div>C'est la nuit à l'asile !</div>
+<div>Malgré les psychotropes</div>
+<div>On a les idées claires</div>
+<div>On voit sous stroboscope</div>
+<div>Les dragons et les chimères</div>
+<div>La terre est toujours plate</div>
+<div>Depuis 1610</div>
+<div>Seulement les géographes</div>
+<div>N'ont pas prouvé qu'elle existe</div>
+<div>Ils sont sous le joug des lobbyistes</div>
+<div>Prenez garde aux bisextiles !</div>
+<div>Nous tout ce qu'on veut c'est internet</div>
+<div>Partager ce qu'on a dans nos têtes</div>
+<div>Le monde doit savoir ce qu'il en est vraiment</div>
+<div>Nous tout ce qu'on veut c'est du réseau</div>
+<div>Parce qu'on sait qu'on a raison</div>
+<div>C'est pour ça qu'ils nous ont mis dans cette prison</div>
+<div>À l'aise dans mon bunker</div>
+<div>J'étudiais le magnétisme</div>
+<div>Et tous les bienfaits</div>
+<div>De la lithothérapie</div>
+<div>Ça fait maintenant 12 ans</div>
+<div>Qu'ils me détiennent ici</div>
+<div>Avec pour seul motif</div>
+<div>Le calendrier aztèque</div>
+<div>Et les alertes à l'anthrax que j'ai faites</div>
+<div>C'était seulement préventif !</div>
+<div>Il y a quelques années</div>
+<div>J'ai bu mes vaccins</div>
+<div>Et maintenant je sais</div>
+<div>Qu'ils ne servent à rien</div>
+<div>Lausanne est socialiste</div>
+<div>Et promeut le changement</div>
+<div>D'ici 2026</div>
+<div>On aura le tram à Renens</div>
+<div>Et à Prilly un casino rutilant</div>
+<div>Et c'est moi qu'on met à l'asile !</div>
+<div>Nous tout ce qu'on veut c'est la 4G</div>
+<div>Mais surtout pas la 5G</div>
+<div>Parce que les ondes ça fait tomber les dents</div>
+<div>Nous ce qu'on veut c'est la fibre optique</div>
+<div>Que la box Swisscom aille plus vite</div>
+<div>Communiquer avec les petits martiens</div>
+<div>Les électrochocs, c'est moins bien en vrai</div>
+<div>Mais les bains d'eau glacée, c'est encore moins bien en vrai</div>
+<div>On m'a dit que si je perds 70% de matière grise</div>
+<div>On m'enverra direct à la blanche pour que j'y suive</div>
+<div>Un stage de réinsertion punitive</div>
+<div>Que je devienne une arme de destruction massive</div>
+<div>Et j'exploserai à Tel Aviv !!</div>
+<div>Vaut mieux que je reste à l'asile...</div>
+<div>Est-l’As</div>
 </div>
 
 ===== FILE: src\content\la-petite-huguette.svelte =====
@@ -2778,12 +2778,12 @@ Des pieds d’cochon, la faridondon :|      <br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Et puisqu’il faut que rien ne se perde <br/>
-Dans la nature où tout est bon<br/>
-Amis pompons la pompe à merde,<br/>
-Le jour paraît à l’horizon,<br/>
-Pompons la merde, et pompons-la gaiement <br/>
-En envoyant s’faire foutre ceux qui ne sont pas contents.<br/>
+<div>Et puisqu’il faut que rien ne se perde </div>
+<div>Dans la nature où tout est bon</div>
+<div>Amis pompons la pompe à merde,</div>
+<div>Le jour paraît à l’horizon,</div>
+<div>Pompons la merde, et pompons-la gaiement </div>
+<div>En envoyant s’faire foutre ceux qui ne sont pas contents.</div>
 </div>
 <div class="couplet">
 <div>Soupe à l’oignon, bouillon démocratique </div>
@@ -2840,7 +2840,7 @@ En envoyant s’faire foutre ceux qui ne sont pas contents.<br/>
 </script>
 
 <div class="song">
-<p><strong>Air : La guinguette a fermé ses volets</strong></p>
+<div><strong>Air : La guinguette a fermé ses volets</strong></div>
 <div class="couplet">
 <div>Le bordel a fermé ses volets,</div>
 <div>Elles sont toutes vérolées,</div>
@@ -2924,8 +2924,8 @@ En envoyant s’faire foutre ceux qui ne sont pas contents.<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Taïaut ! Taïaut ! Taïaut !<br/>
-Des prunes, des prunes, des prunes.<br/>
+<div>Taïaut ! Taïaut ! Taïaut !</div>
+<div>Des prunes, des prunes, des prunes.</div>
 </div>
 <div class="couplet">
 <div>Le duc de Bordeaux ressemble à son frère</div>
@@ -2977,8 +2977,8 @@ Des prunes, des prunes, des prunes.<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Troulala, troulala, troula, troula, troulalaire<br/>
-Troulala, troulala, troula, troula, troulala.<br/>
+<div>Troulala, troulala, troula, troula, troulalaire</div>
+<div>Troulala, troulala, troula, troula, troulala.</div>
 </div>
 <div class="couplet">
 <div>En notre ville est venu (bis)</div>
@@ -3206,22 +3206,22 @@ Troulala, troulala, troula, troula, troulala.<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Là tu, là tu m’emmerdes,<br/>
-Là tu, là tu m’fais chier,<br/>
-Tu nous emmerdes,<br/>
-Tu nous fais chier,<br/>
-Tu nous fais chier,<br/>
-Tu nous emmerdes !<br/>
-Et l’on entend, dans les champs,<br/>
-S’masturber les éléphants,<br/>
-Et l’on entend, dans les prés,<br/>
-Gazouiller les chimpanzés,<br/>
-Et l’on entend sous les ormeaux<br/>
-Battre la merde à coups d’marteaux,<br/>
-Et l’on entend, sous les plumards,<br/>
-Battre le foutre à coups d’braqu'marts.<br/>
-Non, non, non, non, Saint-Eloi n’est pas mort ! (bis)<br/>
-Car il bande encore ! (bis)<br/>
+<div>Là tu, là tu m’emmerdes,</div>
+<div>Là tu, là tu m’fais chier,</div>
+<div>Tu nous emmerdes,</div>
+<div>Tu nous fais chier,</div>
+<div>Tu nous fais chier,</div>
+<div>Tu nous emmerdes !</div>
+<div>Et l’on entend, dans les champs,</div>
+<div>S’masturber les éléphants,</div>
+<div>Et l’on entend, dans les prés,</div>
+<div>Gazouiller les chimpanzés,</div>
+<div>Et l’on entend sous les ormeaux</div>
+<div>Battre la merde à coups d’marteaux,</div>
+<div>Et l’on entend, sous les plumards,</div>
+<div>Battre le foutre à coups d’braqu'marts.</div>
+<div>Non, non, non, non, Saint-Eloi n’est pas mort ! (bis)</div>
+<div>Car il bande encore ! (bis)</div>
 </div>
 <div class="couplet">
 <div>Un jour, un vieux pou dans la rue,</div>
@@ -3398,10 +3398,10 @@ Là-haut sur la montagne, l’est un nouveau chalet.
 </script>
 
 <div class="song">
-<p>Dans notre Lausanne si coquette, sur les bords du bleu Léman. </p>
-<p>Nous portons fièrement la casquette, l’orange et le vert, le blanc. </p>
-<p>Orange couleur joyeuse, tu conquis plus d’un laurier. </p>
-<p>Tu fis plus d’une amoureuse |: et plus d’un cœur prisonnier. :|</p>
+<div>Dans notre Lausanne si coquette, sur les bords du bleu Léman. </div>
+<div>Nous portons fièrement la casquette, l’orange et le vert, le blanc. </div>
+<div>Orange couleur joyeuse, tu conquis plus d’un laurier. </div>
+<div>Tu fis plus d’une amoureuse |: et plus d’un cœur prisonnier. :|</div>
 </div>
 
 ===== FILE: src\content\les-bretelles.svelte =====
@@ -3558,8 +3558,8 @@ Là-haut sur la montagne, l’est un nouveau chalet.
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Entends-tu le coucou, ma Lisette <br/>
-Entends-tu le coucou, ma Lison ?<br/>
+<div>Entends-tu le coucou, ma Lisette </div>
+<div>Entends-tu le coucou, ma Lison ?</div>
 </div>
 <div class="couplet">
 <div>Les jeunes filles de la Rochelle</div>
@@ -3635,9 +3635,9 @@ Entends-tu le coucou, ma Lison ?<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-|: Et voilà la vie, la vie, la vie, la vie chérie, <br/>
-Ah ! Ah ! <br/>
-Et voilà la vie que tous les moines font. :|<br/>
+<div>|: Et voilà la vie, la vie, la vie, la vie chérie, </div>
+<div>Ah ! Ah ! </div>
+<div>Et voilà la vie que tous les moines font. :|</div>
 </div>
 <div class="couplet">
 <div>Nous sommes les moines de St Bernardin (bis) </div>
@@ -3683,8 +3683,8 @@ Et voilà la vie que tous les moines font. :|<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-|: 80, 80, 80, 80, 80 chasseurs :|<br/>
-Et qui n’avions pas peur ! <br/>
+<div>|: 80, 80, 80, 80, 80 chasseurs :|</div>
+<div>Et qui n’avions pas peur ! </div>
 </div>
 <div class="couplet">
 <div>A l’ouverture de la chasse, </div>
@@ -3743,15 +3743,15 @@ Et qui n’avions pas peur ! <br/>
 </script>
 
 <div class="song">
-<p>Ah oui ! je sens bien qu’tu m’l’as mise</p>
-<p>Ce n’est plus ton p’tit doigt qui m’chatouille, </p>
-<p>Je sens ton nombril contre le mien,</p>
-<p>Et la chaleur de tes deux couilles.</p>
-<p>Ton doigt n’était pas si mouillé,</p>
-<p>Il allait et revenait sans cadence. </p>
-<p>Maintenant c’est bien plus régulier,</p>
-<p>Ah ! nom de bleu, Ah ! nom de bleu, </p>
-<p>Quelle jouissance !</p>
+<div>Ah oui ! je sens bien qu’tu m’l’as mise</div>
+<div>Ce n’est plus ton p’tit doigt qui m’chatouille, </div>
+<div>Je sens ton nombril contre le mien,</div>
+<div>Et la chaleur de tes deux couilles.</div>
+<div>Ton doigt n’était pas si mouillé,</div>
+<div>Il allait et revenait sans cadence. </div>
+<div>Maintenant c’est bien plus régulier,</div>
+<div>Ah ! nom de bleu, Ah ! nom de bleu, </div>
+<div>Quelle jouissance !</div>
 </div>
 
 ===== FILE: src\content\missa-solemnis.svelte =====
@@ -3811,13 +3811,13 @@ Et qui n’avions pas peur ! <br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-A la Bastille<br/>
-On l’aime bien<br/>
-Nini peau de chien,<br/>
-Ale est si belle et si jolie <br/>
-On l’aime bien, qui ça ? <br/>
-Nini peau de chien, où ça ? <br/>
-A la Bastille.<br/>
+<div>A la Bastille</div>
+<div>On l’aime bien</div>
+<div>Nini peau de chien,</div>
+<div>Ale est si belle et si jolie </div>
+<div>On l’aime bien, qui ça ? </div>
+<div>Nini peau de chien, où ça ? </div>
+<div>A la Bastille.</div>
 </div>
 <div class="couplet">
 <div>Quand ale était petite</div>
@@ -3873,8 +3873,8 @@ Quand le soleil brille </div>
 </script>
 
 <div class="song">
-<p>Nuithoniens dans Fribourg la jolie, marchons sous notre drapeau et chantons à la Patrie, tous nos hymnes les plus beaux. </p>
-<p>Nous serons au jour de gloire, quand vibrera notre cœur, marche ferme à la victoire, |: faire triompher nos couleurs. :|</p>
+<div>Nuithoniens dans Fribourg la jolie, marchons sous notre drapeau et chantons à la Patrie, tous nos hymnes les plus beaux. </div>
+<div>Nous serons au jour de gloire, quand vibrera notre cœur, marche ferme à la victoire, |: faire triompher nos couleurs. :|</div>
 </div>
 
 ===== FILE: src\content\oh-mon-berger-fidele.svelte =====
@@ -3895,10 +3895,10 @@ Quand le soleil brille </div>
 <div>Viens t’en reposer sur mon cœur !</div>
 </div>
 <div class="refrain" data-title="Chœur des Vierges">
-Ah ! Fous-moi donc ta pine dans le cul<br/>
-Et qu’on en finisse,<br/>
-Ah ! Fous-moi donc ta pine dans le cul<br/>
-Et qu’on n’en parle plus<br/>
+<div>Ah ! Fous-moi donc ta pine dans le cul</div>
+<div>Et qu’on en finisse,</div>
+<div>Ah ! Fous-moi donc ta pine dans le cul</div>
+<div>Et qu’on n’en parle plus</div>
 </div>
 <div class="couplet">
 <div>Ta langue me trifouille</div>
@@ -3925,11 +3925,11 @@ Et qu’on n’en parle plus<br/>
 <div>Passe-moi le godemiché.</div>
 </div>
 <div class="refrain" data-title="Refrain final">
-Fous-moi l’god'miché dans l’cul<br/>
-Faut que je me finisse,<br/>
+<div>Fous-moi l’god'miché dans l’cul</div>
+<div>Faut que je me finisse,</div>
 </div>
-<p>Fous-moi l’god'miché dans l’cul, </p>
-<p>Et qu’on n’en parle plus !</p>
+<div>Fous-moi l’god'miché dans l’cul, </div>
+<div>Et qu’on n’en parle plus !</div>
 </div>
 
 ===== FILE: src\content\pere-dupanloup.svelte =====
@@ -3944,8 +3944,8 @@ Faut que je me finisse,<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Zut, merde, pine et boxon<br/>
-L’père Dupanloup est un cochon.<br/>
+<div>Zut, merde, pine et boxon</div>
+<div>L’père Dupanloup est un cochon.</div>
 </div>
 <div class="couplet">
 <div>L’père Dupanloup encor' moutard </div>
@@ -4039,8 +4039,8 @@ L’père Dupanloup est un cochon.<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Und wir leben nicht mehr so lang (bis)<br/>
-Am neunzehnten Mai is der Weltuntergang<br/>
+<div>Und wir leben nicht mehr so lang (bis)</div>
+<div>Am neunzehnten Mai is der Weltuntergang</div>
 </div>
 <div class="couplet">
 <div>Nous l’avions bâtie la blanche maison (maison)</div>
@@ -4079,8 +4079,8 @@ Am neunzehnten Mai is der Weltuntergang<br/>
 <div>Il faut des Lémaniens (bis) :|</div>
 </div>
 <div class="refrain" data-title="Refrain 2">
-|: Bagatelle ! vive la bouteille !<br/>
-Amours, amours, allez vous balader ! :|<br/>
+<div>|: Bagatelle ! vive la bouteille !</div>
+<div>Amours, amours, allez vous balader ! :|</div>
 </div>
 <div class="couplet">
 <div>|: Sans le bouc à l’oncle Henri tout le village, tout le village :| serait sans cabri.</div>
@@ -4105,10 +4105,10 @@ Amours, amours, allez vous balader ! :|<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Qu’on apporte, qu’on apporte,<br/>
-Du vin, du vin, et qu’on nous serve à boire<br/>
-Qu’on apporte, qu’on apporte,<br/>
-Du vin, du vin, et qu’on nous serve bien<br/>
+<div>Qu’on apporte, qu’on apporte,</div>
+<div>Du vin, du vin, et qu’on nous serve à boire</div>
+<div>Qu’on apporte, qu’on apporte,</div>
+<div>Du vin, du vin, et qu’on nous serve bien</div>
 </div>
 <div class="couplet">
 <div>Le père Adam, huit jours avant la faute, </div>
@@ -4202,9 +4202,9 @@ Du vin, du vin, et qu’on nous serve bien<br/>
 </script>
 
 <div class="song">
-<p>Ton nom doux comme les yeux d’amie, porte partout le bonheur, toi qui comme une amante jolie Sarinia fait vibrer nos cœurs. </p>
-<p>A toi nos chansons légères que nous semons dans Fribourg. </p>
-<p>A toi nous levons nos verres, |: à toi nos vœux, nos amours. :|</p>
+<div>Ton nom doux comme les yeux d’amie, porte partout le bonheur, toi qui comme une amante jolie Sarinia fait vibrer nos cœurs. </div>
+<div>A toi nos chansons légères que nous semons dans Fribourg. </div>
+<div>A toi nous levons nos verres, |: à toi nos vœux, nos amours. :|</div>
 </div>
 
 ===== FILE: src\content\self-1905-bienne.svelte =====
@@ -4247,7 +4247,7 @@ Du vin, du vin, et qu’on nous serve bien<br/>
 <div>Den Riesenkampf mit dieser Zeit zu wagen, da frisch noch blüht der Jugend Kraftgefühl, des Lebens Bürde mutig stark zu tragen zu ringen nach der Tugen hohem Ziel. Auf Edles stets den kühnen Blick zu wenden und gut zu kämpfen, besser zu vollenden !</div>
 </div>
 <div class="refrain" data-title="Refrain">
-Dafür, dafür, o Freunde, haben wir geschworen und keiner, keiner gehe je von uns verloren.<br/>
+<div>Dafür, dafür, o Freunde, haben wir geschworen und keiner, keiner gehe je von uns verloren.</div>
 </div>
 <div class="couplet">
 <div>Und stets der edlen Herzen zu gedenken, die treu erschließen uns des Wissens Hort und liebend unser Lebensschifflein lenken zum heißersehnten gold’nen Glückesport. Zum Meeressterne gläubig aufzuschauen, zum reinen Strahlenglanz der Himmelsauen ! </div>
@@ -4268,12 +4268,12 @@ Dafür, dafür, o Freunde, haben wir geschworen und keiner, keiner gehe je von u
 </script>
 
 <div class="song">
-<p>Vivat Stella ! Bibamus, amici Stellae, nobis carissimae laeti </p>
-<p>Claro simul dicamus pectore </p>
-<p>0Uno corde nos semper vivere ; </p>
-<p>In aeternum iuncti simus, </p>
-<p>Ante hostem et canamus, </p>
-<p>|: Nos dicturos perpetue : Vivat Stella ! Vivat Stella ! :| </p>
+<div>Vivat Stella ! Bibamus, amici Stellae, nobis carissimae laeti </div>
+<div>Claro simul dicamus pectore </div>
+<div>0Uno corde nos semper vivere ; </div>
+<div>In aeternum iuncti simus, </div>
+<div>Ante hostem et canamus, </div>
+<div>|: Nos dicturos perpetue : Vivat Stella ! Vivat Stella ! :| </div>
 </div>
 
 ===== FILE: src\content\sur-la-route-de-louviers.svelte =====
@@ -4350,11 +4350,11 @@ Dafür, dafür, o Freunde, haben wir geschworen und keiner, keiner gehe je von u
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Relevez la belle votre blanc jupon, <br/>
-Qu’on vous voie le cul, <br/>
-qu’on vous voie les fesses ;<br/>
-Relevez la belle votre blanc jupon, <br/>
-Qu’on vous voie le cul, qu’on vous voie le con !<br/>
+<div>Relevez la belle votre blanc jupon, </div>
+<div>Qu’on vous voie le cul, </div>
+<div>qu’on vous voie les fesses ;</div>
+<div>Relevez la belle votre blanc jupon, </div>
+<div>Qu’on vous voie le cul, qu’on vous voie le con !</div>
 </div>
 <div class="couplet">
 <div>Trois orfèvres, à la Saint-Eloi,</div>
@@ -4413,8 +4413,8 @@ Qu’on vous voie le cul, qu’on vous voie le con !<br/>
 </script>
 
 <div class="song">
-<p>Les connais-tu les trois couleurs, les couleurs valdésiennes, celles qui font rêver les cœurs, les charment, les retiennent ? </p>
-<p>Rouge de feu, vie et passion ; |: or des moissons couleur d’union :| ; noir, fidélité même. </p>
+<div>Les connais-tu les trois couleurs, les couleurs valdésiennes, celles qui font rêver les cœurs, les charment, les retiennent ? </div>
+<div>Rouge de feu, vie et passion ; |: or des moissons couleur d’union :| ; noir, fidélité même. </div>
 </div>
 
 ===== FILE: src\content\waldstattia-1891-lucerne.svelte =====
@@ -4428,7 +4428,7 @@ Qu’on vous voie le cul, qu’on vous voie le con !<br/>
 </script>
 
 <div class="song">
-<p>Wo die Reuss mit grünen Wogen dem Luzerner See entspringt, rauscht Waldstättia stolzes Banner, wenn’s für Gott zu kämpfen gilt. Tugend, Weisheit, Freudshaft stehen gleich drei gold’nen Sternen auf, die uns leiten, die uns führen, |: zu des Höchsten Ziel hinauf. :| </p>
+<div>Wo die Reuss mit grünen Wogen dem Luzerner See entspringt, rauscht Waldstättia stolzes Banner, wenn’s für Gott zu kämpfen gilt. Tugend, Weisheit, Freudshaft stehen gleich drei gold’nen Sternen auf, die uns leiten, die uns führen, |: zu des Höchsten Ziel hinauf. :| </div>
 </div>
 
 ===== FILE: src\content\zita.svelte =====
@@ -4443,10 +4443,10 @@ Qu’on vous voie le cul, qu’on vous voie le con !<br/>
 
 <div class="song">
 <div class="refrain" data-title="Refrain">
-Ah ! vivre sans souci	<br/>
-Boire du purin, bouffer d’la merde <br/>
-C’est le meilleur moyen<br/>
-De ne jamais crever de faim.<br/>
+<div>Ah ! vivre sans souci	</div>
+<div>Boire du purin, bouffer d’la merde </div>
+<div>C’est le meilleur moyen</div>
+<div>De ne jamais crever de faim.</div>
 </div>
 <div class="couplet">
 <div>C'est un hussard de la garde </div>
@@ -4528,7 +4528,7 @@ De ne jamais crever de faim.<br/>
 </script>
 
 <div class="song">
-<p><em>La blanche</em></p>
+<div><em>La blanche</em></div>
 <div class="couplet">
 <div>Nous l’avions bâtie, la blanche maison |: où coula notre vie dans sa belle saison :|</div>
 </div>
