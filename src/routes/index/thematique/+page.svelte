@@ -1,10 +1,9 @@
 <script lang="ts">
-  import { base } from "$app/paths";
+  export let data: { pages?: any[] };
 
-  // Récupération des données du load()
-  let { data } = $props();
-  const d = data;
-  const { id, pages } = d;
+  import { base } from '$app/paths';
+  let pages = data?.pages ?? [];
+  $: pages = data?.pages ?? [];
 
   function normalize(str: string) {
     return str.toLowerCase();
@@ -41,13 +40,13 @@
 
 <h1>Index thématique</h1>
 
-{#each Object.entries(themes) as [theme, entries]}
+{#each groupKeys as theme}
   <section class="theme">
     <h2>{theme}</h2>
     <ul>
-      {#each entries as e}
+      {#each groups[theme] as p}
         <li>
-          <a href={`${base}/page/${e.page.id}`}>{e.key}</a>
+          <a href={base + '/page/' + (p.slug ?? p.id)}>{p.title}</a>
         </li>
       {/each}
     </ul>

@@ -10,8 +10,8 @@
 <h1>Chansonnier</h1>
 
 <nav class="menu">
-  <a href={`${base}/index/alphabetique`}>Index alphabétique</a>
-  <a href={`${base}/index/thematique`}>Index thématique</a>
+  <a href={base + '/index/alphabetique'}>Index alphabétique</a>
+  <a href={base + '/index/thematique'}>Index thématique</a>
 </nav>
 
 <style>

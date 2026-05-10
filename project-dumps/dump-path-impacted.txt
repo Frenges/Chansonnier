@@ -1,0 +1,114 @@
+===== FILE: scripts\dump-structured.js =====
+s ou regex) qui indiquent qu'un fichier est potentiellement impacté par les chemins/base
+const IMPACT_PATTERNS = [
+  "/page/",
+  "index/thematique",
+  "index/alphabetique",
+  "service-worker.js",
+  "BASE_PATH",
+  "/Chansonnier",
+  "from '
+
+===== FILE: src\routes\+layout.svelte =====
+current);
+  }
+
+  function openResult(r: any) {
+    const slug = r.slug ?? r.id;
+    if (!slug) return;
+    goto(`${base}/page/${slug}`);
+  }
+</script>
+
+<header class="app-header">
+  <div class="header-left">
+    <h1 class="brand">Chansonnier</h1>
+
+===== FILE: src\routes\+page.svelte =====
+onnier</h1>
+
+<nav class="menu">
+  <a href={`${base}/index/alphabetique`}>Index alphabétique</a>
+  <a href={`${base}/index/thematique`}>Index thématique</a>
+</nav>
+
+<style>
+  h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .menu {
+  
+
+===== FILE: src\routes\index\alphabetique\+page.server.ts =====
+// src/routes/index/alphabetique/+page.server.ts
+import type { PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async ({ parent
+
+===== FILE: src\routes\index\alphabetique\+page.svelte =====
+ized)
+  );
+</script>
+
+<h1>Index alphabétique</h1>
+
+<ul>
+  {#each entries as e}
+    <li>
+      <a href={`${base}/page/${e.page.id}`}>{e.key}</a>
+    </li>
+  {/each}
+</ul>
+
+
+===== FILE: src\routes\index\thematique\+page.server.ts =====
+// src/routes/index/thematique/+page.server.ts
+import type { PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async ({ parent
+
+===== FILE: src\routes\index\thematique\+page.svelte =====
+on class="theme">
+    <h2>{theme}</h2>
+    <ul>
+      {#each entries as e}
+        <li>
+          <a href={`${base}/page/${e.page.id}`}>{e.key}</a>
+        </li>
+      {/each}
+    </ul>
+  </section>
+{/each}
+
+
+===== FILE: src\routes\page\[id]\+page.server.ts =====
+// src/routes/page/[id]/+page.server.ts
+import type { PageServerLoad } from './$types';
+import { findPageById } from '$lib/db';
+import {
+
+===== FILE: src\service-worker.js =====
+      })
+    );
+    return;
+  }
+
+  // Runtime cache pour pages individuelles (GET)
+  if (url.pathname.startsWith('/page/') && e.request.method === 'GET') {
+    e.respondWith(
+      caches.match(e.request).then((cached) => {
+        const
+
+===== FILE: svelte.config.js =====
+v.NODE_ENV === 'development';
+
+// 1) Allow explicit override via env var (highest priority)
+const envBase = process.env.BASE_PATH;
+if (envBase) {
+  console.log('[svelte.config] BASE_PATH from env:', envBase);
+}
+
+// 2) Auto-detect GitHub Pages projec
+

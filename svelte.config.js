@@ -12,8 +12,6 @@ if (envBase) {
 }
 
 // 2) Auto-detect GitHub Pages project site named "Chansonnier"
-//    - If running in GitHub Actions, GITHUB_REPOSITORY is available
-//    - Otherwise try to read local git remote origin URL (best-effort)
 let autoBase = '';
 try {
   if (!envBase) {
@@ -21,7 +19,6 @@ try {
     if (ghRepo && ghRepo.toLowerCase().includes('chansonnier')) {
       autoBase = '/Chansonnier';
     } else {
-      // best-effort local git remote check (silently ignore errors)
       const remoteUrl = execSync('git config --get remote.origin.url', { encoding: 'utf8' }).trim();
       if (remoteUrl && /[:\/]frenges\/Chansonnier(\.git)?$/i.test(remoteUrl)) {
         autoBase = '/Chansonnier';
@@ -32,7 +29,6 @@ try {
   // ignore; autoBase stays ''
 }
 
-// 3) Final base selection: explicit env var > auto-detect > dev default ""
 const basePath = envBase ?? (dev ? '' : autoBase ?? '');
 
 console.log('[svelte.config] final basePath =', JSON.stringify(basePath));

@@ -1,10 +1,9 @@
 <script lang="ts">
-  import { base } from "$app/paths";
+ export let data: { pages?: any[] };
 
-  // Récupération des données du load()
-  let { data } = $props();
-  const d = data;
-  const { id, pages } = d;
+  import { base } from '$app/paths';
+  let pages = data?.pages ?? [];
+  $: pages = data?.pages ?? [];
 
   function normalize(str: string) {
     return str.toLowerCase();
@@ -32,9 +31,9 @@
 <h1>Index alphabétique</h1>
 
 <ul>
-  {#each entries as e}
+  {#each sorted as e}
     <li>
-      <a href={`${base}/page/${e.page.id}`}>{e.key}</a>
+      <a href={base + '/page/' + (e.page?.id ?? e.id)}>{e.key ?? e.title}</a>
     </li>
   {/each}
 </ul>

@@ -35,9 +35,9 @@ self.addEventListener('fetch', (e) => {
   }
 
   // Runtime cache pour pages individuelles (GET)
-  if (url.pathname.startsWith('/page/') && e.request.method === 'GET') {
+  if ((url.pathname.startsWith('/page/') || url.pathname.startsWith('/Chansonnier/page/')) &&    e.request.method === 'GET') {
     e.respondWith(
-      caches.match(e.request).then((cached) => {
+    caches.match(e.request).then((cached) => {
         const network = fetch(e.request).then((res) => {
           if (res && res.ok) caches.open(CACHE_NAME).then((c) => c.put(e.request, res.clone()));
           return res;

@@ -59,7 +59,7 @@
   function openResult(r: any) {
     const slug = r.slug ?? r.id;
     if (!slug) return;
-    goto(`${base}/page/${slug}`);
+    goto(base + '/page/' + slug);
   }
 </script>
 
