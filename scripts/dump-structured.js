@@ -26,7 +26,8 @@ const IGNORE_DIRS = [
   ".git",
   ".svelte-kit",
   "project-dumps",
-  "project-chunks"
+  "project-chunks",
+  "build"
 ];
 
 // Fichiers à ignorer
@@ -57,6 +58,47 @@ function walk(dir) {
   return fileList;
 }
 
+// ===============================
+// 🔥 AJOUT : DUMP GLOBAL DES .TS
+// ===============================
+function dumpAllTS() {
+  const tsFiles = [];
+
+  function scan(dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+
+      if (IGNORE_DIRS.includes(entry.name)) continue;
+
+      if (entry.isDirectory()) {
+        scan(fullPath);
+      } else if (entry.isFile() && entry.name.endsWith(".ts")) {
+        tsFiles.push(path.relative(root, fullPath));
+      }
+    }
+  }
+
+  scan(root);
+
+  let output = "";
+
+  for (const file of tsFiles) {
+    const fullPath = path.join(root, file);
+    const content = fs.readFileSync(fullPath, "utf8");
+
+    output += `===== FILE: ${file} =====\n`;
+    output += content + "\n\n";
+  }
+
+  fs.writeFileSync(path.join(outDir, "dump-ts.txt"), output, "utf8");
+  console.log("✔ dump-ts.txt généré");
+}
+
+// ===============================
+// DUMPS EXISTANTS
+// ===============================
 for (const [outputName, folders] of Object.entries(TARGETS)) {
   let output = "";
 
@@ -78,5 +120,10 @@ for (const [outputName, folders] of Object.entries(TARGETS)) {
   fs.writeFileSync(path.join(outDir, outputName), output, "utf8");
   console.log(`✔ ${outputName} généré`);
 }
+
+// ===============================
+// LANCE LE DUMP DES .TS
+// ===============================
+dumpAllTS();
 
 console.log("✔ Tous les dumps structurés ont été générés !");

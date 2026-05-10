@@ -3,7 +3,7 @@
     id: "la-pompe-a-merde",
     title: "La pompe à merde",
     theme: "Chansons paillardes",
-    sortKeys: ["La pompe à merde"]
+    sortKeys: ["La pompe à merde", "Pompe à merde"]
   };
 </script>
 

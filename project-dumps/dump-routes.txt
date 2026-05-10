@@ -1,85 +1,112 @@
+===== FILE: src\routes\+layout.server.ts =====
+// src/routes/+layout.server.ts
+import type { LayoutServerLoad } from './$types';
+import { loadPages } from '$lib/db';
+
+export const load: LayoutServerLoad = async () => {
+  const pages = await loadPages();
+  return { pages };
+};
+
+
 ===== FILE: src\routes\+layout.svelte =====
 <script lang="ts">
-  import '../app.css';        /* 🔥 AJOUT CRITIQUE */
-  import { base } from "$app/paths";
-  import favicon from '$lib/assets/favicon.svg';
-  import { db } from "$lib/db";
-  import { onMount } from "svelte";
+  import { onMount } from 'svelte';
+  import { writable } from 'svelte/store';
 
-  let { children, data } = $props();
+  // Mode nuit stocké dans dataset root
+  const theme = writable('light');
+  export const offlineReady = writable(false);
 
   onMount(async () => {
-    for (const page of data.pages) {
-      await db.pages.put(page);
+    // Restaurer thème depuis localStorage
+    const saved = localStorage.getItem('theme');
+    if (saved) {
+      theme.set(saved);
+      document.documentElement.dataset.theme = saved;
+    }
+
+    // Enregistrer le service worker uniquement en production
+    if ('serviceWorker' in navigator && import.meta.env.PROD) {
+      try {
+        await navigator.serviceWorker.register('/service-worker.js');
+        console.log('SW registered');
+      } catch (e) {
+        console.warn('SW registration failed', e);
+      }
+    }
+
+    // Populate IndexedDB uniquement côté client et de façon non bloquante
+    // Import dynamique pour éviter tout import client-side en SSR
+    try {
+      const mod = await import('$lib/dexie-client');
+      mod.ensureDexieIsPopulated().then(() => offlineReady.set(true)).catch(err => console.warn('Dexie population failed', err));
+    } catch (e) {
+      // si le module n'existe pas, on ignore
     }
   });
+
+  // Theme toggle helper
+  function toggleTheme() {
+    const current = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = current;
+    localStorage.setItem('theme', current);
+    theme.set(current);
+  }
 </script>
 
-<svelte:head>
-  <link rel="icon" href={favicon} />
-</svelte:head>
+<header class="app-header">
+  <div class="header-left">
+    <h1 class="brand">Chansonnier</h1>
+  </div>
+
+  <div class="header-right">
+    <button class="theme-toggle" on:click={toggleTheme} aria-label="Toggle theme">🌓</button>
+  </div>
+</header>
 
 <div class="layout">
   <nav class="sidebar">
-    <h2>Chansonnier</h2>
-    <a href={`${base}/`}>Accueil</a>
-    <a href={`${base}/index/alphabetique`}>Index alphabétique</a>
-    <a href={`${base}/index/thematique`}>Index thématique</a>
+    <input class="search" type="text" placeholder="Rechercher…" />
+    <div class="search-results" aria-live="polite"></div>
   </nav>
 
   <main class="content">
-    {@render children({ data })}
+    <slot />
   </main>
 </div>
 
-<style global>
-  .layout {
-    display: flex;
-    min-height: 100vh;
-  }
-
-  .sidebar {
-    width: 220px;
-    background: #f0f0f0;
-    padding: 1.5rem;
-    border-right: 1px solid #ddd;
-  }
-
-  .sidebar h2 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-  }
-
-  .sidebar a {
-    display: block;
-    margin: 0.5rem 0;
-    text-decoration: none;
-    color: #333;
-    font-size: 1.1rem;
-  }
-
-  .sidebar a:hover {
-    text-decoration: underline;
-  }
-
-  .content {
-    flex: 1;
-    padding: 2rem;
-  }
+<style>
+  .app-header { display:flex; justify-content:space-between; align-items:center; padding:1rem; border-bottom:1px solid var(--sidebar-border); background:var(--sidebar-bg); }
+  .brand { margin:0; font-size:1.2rem; }
+  .theme-toggle { background:none; border:none; cursor:pointer; font-size:1.2rem; }
+  .layout { display:flex; min-height:100vh; }
+  .sidebar { width:220px; padding:1rem; box-sizing:border-box; border-right:1px solid var(--sidebar-border); background:var(--sidebar-bg); }
+  .content { flex:1; padding:1rem; box-sizing:border-box; }
+  .search { width:100%; padding:0.4rem; border-radius:6px; border:1px solid rgba(0,0,0,0.08); }
+  .search-results { margin-top:0.5rem; display:flex; flex-direction:column; gap:0.35rem; }
+  @media (max-width:700px) { .layout { flex-direction:column; } .sidebar { width:100%; border-right:none; border-bottom:1px solid var(--sidebar-border); } }
 </style>
 
 
 ===== FILE: src\routes\+layout.ts =====
-// src/routes/+layout.ts
 import type { LayoutLoad } from "./$types";
 import { allSongs } from "$lib/data/allSongs";
 
 export const load: LayoutLoad = async () => {
-  // Les chansons sont embarquées dans le bundle → aucune dépendance réseau
   return {
     pages: allSongs
   };
+};
+
+
+===== FILE: src\routes\+page.server.ts =====
+// src/routes/+page.server.ts
+import type { PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async ({ parent }) => {
+  // Propagation des données du layout (pages)
+  return await parent();
 };
 
 
@@ -125,13 +152,5 @@ export const load: LayoutLoad = async () => {
     background: #ddd;
   }
 </style>
-
-
-===== FILE: src\routes\+page.ts =====
-export const ssr = false;
-
-export function load({ data }) {
-  return data;
-}
 
 

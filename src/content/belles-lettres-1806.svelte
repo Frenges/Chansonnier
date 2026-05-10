@@ -3,7 +3,7 @@
     id: "belles-lettres-1806",
     title: "Belles-Lettres (1806)",
     theme: "Chants estudiantins",
-    sortKeys: ["Belles-Lettres (1806)"]
+    sortKeys: ["Hymne de Belles-Lettres"]
   };
 </script>
 

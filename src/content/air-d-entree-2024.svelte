@@ -12,7 +12,7 @@
 <div>Bienvenue au prologue 2024</div>
 <div>Sauf qu'en fait on est 5</div>
 <div>Installez-vous, et préparez vous </div>
-<div>pour un-e soirée de dingue								</div>
+<div>pour un-e soirée de dingue</div>
 <div>Le frigo panossé,</div>
 <div>le sol est rempli de bières</div>
 <div>On a déjà mal/  au foie, alors que/  ca n’a pas commencé</div>

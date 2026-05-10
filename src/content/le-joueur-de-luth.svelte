@@ -3,7 +3,7 @@
     id: "le-joueur-de-luth",
     title: "Le joueur de luth",
     theme: "Chansons paillardes",
-    sortKeys: ["Le joueur de luth"]
+    sortKeys: ["Le joueur de luth", "Joueur de luth"]
   };
 </script>
 

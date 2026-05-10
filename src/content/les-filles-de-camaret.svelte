@@ -3,7 +3,7 @@
     id: "les-filles-de-camaret",
     title: "Les filles de Camaret",
     theme: "Chansons paillardes",
-    sortKeys: ["Les filles de Camaret"]
+    sortKeys: ["Les filles de Camaret", "Filles de Camaret"]
   };
 </script>
 

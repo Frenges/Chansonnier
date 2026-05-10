@@ -3,7 +3,7 @@
     id: "les-bretelles",
     title: "Les bretelles",
     theme: "Chansons paillardes",
-    sortKeys: ["Les bretelles"]
+    sortKeys: ["Les bretelles", "Bretelles"]
   };
 </script>
 

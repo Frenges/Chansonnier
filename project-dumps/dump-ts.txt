@@ -1,3 +1,19 @@
+===== FILE: src\app.d.ts =====
+// See https://svelte.dev/docs/kit/types#app.d.ts
+// for information about these interfaces
+declare global {
+	namespace App {
+		// interface Error {}
+		// interface Locals {}
+		// interface PageData {}
+		// interface PageState {}
+		// interface Platform {}
+	}
+}
+
+export {};
+
+
 ===== FILE: src\lib\db.ts =====
 // src/lib/db.ts
 // API serveur légère : lit la source canonique (allSongs) pour les load() serveur.
@@ -125,5 +141,117 @@ export function parseMarkdown(md: string) {
 
   return { frontmatter, html };
 }
+
+
+===== FILE: src\routes\+layout.server.ts =====
+// src/routes/+layout.server.ts
+import type { LayoutServerLoad } from './$types';
+import { loadPages } from '$lib/db';
+
+export const load: LayoutServerLoad = async () => {
+  const pages = await loadPages();
+  return { pages };
+};
+
+
+===== FILE: src\routes\+layout.ts =====
+import type { LayoutLoad } from "./$types";
+import { allSongs } from "$lib/data/allSongs";
+
+export const load: LayoutLoad = async () => {
+  return {
+    pages: allSongs
+  };
+};
+
+
+===== FILE: src\routes\+page.server.ts =====
+// src/routes/+page.server.ts
+import type { PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async ({ parent }) => {
+  // Propagation des données du layout (pages)
+  return await parent();
+};
+
+
+===== FILE: src\routes\index\+layout.ts =====
+export async function load({ parent }) {
+  return await parent();
+}
+
+
+===== FILE: src\routes\index\alphabetique\+page.server.ts =====
+// src/routes/index/alphabetique/+page.server.ts
+import type { PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async ({ parent }) => {
+  const { pages } = await parent();
+  // Ici tu peux trier alphabétiquement côté serveur si besoin
+  const sorted = [...(pages ?? [])].sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+  return { pages: sorted };
+};
+
+
+===== FILE: src\routes\index\thematique\+page.server.ts =====
+// src/routes/index/thematique/+page.server.ts
+import type { PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async ({ parent }) => {
+  const { pages } = await parent();
+  // Exemple : renvoyer pages (tu peux grouper par thème ici)
+  return { pages };
+};
+
+
+===== FILE: src\routes\page\[id]\+page.server.ts =====
+// src/routes/page/[id]/+page.server.ts
+import type { PageServerLoad } from './$types';
+import { findPageById } from '$lib/db';
+import { error } from '@sveltejs/kit';
+
+export const load: PageServerLoad = async ({ params, parent }) => {
+  const parentData = await parent();
+  const pages = parentData?.pages;
+
+  const id = params.id;
+  const page = await findPageById(id);
+
+  if (!page) {
+    throw error(404, 'Page introuvable');
+  }
+
+  return {
+    id,
+    page,
+    pages
+  };
+};
+
+
+===== FILE: vite.config.ts =====
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite';
+import { exec } from "node:child_process";
+
+export default defineConfig({
+  plugins: [
+    sveltekit(),
+
+    {
+      name: "generate-pages-json",
+      buildStart() {
+        exec("node ./scripts/generate-pages-json.js");
+        exec("node ./scripts/generate-allSongs.js");
+      },
+      handleHotUpdate({ file }) {
+        if (file.endsWith(".md")) {
+          exec("node ./scripts/generate-pages-json.js");
+          exec("node ./scripts/generate-allSongs.js");
+        }
+      }
+    }
+  ]
+});
 
 

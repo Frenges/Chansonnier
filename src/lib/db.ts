@@ -1,45 +1,33 @@
 // src/lib/db.ts
-import Dexie from "dexie";
-import { base } from "$app/paths";
+// API serveur légère : lit la source canonique (allSongs) pour les load() serveur.
+import type { Song } from '$lib/data/allSongs';
 
-export const db = new Dexie("songbook");
-db.version(1).stores({
-  pages: "id,title,sortKeys,themes,body,html"
-});
-
-// Charge pages.json (depuis le cache SW ou le réseau)
-async function fetchPagesJson() {
-  const url = `${base}/data/pages.json`;
-  const res = await fetch(url);
-  return res.json();
-}
-
-// Remplit Dexie si nécessaire
-export async function ensureDexieIsPopulated() {
-  const count = await db.pages.count();
-
-  // Si Dexie contient déjà des données → ne rien faire
-  if (count > 0) {
-    console.log("Dexie: déjà rempli");
-    return;
+async function loadAllSongsModule() {
+  try {
+    const mod = await import('$lib/data/allSongs');
+    // tolérance aux différents noms d'export possibles
+    const ALL_SONGS: Song[] = mod.ALL_SONGS ?? mod.allSongs ?? mod.default ?? [];
+    return ALL_SONGS;
+  } catch (e) {
+    console.error('db.ts: impossible d\'importer $lib/data/allSongs', e);
+    return [];
   }
-
-  console.log("Dexie: vide → remplissage automatique…");
-
-  // Charge toutes les chansons depuis pages.json
-  const json = await fetchPagesJson();
-
-  // Insère toutes les chansons dans Dexie
-  await db.pages.bulkPut(json.pages);
-
-  console.log("Dexie: toutes les chansons ont été importées");
 }
 
-// Fonction utilisée par +layout.ts pour charger les pages
-export async function loadPages() {
-  // S'assure que Dexie contient tout
-  await ensureDexieIsPopulated();
+export async function loadPages(): Promise<Song[]> {
+  const ALL_SONGS = await loadAllSongsModule();
+  if (!ALL_SONGS || ALL_SONGS.length === 0) {
+    console.warn('loadPages: ALL_SONGS introuvable ou vide, renvoi tableau vide');
+    return [];
+  }
+  return ALL_SONGS;
+}
 
-  // Retourne les pages depuis Dexie
-  return db.pages.toArray();
+export async function findPageById(id: string): Promise<Song | undefined> {
+  const ALL_SONGS = await loadAllSongsModule();
+  if (!ALL_SONGS || ALL_SONGS.length === 0) {
+    console.warn('findPageById: ALL_SONGS introuvable pour id=', id);
+    return undefined;
+  }
+  return ALL_SONGS.find((p) => (p as any).slug === id || (p as any).id === id);
 }

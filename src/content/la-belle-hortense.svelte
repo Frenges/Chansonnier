@@ -3,7 +3,7 @@
     id: "la-belle-hortense",
     title: "La belle Hortense",
     theme: "Chansons paillardes",
-    sortKeys: ["La belle Hortense"]
+    sortKeys: ["La belle Hortense", "Belle Hortense"]
   };
 </script>
 
@@ -26,15 +26,15 @@
 <div>LE CHŒUR</div>
 <div>Les g'noux cagneux, etc.</div>
 <div>LE CHORYPHÉE</div>
-<div>La Belle Hortense a 	les cuisses graisseuses </div>
-<div>un petit tchu-tchu</div>
-<div>un gros cu-cul</div>
-<div>un ventre obèse</div>
-<div>les seins pendants</div>
-<div>le cou goîtreux</div>
-<div>la bouche baveuse</div>
-<div>le nez morveux</div>
-<div>les yeux chassieux</div>
-<div>les oreilles cireuses </div>
-<div>le chef teigneux</div>
+<div>La Belle Hortense a        les cuisses graisseuses</div>
+<div> 	 	 	 	un petit tchu-tchu</div>
+<div> 	 	 	 	un gros cu-cul</div>
+<div> 	 	 	 	un ventre obèse</div>
+<div> 	 	 	 	les seins pendants</div>
+<div> 	 	 	 	le cou goîtreux</div>
+<div> 	 	 	 	la bouche baveuse</div>
+<div> 	 	 	 	le nez morveux</div>
+<div> 	 	 	 	les yeux chassieux</div>
+<div> 	 	 	 	les oreilles cireuses </div>
+<div> 	 	 	 	le chef teigneux</div>
 </div>

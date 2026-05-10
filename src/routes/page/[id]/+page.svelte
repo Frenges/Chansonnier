@@ -1,58 +1,36 @@
 <script lang="ts">
-  // Récupération des données du load()
-  let { data } = $props();
-  const d = data;
-  const { id, pages } = d;
+export let data: { page: any };
 
-  // 3) Debug
-  console.log("DATA REÇUE DANS +page.svelte :", d);
-  console.log("ID REÇU :", id);
-  console.log("LISTE DES IDS DISPONIBLES :", pages?.map(p => p.id));
+let page = { title: "Page introuvable", html: "<p>Introuvable</p>" };
+$: page = data?.page ?? { title: "Page introuvable", html: "<p>Introuvable</p>" };
 
-  // 4) Trouver la page
-  const page = pages?.find((p) => p.id === id);
+  import { onMount } from 'svelte';
+  let container: HTMLDivElement | null = null;
 
-  let htmlContainer;
+  onMount(async () => {
+    if (!container) return;
 
-  $effect(() => {
-    if (page && page.html && htmlContainer) {
-      htmlContainer.innerHTML = page.html;
-    }
+    container.querySelectorAll('[data-title="Refrain"]').forEach(el => {
+      if (!el.classList.contains('refrain')) el.classList.add('refrain');
+    });
+
+    container.querySelectorAll('.couplet, .verse, [data-type="couplet"]').forEach(el => {
+      if (!el.classList.contains('couplet')) el.classList.add('couplet');
+    });
   });
 </script>
 
-{#if !page}
-  <p>Page introuvable…</p>
-{:else}
-  <article class="song">
-    <h1>{page.title}</h1>
+<svelte:head>
+  <title>{page.title}</title>
+</svelte:head>
 
-    {#if page.html}
-      <div class="content" bind:this={htmlContainer}></div>
-    {:else}
-      <pre class="content">{page.body}</pre>
-    {/if}
-  </article>
-{/if}
+<article class="song">
+  <h1 class="song-title">{page.title}</h1>
+  <div class="song-body" bind:this={container}>
+    {@html page.html}
+  </div>
+</article>
 
 <style>
-  .song {
-    max-width: 700px;
-    margin: 2rem auto;
-    padding: 1rem;
-  }
-
-  h1 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-
-  .content {
-    white-space: pre-wrap;
-    line-height: 1.6;
-  }
-
-  .content img {
-    max-width: 100%;
-  }
+  .song-title { margin:0 0 1rem 0; font-size:1.6rem; font-weight:700; }
 </style>

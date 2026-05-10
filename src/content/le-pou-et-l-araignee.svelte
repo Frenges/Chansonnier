@@ -3,7 +3,7 @@
     id: "le-pou-et-l-araignee",
     title: "Le pou et l’araignée",
     theme: "Chansons paillardes",
-    sortKeys: ["Le pou et l’araignée"]
+    sortKeys: ["Le pou et l’araignée", "Pou et l’araignée"]
   };
 </script>
 

@@ -3,7 +3,7 @@
     id: "la-digue-du-cul",
     title: "La Digue du cul",
     theme: "Chansons paillardes",
-    sortKeys: ["La Digue du cul"]
+    sortKeys: ["La Digue du cul", "Digue du cul"]
   };
 </script>
 

@@ -3,7 +3,7 @@
     id: "self-1905-bienne",
     title: "Self (1905, Bienne)",
     theme: "Chants estudiantins",
-    sortKeys: ["Self (1905, Bienne)"]
+    sortKeys: ["Hymne de Self"]
   };
 </script>
 

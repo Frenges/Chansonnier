@@ -3,7 +3,7 @@
     id: "les-moines-de-st-bernardin",
     title: "Les moines de St Bernardin",
     theme: "Chansons paillardes",
-    sortKeys: ["Les moines de St Bernardin"]
+    sortKeys: ["Les moines de St Bernardin", "Moines de St Bernardin"]
   };
 </script>
 

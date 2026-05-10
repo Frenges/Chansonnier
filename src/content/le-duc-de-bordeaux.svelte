@@ -3,7 +3,7 @@
     id: "le-duc-de-bordeaux",
     title: "Le Duc de Bordeaux",
     theme: "Chansons paillardes",
-    sortKeys: ["Le Duc de Bordeaux"]
+    sortKeys: ["Le Duc de Bordeaux", "Duc de Bordeaux"]
   };
 </script>
 

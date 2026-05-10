@@ -3,7 +3,7 @@
     id: "la-mere-michel",
     title: "La mère Michel",
     theme: "Chansons paillardes",
-    sortKeys: ["La mère Michel"]
+    sortKeys: ["La mère Michel", "Mère Michel"]
   };
 </script>
 

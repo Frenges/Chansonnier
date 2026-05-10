@@ -3,7 +3,7 @@
     id: "l-internationale",
     title: "L’internationale",
     theme: "Chansons paillardes",
-    sortKeys: ["L’internationale"]
+    sortKeys: ["L’internationale", "Internationale"]
   };
 </script>
 

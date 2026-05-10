@@ -3,7 +3,7 @@
     id: "le-ranz-des-vaches-lyoba-fribourg",
     title: "Le ranz des vaches (Lyobâ, Fribourg)",
     theme: "Hymnes",
-    sortKeys: ["Le ranz des vaches (Lyobâ, Fribourg)"]
+    sortKeys: ["Le ranz des vaches", "Lyobâ", "Hymne fribourgeois"]
   };
 </script>
 
@@ -31,20 +31,19 @@
 <div class="couplet">
 <div>I fô ke dyéchè ouna mècha</div>
 <div>Po ke no l’y pouéchan pachâ</div>
-<div><strong>Refrain</strong></div>
+<div><strong>Refrain</strong></div></div>
 <div><strong>1-3-5-7-9-11-13-15-17-19</strong></div>
 <div>Lyôba, lyôba, por aryâ (bis).</div>
 <div>Vinyidè totè, byantsè, nêre,</div>
 <div>Rodzè, mothêlè, dzouvenè ôtrè,</div>
 <div>Dèjo chti tsâno, yô vo j’âryo,</div>
 <div>Dèjo chti trinbyo, yô i trintso,</div>
-<div>Lyôba, lyôba, por aryâ (bis).</div>
-<div><strong>Refrain</strong></div>
+<div>Lyôba, lyôba, por aryâ (bis).</div></div>
+<div><strong>Refrain</strong>
 <div><strong>2-4-6-8-10-12-14-16-18</strong></div>
 <div>Lyôba, lyôba, por aryâ (bis).</div>
 <div>Lè chenayirè van lè premirè,</div>
 <div>Lè totè nêrè van lè dêrêrè</div>
 <div>Lyôba, lyôba, por aryâ (bis).
-</div>
 </div>
 </div>

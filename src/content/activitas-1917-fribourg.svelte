@@ -3,7 +3,7 @@
     id: "activitas-1917-fribourg",
     title: "Activitas (1917, Fribourg)",
     theme: "Chants estudiantins",
-    sortKeys: ["Activitas (1917, Fribourg)"]
+    sortKeys: ["Hymne de l'Activitas"]
   };
 </script>
 

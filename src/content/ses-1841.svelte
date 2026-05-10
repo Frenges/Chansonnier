@@ -3,7 +3,7 @@
     id: "ses-1841",
     title: "SES (1841)",
     theme: "Chants estudiantins",
-    sortKeys: ["SES (1841)"]
+    sortKeys: ["Hymne de la SES", "Riesenkampf"]
   };
 </script>
 

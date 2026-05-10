@@ -3,7 +3,7 @@
     id: "le-metropolitain",
     title: "Le Métropolitain",
     theme: "Chansons populaires",
-    sortKeys: ["Le Métropolitain"]
+    sortKeys: ["Le Métropolitain", "Métropolitain"]
   };
 </script>
 

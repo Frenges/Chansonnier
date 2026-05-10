@@ -3,7 +3,7 @@
     id: "les-quatre-vingts-chasseurs",
     title: "Les quatre-vingts chasseurs",
     theme: "Chansons paillardes",
-    sortKeys: ["Les quatre-vingts chasseurs"]
+    sortKeys: ["Les quatre-vingts chasseurs", "Quatre-vingts chasseurs"]
   };
 </script>
 

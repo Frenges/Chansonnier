@@ -3,7 +3,7 @@
     id: "chevaliers-de-la-table-ronde",
     title: "Chevaliers de la table ronde",
     theme: "Chansons populaires",
-    sortKeys: ["Chevaliers de la table ronde"]
+    sortKeys: ["Chevaliers de la table ronde", "Les chevaliers de la table ronde"]
   };
 </script>
 

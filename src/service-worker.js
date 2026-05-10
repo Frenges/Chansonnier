@@ -1,62 +1,55 @@
-// src/service-worker.js
+// service-worker.js (placer à la racine /static/service-worker.js ou servir à /service-worker.js)
+const CACHE_NAME = 'songbook-v1';
+const PRECACHE = [
+  '/data/pages.json',
+  '/',
+  '/build/_app/start.Dhyw1SJM.js' // adapte si nécessaire
+];
 
-const CACHE_NAME = "songbook-v1";
-
-async function getAssets() {
-  try {
-    const res = await fetch("/Chansonnier/asset-list.json");
-    const json = await res.json();
-    return json.assets.map(a => `/Chansonnier${a}`);
-  } catch {
-    return [];
-  }
-}
-
-async function getDynamicRoutes() {
-  try {
-    const res = await fetch("/Chansonnier/data/pages.json");
-    const json = await res.json();
-    return json.pages.map(
-      (p) => `/Chansonnier/page/${p.id}/index.html`
-    );
-  } catch {
-    return [];
-  }
-}
-
-self.addEventListener("install", (event) => {
-  event.waitUntil(
-    (async () => {
-      const cache = await caches.open(CACHE_NAME);
-
-      const core = [
-        "/Chansonnier/",
-        "/Chansonnier/index.html"
-      ];
-
-      const assets = await getAssets();
-      const routes = await getDynamicRoutes();
-
-      await cache.addAll([...core, ...assets, ...routes]);
-    })()
-  );
-
+self.addEventListener('install', (e) => {
   self.skipWaiting();
-});
-
-self.addEventListener("activate", (event) => {
-  event.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(
-        keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))
-      )
-    )
+  e.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE))
   );
-  self.clients.claim();
 });
 
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    fetch(event.request).catch(() => caches.match(event.request))
+self.addEventListener('activate', (e) => {
+  e.waitUntil(self.clients.claim());
+});
+
+self.addEventListener('fetch', (e) => {
+  const url = new URL(e.request.url);
+
+  // Cache-first pour pages.json
+  if (url.pathname === '/data/pages.json') {
+    e.respondWith(
+      caches.match(e.request).then((cached) => {
+        const network = fetch(e.request).then((res) => {
+          if (res && res.ok) caches.open(CACHE_NAME).then((c) => c.put(e.request, res.clone()));
+          return res;
+        }).catch(() => null);
+        return cached || network;
+      })
+    );
+    return;
+  }
+
+  // Runtime cache pour pages individuelles (GET)
+  if (url.pathname.startsWith('/page/') && e.request.method === 'GET') {
+    e.respondWith(
+      caches.match(e.request).then((cached) => {
+        const network = fetch(e.request).then((res) => {
+          if (res && res.ok) caches.open(CACHE_NAME).then((c) => c.put(e.request, res.clone()));
+          return res;
+        }).catch(() => null);
+        return cached || network;
+      })
+    );
+    return;
+  }
+
+  // Default: network first, fallback cache
+  e.respondWith(
+    fetch(e.request).catch(() => caches.match(e.request))
   );
 });

@@ -3,7 +3,7 @@
     id: "au-31-du-mois-d-aout",
     title: "Au 31 du mois d’août",
     theme: "Chansons populaires",
-    sortKeys: ["Au 31 du mois d’août"]
+    sortKeys: ["Au 31 du mois d’août", "31 du mois d’août"]
   };
 </script>
 

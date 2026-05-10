@@ -3,7 +3,7 @@
     id: "lemania-1891-lausanne",
     title: "Lémania (1891, Lausanne)",
     theme: "Chants estudiantins",
-    sortKeys: ["Lémania (1891, Lausanne)"]
+    sortKeys: ["Hymne de la Lémania"]
   };
 </script>
 

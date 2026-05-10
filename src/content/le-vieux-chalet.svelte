@@ -1,9 +1,9 @@
 <script>
   export let metadata = {
     id: "le-vieux-chalet",
-    title: "Le Vieux Chalet",
+    title: "Le vieux chalet",
     theme: "Chansons populaires",
-    sortKeys: ["Le Vieux Chalet"]
+    sortKeys: ["Le vieux chalet", "Vieux chalet"]
   };
 </script>
 

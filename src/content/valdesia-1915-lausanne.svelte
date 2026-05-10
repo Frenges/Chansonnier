@@ -3,7 +3,7 @@
     id: "valdesia-1915-lausanne",
     title: "Valdésia (1915, Lausanne)",
     theme: "Chants estudiantins",
-    sortKeys: ["Valdésia (1915, Lausanne)"]
+    sortKeys: ["Hymne de Valdésia"]
   };
 </script>
 

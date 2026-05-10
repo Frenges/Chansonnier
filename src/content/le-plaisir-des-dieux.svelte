@@ -3,7 +3,7 @@
     id: "le-plaisir-des-dieux",
     title: "Le plaisir des dieux",
     theme: "Chansons paillardes",
-    sortKeys: ["Le plaisir des dieux"]
+    sortKeys: ["Le plaisir des dieux", "Du dieu Vulcain"]
   };
 </script>
 
