@@ -60,6 +60,33 @@ html, body {
   display:inline-flex; align-items:center; justify-content:center; border-radius:50%; font-weight:700;
 }
 
+/* Sticky refrains */
+.song-body {
+  /* Assure que le conteneur principal est le contexte de scroll */
+  /* Si ton layout fait défiler <main>, adapte .content à overflow:auto */
+  position: relative;
+}
+
+.refrain {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1rem;               /* distance depuis le haut du viewport / conteneur */
+  z-index: 20;             /* au-dessus du reste du contenu */
+  box-shadow: 0 6px 12px rgba(2,6,23,0.06); /* légère ombre pour la séparation */
+  transition: box-shadow 120ms ease, transform 120ms ease;
+}
+
+/* Optionnel : effet quand le refrain est collé (visuel) */
+.refrain:where(:is(:not(:first-child))) {
+  /* pas nécessaire, mais permet d'ajouter style si besoin */
+}
+
+/* Si ton <main> ou .content a overflow:auto, assure-toi que sticky fonctionne :
+   sticky fonctionne par rapport au conteneur de défilement. Si tu as :
+   .content { overflow:auto; height:100vh; } alors sticky se calcule par rapport à .content.
+*/
+
+
 @media (max-width:700px) {
   .couplet::before { left:-1.8rem; width:1.3rem; height:1.3rem; font-size:0.75rem; }
 }

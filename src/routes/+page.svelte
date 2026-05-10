@@ -1,5 +1,10 @@
 <script lang="ts">
-  import { base } from "$app/paths";
+  export let data: { pages?: any[] };
+
+  import { base } from '$app/paths';
+  let pages = data?.pages ?? [];
+  $: pages = data?.pages ?? [];
+
 </script>
 
 <h1>Chansonnier</h1>
