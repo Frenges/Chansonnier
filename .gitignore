@@ -21,3 +21,24 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# Node / build
+node_modules/
+.vscode/
+.svelte-kit/
+.vite/
+build/
+dist/
+
+# Generated data (if you choose CI generation)
+src/lib/data/allSongs.ts
+static/data/pages.json
+
+# backups and logs
+*.bak
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
