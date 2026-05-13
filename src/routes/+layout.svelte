@@ -12,6 +12,13 @@
       await db.pages.put(page);
     }
   });
+
+  function toggleTheme() {
+    const current = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = current;
+    localStorage.setItem('theme', current);
+    theme.set(current);
+  }
 </script>
 
 <svelte:head>
@@ -24,6 +31,7 @@
     <a href={`${base}/`}>Accueil</a>
     <a href={`${base}/index/alphabetique`}>Index alphabétique</a>
     <a href={`${base}/index/thematique`}>Index thématique</a>
+    <button class="theme-toggle" on:click={toggleTheme} aria-label="Toggle theme">🌓</button>
   </nav>
 
   <main class="content">
@@ -37,6 +45,16 @@
     overflow: visible;
   }
 
+  .app-header { 
+    display:flex; 
+    justify-content:
+    space-between; 
+    align-items:center; 
+    padding:1rem; 
+    border-bottom:1px solid var(--sidebar-border); 
+    background:var(--sidebar-bg); 
+  }
+
   /* Layout desktop */
   .layout {
     display: flex;
@@ -46,9 +64,9 @@
 
   .sidebar {
     width: 220px;
-    background: #f0f0f0;
+    background:var(--sidebar-bg);
     padding: 1rem;
-    border-right: 1px solid #ddd;
+    border-right:1px solid var(--sidebar-border);
     flex-shrink: 0;
   }
 
@@ -60,6 +78,13 @@
     position: relative; /* nécessaire pour sticky */
   }
 
+  .theme-toggle { 
+    background:none; 
+    border:none; 
+    cursor:pointer; 
+    font-size:1.2rem; 
+  }
+
   /* Responsive mobile */
   @media (max-width: 700px) {
     .layout {
@@ -69,7 +94,6 @@
     .sidebar {
       width: 100%;
       border-right: none;
-      border-bottom: 1px solid #ddd;
       padding: 0.8rem;
     }
 

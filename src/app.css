@@ -1,3 +1,43 @@
+:root {
+  --bg: #ffffff;
+  --text: #0f172a;
+  --sidebar-bg: #f8fafc;
+  --sidebar-border: #e6eef8;
+  --refrain-bg-start: #fff8d6;
+  --refrain-bg-end: #fff8d6;
+  --refrain-border: rgba(59,130,246,0.18);
+  --refrain-accent: #f1c40f;
+  --couplet-bg-start: rgba(30, 144, 255, 0.04);
+  --couplet-bg-end: rgba(30, 144, 255, 0.04);
+  --couplet-border: #1e90ff;
+  --couplet-accent: #1e90ff;
+  --muted-border: rgba(0,0,0,0.08);
+  --muted-hover: rgba(0,0,0,0.04);
+}
+
+:root[data-theme="dark"] {
+  --bg: #0b1220;
+  --text: #e6eef8;
+  --sidebar-bg: #071029;
+  --sidebar-border: #0f172a;
+  --refrain-bg-start: #0f172a;
+  --refrain-bg-end: #071029;
+  --refrain-border: rgba(99,102,241,0.12);
+  --refrain-accent: #6366f1;
+  --couplet-bg-start: #1f2937;
+  --couplet-bg-end: #111827;
+  --couplet-border: rgba(245,158,11,0.06);
+  --couplet-accent: #f59e0b;
+  --muted-border: rgba(255,255,255,0.06);
+  --muted-hover: rgba(255,255,255,0.04);
+}
+
+/* Ensure base background and text use the variables */
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
+
 /* ===========================
    GLOBAL SONG
    =========================== */
@@ -10,8 +50,8 @@
    COUPLETS — compact extrême
    =========================== */
 .couplet {
-  border: 1px solid #1e90ff;
-  background: rgba(30, 144, 255, 0.04);
+  border: 1px solid var(--couplet-border);
+  background: linear-gradient(180deg, var(--couplet-bg-start) 0%, var(--couplet-bg-end) 100%);
   padding: 0;
   margin: 15px;
   border-radius: 3px;
@@ -27,7 +67,7 @@
   left: 0px;
   top: 1px;
   font-weight: bold;
-  color: #1e90ff;
+  color: var(--couplet-accent);
 }
 
 .couplet > div:first-child {
@@ -42,8 +82,8 @@
   top: 0;
   z-index: 200;
 
-  background: #fff8d6;
-  border-left: 3px solid #f1c40f;
+  background: linear-gradient(180deg, var(--refrain-bg-start) 0%, var(--refrain-bg-end) 100%);
+  border-left: 3px solid var(--refrain-accent);
   padding: 0;
   margin: 15px;
   border-radius: 3px;
