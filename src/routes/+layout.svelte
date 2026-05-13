@@ -32,54 +32,49 @@
 </div>
 
 <style global>
-  /* ===========================
-     LAYOUT GLOBAL
-     =========================== */
-/* Empêche tout overflow qui casse sticky */
-html, body, .layout, .content {
-  overflow: visible !important;
-}
+  /* Sticky parents */
+  html, body, .layout, .content {
+    overflow: visible;
+  }
 
-/* Layout desktop */
-.layout {
-  display: flex;
-  min-height: 100vh;
-  width: 100%;
-}
-
-/* Sidebar */
-.sidebar {
-  width: 220px;
-  background: #f0f0f0;
-  padding: 1.5rem;
-  border-right: 1px solid #ddd;
-  flex-shrink: 0;
-}
-
-/* Contenu */
-.content {
-  flex: 1;
-  padding: 2rem;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative; /* 🔥 indispensable pour sticky */
-}
-
-/* Responsive mobile */
-@media (max-width: 700px) {
+  /* Layout desktop */
   .layout {
-    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
   }
 
   .sidebar {
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid #ddd;
+    width: 220px;
+    background: #f0f0f0;
     padding: 1rem;
+    border-right: 1px solid #ddd;
+    flex-shrink: 0;
   }
 
   .content {
-    padding: 1rem;
+    flex: 1;
+    padding: 2px 0rem; /* marge extérieure compacte */
+    width: 100%;
+    box-sizing: border-box;
+    position: relative; /* nécessaire pour sticky */
   }
-}
+
+  /* Responsive mobile */
+  @media (max-width: 700px) {
+    .layout {
+      flex-direction: column;
+    }
+
+    .sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+      padding: 0.8rem;
+    }
+
+    .content {
+      padding: 2px 0rem;
+    }
+  }
 </style>

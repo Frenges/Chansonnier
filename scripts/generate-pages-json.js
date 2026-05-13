@@ -42,7 +42,9 @@ async function generate() {
     // ⚠️ Nouvelle regex : capture TOUT jusqu'au dernier </div>
     //
     const bodyMatch = raw.match(/<div class="song">([\s\S]*)<\/div>\s*$/);
-    const body = bodyMatch ? bodyMatch[1].trim() : "";
+const body = bodyMatch[1]
+  .replace(/\n\s*/g, "")   // supprime tous les retours à la ligne
+  .trim();
 
     pages.push({
       id,

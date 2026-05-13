@@ -3,7 +3,7 @@
     id: "la-petite-huguette",
     title: "La petite Huguette",
     theme: "Chansons paillardes",
-    sortKeys: ["La petite Huguette"]
+    sortKeys: ["La petite Huguette", "Petite Huguette"]
   };
 </script>
 

@@ -12,6 +12,12 @@
 <div>C’est pour y retrouver les vieux avec qui je sais boir’</div>
 <div>Et pourquoi rire et pourquoi boir’ et pourquoi s’amuser ?</div>
 <div>C’est pour montrer aux assoiffés qu’on n’veut pas s’la miner, qu’on ne veut pas s’la miner.</div>
+
+<div></div>
+
 <div>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, grâce à SÉTÉVIA, grâce à SÉTÉVIA !</div>
+
+<div></div>
+
 <div>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, oui grâce à SÉTÉVIA — Ah — Ah !</div>
 </div>

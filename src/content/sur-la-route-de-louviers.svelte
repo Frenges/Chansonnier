@@ -3,7 +3,7 @@
     id: "sur-la-route-de-louviers",
     title: "Sur la route de Louviers",
     theme: "Chansons paillardes",
-    sortKeys: ["Sur la route de Louviers"]
+    sortKeys: ["Sur la route de Louviers", "Cantonnier", "Le cantonnier"]
   };
 </script>
 

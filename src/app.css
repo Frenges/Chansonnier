@@ -1,39 +1,41 @@
 /* ===========================
-   COUPLETS
+   GLOBAL SONG
+   =========================== */
+.song > * {
+  margin: 0rem;     
+  line-height: 1;
+}
+
+/* ===========================
+   COUPLETS — compact extrême
    =========================== */
 .couplet {
-  border: 2px solid #1e90ff;
-  background: rgba(30, 144, 255, 0.08);
-  padding: 0.5rem 0.8rem;
-  margin: 0.3rem 0;
-  border-radius: 6px;
+  border: 1px solid #1e90ff;
+  background: rgba(30, 144, 255, 0.04);
+  padding: 0;
+  margin: 15px;
+  border-radius: 3px;
   counter-increment: couplet;
   position: relative;
-  width: 100%;
   box-sizing: border-box;
 }
 
+/* Numéro */
 .couplet::before {
   content: counter(couplet) ".";
   position: absolute;
-  left: 0.5rem;
-  top: 0.2rem;
+  left: 0px;
+  top: 1px;
   font-weight: bold;
   color: #1e90ff;
 }
 
-.couplet > div {
-  margin: 0;
-  padding: 0;
-  line-height: 1.25;
-}
-
 .couplet > div:first-child {
-  padding-left: 1.2rem;
+  padding-left: 22px; /* 4px + 14px + 4px */
 }
 
 /* ===========================
-   REFRAINS (STICKY + RESPONSIVE)
+   REFRAINS — compact extrême
    =========================== */
 .refrain {
   position: sticky;
@@ -41,33 +43,33 @@
   z-index: 200;
 
   background: #fff8d6;
-  border-left: 4px solid #f1c40f;
-  padding: 0.5rem 0.8rem;
-  margin: 0.3rem 0;
-  border-radius: 4px;
-
-  width: 100%;
-  max-width: 100%;
+  border-left: 3px solid #f1c40f;
+  padding: 0;
+  margin: 15px;
+  border-radius: 3px;
   box-sizing: border-box;
 }
-
 
 .refrain > div {
   margin: 0;
   padding: 0;
-  line-height: 1.25;
 }
 
 .refrain::before {
   content: attr(data-title);
   font-weight: bold;
   display: block;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.03rem;
 }
 
 /* ===========================
-   GLOBAL
+   IMAGES — compact extrême
    =========================== */
-.song > * {
-  margin: 0.3rem 0;
+.song-image {
+  margin: 0; /* compact */
+}
+
+.song-image img {
+  max-width: 100%;
+  height: auto;
 }

@@ -3,7 +3,7 @@
     id: "la-femme-du-roulier",
     title: "La femme du roulier",
     theme: "Chansons paillardes",
-    sortKeys: ["La femme du roulier"]
+    sortKeys: ["La femme du roulier", "Femme du roulier"]
   };
 </script>
 

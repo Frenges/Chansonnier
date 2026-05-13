@@ -3,7 +3,7 @@
     id: "branle-charlotte",
     title: "Branle Charlotte",
     theme: "Chansons paillardes",
-    sortKeys: ["Branle Charlotte"]
+    sortKeys: ["Branle Charlotte", "La petite Charlotte"]
   };
 </script>
 

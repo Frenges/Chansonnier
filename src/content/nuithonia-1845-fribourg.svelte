@@ -3,7 +3,7 @@
     id: "nuithonia-1845-fribourg",
     title: "Nuithonia (1845, Fribourg)",
     theme: "Chants estudiantins",
-    sortKeys: ["Nuithonia (1845, Fribourg)"]
+    sortKeys: ["Hymne de la Nuithonia"]
   };
 </script>
 

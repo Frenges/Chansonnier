@@ -4,99 +4,109 @@
     id: "a-l-hopital-saint-louis",
     title: "A l’hôpital Saint-Louis",
     theme: "Chansons paillardes",
-    sortKeys: ["A l’hôpital Saint-Louis"]
+    sortKeys: ["A l’hôpital Saint-Louis", "Hôpital Saint-Louis", "Mon frère est poitrinaire"]
   };
 </script>
 
 <div class="song">
-<div><strong>
-</strong></div>
+
 <div class="refrain" data-title="Refrain">
-<div>Moi j’m’en fous, j’bouff' de tout
-Si j’mang' bien, si j’chie peu
-C’est afin que rien n’se perde
-Si j’suis dégoûté d’la merde
-C’est qu’j’y ai trouvé un ch'veu</div>
+<div>Moi j’m’en fous, j’bouff' de tout</div>
+<div>Si j’mang' bien, si j’chie peu</div>
+<div>C’est afin que rien n’se perde</div>
+<div>Si j’suis dégoûté d’la merde</div>
+<div>C’est qu’j’y ai trouvé un ch'veu</div>
 </div>
+
 <div class="couplet">
 <div>À l’hôpital Saint-Louis</div>
-<div>Dans la fosse aux tumeurs
-C’est là que je me réjouis
-À m’fair' des tartin's de beurre</div>
+<div>Dans la fosse aux tumeurs</div>
+<div>C’est là que je me réjouis</div>
+<div>À m’fair' des tartin's de beurre</div>
 </div>
+
 <div class="couplet">
 <div>Mon frère est poitrinaire</div>
-<div>Et dégueul' tout' la nuit
-Si je couch' à côté d’lui,
-C’est afin d’bouffer ses glaires</div>
+<div>Et dégueul' tout' la nuit</div>
+<div>Si je couch' à côté d’lui,</div>
+<div>C’est afin d’bouffer ses glaires</div>
 </div>
+
 <div class="couplet">
 <div>Sur les bords de la Seine</div>
-<div>J’rencontre un chien crevé,
-Je lui tir' les vers du nez
-Et j’les bouffe à l’italienne</div>
+<div>J’rencontre un chien crevé,</div>
+<div>Je lui tir' les vers du nez</div>
+<div>Et j’les bouffe à l’italienne</div>
 </div>
+
 <div class="couplet">
 <div>Dedans une pissotière,</div>
-<div>Quelqu’un a dégueulé,
-Je sors ma petit' cuillère
-Et je m’mets à déguster</div>
+<div>Quelqu’un a dégueulé,</div>
+<div>Je sors ma petit' cuillère</div>
+<div>Et je m’mets à déguster</div>
 </div>
+
 <div class="couplet">
 <div>Tous les mois, c’est l’usage,</div>
-<div>Ma femm' saigne du con,
-Si je suce ses tampons,
-Ça épargn' le blanchissage</div>
+<div>Ma femm' saigne du con,</div>
+<div>Si je suce ses tampons,</div>
+<div>Ça épargn' le blanchissage</div>
 </div>
+
 <div class="couplet">
 <div>Quand mon gosse a la chiasse</div>
-<div>Je lui lèch' le trou du cul
-Et puisque je suis barbu,
-Je m’en fous plein les moustaches</div>
+<div>Je lui lèch' le trou du cul</div>
+<div>Et puisque je suis barbu,</div>
+<div>Je m’en fous plein les moustaches</div>
 </div>
+
 <div class="couplet">
 <div>Quand je vois mon vieil oncle,</div>
-<div>J’l’embrass' la bouche en cœur
-Pour mieux sucer les humeurs,
-Qui coulent de ses furoncles</div>
+<div>J’l’embrass' la bouche en cœur</div>
+<div>Pour mieux sucer les humeurs,</div>
+<div>Qui coulent de ses furoncles</div>
 </div>
+
 <div class="couplet">
 <div>Quand un vieil invalide</div>
-<div>A fait cinq ou six lieues
-Je lui lèch' le tour des yeux
-Et j’suc' ses chancres putrides</div>
+<div>A fait cinq ou six lieues</div>
+<div>Je lui lèch' le tour des yeux</div>
+<div>Et j’suc' ses chancres putrides</div>
 </div>
+
 <div class="couplet">
 <div>Quand l’facteur du village</div>
-<div>A fini sa tournée,
-Je lui lèch' la plant' des pieds,</div>
+<div>A fini sa tournée,</div>
+<div>Je lui lèch' la plant' des pieds,</div>
 <div>Ça remplace le fromage.</div>
 </div>
+
 <div class="couplet">
 <div>Ce que les femm's enceintes</div>
-<div>Rejett'nt en accouchant
-Est un mets fort croustillant
-Que je gard' pour la s’main' sainte</div>
+<div>Rejett'nt en accouchant</div>
+<div>Est un mets fort croustillant</div>
+<div>Que je gard' pour la s’main' sainte</div>
 </div>
+
 <div class="couplet">
 <div>Quand un vésicatoire</div>
-<div>Suppure et rend du jus
-Moi, je pos' ma langu' dessus
-J’pense ainsi manger et boire</div>
+<div>Suppure et rend du jus</div>
+<div>Moi, je pos' ma langu' dessus</div>
+<div>J’pense ainsi manger et boire</div>
 </div>
+
 <div class="couplet">
 <div>Le jus d’syphilitiques</div>
-<div>L’urin' des chaud'-pisseux
-Sont des breuvag's délicieux
-Et des nectars angéliques.</div>
+<div>L’urin' des chaud'-pisseux</div>
+<div>Sont des breuvag's délicieux</div>
+<div>Et des nectars angéliques.</div>
 </div>
+
 <div class="couplet">
 <div>Messieurs, si ma ballade</div>
-<div>Vous donne le hoquet,
-Dégueulez dans un baquet,
-J’aime aussi la dégueulade.</div>
-<div><strong>
-</strong></div>
+<div>Vous donne le hoquet,</div>
+<div>Dégueulez dans un baquet,</div>
+<div>J’aime aussi la dégueulade.<div>
 </div>
 </div>
 
@@ -106,7 +116,7 @@ J’aime aussi la dégueulade.</div>
     id: "activitas-1917-fribourg",
     title: "Activitas (1917, Fribourg)",
     theme: "Chants estudiantins",
-    sortKeys: ["Activitas (1917, Fribourg)"]
+    sortKeys: ["Hymne de l'Activitas"]
   };
 </script>
 
@@ -124,7 +134,7 @@ J’aime aussi la dégueulade.</div>
     id: "agaunia-1859-st-maurice",
     title: "Agaunia (1859, St-Maurice)",
     theme: "Chants estudiantins",
-    sortKeys: ["Agaunia (1859, St-Maurice)"]
+    sortKeys: ["Hymne de l'Agaunia"]
   };
 </script>
 
@@ -306,7 +316,7 @@ J’aime aussi la dégueulade.</div>
 <div>Bienvenue au prologue 2024</div>
 <div>Sauf qu'en fait on est 5</div>
 <div>Installez-vous, et préparez vous </div>
-<div>pour un-e soirée de dingue								</div>
+<div>pour un-e soirée de dingue</div>
 <div>Le frigo panossé,</div>
 <div>le sol est rempli de bières</div>
 <div>On a déjà mal/  au foie, alors que/  ca n’a pas commencé</div>
@@ -345,47 +355,54 @@ J’aime aussi la dégueulade.</div>
     id: "allons-a-messine",
     title: "Allons à Messine",
     theme: "Chansons paillardes",
-    sortKeys: ["Allons à Messine"]
+    sortKeys: ["Allons à Messine", "Messine"]
   };
 </script>
 
 <div class="song">
+
 <div class="refrain" data-title="Refrain">
 <div>Allons à Messine </div>
 <div>Pêcher la sardine, </div>
 <div>Allons à Lorient</div>
 <div>Pêcher le hareng.</div>
 </div>
+
 <div class="couplet">
 <div>Ils étaient deux amants </div>
 <div>Qui s’aimaient tendrement, </div>
 <div>Qui voulaient voyager, </div>
 <div>Mais ne savaient comment. Ha ha ha ha !</div>
 </div>
+
 <div class="couplet">
 <div>Qui voulaient voyager, </div>
 <div>Mais ne savaient comment.</div>
 <div>Le vit dit au con :</div>
 <div>"Tu seras bâtiment !"…</div>
 </div>
+
 <div class="couplet">
 <div>Le vit dit au con :</div>
 <div>"Tu seras bâtiment, </div>
 <div>Je serai le mât </div>
 <div>Que l’on plante dedans…    </div>
 </div>
+
 <div class="couplet">
 <div>Je serai le mât</div>
 <div>Que l’on plante dedans </div>
 <div>Ma couille de droite </div>
 <div>Sera commandant…</div>
 </div>
+
 <div class="couplet">
 <div>Ma couille de droite </div>
 <div>Sera commandant. </div>
 <div>Ma couille de gauche </div>
 <div>Sera lieutenant…</div>
 </div>
+
 <div class="couplet">
 <div>
 Ma couille de gauche</div>
@@ -393,30 +410,35 @@ Ma couille de gauche</div>
 <div>Les poils de mon cul</div>
 <div>Seront les haubans…</div>
 </div>
+
 <div class="couplet">
 <div>Les poils de mon cul </div>
 <div>Seront les haubans</div>
 <div>Et les morpions</div>
 <div>Grimperont dedans…</div>
 </div>
+
 <div class="couplet">
 <div>Et les morpions </div>
 <div>Grimperont dedans. </div>
 <div>La peau de mes couilles </div>
 <div>Fera voile au vent…</div>
 </div>
+
 <div class="couplet">
 <div>La peau de mes couilles </div>
 <div>Fera voile au vent.</div>
 <div>Le trou de mon cul </div>
 <div>Soufflera dedans…</div>
 </div>
+
 <div class="couplet">
 <div>Le trou de mon cul </div>
 <div>Soufflera dedans. </div>
 <div>Sacré nom de Bleu,</div>
 <div>Ça puera bougrement !"…</div>
 </div>
+
 </div>
 
 ===== FILE: src\content\alouette.svelte =====
@@ -482,7 +504,7 @@ Alouette, je te plumerai</div>
     id: "au-31-du-mois-d-aout",
     title: "Au 31 du mois d’août",
     theme: "Chansons populaires",
-    sortKeys: ["Au 31 du mois d’août"]
+    sortKeys: ["Au 31 du mois d’août", "31 du mois d’août"]
   };
 </script>
 
@@ -604,86 +626,93 @@ Car j’en ai un joli. Dites-nous donc, la Belle,</div>
 </script>
 
 <div class="song">
+
 <div class="couplet">
 <div>Una mattina mi sono alzato</div>
-<div>O bella ciao, bella ciao, bella ciao ciao ciao
-Una mattina mi sono alzato </div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao</div>
+<div>Una mattina mi sono alzato </div>
 <div>E ho trovato l'invasor</div>
 </div>
+
 <div class="couplet">
 <div>O partigiano portami via</div>
-<div>O bella ciao, bella ciao, bella ciao ciao ciao
-O partigiano portami via
-Ché mi sento di morir</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao</div>
+<div>O partigiano portami via</div>
+<div>Ché mi sento di morir</div>
 </div>
+
 <div class="couplet">
 <div>E se io muoio da partigiano</div>
-<div>O bella ciao, bella ciao, bella ciao ciao ciao
-E se io muoio da partigiano
-Tu mi devi seppellir</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao</div>
+<div>E se io muoio da partigiano</div>
+<div>Tu mi devi seppellir</div>
 </div>
+
 <div class="couplet">
 <div>E seppellire lassù in montagna</div>
-<div>O bella ciao, bella ciao, bella ciao ciao ciao
-E seppellire lassù in montagna
-Sotto l’ombra di un bel fior
+<div>O bella ciao, bella ciao, bella ciao ciao ciao</div>
+<div>E seppellire lassù in montagna</div>
+<div>Sotto l’ombra di un bel fior</div>
 </div>
+
 </div>
 <div class="couplet">
 <div>Tutte le genti che passeranno</div>
-<div>O bella ciao, bella ciao, bella ciao ciao ciao
-Tutte le genti che passeranno
-Mi diranno che bel fior
+<div>O bella ciao, bella ciao, bella ciao ciao ciao</div>
+<div>Tutte le genti che passeranno</div>
+<div>Mi diranno che bel fior</div>
 </div>
+
 </div>
 <div class="couplet">
 <div>E quest'è il fiore del partigiano</div>
-<div>O bella ciao, bella ciao, bella ciao ciao ciao
-Quest'è il fiore del partigiano
-Morto per la libertà.</div>
+<div>O bella ciao, bella ciao, bella ciao ciao ciao</div>
+<div>Quest'è il fiore del partigiano</div>
+<div>Morto per la libertà.</div>
 </div>
+
 <div class="couplet">
 <div>Je me suis réveillé un matin,</div>
-<div>O ma belle au revoir, au revoir, au revoir
-Je me suis réveillé un matin,
-Et j’ai trouvé l’envahisseur.
+<div>O ma belle au revoir, au revoir, au revoir</div>
+<div>Je me suis réveillé un matin,</div>
+<div>Et j’ai trouvé l’envahisseur.</div>
 </div>
-</div>
+
 <div class="couplet">
 <div>Hé ! partisan emmène-moi</div>
-<div>O ma belle au revoir, au revoir, au revoir
-Hé ! partisan emmène-moi,
-Car je me sens mourir
+<div>O ma belle au revoir, au revoir, au revoir</div>
+<div>Hé ! partisan emmène-moi,</div>
+<div>Car je me sens mourir</div>
 </div>
-</div>
+
 <div class="couplet">
 <div>Et si je meurs en partisan</div>
-<div>O ma belle au revoir, au revoir, au revoir
-Et si je meurs en partisan,
-Il faudra que tu m’enterres.
+<div>O ma belle au revoir, au revoir, au revoir</div>
+<div>Et si je meurs en partisan,</div>
+<div>Il faudra que tu m’enterres.</div>
 </div>
-</div>
+
 <div class="couplet">
 <div>Que tu m’enterres sur la montagne</div>
-<div>O ma belle au revoir, au revoir, au revoir
-Que tu m’enterres sur la montagne,
-À l’ombre d’une belle fleur
+<div>O ma belle au revoir, au revoir, au revoir</div>
+<div>Que tu m’enterres sur la montagne,</div>
+<div>À l’ombre d’une belle fleur</div>
 </div>
-</div>
+
 <div class="couplet">
 <div>Et les gens qui passeront</div>
-<div>O ma belle au revoir, au revoir, au revoir
-Et les gens qui passeront
-Me diront « Quelle belle fleur »
+<div>O ma belle au revoir, au revoir, au revoir</div>
+<div>Et les gens qui passeront</div>
+<div>Me diront « Quelle belle fleur »</div>
 </div>
-</div>
+
 <div class="couplet">
 <div>C’est la fleur du partisan</div>
-<div>O ma belle au revoir, au revoir, au revoir
-C’est la fleur du partisan
-Mort pour la liberté
+<div>O ma belle au revoir, au revoir, au revoir</div>
+<div>C’est la fleur du partisan</div>
+<div>Mort pour la liberté</div>
 </div>
-</div>
+
 </div>
 
 ===== FILE: src\content\belles-lettres-1806.svelte =====
@@ -692,7 +721,7 @@ Mort pour la liberté
     id: "belles-lettres-1806",
     title: "Belles-Lettres (1806)",
     theme: "Chants estudiantins",
-    sortKeys: ["Belles-Lettres (1806)"]
+    sortKeys: ["Hymne de Belles-Lettres"]
   };
 </script>
 
@@ -776,35 +805,36 @@ Mort pour la liberté
 </script>
 
 <div class="song">
-<div>Boire un petit coup c’est doux
-Mais il ne faut pas rouler dessous la table
-Boire un petit coup c’est agréable
-Boire un petit coup c’est doux.
-Un petit coup la la la, la un petit coup,
-La la la, la, un petit coup, c’est doux.
-Allons dans les bois ma mignonnette
-Allons dans les bois du Roi
-Nous y cueillerons la fraîche violette
-Allons dans les bois ma mignonnette
-Allons dans les bois du Roi
-… lons dans les bois, la la la,
-La,… lons dans les bois, la la la,
-La oui dans les bois du Roi
-J’aime le jambon et la saucisse
-Et le bon vin de chez nous
-Mais j’aime encor’ mieux le lait de ma nourrice
-J’aime le jambon et la saucisse
-Et le bon vin de chez nous.
-J’aime le vin, la la la, la j’aime le vin, la la la,
-La, le bon vin de chez nous.
-Non Lucien tu n’auras pas ma rose
-Non Lucien tu n’auras rien
-Monsieur le curé a défendu la chose
-Non Lucien tu n’auras pas ma rose
-Non Lucien tu n’auras rien.
-Non non Lucien, la la la,
-La, non non Lucien, la la la,
-La, tu n’auras rien, rien, rien.  </div>
+<div>Boire un petit coup c’est doux</div>
+<div>Mais il ne faut pas rouler dessous la table</div>
+<div>Boire un petit coup c’est agréable</div>
+<div>Boire un petit coup c’est doux.</div>
+<div>Un petit coup la la la, la un petit coup,</div>
+<div>La la la, la, un petit coup, c’est doux.</div>
+<div>Allons dans les bois ma mignonnette</div>
+<div>Allons dans les bois du Roi</div>
+<div>Nous y cueillerons la fraîche violette</div>
+<div>Allons dans les bois ma mignonnette</div>
+<div>Allons dans les bois du Roi</div>
+<div>… lons dans les bois, la la la,</div>
+<div>La,… lons dans les bois, la la la,</div>
+<div>La oui dans les bois du Roi</div>
+<div>J’aime le jambon et la saucisse</div>
+<div>Et le bon vin de chez nous</div>
+<div>Mais j’aime encor’ mieux le lait de ma nourrice</div>
+<div>J’aime le jambon et la saucisse</div>
+<div>Et le bon vin de chez nous.</div>
+<div>J’aime le vin, la la la, la j’aime le vin, la la la,</div>
+<div>La, le bon vin de chez nous.</div>
+<div>Non Lucien tu n’auras pas ma rose</div>
+<div>Non Lucien tu n’auras rien</div>
+<div>Monsieur le curé a défendu la chose</div>
+<div>Non Lucien tu n’auras pas ma rose</div>
+<div>Non Lucien tu n’auras rien.</div>
+<div>Non non Lucien, la la la,</div>
+<div>La, non non Lucien, la la la,</div>
+<div>La, tu n’auras rien, rien, rien</div>
+
 </div>
 
 ===== FILE: src\content\branle-charlotte.svelte =====
@@ -813,7 +843,7 @@ La, tu n’auras rien, rien, rien.  </div>
     id: "branle-charlotte",
     title: "Branle Charlotte",
     theme: "Chansons paillardes",
-    sortKeys: ["Branle Charlotte"]
+    sortKeys: ["Branle Charlotte", "La petite Charlotte"]
   };
 </script>
 
@@ -934,55 +964,59 @@ C’est à boire qu’il nous faut, Oh ! Oh ! Oh ! Oh !
     id: "cantique-suisse-1981",
     title: "Cantique suisse (1981)",
     theme: "Hymnes",
-    sortKeys: ["Cantique suisse (1981)"]
+    sortKeys: ["Cantique suisse", "Hymne suisse"]
   };
 </script>
 
 <div class="song">
 <div class="couplet">
 <div>Sur nos monts, quand le soleil</div>
-<div>Annonce un brillant réveil,
-Et prédit d’un plus beau jour le retour,
-Les beautés de la patrie
-Parlent à l’âme attendrie ;
-Au ciel montent plus joyeux
-Au ciel montent plus joyeux
-Les accents d’un cœur pieux,
-Les accents émus d’un cœur pieux.</div>
+<div>Annonce un brillant réveil,</div>
+<div>Et prédit d’un plus beau jour le retour,</div>
+<div>Les beautés de la patrie</div>
+<div>Parlent à l’âme attendrie ;</div>
+<div>Au ciel montent plus joyeux</div>
+<div>Au ciel montent plus joyeux</div>
+<div>Les accents d’un cœur pieux,</div>
+<div>Les accents émus d’un cœur pieux.</div>
 </div>
+
 <div class="couplet">
 <div>Lorsqu’un doux rayon du soir</div>
-<div>Joue encore dans le bois noir,
-Le cœur se sent plus heureux près de Dieu.
-Loin des vains bruits de la plaine,
-L’âme en paix est plus sereine,
-Au ciel montent plus joyeux
-Au ciel montent plus joyeux
-Les accents d’un cœur pieux,
-Les accents émus d’un cœur pieux.</div>
+<div>Joue encore dans le bois noir,</div>
+<div>Le cœur se sent plus heureux près de Dieu.</div>
+<div>Loin des vains bruits de la plaine,</div>
+<div>L’âme en paix est plus sereine,</div>
+<div>Au ciel montent plus joyeux</div>
+<div>Au ciel montent plus joyeux</div>
+<div>Les accents d’un cœur pieux,</div>
+<div>Les accents émus d’un cœur pieux.</div>
 </div>
+
 <div class="couplet">
 <div>Lorsque dans la sombre nuit</div>
-<div>La foudre éclate avec bruit,
-Notre cœur pressent encore le Dieu fort ;
-Dans l’orage et la détresse
-Il est notre forteresse ;
-Offrons-lui des cœurs pieux :
-Offrons-lui des cœurs pieux :
-Dieu nous bénira des cieux,
-Dieu nous bénira du haut des cieux.</div>
+<div>La foudre éclate avec bruit,</div>
+<div>Notre cœur pressent encore le Dieu fort ;</div>
+<div>Dans l’orage et la détresse</div>
+<div>Il est notre forteresse ;</div>
+<div>Offrons-lui des cœurs pieux :</div>
+<div>Offrons-lui des cœurs pieux :</div>
+<div>Dieu nous bénira des cieux,</div>
+<div>Dieu nous bénira du haut des cieux.</div>
 </div>
+
 <div class="couplet">
 <div>Des grands monts vient le secours ;</div>
-<div>Suisse, espère en Dieu toujours !
-Garde la foi des aïeux, Vis comme eux !
-Sur l’autel de la patrie
-Mets tes biens, ton cœur, ta vie !
-C’est le trésor précieux
-C’est le trésor précieux
-Que Dieu bénira des cieux,
-Que Dieu bénira du haut des cieux.</div>
+<div>Suisse, espère en Dieu toujours !</div>
+<div>Garde la foi des aïeux, Vis comme eux !</div>
+<div>Sur l’autel de la patrie</div>
+<div>Mets tes biens, ton cœur, ta vie !</div>
+<div>C’est le trésor précieux</div>
+<div>C’est le trésor précieux</div>
+<div>Que Dieu bénira des cieux,</div>
+<div>Que Dieu bénira du haut des cieux</div>
 </div>
+
 </div>
 
 ===== FILE: src\content\ce-n-est-qu-un-au-revoir-mes-freres.svelte =====
@@ -1034,7 +1068,7 @@ Que Dieu bénira du haut des cieux.</div>
     id: "ce-qu-e-laino-geneve",
     title: "Cé qu’è lainô (Genève)",
     theme: "Hymnes",
-    sortKeys: ["Cé qu’è lainô (Genève)"]
+    sortKeys: ["Cé qu’è lainô", "Hymne genevois"]
   };
 </script>
 
@@ -1071,27 +1105,13 @@ Que Dieu bénira du haut des cieux.</div>
 </div>
 </div>
 
-===== FILE: src\content\ch-ur-des-jeunes-seteviens.svelte =====
-<script>
-  export let metadata = {
-    id: "ch-ur-des-jeunes-seteviens",
-    title: "Chœur des jeunes Sétéviens",
-    theme: "Chants estudiantins",
-    sortKeys: ["Chœur des jeunes Sétéviens"]
-  };
-</script>
-
-<div class="song">
-
-</div>
-
 ===== FILE: src\content\chevaliers-de-la-table-ronde.svelte =====
 <script>
   export let metadata = {
     id: "chevaliers-de-la-table-ronde",
     title: "Chevaliers de la table ronde",
     theme: "Chansons populaires",
-    sortKeys: ["Chevaliers de la table ronde"]
+    sortKeys: ["Chevaliers de la table ronde", "Les chevaliers de la table ronde"]
   };
 </script>
 
@@ -1136,6 +1156,20 @@ Goûtons voir si le vin et bon
 <div>Sur ma tombe je veux qu’on inscrive</div>
 <div>Ici gît le roi des buveurs… </div>
 </div>
+</div>
+
+===== FILE: src\content\choeur-des-jeunes-seteviens.svelte =====
+<script>
+  export let metadata = {
+    id: "choeur-des-jeunes-seteviens",
+    title: "Chœur des jeunes Sétéviens",
+    theme: "Chants estudiantins",
+    sortKeys: ["Chœur des jeunes Sétéviens", "Non, non, non, non Sétévia n'est pas morte"]
+  };
+</script>
+
+<div class="song">
+<img class="song-image" src="/images/image24.svg" />
 </div>
 
 ===== FILE: src\content\dans-une-tour-de-londres.svelte =====
@@ -1481,12 +1515,13 @@ Si quelque fois elle est cruelle, </div>
     id: "gaudeamus-igitur",
     title: "Gaudeamus igitur",
     theme: "Chants estudiantins",
-    sortKeys: ["Gaudeamus igitur"]
+    sortKeys: ["Gaudeamus igitur", "De brevitate vitae"]
   };
 </script>
 
 <div class="song">
 <div>Les strophes 2 et 3 remontent à 1287. L’air est attesté dès 1738 et le texte complet date de 1781 par Christian Wilhelm Kindleben.</div>
+
 <div class="couplet">
 <div><strong>|: Gaudeamus igitur,</strong></div>
 <div><strong>juvenes dum sumus. :|</strong></div>
@@ -1494,6 +1529,7 @@ Si quelque fois elle est cruelle, </div>
 <div><strong>post molestam senectutem,</strong></div>
 <div><strong>|: nos habebit humus ! :|</strong></div>
 </div>
+
 <div class="couplet">
 <div>|: Ubi sunt qui ante nos</div>
 <div>in mundo fuere ? :|</div>
@@ -1501,6 +1537,7 @@ Si quelque fois elle est cruelle, </div>
 <div>transite ad inferos</div>
 <div>|: ubi jam fuere. :|</div>
 </div>
+
 <div class="couplet">
 <div>|: Vita nostra brevis est,</div>
 <div>brevi finietur, :|</div>
@@ -1508,33 +1545,15 @@ Si quelque fois elle est cruelle, </div>
 <div>rapit nos atrociter</div>
 <div>|: nemini parcetur ! :|</div>
 </div>
+
 <div class="couplet">
 <div>|: Vivat academia !</div>
 <div>vivant professores ! :|</div>
 <div>vivat membrum quodlibet !</div>
 <div>vivant membra quælibet !</div>
 <div>|: semper sint in flore ! :|</div>
-<div>|: Réjouissons-nous donc</div>
-<div>Tant que nous sommes jeunes :|</div>
-<div>Après une jeunesse agréable</div>
-<div>Après une vieillesse pénible</div>
-<div>|: La terre nous aura. :|</div>
-<div>|: Où sont ceux qui furent</div>
-<div>Sur terre avant nous ? :|</div>
-<div>Allez vers les cieux</div>
-<div>Passez par les enfers</div>
-<div>|: Là où ils ont déjà été. :|</div>
-<div>|: Notre vie est brève,</div>
-<div>Elle finira bientôt :|</div>
-<div>La mort vient rapidement</div>
-<div>Nous arrache atrocement</div>
-<div>|: En n’épargnant personne. :|</div>
-<div>|: Que vive l’Université,</div>
-<div>Que vivent les professeurs, :|</div>
-<div>Que chaque étudiant vive </div>
-<div>Que tous ses membres vivent </div>
-<div>|: Qu’ils soient toujours florissants ! :|</div>
 </div>
+
 <div class="couplet">
 <div>|: Vivant omnes virgines</div>
 <div>faciles, formosæ ! :|</div>
@@ -1542,6 +1561,7 @@ Si quelque fois elle est cruelle, </div>
 <div>teneræ, amabiles,</div>
 <div>|: bonæ, laboriosæ ! :|</div>
 </div>
+
 <div class="couplet">
 <div>|: Vivat et respublica,</div>
 <div>et qui illam regit ! :|</div>
@@ -1549,28 +1569,71 @@ Si quelque fois elle est cruelle, </div>
 <div>mæcenatum caritas,</div>
 <div>|: quæ nos hic protegit ! :|</div>
 </div>
+
 <div class="couplet">
 <div><strong>|: Pereat tristitia !</strong></div>
 <div><strong>pereant osores ! :|</strong></div>
 <div><strong>pereat diabolus</strong></div>
 <div><strong>quivis antiburschius</strong></div>
 <div><strong>|: atque irrisores ! :|</strong></div>
+</div>
+
+<div class="couplet">
+<div>|: Réjouissons-nous donc</div>
+<div>Tant que nous sommes jeunes :|</div>
+<div>Après une jeunesse agréable</div>
+<div>Après une vieillesse pénible</div>
+<div>|: La terre nous aura. :|</div>
+</div>
+
+<div class="couplet">
+<div>|: Où sont ceux qui furent</div>
+<div>Sur terre avant nous ? :|</div>
+<div>Allez vers les cieux</div>
+<div>Passez par les enfers</div>
+<div>|: Là où ils ont déjà été. :|</div>
+</div>
+
+<div class="couplet">
+<div>|: Notre vie est brève,</div>
+<div>Elle finira bientôt :|</div>
+<div>La mort vient rapidement</div>
+<div>Nous arrache atrocement</div>
+<div>|: En n’épargnant personne. :|</div>
+</div>
+
+<div class="couplet">
+<div>|: Que vive l’Université,</div>
+<div>Que vivent les professeurs, :|</div>
+<div>Que chaque étudiant vive </div>
+<div>Que tous ses membres vivent </div>
+<div>|: Qu’ils soient toujours florissants ! :|</div>
+</div>
+
+<div class="couplet">
 <div>|: Que vivent toutes les jeunes filles,</div>
 <div>Affables, belles, :|</div>
 <div>Que vivent aussi les femmes</div>
 <div>Tendres, aimables,</div>
 <div>Bonnes, travailleuses !</div>
+</div>
+
+<div class="couplet">
 <div>|: Que vive aussi la République,</div>
 <div>Et celui qui la dirige ! :|</div>
 <div>Que vive notre cité,</div>
 <div>Le bon cœur des mécènes</div>
 <div>|: Qui nous protège ici. :|</div>
+</div>
+
+<div class="couplet">
 <div>|: Que périsse la tristesse,</div>
 <div>Que périssent ceux qui nous haïssent :|</div>
 <div>Que périsse le diable</div>
 <div>Tous les ennemis de notre confrérie</div>
 <div>|: Ainsi que les railleurs. :|</div>
 </div>
+
 </div>
 
 ===== FILE: src\content\gaudeamus-un-hommage-2024.svelte =====
@@ -1634,60 +1697,35 @@ Si quelque fois elle est cruelle, </div>
     id: "helvetia-1832-1971-geneve",
     title: "Helvétia (1832 ; 1971, Genève)",
     theme: "Chants estudiantins",
-    sortKeys: ["Helvétia (1832 ; 1971, Genève)"]
+    sortKeys: ["Hymne helvétien"]
   };
 </script>
 
 <div class="song">
 <div><em>Aux Helvétiens (VI)</em></div>
+
 <div class="couplet">
 <div>Helvétiens, brave ami soit fidèle </div>
-</div>
-<div class="couplet">
 <div>Au grand drapeau qui flotte devant toi ; </div>
-</div>
-<div class="couplet">
 <div>Marche toujours, plein d’une ardeur nouvelle, </div>
-</div>
-<div class="couplet">
 <div>|: Lis sa devise et qu’elle soit ta loi. :| </div>
-</div>
-<div class="couplet">
 <div>Vers le progrès suis tes amis, tes frères, </div>
-</div>
-<div class="couplet">
 <div>Toujours plus loin toujours plus en avant, </div>
-</div>
-<div class="couplet">
 <div>|: L’Helvétia verra des jours prospères, </div>
-</div>
-<div class="couplet">
 <div>Sur le Léman, sur le Léman. :|</div>
 </div>
+
 <div class="couplet">
 <div>Que l’amitié te console et repose </div>
-</div>
-<div class="couplet">
 <div>Ton cœur meurtri par les coups du destin, </div>
-</div>
-<div class="couplet">
 <div>Et que parfois elle laisse une rose </div>
-</div>
-<div class="couplet">
 <div>|: Fleurir encore aux ronces du chemin. :| </div>
-</div>
-<div class="couplet">
 <div>Notre Patrie a besoin d’âmes fières, </div>
-</div>
-<div class="couplet">
 <div>Dans le danger, montre-toi noble et grand. </div>
-</div>
-<div class="couplet">
 <div>|: L’Helvétia verra des jours prospères, </div>
-</div>
-<div class="couplet">
 <div>Sur le Léman, sur le Léman. :|</div>
 </div>
+
 </div>
 
 ===== FILE: src\content\hymne-neuchatelois.svelte =====
@@ -1758,7 +1796,13 @@ Si quelque fois elle est cruelle, </div>
 <div>C’est pour y retrouver les vieux avec qui je sais boir’</div>
 <div>Et pourquoi rire et pourquoi boir’ et pourquoi s’amuser ?</div>
 <div>C’est pour montrer aux assoiffés qu’on n’veut pas s’la miner, qu’on ne veut pas s’la miner.</div>
+
+<div></div>
+
 <div>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, grâce à SÉTÉVIA, grâce à SÉTÉVIA !</div>
+
+<div></div>
+
 <div>Grâce à qui, grâce à quoi ? Grâce à SÉTÉVIA, oui grâce à SÉTÉVIA — Ah — Ah !</div>
 </div>
 
@@ -1808,156 +1852,6 @@ Si quelque fois elle est cruelle, </div>
 <div>Ami de la simplicité,</div>
 <div>Intrépide et laborieux,</div>
 <div>Gardant sa foi, sa liberté.</div>
-</div>
-<div>3</div>
-<div><strong>3</strong>1 du mois d’août36	</div>
-<div>A</div>
-<div><strong>A</strong> l’hôpital Saint-Louis116	</div>
-<div>Ah ! que nos pères étaient heureux44	</div>
-<div>Ah vous dirai-je maman…70	</div>
-<div>Ah ! que nos pères étaient heureux44	</div>
-<div>Air d’entrée143	</div>
-<div>Allons à Messine65	</div>
-<div>Alouette50	</div>
-<div>Au 31 du mois d’août36	</div>
-<div>Auprès de ma blonde51	</div>
-<div>B</div>
-<div><strong>B</strong>ella Ciao46	</div>
-<div>Belle Hortense120	</div>
-<div>Berger fidèle94	</div>
-<div>Bicêtre123	</div>
-<div>Boire un petit coup c'est agréable54	</div>
-<div>Bordel a fermé ses volets129	</div>
-<div>Branle Charlotte110	</div>
-<div>C</div>
-<div><strong>C</strong>antique suisse156	</div>
-<div>Ce n’est qu’un au revoir, mes frères55	</div>
-<div>Cé qu’è lainô158	</div>
-<div>C'est à boire52	</div>
-<div>Charlotte110	</div>
-<div>Chevaliers de la table ronde42	</div>
-<div>Chœur des jeunes Sétéviens19	</div>
-<div>D</div>
-<div><strong>D</strong>ans une tour de Londres102	</div>
-<div>De brevitate vitae20	</div>
-<div>De profundis morpionibus85	</div>
-<div>Digue du cul62	</div>
-<div>Du dieu Vulcain104	</div>
-<div>Duc de Bordeaux131	</div>
-<div>Dupanloup136	</div>
-<div>F</div>
-<div><strong>F</strong>anchon78	</div>
-<div>Femme du roulier139	</div>
-<div>Filles de Camaret92	</div>
-<div>Filles de la Rochelle121	</div>
-<div>Frère Guillaumette106	</div>
-<div>G</div>
-<div><strong>G</strong>audeamus igitur20	</div>
-<div>Gaudeamus, un hommage145	</div>
-<div>H</div>
-<div><strong>H</strong>ôpital Saint-Louis116	</div>
-<div>Huguette127	</div>
-<div>Hymne d’Helvétia25	</div>
-<div>Hymne de Belles-Lettres24	</div>
-<div>Hymne de l’Activitas26	</div>
-<div>Hymne de l’Agaunia27	</div>
-<div>Hymne de la Lémania25	</div>
-<div>Hymne de la Nuithonia27	</div>
-<div>Hymne de la Sarinia27	</div>
-<div>Hymne de la Self29	</div>
-<div>Hymne de la SES28	</div>
-<div>Hymne de la Waldstättia28	</div>
-<div>Hymne de Stella26	</div>
-<div>Hymne de Valdésia26	</div>
-<div>Hymne de Zofingue24	</div>
-<div><strong>H</strong>ymne fribourgeois157	</div>
-<div>Hymne genevois158	</div>
-<div>Hymne jurassien159	</div>
-<div>Hymne neuchâtelois160	</div>
-<div>Hymne Sétévien16, 17, 23	</div>
-<div>Hymne suisse156	</div>
-<div>Hymne valaisan161	</div>
-<div>Hymne Vaudois154	</div>
-<div>I</div>
-<div><strong>I</strong>nternationale80	</div>
-<div>J</div>
-<div><strong>J</strong>e veux juste ken146	</div>
-<div>Jeanneton49	</div>
-<div>Joueur de luth74	</div>
-<div>Joyeux enfants de la Bourgogne41	</div>
-<div>K</div>
-<div><strong>K</strong>yrie60	</div>
-<div>L</div>
-<div><strong>L</strong>’internationale80	</div>
-<div>La belle Hortense120	</div>
-<div>La digue du cul62	</div>
-<div>La femme du roulier139	</div>
-<div>La mère Michel90	</div>
-<div>La messe de minuit22	</div>
-<div>La nouvelle Rauracienne159	</div>
-<div>La nuit à l’asile148	</div>
-<div>La petite Charlotte110	</div>
-<div>La petite Huguette127	</div>
-<div>La pompe à merde125	</div>
-<div>Le bordel a fermé ses volets128	</div>
-<div>Le Cantonnier82	</div>
-<div>Le Duc de Bordeaux131	</div>
-<div>Le joueur de luth74	</div>
-<div><strong>L</strong>e métropolitain34	</div>
-<div>Le plaisir des dieux104	</div>
-<div>Le pou et l’araignée97	</div>
-<div>Le ranz des vaches157	</div>
-<div>Le Vieux Chalet56	</div>
-<div>Les bretelles100	</div>
-<div>Les chevaliers de la table ronde42	</div>
-<div>Les filles de Camaret92	</div>
-<div>Les filles de la Rochelle121	</div>
-<div>Les moines de St. Bernardin77	</div>
-<div>Les quatre-vingts chasseurs108	</div>
-<div>Les trois orfèvres68	</div>
-<div>Lyobâ157	</div>
-<div>M</div>
-<div><strong>M</strong>arche américaine115	</div>
-<div>Mère Michel90	</div>
-<div>Messine65	</div>
-<div>Métropolitain34	</div>
-<div>Missa Solemnis22	</div>
-<div>Moines de St. Bernardin77	</div>
-<div>Mon frère est poitrinaire116	</div>
-<div>Mon père me donne cent sous100	</div>
-<div>N</div>
-<div><strong>N</strong>ini peau de chien38	</div>
-<div>Non, non, non, non Sétévia n'est pas morte19	</div>
-<div>Nuit à l’asile148	</div>
-<div>O</div>
-<div><strong>O</strong>h mon berger fidèle94	</div>
-<div>P</div>
-<div><strong>P</strong>ère Dupanloup136	</div>
-<div>Pompe à merde125	</div>
-<div>Pot-pourri Lémanien30	</div>
-<div>Pou et l’araignée97	</div>
-<div>Q</div>
-<div><strong>Q</strong>u’on apporte133	</div>
-<div>Quatre-vingts chasseurs108	</div>
-<div>R</div>
-<div><strong>R</strong>oulier139	</div>
-<div>S</div>
-<div><strong>S</strong>ur la route de Louviers82	</div>
-<div>T</div>
-<div><strong>T</strong>rois orfèvres68	</div>
-<div>V</div>
-<div><strong>V</strong>ieux Chalet56	</div>
-<div>Z</div>
-<div><strong>Z</strong>ita113	</div>
-<div>Gaudeamus igitur, réjouissons-nous !</div>
-<div>Les chansons permettent de faciliter le contact et de maintenir la liaison avec les générations précédentes et les sociétés amies.</div>
-<div>Le cantus de Sétévia en 1964 est le « Berlingot d’Amour », remplacé par la suite par le « Lutrin d’Amour » qui a accompagné les Dignes Sétéviens jusqu’à aujourd’hui. Certaines illustrations, du présent ouvrage, proviennent du « Lutrin d’Amour », merci à Stella d’avoir permis leur reproduction.</div>
-<div>Le temps passant, il était opportun d’effectuer une révision s’adaptant aux besoins actuels — que ce soient des chants connus des Actifs ou de sociétés amies, sans oublier ceux connus des Anciens !</div>
-<div>Ce cantus est destiné à Sétévia en priorité et, dans un second temps, aux portants couleurs.</div>
-<div>En raison du caractère particulier des textes et dessins, il ne saurait être exposé ou reproduit, particulièrement en dehors des Sociétés d’Etudiants.</div>
-<div>Le présent recueil est le fruit d’une équipe :</div>
-<div><em>Poreau, Ricin, Gulliver, Phallus, Etale, LaTeX</em></div>
-<div><strong>Sétévia, 31 décembre 2023</strong></div>
 </div>
 
 ===== FILE: src\content\hymne-vaudois.svelte =====
@@ -2298,7 +2192,7 @@ Kyrie eleison </div>
     id: "l-internationale",
     title: "L’internationale",
     theme: "Chansons paillardes",
-    sortKeys: ["L’internationale"]
+    sortKeys: ["L’internationale", "Internationale"]
   };
 </script>
 
@@ -2349,7 +2243,7 @@ Kyrie eleison </div>
     id: "la-belle-hortense",
     title: "La belle Hortense",
     theme: "Chansons paillardes",
-    sortKeys: ["La belle Hortense"]
+    sortKeys: ["La belle Hortense", "Belle Hortense"]
   };
 </script>
 
@@ -2372,17 +2266,17 @@ Kyrie eleison </div>
 <div>LE CHŒUR</div>
 <div>Les g'noux cagneux, etc.</div>
 <div>LE CHORYPHÉE</div>
-<div>La Belle Hortense a 	les cuisses graisseuses </div>
-<div>un petit tchu-tchu</div>
-<div>un gros cu-cul</div>
-<div>un ventre obèse</div>
-<div>les seins pendants</div>
-<div>le cou goîtreux</div>
-<div>la bouche baveuse</div>
-<div>le nez morveux</div>
-<div>les yeux chassieux</div>
-<div>les oreilles cireuses </div>
-<div>le chef teigneux</div>
+<div>La Belle Hortense a        les cuisses graisseuses</div>
+<div> 	 	 	 	un petit tchu-tchu</div>
+<div> 	 	 	 	un gros cu-cul</div>
+<div> 	 	 	 	un ventre obèse</div>
+<div> 	 	 	 	les seins pendants</div>
+<div> 	 	 	 	le cou goîtreux</div>
+<div> 	 	 	 	la bouche baveuse</div>
+<div> 	 	 	 	le nez morveux</div>
+<div> 	 	 	 	les yeux chassieux</div>
+<div> 	 	 	 	les oreilles cireuses </div>
+<div> 	 	 	 	le chef teigneux</div>
 </div>
 
 ===== FILE: src\content\la-digue-du-cul.svelte =====
@@ -2391,7 +2285,7 @@ Kyrie eleison </div>
     id: "la-digue-du-cul",
     title: "La Digue du cul",
     theme: "Chansons paillardes",
-    sortKeys: ["La Digue du cul"]
+    sortKeys: ["La Digue du cul", "Digue du cul"]
   };
 </script>
 
@@ -2460,7 +2354,7 @@ Kyrie eleison </div>
     id: "la-femme-du-roulier",
     title: "La femme du roulier",
     theme: "Chansons paillardes",
-    sortKeys: ["La femme du roulier"]
+    sortKeys: ["La femme du roulier", "Femme du roulier"]
   };
 </script>
 
@@ -2537,7 +2431,7 @@ Kyrie eleison </div>
     id: "la-mere-michel",
     title: "La mère Michel",
     theme: "Chansons paillardes",
-    sortKeys: ["La mère Michel"]
+    sortKeys: ["La mère Michel", "Mère Michel"]
   };
 </script>
 
@@ -2573,7 +2467,7 @@ Kyrie eleison </div>
     id: "la-messe-a-setevia",
     title: "La Messe à Sétévia",
     theme: "Chants estudiantins",
-    sortKeys: ["La Messe à Sétévia"]
+    sortKeys: ["La Messe de minuit", "Missa Solemnis"]
   };
 </script>
 
@@ -2581,6 +2475,40 @@ Kyrie eleison </div>
 <div><strong>Praeses</strong> : Hoch Mousse-Mayor, kann die Missa Solemnis steigen?</div>
 <div><strong>Mousse-Mayor</strong> : Ja !</div>
 <div>Preaeses chante une fois, l’assemblée répète.</div>
+
+<div class="couplet">
+<div>|: Pour la fête qui s’apprête</div>
+<div>Cueillons des fleurs dans ces bosquets ! :|</div>
+<div>|: Invitons à notre fête</div>
+<div>Bacchus et le dieu de paix :| (bis)</div>
+</div>
+<div class="couplet">
+<div>|: Que chacun de nous s’enivre</div>
+<div>Des plus exquis et doux transports :|</div>
+<div>|: Et n’attendons pas pour vivre</div>
+<div>Que nous soyons chez les morts :| (bis)</div>
+</div>
+<div class="couplet">
+<div>|: Car dans ces royaumes sombres</div>
+<div>Où nous goûterons le repos :|</div>
+<div>|: L’on n’embrasse que des ombres</div>
+<div>Et l’on n’y boit que de l’eau :| (bis)</div>
+</div>
+<div class="couplet">
+<div>|: Voici l’heure fatidique</div>
+<div>Pour le départ des Philistins :|</div>
+<div>|: Et dans nos exploits bachiques</div>
+<div>Nous restons jusqu’au matin :| (bis)</div>
+<div>[<strong>Selon les sociétés</strong> : </div>
+</div>
+<div class="couplet">
+<div><em>|: Nous sommes la confrérie</em></div>
+<div><em>Des joyeux membres Sétéviens ! :|</em></div>
+<div><em>|: Et nous savons que la vie</em></div>
+<div><em>Sans le vin ne vaudrait rien :| (bis)]</em>
+</div>
+</div>
+
 <div><strong>Praeses</strong> : Hoch Mousse-Mayor, Missa Solemnis est. </div>
 <div><strong>Mousse-Mayor</strong> : Ex est, Fiat Lux !</div>
 <div>Allumer la lumière et entonner l’Hymne Sétévien</div>
@@ -2592,7 +2520,7 @@ Kyrie eleison </div>
     id: "la-nouvelle-rauracienne-jura",
     title: "La nouvelle Rauracienne (Jura)",
     theme: "Hymnes",
-    sortKeys: ["La nouvelle Rauracienne (Jura)"]
+    sortKeys: ["La nouvelle Rauracienne", "Hymne jurassien"]
   };
 </script>
 
@@ -2704,7 +2632,7 @@ Kyrie eleison </div>
     id: "la-petite-huguette",
     title: "La petite Huguette",
     theme: "Chansons paillardes",
-    sortKeys: ["La petite Huguette"]
+    sortKeys: ["La petite Huguette", "Petite Huguette"]
   };
 </script>
 
@@ -2772,7 +2700,7 @@ Kyrie eleison </div>
     id: "la-pompe-a-merde",
     title: "La pompe à merde",
     theme: "Chansons paillardes",
-    sortKeys: ["La pompe à merde"]
+    sortKeys: ["La pompe à merde", "Pompe à merde"]
   };
 </script>
 
@@ -2918,7 +2846,7 @@ Kyrie eleison </div>
     id: "le-duc-de-bordeaux",
     title: "Le Duc de Bordeaux",
     theme: "Chansons paillardes",
-    sortKeys: ["Le Duc de Bordeaux"]
+    sortKeys: ["Le Duc de Bordeaux", "Duc de Bordeaux"]
   };
 </script>
 
@@ -2971,7 +2899,7 @@ Kyrie eleison </div>
     id: "le-joueur-de-luth",
     title: "Le joueur de luth",
     theme: "Chansons paillardes",
-    sortKeys: ["Le joueur de luth"]
+    sortKeys: ["Le joueur de luth", "Joueur de luth"]
   };
 </script>
 
@@ -3058,7 +2986,7 @@ Kyrie eleison </div>
     id: "le-metropolitain",
     title: "Le Métropolitain",
     theme: "Chansons populaires",
-    sortKeys: ["Le Métropolitain"]
+    sortKeys: ["Le Métropolitain", "Métropolitain"]
   };
 </script>
 
@@ -3127,7 +3055,7 @@ Kyrie eleison </div>
     id: "le-plaisir-des-dieux",
     title: "Le plaisir des dieux",
     theme: "Chansons paillardes",
-    sortKeys: ["Le plaisir des dieux"]
+    sortKeys: ["Le plaisir des dieux", "Du dieu Vulcain"]
   };
 </script>
 
@@ -3200,7 +3128,7 @@ Kyrie eleison </div>
     id: "le-pou-et-l-araignee",
     title: "Le pou et l’araignée",
     theme: "Chansons paillardes",
-    sortKeys: ["Le pou et l’araignée"]
+    sortKeys: ["Le pou et l’araignée", "Pou et l’araignée"]
   };
 </script>
 
@@ -3303,7 +3231,7 @@ Kyrie eleison </div>
     id: "le-ranz-des-vaches-lyoba-fribourg",
     title: "Le ranz des vaches (Lyobâ, Fribourg)",
     theme: "Hymnes",
-    sortKeys: ["Le ranz des vaches (Lyobâ, Fribourg)"]
+    sortKeys: ["Le ranz des vaches", "Lyobâ", "Hymne fribourgeois"]
   };
 </script>
 
@@ -3331,15 +3259,15 @@ Kyrie eleison </div>
 <div class="couplet">
 <div>I fô ke dyéchè ouna mècha</div>
 <div>Po ke no l’y pouéchan pachâ</div>
-<div><strong>Refrain</strong></div>
+<div><strong>Refrain</strong></div></div>
 <div><strong>1-3-5-7-9-11-13-15-17-19</strong></div>
 <div>Lyôba, lyôba, por aryâ (bis).</div>
 <div>Vinyidè totè, byantsè, nêre,</div>
 <div>Rodzè, mothêlè, dzouvenè ôtrè,</div>
 <div>Dèjo chti tsâno, yô vo j’âryo,</div>
 <div>Dèjo chti trinbyo, yô i trintso,</div>
-<div>Lyôba, lyôba, por aryâ (bis).</div>
-<div><strong>Refrain</strong></div>
+<div>Lyôba, lyôba, por aryâ (bis).</div></div>
+<div><strong>Refrain</strong>
 <div><strong>2-4-6-8-10-12-14-16-18</strong></div>
 <div>Lyôba, lyôba, por aryâ (bis).</div>
 <div>Lè chenayirè van lè premirè,</div>
@@ -3347,15 +3275,14 @@ Kyrie eleison </div>
 <div>Lyôba, lyôba, por aryâ (bis).
 </div>
 </div>
-</div>
 
 ===== FILE: src\content\le-vieux-chalet.svelte =====
 <script>
   export let metadata = {
     id: "le-vieux-chalet",
-    title: "Le Vieux Chalet",
+    title: "Le vieux chalet",
     theme: "Chansons populaires",
-    sortKeys: ["Le Vieux Chalet"]
+    sortKeys: ["Le vieux chalet", "Vieux chalet"]
   };
 </script>
 
@@ -3393,7 +3320,7 @@ Là-haut sur la montagne, l’est un nouveau chalet.
     id: "lemania-1891-lausanne",
     title: "Lémania (1891, Lausanne)",
     theme: "Chants estudiantins",
-    sortKeys: ["Lémania (1891, Lausanne)"]
+    sortKeys: ["Hymne de la Lémania"]
   };
 </script>
 
@@ -3410,7 +3337,7 @@ Là-haut sur la montagne, l’est un nouveau chalet.
     id: "les-bretelles",
     title: "Les bretelles",
     theme: "Chansons paillardes",
-    sortKeys: ["Les bretelles"]
+    sortKeys: ["Les bretelles", "Bretelles"]
   };
 </script>
 
@@ -3469,7 +3396,7 @@ Là-haut sur la montagne, l’est un nouveau chalet.
     id: "les-filles-de-camaret",
     title: "Les filles de Camaret",
     theme: "Chansons paillardes",
-    sortKeys: ["Les filles de Camaret"]
+    sortKeys: ["Les filles de Camaret", "Filles de Camaret"]
   };
 </script>
 
@@ -3552,7 +3479,7 @@ Là-haut sur la montagne, l’est un nouveau chalet.
     id: "les-filles-de-la-rochelle",
     title: "Les filles de la Rochelle",
     theme: "Chansons paillardes",
-    sortKeys: ["Les filles de la Rochelle"]
+    sortKeys: ["Les filles de la Rochelle", "Filles de la Rochelle"]
   };
 </script>
 
@@ -3629,7 +3556,7 @@ Là-haut sur la montagne, l’est un nouveau chalet.
     id: "les-moines-de-st-bernardin",
     title: "Les moines de St Bernardin",
     theme: "Chansons paillardes",
-    sortKeys: ["Les moines de St Bernardin"]
+    sortKeys: ["Les moines de St Bernardin", "Moines de St Bernardin"]
   };
 </script>
 
@@ -3677,7 +3604,7 @@ Là-haut sur la montagne, l’est un nouveau chalet.
     id: "les-quatre-vingts-chasseurs",
     title: "Les quatre-vingts chasseurs",
     theme: "Chansons paillardes",
-    sortKeys: ["Les quatre-vingts chasseurs"]
+    sortKeys: ["Les quatre-vingts chasseurs", "Quatre-vingts chasseurs"]
   };
 </script>
 
@@ -3754,51 +3681,6 @@ Là-haut sur la montagne, l’est un nouveau chalet.
 <div>Quelle jouissance !</div>
 </div>
 
-===== FILE: src\content\missa-solemnis.svelte =====
-<script>
-  export let metadata = {
-    id: "missa-solemnis",
-    title: "Missa Solemnis",
-    theme: "Chants estudiantins",
-    sortKeys: ["Missa Solemnis"]
-  };
-</script>
-
-<div class="song">
-<div class="couplet">
-<div>|: Pour la fête qui s’apprête</div>
-<div>Cueillons des fleurs dans ces bosquets ! :|</div>
-<div>|: Invitons à notre fête</div>
-<div>Bacchus et le dieu de paix :| (bis)</div>
-</div>
-<div class="couplet">
-<div>|: Que chacun de nous s’enivre</div>
-<div>Des plus exquis et doux transports :|</div>
-<div>|: Et n’attendons pas pour vivre</div>
-<div>Que nous soyons chez les morts :| (bis)</div>
-</div>
-<div class="couplet">
-<div>|: Car dans ces royaumes sombres</div>
-<div>Où nous goûterons le repos :|</div>
-<div>|: L’on n’embrasse que des ombres</div>
-<div>Et l’on n’y boit que de l’eau :| (bis)</div>
-</div>
-<div class="couplet">
-<div>|: Voici l’heure fatidique</div>
-<div>Pour le départ des Philistins :|</div>
-<div>|: Et dans nos exploits bachiques</div>
-<div>Nous restons jusqu’au matin :| (bis)</div>
-<div>[<strong>Selon les sociétés</strong> : </div>
-</div>
-<div class="couplet">
-<div><em>|: Nous sommes la confrérie</em></div>
-<div><em>Des joyeux membres Sétéviens ! :|</em></div>
-<div><em>|: Et nous savons que la vie</em></div>
-<div><em>Sans le vin ne vaudrait rien :| (bis)]</em>
-</div>
-</div>
-</div>
-
 ===== FILE: src\content\nini-peau-de-chien.svelte =====
 <script>
   export let metadata = {
@@ -3868,7 +3750,7 @@ Quand le soleil brille </div>
     id: "nuithonia-1845-fribourg",
     title: "Nuithonia (1845, Fribourg)",
     theme: "Chants estudiantins",
-    sortKeys: ["Nuithonia (1845, Fribourg)"]
+    sortKeys: ["Hymne de la Nuithonia"]
   };
 </script>
 
@@ -3927,7 +3809,6 @@ Quand le soleil brille </div>
 <div class="refrain" data-title="Refrain final">
 <div>Fous-moi l’god'miché dans l’cul</div>
 <div>Faut que je me finisse,</div>
-</div>
 <div>Fous-moi l’god'miché dans l’cul, </div>
 <div>Et qu’on n’en parle plus !</div>
 </div>
@@ -4197,7 +4078,7 @@ Quand le soleil brille </div>
     id: "sarinia-1895-fribourg",
     title: "Sarinia (1895, Fribourg)",
     theme: "Chants estudiantins",
-    sortKeys: ["Sarinia (1895, Fribourg)"]
+    sortKeys: ["Hymne de la Sarinia"]
   };
 </script>
 
@@ -4213,7 +4094,7 @@ Quand le soleil brille </div>
     id: "self-1905-bienne",
     title: "Self (1905, Bienne)",
     theme: "Chants estudiantins",
-    sortKeys: ["Self (1905, Bienne)"]
+    sortKeys: ["Hymne de Self"]
   };
 </script>
 
@@ -4238,7 +4119,7 @@ Quand le soleil brille </div>
     id: "ses-1841",
     title: "SES (1841)",
     theme: "Chants estudiantins",
-    sortKeys: ["SES (1841)"]
+    sortKeys: ["Hymne de la SES", "Riesenkampf"]
   };
 </script>
 
@@ -4263,7 +4144,7 @@ Quand le soleil brille </div>
     id: "stella-1857-vaud-1863-geneve",
     title: "Stella (1857, Vaud ; 1863, Genève)",
     theme: "Chants estudiantins",
-    sortKeys: ["Stella (1857, Vaud ; 1863, Genève)"]
+    sortKeys: ["Hymne de Stella"]
   };
 </script>
 
@@ -4282,7 +4163,7 @@ Quand le soleil brille </div>
     id: "sur-la-route-de-louviers",
     title: "Sur la route de Louviers",
     theme: "Chansons paillardes",
-    sortKeys: ["Sur la route de Louviers"]
+    sortKeys: ["Sur la route de Louviers", "Cantonnier", "Le cantonnier"]
   };
 </script>
 
@@ -4408,7 +4289,7 @@ Quand le soleil brille </div>
     id: "valdesia-1915-lausanne",
     title: "Valdésia (1915, Lausanne)",
     theme: "Chants estudiantins",
-    sortKeys: ["Valdésia (1915, Lausanne)"]
+    sortKeys: ["Hymne de Valdésia"]
   };
 </script>
 
@@ -4423,7 +4304,7 @@ Quand le soleil brille </div>
     id: "waldstattia-1891-lucerne",
     title: "Waldstättia (1891, Lucerne)",
     theme: "Chants estudiantins",
-    sortKeys: ["Waldstättia (1891, Lucerne)"]
+    sortKeys: ["Hymne de la Waldstättia"]
   };
 </script>
 
@@ -4523,7 +4404,7 @@ Quand le soleil brille </div>
     id: "zofingue-1819",
     title: "Zofingue (1819)",
     theme: "Chants estudiantins",
-    sortKeys: ["Zofingue (1819)"]
+    sortKeys: ["Hymne de Zofingue"]
   };
 </script>
 

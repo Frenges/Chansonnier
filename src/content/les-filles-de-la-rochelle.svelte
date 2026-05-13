@@ -3,7 +3,7 @@
     id: "les-filles-de-la-rochelle",
     title: "Les filles de la Rochelle",
     theme: "Chansons paillardes",
-    sortKeys: ["Les filles de la Rochelle"]
+    sortKeys: ["Les filles de la Rochelle", "Filles de la Rochelle"]
   };
 </script>
 

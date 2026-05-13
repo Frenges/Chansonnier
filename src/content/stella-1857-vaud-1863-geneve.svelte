@@ -3,7 +3,7 @@
     id: "stella-1857-vaud-1863-geneve",
     title: "Stella (1857, Vaud ; 1863, Genève)",
     theme: "Chants estudiantins",
-    sortKeys: ["Stella (1857, Vaud ; 1863, Genève)"]
+    sortKeys: ["Hymne de Stella"]
   };
 </script>
 

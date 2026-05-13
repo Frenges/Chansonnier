@@ -3,7 +3,7 @@
     id: "agaunia-1859-st-maurice",
     title: "Agaunia (1859, St-Maurice)",
     theme: "Chants estudiantins",
-    sortKeys: ["Agaunia (1859, St-Maurice)"]
+    sortKeys: ["Hymne de l'Agaunia"]
   };
 </script>
 

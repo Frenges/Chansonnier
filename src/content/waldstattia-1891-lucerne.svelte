@@ -3,7 +3,7 @@
     id: "waldstattia-1891-lucerne",
     title: "Waldstättia (1891, Lucerne)",
     theme: "Chants estudiantins",
-    sortKeys: ["Waldstättia (1891, Lucerne)"]
+    sortKeys: ["Hymne de la Waldstättia"]
   };
 </script>
 

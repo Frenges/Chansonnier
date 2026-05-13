@@ -3,7 +3,7 @@
     id: "zofingue-1819",
     title: "Zofingue (1819)",
     theme: "Chants estudiantins",
-    sortKeys: ["Zofingue (1819)"]
+    sortKeys: ["Hymne de Zofingue"]
   };
 </script>
 

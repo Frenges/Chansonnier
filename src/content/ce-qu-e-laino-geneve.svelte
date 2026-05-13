@@ -3,7 +3,7 @@
     id: "ce-qu-e-laino-geneve",
     title: "Cé qu’è lainô (Genève)",
     theme: "Hymnes",
-    sortKeys: ["Cé qu’è lainô (Genève)"]
+    sortKeys: ["Cé qu’è lainô", "Hymne genevois"]
   };
 </script>
 

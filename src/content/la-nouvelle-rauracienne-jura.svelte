@@ -3,7 +3,7 @@
     id: "la-nouvelle-rauracienne-jura",
     title: "La nouvelle Rauracienne (Jura)",
     theme: "Hymnes",
-    sortKeys: ["La nouvelle Rauracienne (Jura)"]
+    sortKeys: ["La nouvelle Rauracienne", "Hymne jurassien"]
   };
 </script>
 

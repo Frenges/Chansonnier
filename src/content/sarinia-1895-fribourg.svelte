@@ -3,7 +3,7 @@
     id: "sarinia-1895-fribourg",
     title: "Sarinia (1895, Fribourg)",
     theme: "Chants estudiantins",
-    sortKeys: ["Sarinia (1895, Fribourg)"]
+    sortKeys: ["Hymne de la Sarinia"]
   };
 </script>
 
