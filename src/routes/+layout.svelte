@@ -5,8 +5,6 @@
   import { db } from '$lib/db';
   import { onMount } from 'svelte';
   import { browser } from '$app/environment';
-  // Si tu as un store "theme", importe-le ; sinon commente la ligne suivante
-  import { theme } from '$lib/stores/theme';
 
   // SvelteKit layout API
   export let data;
