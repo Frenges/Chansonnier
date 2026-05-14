@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="192"
+   height="192"
+   viewBox="0 0 144 144"
+   version="1.1"
+   id="svg218"
+   sodipodi:docname="Zirkel 192.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview220"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="2.0507776"
+     inkscape:cx="51.687711"
+     inkscape:cy="148.96788"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g243" />
+  <defs
+     id="defs198">
+    <g
+       id="g196">
+      <g
+         id="glyph-0-0" />
+      <g
+         id="glyph-0-1">
+        <path
+           d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+           id="path193" />
+      </g>
+    </g>
+  </defs>
+  <g
+     id="g243">
+    <g
+       id="g1"
+       transform="translate(-1.968555)">
+      <path
+         fill="none"
+         stroke-width="9.27661"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke="#000000"
+         stroke-opacity="1"
+         stroke-miterlimit="10"
+         d="m 134.50527,67.819355 c 0,-34.894555 -27.10448,-63.1810498 -60.532542,-63.1810498 -33.436415,0 -60.540892,28.2864948 -60.540892,63.1810498 0,34.894555 27.104477,63.172365 60.540892,63.172365 33.428062,0 60.532542,-28.27781 60.532542,-63.172365 z m 0,0"
+         id="path200" />
+      <path
+         fill="none"
+         stroke-width="9.09443"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke="#000000"
+         stroke-opacity="1"
+         stroke-miterlimit="10"
+         d="M 73.972728,65.179197 116.40764,22.735943"
+         id="path202" />
+      <path
+         fill="none"
+         stroke-width="9.09443"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke="#000000"
+         stroke-opacity="1"
+         stroke-miterlimit="10"
+         d="M 73.972728,65.179197 31.529475,22.735943"
+         id="path204" />
+      <path
+         fill="none"
+         stroke-width="9.09443"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke="#000000"
+         stroke-opacity="1"
+         stroke-miterlimit="10"
+         d="m 116.40764,22.735943 h 24.25447"
+         id="path206" />
+      <path
+         fill="none"
+         stroke-width="9.09443"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke="#000000"
+         stroke-opacity="1"
+         stroke-miterlimit="10"
+         d="M 31.529475,22.735943 H 7.275"
+         id="path208" />
+      <path
+         fill="none"
+         stroke-width="9.09443"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke="#000000"
+         stroke-opacity="1"
+         stroke-miterlimit="10"
+         d="M 73.972728,65.179197 V 144"
+         id="path210" />
+      <path
+         fill="none"
+         stroke-width="9.09443"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         stroke="#000000"
+         stroke-opacity="1"
+         stroke-miterlimit="10"
+         d="M 49.718247,65.179197 H 98.218859"
+         id="path212" />
+    </g>
+  </g>
+</svg>

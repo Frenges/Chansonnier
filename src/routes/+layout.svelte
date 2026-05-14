@@ -1,41 +1,81 @@
 <script lang="ts">
   import '../app.css';
-  import { base } from "$app/paths";
+  import { base } from '$app/paths';
   import favicon from '$lib/assets/favicon.svg';
-  import { db } from "$lib/db";
-  import { onMount } from "svelte";
+  import { db } from '$lib/db';
+  import { onMount } from 'svelte';
+  import { browser } from '$app/environment';
+  // Si tu as un store "theme", importe-le ; sinon commente la ligne suivante
+  import { theme } from '$lib/stores/theme';
 
-  let { children, data } = $props();
+  // SvelteKit layout API
+  export let data;
+
+  // Initialise le thème depuis localStorage si présent
+  function applyStoredTheme() {
+    if (!browser) return;
+    try {
+      const stored = localStorage.getItem('theme');
+      if (stored) {
+        document.documentElement.dataset.theme = stored;
+        if (typeof theme?.set === 'function') theme.set(stored);
+      }
+    } catch (e) {
+      console.warn('Could not read theme from localStorage', e);
+    }
+  }
 
   onMount(async () => {
-    for (const page of data.pages) {
-      await db.pages.put(page);
+    // populate IndexedDB
+    if (data?.pages) {
+      for (const page of data.pages) {
+        await db.pages.put(page);
+      }
+    }
+
+    // apply theme from storage
+    applyStoredTheme();
+
+    // register service worker (use base so ça marche sur /Chansonnier/ ou racine)
+    if (browser && 'serviceWorker' in navigator) {
+      const swPath = `${base}/service-worker.js`.replace(/\/\/+/g, '/');
+      try {
+        const reg = await navigator.serviceWorker.register(swPath);
+        console.log('Service worker registered with scope:', reg.scope);
+      } catch (err) {
+        console.warn('Service worker registration failed:', err);
+      }
     }
   });
 
   function toggleTheme() {
     const current = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = current;
-    localStorage.setItem('theme', current);
-    theme.set(current);
+    try {
+      localStorage.setItem('theme', current);
+    } catch {}
+    if (typeof theme?.set === 'function') theme.set(current);
   }
 </script>
 
 <svelte:head>
-  <link rel="icon" href={favicon} />
+  <!-- Utilise base pour que le manifest soit trouvé sur GitHub Pages (/Chansonnier/) -->
+  <link rel="manifest" href="{base}/manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="icon" href="{favicon}">
 </svelte:head>
 
 <div class="layout">
   <nav class="sidebar">
     <h2>Chansonnier</h2>
-    <a href={`${base}/`}>Accueil</a>
-    <a href={`${base}/index/alphabetique`}>Index alphabétique</a>
-    <a href={`${base}/index/thematique`}>Index thématique</a>
+    <a href="{base}/">Accueil</a>
+    <a href="{base}/index/alphabetique">Index alphabétique</a>
+    <a href="{base}/index/thematique">Index thématique</a>
     <button class="theme-toggle" on:click={toggleTheme} aria-label="Toggle theme">🌓</button>
   </nav>
 
   <main class="content">
-    {@render children({ data })}
+    <slot />
   </main>
 </div>
 

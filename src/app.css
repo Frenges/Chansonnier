@@ -80,7 +80,7 @@ html, body {
 .refrain {
   position: -webkit-sticky;
   position: sticky;
-  top: 1rem;
+  top: 0rem;
   z-index: 200;
 
   background: linear-gradient(180deg, var(--refrain-bg-start) 0%, var(--refrain-bg-end) 100%);
