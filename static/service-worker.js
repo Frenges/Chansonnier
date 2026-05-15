@@ -1,12 +1,13 @@
 // static/service-worker.js
-const CACHE_NAME = "songbook-v2";
+const CACHE_NAME = "songbook-v3"; // incrémente à chaque changement majeur
 
 async function getAssets() {
   try {
     const res = await fetch("/Chansonnier/asset-list.json");
     const json = await res.json();
     return json.assets.map(a => `/Chansonnier${a}`);
-  } catch {
+  } catch (e) {
+    console.warn('[SW] getAssets failed', e);
     return [];
   }
 }
@@ -19,7 +20,8 @@ async function getDynamicRoutes() {
       `/Chansonnier/page/${p.id}`,
       `/Chansonnier/page/${p.id}/index.html`
     ]);
-  } catch {
+  } catch (e) {
+    console.warn('[SW] getDynamicRoutes failed', e);
     return [];
   }
 }
@@ -39,20 +41,28 @@ self.addEventListener("install", (event) => {
 
     const toCache = Array.from(new Set([...core, ...assets, ...routes])).filter(Boolean);
 
-    // Ajouter les ressources une par une pour éviter qu'un 404 annule toute l'installation
-    await Promise.allSettled(
-      toCache.map(async (url) => {
-        try {
-          await cache.add(url);
-          return { url, status: 'ok' };
-        } catch (e) {
-          console.warn('[SW] cache.add failed for', url, e);
-          return { url, status: 'failed', error: e };
+    // On fetch + cache.put manuellement pour tolérer les réponses HTML 404 (GitHub Pages SPA fallback)
+    await Promise.all(toCache.map(async (url) => {
+      try {
+        const resp = await fetch(url, { credentials: 'same-origin' });
+        // Si c'est du HTML (même si status !== 200), on le met en cache pour offline
+        const contentType = resp.headers.get('content-type') || '';
+        if (resp.ok || contentType.includes('text/html')) {
+          try {
+            await cache.put(url, resp.clone());
+            console.log('[SW] cached', url, 'status', resp.status);
+          } catch (e) {
+            console.warn('[SW] cache.put failed for', url, e);
+          }
+        } else {
+          console.warn('[SW] skipping non-HTML/non-ok resource', url, resp.status);
         }
-      })
-    );
+      } catch (e) {
+        console.warn('[SW] fetch failed for', url, e);
+      }
+    }));
 
-    console.log('[SW] install finished, cached items:', toCache.length);
+    console.log('[SW] install finished');
   })());
 
   self.skipWaiting();
@@ -72,18 +82,15 @@ self.addEventListener("fetch", (event) => {
     const req = event.request;
 
     if (req.method !== 'GET') {
-      try {
-        return await fetch(req);
-      } catch {
-        return new Response(null, { status: 504, statusText: 'Gateway Timeout' });
-      }
+      try { return await fetch(req); }
+      catch { return new Response(null, { status: 504, statusText: 'Gateway Timeout' }); }
     }
 
+    // Network-first for fresh content
     try {
-      // Network-first
       const networkResponse = await fetch(req);
       if (networkResponse && networkResponse.ok) {
-        // mettre en cache la réponse en tâche de fond
+        // cache in background
         const clone = networkResponse.clone();
         caches.open(CACHE_NAME).then(cache => {
           try { cache.put(req, clone); } catch (e) { /* ignore */ }
@@ -91,11 +98,11 @@ self.addEventListener("fetch", (event) => {
       }
       return networkResponse;
     } catch (err) {
-      // Réseau indisponible : tenter le cache direct
+      // Network failed: try cache
       const cached = await caches.match(req);
       if (cached) return cached;
 
-      // Si la requête est une navigation sous /Chansonnier/, essayer /path/index.html
+      // If navigation or under /Chansonnier/, try /path/index.html
       try {
         const url = new URL(req.url);
         if (req.mode === 'navigate' || url.pathname.startsWith('/Chansonnier/')) {
@@ -107,7 +114,7 @@ self.addEventListener("fetch", (event) => {
         // ignore
       }
 
-      // Fallback global : page d'accueil
+      // Global fallback: cached root index
       const fallback = await caches.match('/Chansonnier/index.html');
       if (fallback) return fallback;
 
