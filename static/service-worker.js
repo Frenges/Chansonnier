@@ -57,6 +57,20 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+self.addEventListener('install', event => {
+  console.log('[SW] install start');
+  event.waitUntil((async () => {
+    try {
+      // ... ton code de cache
+      console.log('[SW] cache addAll succeeded');
+    } catch (e) {
+      console.error('[SW] cache addAll failed', e);
+      throw e;
+    }
+  })());
+});
+
+
 self.addEventListener("fetch", (event) => {
   event.respondWith(
     (async () => {
