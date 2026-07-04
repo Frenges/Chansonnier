@@ -4,6 +4,7 @@
   import favicon from '$lib/assets/favicon.svg';
   import { db } from '$lib/db';
   import { searchSongs } from '$lib/search';
+  import { goto } from '$app/navigation';
   import { onMount } from 'svelte';
   import { browser } from '$app/environment';
 
@@ -18,6 +19,11 @@
   function closeSearch() {
     isSearchOpen = false;
     searchTerm = '';
+  }
+
+  function navigateToSong(songId: string) {
+    closeSearch();
+    goto(`${base}/page/${songId}`);
   }
 
   // Initialise le thème depuis localStorage si présent
@@ -80,6 +86,7 @@
     <a href="{base}/">Accueil</a>
     <a href="{base}/index/alphabetique">Index alphabétique</a>
     <a href="{base}/index/thematique">Index thématique</a>
+    <button class="theme-toggle" on:click={toggleTheme} aria-label="Toggle theme">🌓</button>
 
     <div class="search-box">
       <input
@@ -95,12 +102,9 @@
         <ul class="search-results" role="listbox">
           {#each filteredSongs as song}
             <li>
-              <a
-                href="{base}/page/{song.id}"
-                on:click={closeSearch}
-              >
+              <button type="button" class="search-link" on:click={() => navigateToSong(song.id)}>
                 {song.title}
-              </a>
+              </button>
             </li>
           {/each}
           {#if filteredSongs.length === 0}
@@ -109,8 +113,6 @@
         </ul>
       {/if}
     </div>
-
-    <button class="theme-toggle" on:click={toggleTheme} aria-label="Toggle theme">🌓</button>
   </nav>
 
   <main class="content">
@@ -200,15 +202,21 @@
     margin: 0;
   }
 
-  .search-results a {
+  .search-results .search-link {
     display: block;
+    width: 100%;
     padding: 0.45rem 0.55rem;
+    border: none;
     border-radius: 0.3rem;
+    text-align: left;
     text-decoration: none;
     color: inherit;
+    background: transparent;
+    cursor: pointer;
+    font: inherit;
   }
 
-  .search-results a:hover {
+  .search-results .search-link:hover {
     background: color-mix(in srgb, var(--sidebar-border) 30%, transparent);
   }
 
