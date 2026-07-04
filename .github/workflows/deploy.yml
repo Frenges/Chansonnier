@@ -2,7 +2,8 @@ name: Deploy SvelteKit to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, feature/sidebar-search-navigation, fix/github-pages-workflow ]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -15,7 +16,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v5
         with:
-          node-version: 24
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
@@ -47,3 +48,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          preview: false
