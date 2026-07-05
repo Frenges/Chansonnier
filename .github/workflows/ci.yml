@@ -1,29 +1,27 @@
-name: CI
+name: Build & Deploy
 
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-permissions:
-  contents: read
+  workflow_dispatch:
 
 jobs:
-  build-validate:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 24
 
-      - name: Install
+      - name: Install dependencies
         run: npm ci
 
-      - name: Build
+      - name: Build SvelteKit
         run: npm run build
 
       - name: Generate asset list
@@ -32,5 +30,32 @@ jobs:
       - name: Generate asset map
         run: node scripts/generate-asset-map.js
 
-      - name: Validate all
-        run: node scripts/validate-all.js
+      - name: Validate assets (filesystem)
+        run: node scripts/validate-asset-map.js
+
+      - name: Start static server
+        run: |
+          npm install -g http-server
+          http-server build -p 5173 &
+          sleep 5
+
+      - name: Validate assets (HTTP)
+        env:
+          VALIDATE_BASE: "http://localhost:5173/Chansonnier"
+        run: node scripts/validate-assets.js build/asset-list.json
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
