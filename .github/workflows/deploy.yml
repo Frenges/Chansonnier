@@ -28,6 +28,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Prepare base path for GitHub Pages
+        run: |
+          mkdir build/Chansonnier
+          shopt -s dotglob
+          mv build/* build/Chansonnier/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
