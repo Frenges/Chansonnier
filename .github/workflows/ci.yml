@@ -36,7 +36,7 @@ jobs:
       - name: Start static server
         run: |
           npm install -g http-server
-          http-server build -p 5173 &
+          http-server build -p 5173 --base-url /Chansonnier &
           sleep 5
 
       - name: Validate assets (HTTP)

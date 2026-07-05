@@ -1,7 +1,7 @@
 ﻿import fs from "fs";
 
 const file = process.argv[2] || "build/asset-list.json";
-const base = process.env.VALIDATE_BASE || "http://localhost:5173";
+const base = (process.env.VALIDATE_BASE || "http://localhost:5173").replace(/\/$/, "");
 
 if (!fs.existsSync(file)) {
   console.error("asset-list not found:", file);
