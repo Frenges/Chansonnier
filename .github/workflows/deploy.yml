@@ -2,57 +2,40 @@ name: Deploy SvelteKit to GitHub Pages
 
 on:
   push:
-    branches: [ main, feature/sidebar-search-navigation, fix/github-pages-workflow ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v5
-        with:
-          node-version: 24
-          cache: npm
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 24
 
-      - name: Install dependencies
-        run: npm ci
+    - name: Install dependencies
+      run: npm ci
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+    - name: Build SvelteKit
+      run: npm run build
 
-      - name: Build
-        run: npm run build
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: build
 
-      - name: Prepare base path for GitHub Pages
-        run: |
-          mkdir build/Chansonnier
-          shopt -s dotglob
-          mv build/* build/Chansonnier/
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: build
-
-  deploy:
-    needs: build-and-deploy
+  deploy-pages:
+    needs: deploy
     runs-on: ubuntu-latest
     permissions:
       pages: write
       id-token: write
 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          preview: false
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
