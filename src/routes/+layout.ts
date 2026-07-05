@@ -6,10 +6,11 @@
  * Using `fetch` here works both during SSR and in the browser.
  */
 import type { LayoutLoad } from "./$types";
+import { base } from '$app/paths';
 
 export const load: LayoutLoad = async ({ fetch }) => {
   // Use fetch so this code works both during SSR and in the browser
-  const res = await fetch('/data/pages.json');
+  const res = await fetch(`${base}/data/pages.json`);
   if (!res.ok) {
     console.warn('[server] +layout.load: failed to fetch pages.json', res.status);
     return { pages: [] };
