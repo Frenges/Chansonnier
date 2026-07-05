@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Generate asset list
+        run: node scripts/generate-asset-list.js --out build/asset-list.json
+
+      - name: Generate asset map
+        run: node scripts/generate-asset-map.js
+
+      - name: Validate all
+        run: node scripts/validate-all.js

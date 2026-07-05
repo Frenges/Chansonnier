@@ -2,6 +2,12 @@
   import { base } from "$app/paths";
 </script>
 
+<!--
+  Home page for the user.
+  This page is intentionally simple: it only renders two navigation links.
+  The route data is provided by `src/routes/+page.ts`, which keeps the home
+  page consistent with the shared root data model.
+-->
 <h1>Chansonnier</h1>
 
 <nav class="menu">

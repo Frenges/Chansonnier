@@ -1,17 +1,8 @@
-﻿# Architecture et flux principaux
+﻿# Architecture (synthèse)
 
-## Composants
-- **SvelteKit** : génération des pages statiques et des entrées client (`_app/immutable`).  
-- **Service Worker** : cache des pages HTML et des assets runtime pour offline.  
-- **GitHub Pages** : héberge le contenu statique (dossier `build`).
+- **Build** : SvelteKit -> output statique (`build/`) via `npm run build`.  
+- **Assets runtime** : `_app/immutable/entry/*.js` et `chunks/*.js`.  
+- **Service worker** : cache HTML + assets runtime ; stratégie network-first / cache-fallback.  
+- **Déploiement** : push sur `main` → GitHub Pages sert `build/`.
 
-## Flux de build et déploiement
-1. `npm run build` → `build/` (output statique).  
-2. `scripts/generate-asset-list.js` → `static/asset-list.json` (liste d’assets à cacher).  
-3. Push sur `main` → GitHub Pages déploie `build/`.
-
-## Stratégie de cache
-- **Network first** pour les requêtes GET ; fallback vers cache.  
-- Cache des pages HTML et des assets `_app/immutable` correspondant au HTML mis en cache.  
-- Incrémenter `CACHE_NAME` à chaque changement majeur du SW.
-
+Points de vigilance : mismatch de base path, hashes des assets (cache invalidation), SW qui met en cache HTML sans les assets correspondants.

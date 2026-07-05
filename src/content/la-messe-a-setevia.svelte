@@ -35,9 +35,9 @@
 <div>Pour le départ des Philistins :|</div>
 <div>|: Et dans nos exploits bachiques</div>
 <div>Nous restons jusqu’au matin :| (bis)</div>
-<div>[<strong>Selon les sociétés</strong> : </div>
 </div>
 <div class="couplet">
+<div>[<strong>Selon les sociétés</strong> : </div>
 <div><em>|: Nous sommes la confrérie</em></div>
 <div><em>Des joyeux membres Sétéviens ! :|</em></div>
 <div><em>|: Et nous savons que la vie</em></div>

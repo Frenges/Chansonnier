@@ -1,10 +1,13 @@
 <script lang="ts">
   import { base } from "$app/paths";
 
-  // Récupération des données du load()
-  let { data } = $props();
-  const d = data;
-  const { id, pages } = d;
+  /**
+   * The thematic index page displays the same shared page list grouped by
+   * themes. It is a presentation-only route that relies on the root layout
+   * shared data and simply formats it for the user.
+   */
+  export let data;
+  const { pages } = data;
 
   function normalize(str: string) {
     return str.toLowerCase();

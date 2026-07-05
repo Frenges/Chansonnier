@@ -1,26 +1,20 @@
-﻿# Démarrage rapide
+﻿# Démarrage rapide (PowerShell)
 
-## Cloner et se positionner sur la version fonctionnelle
+## Cloner et se positionner
 git clone git@github.com:Frenges/Chansonnier.git
 cd Chansonnier
 git fetch origin
-git checkout -b stable/functional-YYYY-MM-DD   # ou git checkout tags/v1.0.0-functional
+git checkout stable/functional-YYYY-MM-DD   # ou git checkout tags/v1.0.0-functional
 
-## Installer
+## Installer et build
 npm ci
-
-## Build
 npm run build
 
-## Vérifier les assets publics
-curl -I "https://frenges.github.io/Chansonnier/_app/immutable/entry/start.*.js"
-curl -I "https://frenges.github.io/Chansonnier/service-worker.js"
+## Vérifier assets publics
+curl.exe -I "https://frenges.github.io/Chansonnier/_app/immutable/entry/start.*.js"
+curl.exe -I "https://frenges.github.io/Chansonnier/service-worker.js"
 
-## Tester localement (preview)
-npm run preview
-# ouvre http://localhost:4173 et vérifier SW via DevTools
-
-## Pousser une mise à jour (workflow courant)
+## Workflow courant pour pousser une mise à jour
 # 1. créer une branche de travail
 git checkout -b feat/ma-modif
 # 2. faire les changements, build
@@ -34,8 +28,9 @@ git rebase origin/main
 git push origin HEAD
 
 ## Créer un repère fonctionnel (tag + branche)
-git checkout -b stable/functional-$(Get-Date -Format yyyy-MM-dd)
+# PowerShell date format
+$tagDate = (Get-Date -Format yyyy-MM-dd)
+git checkout -b stable/functional-$tagDate
 git push origin HEAD
 git tag -a v1.0.0-functional -m "Functional baseline: offline pages cached and SW active"
 git push origin v1.0.0-functional
-

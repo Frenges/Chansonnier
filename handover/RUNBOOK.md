@@ -1,28 +1,25 @@
-﻿# Runbook diagnostics et procédures rapides
+﻿# Runbook — diagnostics et commandes utiles (PowerShell)
 
-## Vérifier l’enregistrement du service worker
-# dans la console du navigateur
+## Vérifier l’enregistrement du service worker (Console navigateur)
 navigator.serviceWorker.getRegistrations().then(r => console.log(r));
 
-## Lister les URLs en cache
+## Lister les URLs en cache (Console navigateur)
 caches.open('songbook-v3').then(c => c.keys().then(keys => console.log(keys.map(k => k.url))));
 
-## Inspecter le HTML mis en cache pour une page
+## Inspecter le HTML mis en cache pour une page (Console navigateur)
 caches.open('songbook-v3').then(c => c.match('/Chansonnier/page/agaunia-1859-st-maurice').then(r => r && r.text().then(t => console.log(t.slice(0,2000)))));
 
-## Forcer la mise à jour du SW (dev)
-# unregister tous les SW puis reload
-navigator.serviceWorker.getRegistrations().then(rs => rs.forEach(r => r.unregister())).then(() => location.reload());
-
-## Commandes curl utiles (PowerShell)
+## Commandes PowerShell utiles (local)
+# vérifier service-worker
 curl.exe -I "https://frenges.github.io/Chansonnier/service-worker.js"
+# vérifier asset-list et pages.json
 curl.exe -I "https://frenges.github.io/Chansonnier/asset-list.json"
 curl.exe -I "https://frenges.github.io/Chansonnier/data/pages.json"
+# vérifier runtime assets (exemples)
 curl.exe -I "https://frenges.github.io/Chansonnier/_app/immutable/entry/start.*.js"
 
-## Si la page est blanche hors ligne
-1. Vérifier que la page HTML est dans le cache (voir commande listant les URLs).  
-2. Vérifier que les fichiers `_app/immutable/...` référencés par ce HTML sont présents dans le cache.  
-3. Si un import dynamique échoue, regarder la console pour `error loading dynamically imported module` et vérifier l’URL demandée.  
-4. Pour dépannage temporaire, unregister SW, hard reload en ligne, vérifier que les assets runtime renvoient 200.
-
+## Procédure rapide si page blanche hors ligne
+1. Unregister SW (Console navigateur) puis hard reload en ligne.  
+2. Vérifier que `_app/immutable/...` renvoie 200.  
+3. Vérifier cache `songbook-vX` contient la page HTML et les assets runtime.  
+4. Si import dynamique échoue, noter l’URL en 404 et corriger la génération (paths.base).

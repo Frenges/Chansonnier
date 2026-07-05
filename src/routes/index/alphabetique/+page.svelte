@@ -1,10 +1,15 @@
 <script lang="ts">
   import { base } from "$app/paths";
 
-  // Récupération des données du load()
-  let { data } = $props();
-  const d = data;
-  const { id, pages } = d;
+  /**
+   * The alphabetical index page is a view layer on top of the shared pages
+   * payload. It does not fetch or generate page content itself.
+   *
+   * This keeps the page list centralized in `src/routes/+layout.ts` while
+   * allowing this route to render a sorted, searchable table of links.
+   */
+  export let data;
+  const { pages } = data;
 
   function normalize(str: string) {
     return str.toLowerCase();
