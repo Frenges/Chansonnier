@@ -41,7 +41,7 @@ jobs:
 
     - name: Validate assets (HTTP)
       env:
-        VALIDATE_BASE: "http://localhost:5173/Chansonnier"
+        VALIDATE_BASE: "http://localhost:5173"
       run: node scripts/validate-assets.js build/asset-list.json
 
     - name: Upload artifact
