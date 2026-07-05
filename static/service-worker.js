@@ -1,24 +1,36 @@
 // static/service-worker.js
+// Offline support for the app.
+//
+// This service worker caches the core application shell, the generated asset
+// list, and the dynamic page routes produced from `/data/pages.json`.
+//
+// During `install`, we prefetch these resources so the app can work offline.
+// During `fetch`, we try the network first and fall back to cached content,
+// including HTML index pages for SPA-style navigation on GitHub Pages.
 const CACHE_NAME = "songbook-v3"; // incrémente à chaque changement majeur
 
-async function getAssets() {
+function joinPath(base, p) {
+  return `${base.replace(/\/$/, '')}/${String(p).replace(/^\//, '')}`;
+}
+
+async function getAssets(base) {
   try {
-    const res = await fetch("/Chansonnier/asset-list.json");
+    const res = await fetch(joinPath(base, 'asset-list.json'));
     const json = await res.json();
-    return json.assets.map(a => `/Chansonnier${a}`);
+    return (json.assets || []).map(a => joinPath(base, a));
   } catch (e) {
     console.warn('[SW] getAssets failed', e);
     return [];
   }
 }
 
-async function getDynamicRoutes() {
+async function getDynamicRoutes(base) {
   try {
-    const res = await fetch("/Chansonnier/data/pages.json");
+    const res = await fetch(joinPath(base, 'data/pages.json'));
     const json = await res.json();
-    return json.pages.flatMap(p => [
-      `/Chansonnier/page/${p.id}`,
-      `/Chansonnier/page/${p.id}/index.html`
+    return (json.pages || []).flatMap(p => [
+      joinPath(base, `page/${p.id}`),
+      joinPath(base, `page/${p.id}/index.html`)
     ]);
   } catch (e) {
     console.warn('[SW] getDynamicRoutes failed', e);
@@ -30,14 +42,16 @@ self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     console.log('[SW] install start');
     const cache = await caches.open(CACHE_NAME);
+    // compute base path from service-worker location (works on GitHub Pages and dev)
+    const BASE = location.pathname.replace(/\/?service-worker\.js$/, '/') ;
 
     const core = [
-      "/Chansonnier/",
-      "/Chansonnier/index.html"
+      BASE,
+      joinPath(BASE, 'index.html')
     ];
 
-    const assets = await getAssets();
-    const routes = await getDynamicRoutes();
+    const assets = await getAssets(BASE);
+    const routes = await getDynamicRoutes(BASE);
 
     const toCache = Array.from(new Set([...core, ...assets, ...routes])).filter(Boolean);
 
@@ -104,18 +118,18 @@ self.addEventListener("fetch", (event) => {
 
       // If navigation or under /Chansonnier/, try /path/index.html
       try {
-        const url = new URL(req.url);
-        if (req.mode === 'navigate' || url.pathname.startsWith('/Chansonnier/')) {
-          const altPath = url.pathname.endsWith('/') ? url.pathname + 'index.html' : url.pathname + '/index.html';
-          const altCached = await caches.match(altPath);
-          if (altCached) return altCached;
-        }
+          const url = new URL(req.url);
+            if (req.mode === 'navigate' || url.pathname.startsWith(BASE)) {
+              const altPath = url.pathname.endsWith('/') ? url.pathname + 'index.html' : url.pathname + '/index.html';
+              const altCached = await caches.match(altPath);
+              if (altCached) return altCached;
+            }
       } catch (e) {
         // ignore
       }
 
       // Global fallback: cached root index
-      const fallback = await caches.match('/Chansonnier/index.html');
+      const fallback = await caches.match(joinPath(BASE, 'index.html'));
       if (fallback) return fallback;
 
       return new Response('Offline', { status: 504, statusText: 'Offline' });
